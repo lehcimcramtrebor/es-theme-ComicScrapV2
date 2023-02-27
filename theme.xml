@@ -517,6 +517,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	</subset>
 
 	<subset name="t33" displayName="${lang.t33}" ifSubset="groupTiles:no|firstCorner|secondCorner|thirdCorner|upperCorners|crossedCornersInverse" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
 		<include name="image" displayName="${lang.image}"/>
 		<include name="imageBw" displayName="${lang.imageBw}"/>
 		<include name="fanart" displayName="${lang.fanart}"/>
@@ -529,14 +537,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
 		<include name="custom" displayName="${lang.custom}"/>
 		<include name="customBw" displayName="${lang.customBw}"/>
-		<include name="video" displayName="${lang.video}"/>
-		<include name="videoBw" displayName="${lang.videoBw}"/>
-		<include name="videoAudio" displayName="${lang.videoAudio}"/>
-		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
-		<include name="videoCustom" displayName="${lang.videoCustom}"/>
-		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
-		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
-		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
 		<include name="pinkComic" displayName="${lang.pinkComic}"/>
 		<include name="blueComic" displayName="${lang.blueComic}"/>
 		<include name="redComic" displayName="${lang.redComic}"/>
@@ -547,14 +547,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	</subset>
 
 	<subset name="t34" displayName="${lang.t34}" ifSubset="groupTiles:no|firstCorner|secondCorner|thirdCorner|upperCorners|crossedCornersInverse" appliesTo="system,basic,detailed,grid,gamecarousel">
-		<include name="video" displayName="${lang.video}"/>
-		<include name="videoBw" displayName="${lang.videoBw}"/>
-		<include name="videoAudio" displayName="${lang.videoAudio}"/>
-		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
-		<include name="videoCustom" displayName="${lang.videoCustom}"/>
-		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
-		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
-		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
 		<include name="image" displayName="${lang.image}"/>
 		<include name="imageBw" displayName="${lang.imageBw}"/>
 		<include name="fanart" displayName="${lang.fanart}"/>
@@ -567,6 +559,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
 		<include name="custom" displayName="${lang.custom}"/>
 		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
 		<include name="pinkComic" displayName="${lang.pinkComic}"/>
 		<include name="blueComic" displayName="${lang.blueComic}"/>
 		<include name="redComic" displayName="${lang.redComic}"/>

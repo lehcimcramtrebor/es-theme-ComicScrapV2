@@ -47,7 +47,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.t13>(13) - first line, third tile priority source</lang.t13>
 	<lang.t14>(14) - first line, last tile priority source</lang.t14>
 	<lang.t21>(21) - second line, left tile priority source</lang.t21>
-	<lang.t22>(22) - second line, center tile priority source</lang.t22>
+	<lang.t22>(22, center) - second line, center tile priority source</lang.t22>
 	<lang.t23>(23) - second line, right tile priority source</lang.t23>
 	<lang.t31>(31) - third line, first tile priority source</lang.t31>
 	<lang.t32>(32) - third line, second tile priority source</lang.t32>
@@ -60,7 +60,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.lastCornerSource>last corner priority source</lang.lastCornerSource>
 	<lang.allTilesSource>all unified tiles priority source</lang.allTilesSource>
 	
-	<lang.themeInclude>default theme image</lang.themeInclude>
+	<lang.themeInclude>default customizable theme image</lang.themeInclude>
 	<lang.image>random images</lang.image>
 	<lang.imageBw>random black and white images</lang.imageBw>
 	<lang.fanart>random fanarts</lang.fanart>

@@ -36,8 +36,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<size>0.9760416666666667 0.9759259259259259</size>
 		<pos>0.0130208333333333 0.012037037037037</pos>
 		<zIndex>5000</zIndex>
-		<color>8080091a</color>
-		<opacity>0.65</opacity>
+		<color>0000001a</color>
+		<opacity>0.85</opacity>
 	</image>
 </view>
 
@@ -46,11 +46,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path>./system.png</path>
 	</image>
 	<image name="overlayBack" extra="true">
-		<path>./systemBack.png</path>
-
-		<origin ifSubset="t22:pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">0.5 0.5</origin>
-		<size ifSubset="t22:pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">${s.22}</size>
-		<pos ifSubset="t22:pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">${p.22}</pos>
+		<origin ifSubset="t22:pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic|themeInclude">0.5 0.5</origin>
+		<size ifSubset="t22:pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic|themeInclude">${s.22}</size>
+		<pos ifSubset="t22:pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic|themeInclude">${p.22}</pos>
 		<path ifSubset="t22:pinkComic">./../system/11.png</path>
 		<path ifSubset="t22:blueComic">./../system/12.png</path>
 		<path ifSubset="t22:redComic">./../system/13.png</path>
@@ -58,6 +56,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="t22:greenComic">./../system/22.png</path>
 		<path ifSubset="t22:purpleComic">./../system/21.png</path>
 		<path ifSubset="t22:fireComic">./../system/23.png</path>
+		<path ifSubset="t22:themeInclude">${path.customIn}/tiles/_customCenter.png</path>
+		<path ifSubset="t22:themeInclude">${path.customIn}/tiles/_customCenter.jpg</path>
+		<path ifSubset="t22:themeInclude">${path.customOut}/tiles/_customCenter.png</path>
+		<path ifSubset="t22:themeInclude">${path.customOut}/tiles/_customCenter.jpg</path>
 
 		<zIndex>800</zIndex>
 		<visible ifSubset="groupTiles:allTiles,t22:emptyTile">false</visible>
