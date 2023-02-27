@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system" ifSubset="groupTiles:no|secondCorner|thirdCorner|lastCorner|bottomCorners|crossedCornersInverse">
+
+	<image name="11" extra="true" ifSubset="t11:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+		<linearSmooth>true</linearSmooth>
+
+		<origin>0.5 0.5</origin>
+
+		<minSize ifSubset="t11:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${s.11}</minSize>
+		<maxSize ifSubset="t11:marquee|marqueeBw">${s.11}</maxSize>
+
+		<pos>${p.11}</pos>
+
+		<scale ifSubset="t11:marquee|marqueeBw">0.8</scale>
+
+		<zIndex>${sti}</zIndex>
+
+		<default ifSubset="t11:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/11.png</default>
+		<default ifSubset="t11:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/11.png</default>
+		<default ifSubset="t11:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/11.jpg</default>
+		<default ifSubset="t11:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/11.jpg</default>
+
+		<path ifSubset="t11:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/11.png</path>
+		<path ifSubset="t11:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/11.png</path>
+		<path ifSubset="t11:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/11.jpg</path>
+		<path ifSubset="t11:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/11.jpg</path>
+
+		<default ifSubset="t11:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/11.png</default>
+		<default ifSubset="t11:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/11.png</default>
+		<default ifSubset="t11:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/11.jpg</default>
+		<default ifSubset="t11:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/11.jpg</default>
+		<path ifSubset="t11:image|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">{random:image}</path>
+
+		<path ifSubset="t11:thumbnail|thumbnailBw">{random:thumbnail}</path>
+
+		<path ifSubset="t11:fanart|fanartBw">{random:fanart}</path>
+
+		<path ifSubset="t11:boxback|boxbackBw">{random:fanart}</path>
+		<path ifSubset="t11:boxback|boxbackBw">{random:boxback}</path>
+
+		<default ifSubset="t11:marquee|marqueeBw">./defaultMarquee.png</default>
+		<path ifSubset="t11:marquee|marqueeBw">{random:marquee}</path>
+
+		<path ifSubset="t11:custom|customBw">{random:fanart}</path>
+		<path ifSubset="t11:custom|customBw">${path.customIn}/tiles/${system.theme}/11.png</path>
+		<path ifSubset="t11:custom|customBw">${path.customOut}/tiles/${system.theme}/11.png</path>
+		<path ifSubset="t11:custom|customBw">${path.customIn}/tiles/${system.theme}/11.jpg</path>
+		<path ifSubset="t11:custom|customBw">${path.customOut}/tiles/${system.theme}/11.jpg</path>
+		
+		<saturation ifSubset="t11:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+	</image>
+
+	<image name="11b" extra="true" ifSubset="t11:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<zIndex>${stbi}</zIndex>
+		<path>./11.png</path>
+		<pos>${p.11}</pos>
+		<minSize>${s.11}</minSize>
+		<saturation ifSubset="t11:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+	</image>
+
+	<video name="v11" extra="true" ifSubset="t11:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+		<delay>0.1</delay>
+		<effect>none</effect>
+		<origin>0.5 0.5</origin>
+		<pos>${p.11}</pos>
+		<minSize>${s.11}</minSize>
+		<zIndex>${sti}</zIndex>
+		<audio ifSubset="t11:video|videoBw|videoCustom|videoCustomBw">false</audio>
+		<saturation ifSubset="t11:videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+
+		<path>{random}</path>
+
+		<path ifSubset="t11:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/11.mp4</path>
+		<path ifSubset="t11:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/11.mp4</path>
+	</video>
+</view>
+
+</theme>

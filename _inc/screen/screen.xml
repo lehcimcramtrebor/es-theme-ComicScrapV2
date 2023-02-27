@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="screen">
+
+	<controllerActivity name="controllerActivity">
+		<pos>0.018 0.016</pos>
+		<size>0.185 0.028</size>
+		<itemSpacing>0.003</itemSpacing>
+		<color>202020</color>
+		<activityColor>304030</activityColor>
+		<hotkeyColor>403030</hotkeyColor>
+
+		<imagePath>./gamepad.svg</imagePath>
+		<itemSpacing>0.003</itemSpacing>
+
+		<imagePath ifSubset="controller:player">./player.svg</imagePath>
+		<itemSpacing ifSubset="controller:player">0.003</itemSpacing>
+
+		<imagePath ifSubset="controller:stick">./stick.svg</imagePath>
+		<itemSpacing ifSubset="controller:stick">0.003</itemSpacing>
+
+		<gunPath>./gun.svg</gunPath>
+	</controllerActivity>
+
+	<batteryIndicator name="batteryIndicator">
+		<pos>0.955 0.015</pos>
+		<size>0.033 0.0275</size>
+		<horizontalAlignment>right</horizontalAlignment>
+		<incharge>./incharge.svg</incharge>
+		<full>./full.svg</full>
+		<at75>./75.svg</at75>
+		<at50>./50.svg</at50>
+		<at25>./25.svg</at25>
+		<empty>./empty.svg</empty>
+		<color>202020</color>
+		<itemSpacing>0.005</itemSpacing>
+	</batteryIndicator>
+
+	<text name="clock" tinyScreen="false">
+		<color>202020</color>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.022</fontSize>
+		<pos>0.893 0.94</pos>
+		<size>0.09 0.058</size>
+		<alignment>right</alignment>
+		<verticalAlignment>center</verticalAlignment>
+	</text>
+
+</view>
+
+</theme>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+	<carousel name="systemcarousel">
+		<defaultTransition>fade</defaultTransition>
+		<zIndex>2000</zIndex>
+		<color>00000000</color>
+		<scrollSound>./_assets/scroll.wav</scrollSound>
+		<maxLogoCount>3</maxLogoCount>
+	</carousel>
+
+	<text name="logoText">
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.05</fontSize>
+		<text>${system.fullName}</text>
+		<color>000000</color>
+		<glowColor>ffffff</glowColor>
+		<glowSize>5</glowSize>
+		<forceUppercase>true</forceUppercase>
+	</text>		
+
+	<image name="logo">
+		<linearSmooth>true</linearSmooth>
+		<path>./../logosCS/${system.theme}.png</path>
+		<path>./../logosCS/${system.theme}-${lang}.png</path>
+		<saturation>1.4</saturation>
+	</image>
+
+	<image name="logo" region="eu"></image>
+
+	<image name="logo" region="us">
+		<path>./../logosCS/us/${system.theme}.png</path>
+	</image>
+
+	<image name="logo" region="jp">
+		<path>./../logosCS/jp/${system.theme}.png</path>
+	</image>
+
+</view>
+
+</theme>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<variables>
+
+	<lang.yes>yes</lang.yes>
+	<lang.no>no</lang.no>
+
+	<lang.controller>controller overlay</lang.controller>
+	<lang.stick>arcade stick</lang.stick>
+	<lang.player>player icons</lang.player>
+
+	<lang.helpIcons>help icons</lang.helpIcons>
+	<lang.defaultIcons>generic</lang.defaultIcons>
+	<lang.xboxIcons>microsoft xbox</lang.xboxIcons>
+	<lang.xboxOneIcons>microsoft xbox one</lang.xboxOneIcons>
+	<lang.arcadeIcons>generic arcade buttons</lang.arcadeIcons>
+	<lang.psxIcons>sony playstation</lang.psxIcons>
+	<lang.snesIcons region="us">nintendo super nes</lang.snesIcons>
+	<lang.snesIcons region="eu">super nintendo</lang.snesIcons>
+	<lang.snesIcons region="jp">nintendo super famicom</lang.snesIcons>
+	<lang.snesAltIcons region="us">nintendo super nes alternative</lang.snesAltIcons>
+	<lang.snesAltIcons region="eu">super nintendo alternative</lang.snesAltIcons>
+	<lang.snesAltIcons region="jp">nintendo super famicom alternative</lang.snesAltIcons>
+
+	<lang.groupTiles>group tiles</lang.groupTiles>
+	<lang.firstCorner>first corner (x3)</lang.firstCorner>
+	<lang.secondCorner>second corner(x3)</lang.secondCorner>
+	<lang.thirdCorner>third corner (x3)</lang.thirdCorner>
+	<lang.lastCorner>last corner (x3)</lang.lastCorner>
+	<lang.upperCorners>upper corners (2x3)</lang.upperCorners>
+	<lang.bottomCorners>bottom corners (2x3)</lang.bottomCorners>
+	<lang.crossedCorners>crossed corners (2x3)</lang.crossedCorners>
+	<lang.crossedCornersInverse>inversed crossed corners (2x3)</lang.crossedCornersInverse>
+
+	<lang.t11>(11) - first line, first tile priority source</lang.t11>
+	<lang.t12>(12) - first line, second tile priority source</lang.t12>
+	<lang.t13>(13) - first line, third tile priority source</lang.t13>
+	<lang.t14>(14) - first line, last tile priority source</lang.t14>
+	<lang.t21>(21) - second line, left tile priority source</lang.t21>
+	<lang.t22>(22) - second line, center tile priority source</lang.t22>
+	<lang.t23>(23) - second line, right tile priority source</lang.t23>
+	<lang.t31>(31) - third line, first tile priority source</lang.t31>
+	<lang.t32>(32) - third line, second tile priority source</lang.t32>
+	<lang.t33>(33) - third line, third tile priority source</lang.t33>
+	<lang.t34>(34) - third line, last tile priority source</lang.t34>
+
+	<lang.firstCornerSource>first corner priority source</lang.firstCornerSource>
+	<lang.secondCornerSource>second corner priority source</lang.secondCornerSource>
+	<lang.thirdCornerSource>third corner priority source</lang.thirdCornerSource>
+	<lang.lastCornerSource>last corner priority source</lang.lastCornerSource>
+	
+	<lang.themeInclude>default theme image</lang.themeInclude>
+	<lang.image>random images</lang.image>
+	<lang.imageBw>random black and white images</lang.imageBw>
+	<lang.fanart>random fanarts</lang.fanart>
+	<lang.fanartBw>random black and white fanarts</lang.fanartBw>
+	<lang.marquee>random marquees</lang.marquee>
+	<lang.marqueeBw>random black and white marquees</lang.marqueeBw>
+	<lang.thumbnail>random thumbnails</lang.thumbnail>
+	<lang.thumbnailBw>random black and white thumbnails</lang.thumbnailBw>
+	<lang.boxback>random rear boxes</lang.boxback>
+	<lang.boxbackBw>random black and white rear boxes</lang.boxbackBw>
+	<lang.custom>custom pictures (if customized)</lang.custom>
+	<lang.customBw>custom black and white pictures (if customized)</lang.customBw>
+	<lang.video>random videos (without audio)</lang.video>
+	<lang.videoBw>random black and white videos (without audio)</lang.videoBw>
+	<lang.videoAudio>random videos (audio enabled)</lang.videoAudio>
+	<lang.videoAudioBw>random black and white videos (audio enabled)</lang.videoAudioBw>
+	<lang.videoCustom>custom videos (without audio, if customized)</lang.videoCustom>
+	<lang.videoCustomBw>custom black and white videos (without audio, if customized)</lang.videoCustomBw>
+	<lang.videoCustomAudio>custom videos (audio enabled, if customized)</lang.videoCustomAudio>
+	<lang.videoCustomAudioBw>custom black and white videos (audio enabled, if customized)</lang.videoCustomAudioBw>
+
+
+</variables>
+
+</theme>

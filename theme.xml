@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+	<variables>
+
+		<defaultRegion region="eu">..</defaultRegion>
+
+		<path.customIn>./_comicScrapV2Custom</path.customIn>
+		<path.customOut ifArch="windows">./../../../../_comicScrapV2Custom</path.customOut>
+		<path.customOut ifNotArch="windows">./../../_comicScrapV2Custom</path.customOut>
+
+		<tint>f5ebd4</tint>
+
+		<s.11>0.2380208333333333 0.2157407407407407</s.11>
+		<p.11>0.1736979166666667 0.2078703703703704</p.11>
+
+		<s.12>0.221875 0.2259259259259259</s.12>
+		<p.12>0.4067708333333333 0.2083333333333333</p.12>
+
+		<s.13>0.2104166666666667 0.2342592592592593</s.13>
+		<p.13>0.6255208333333333 0.2087962962962963</p.13>
+
+		<s.14>0.2140625 0.2444444444444444</s.14>
+		<p.14>0.8403645833333333 0.2083333333333333</p.14>
+
+		<s.21>0.2395833333333333 0.2685185185185185</s.21>
+		<p.21>0.1744791666666667 0.5018518518518519</p.21>
+
+		<s.22>0.4151041666666667 0.2712962962962963</s.22>
+		<p.22>0.4997395833333333 0.5087962962962963</p.22>
+
+		<s.23>0.240625 0.2685185185185185</s.23>
+		<p.23>0.8270833333333333 0.5157407407407407</p.23>
+
+		<s.31>0.178125 0.2111111111111111</s.31>
+		<p.31>0.14375 0.7935185185185185</p.31>
+
+		<s.32>0.2536458333333333 0.212962962962963</s.32>
+		<p.32>0.3627604166666667 0.7972222222222222</p.32>
+
+		<s.33>0.240625 0.2148148148148148</s.33>
+		<p.33>0.6104166666666667 0.8009259259259259</p.33>
+
+		<s.34>0.2130208333333333 0.2148148148148148</s.34>
+		<p.34>0.8408854166666667 0.8055555555555556</p.34>
+
+		<s.firstCorner>0.4630208333333333 0.5407407407407407</s.firstCorner>
+		<p.firstCorner>0.2861979166666667 0.3657407407407407</p.firstCorner>
+
+		<s.secondCorner>0.4260416666666667 0.5638888888888889</s.secondCorner>
+		<p.secondCorner>0.7338541666666667 0.3680555555555556</p.secondCorner>
+
+		<s.thirdCorner>0.4348958333333333 0.5361111111111111</s.thirdCorner>
+		<p.thirdCorner>0.27265625 0.6356481481481481</p.thirdCorner>
+
+		<s.lastCorner>0.4578125 0.5314814814814815</s.lastCorner>
+		<p.lastCorner>0.7184895833333333 0.6472222222222222</p.lastCorner>
+
+		<sti>900</sti>
+		<stbi>800</stbi>
+		<mti>700</mti>
+		<mtbi>600</mtbi>
+	</variables>
+
+	<include>${path.customIn}/langs/default.xml</include>
+	<include>${path.customIn}/langs/${lang}.xml</include>
+
+	<subset name="controller" displayName="${lang.controller}">
+		<include name="stick" displayName="${lang.stick}"/>
+		<include name="player" displayName="${lang.player}"/>
+	</subset>
+
+	<subset name="helpIcons" displayName="${lang.helpIcons}">
+		<include name="defaultIcons" displayName="${lang.defaultIcons}"/>
+		<include name="xboxIcons" displayName="${lang.xboxIcons}"/>
+		<include name="xboxOneIcons" displayName="${lang.xboxOneIcons}"/>
+		<include name="arcadeIcons" displayName="${lang.arcadeIcons}"/>
+		<include name="psxIcons" displayName="${lang.psxIcons}"/>
+		<include name="snesIcons" displayName="${lang.snesIcons}"/>
+		<include name="snesAltIcons" displayName="${lang.snesAltIcons}"/>
+	</subset>
+
+	<subset name="groupTiles" displayName="${lang.groupTiles}" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="no" displayName="${lang.no}"/>
+		<include name="firstCorner" displayName="${lang.firstCorner}"/>
+		<include name="secondCorner" displayName="${lang.secondCorner}"/>
+		<include name="thirdCorner" displayName="${lang.thirdCorner}"/>
+		<include name="lastCorner" displayName="${lang.lastCorner}"/>
+		<include name="upperCorners" displayName="${lang.upperCorners}"/>
+		<include name="bottomCorners" displayName="${lang.bottomCorners}"/>
+		<include name="crossedCorners" displayName="${lang.crossedCorners}"/>
+		<include name="crossedCornersInverse" displayName="${lang.crossedCornersInverse}"/>
+	</subset>
+
+	<subset name="firstCornerSource" displayName="${lang.firstCornerSource}" ifSubset="groupTiles:firstCorner|upperCorners|crossedCorners" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="secondCornerSource" displayName="${lang.secondCornerSource}" ifSubset="groupTiles:secondCorner|upperCorners|crossedCornersInverse" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="thirdCornerSource" displayName="${lang.thirdCornerSource}" ifSubset="groupTiles:thirdCorner|bottomCorners|crossedCornersInverse" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="lastCornerSource" displayName="${lang.lastCornerSource}" ifSubset="groupTiles:lastCorner|bottomCorners|crossedCorners" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="t11" displayName="${lang.t11}" ifSubset="groupTiles:no|secondCorner|thirdCorner|lastCorner|bottomCorners|crossedCornersInverse" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="t12" displayName="${lang.t12}" ifSubset="groupTiles:no|secondCorner|thirdCorner|lastCorner|bottomCorners|crossedCornersInverse" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="t13" displayName="${lang.t13}" ifSubset="groupTiles:no|firstCorner|thirdCorner|lastCorner|bottomCorners|crossedCorners" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="t14" displayName="${lang.t14}" ifSubset="groupTiles:no|firstCorner|thirdCorner|lastCorner|bottomCorners|crossedCorners" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="t21" displayName="${lang.t21}" ifSubset="groupTiles:no|secondCorner|lastCorner" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="t22" displayName="${lang.t22}" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="themeInclude" displayName="${lang.themeInclude}"/>
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="t23" displayName="${lang.t23}" ifSubset="groupTiles:no|firstCorner|thirdCorner" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="t31" displayName="${lang.t31}" ifSubset="groupTiles:no|firstCorner|secondCorner|lastCorner|upperCorners|crossedCorners" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="t32" displayName="${lang.t32}" ifSubset="groupTiles:no|firstCorner|secondCorner|lastCorner|upperCorners|crossedCorners" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="t33" displayName="${lang.t33}" ifSubset="groupTiles:no|firstCorner|secondCorner|thirdCorner|upperCorners|crossedCornersInverse" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="t34" displayName="${lang.t34}" ifSubset="groupTiles:no|firstCorner|secondCorner|thirdCorner|upperCorners|crossedCornersInverse" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<include>./_support/support.xml</include>
+	<include>./_inc/overlays/overlays.xml</include>
+	<include>./_inc/system/carousel.xml</include>
+	<include>./_inc/system/firstCorner.xml</include>
+	<include>./_inc/system/secondCorner.xml</include>
+	<include>./_inc/system/thirdCorner.xml</include>
+	<include>./_inc/system/lastCorner.xml</include>
+	<include>./_inc/system/11.xml</include>
+	<include>./_inc/system/12.xml</include>
+	<include>./_inc/system/13.xml</include>
+	<include>./_inc/system/14.xml</include>
+	<include>./_inc/system/21.xml</include>
+	<include>./_inc/system/22.xml</include>
+	<include>./_inc/system/23.xml</include>
+	<include>./_inc/system/31.xml</include>
+	<include>./_inc/system/32.xml</include>
+	<include>./_inc/system/33.xml</include>
+	<include>./_inc/system/34.xml</include>
+	<include>./_inc/help/help.xml</include>
+	<include>./_inc/screen/screen.xml</include>
+	<include>./_inc/menu/menu.xml</include>
+	
+</theme>

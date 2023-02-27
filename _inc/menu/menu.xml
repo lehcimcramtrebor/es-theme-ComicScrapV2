@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+	<view name="menu">
+		<menuText name="menutitle">
+			<fontPath>./../fonts/CabinCondensed-Regular.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<color>dddddd</color>
+		</menuText>
+		<menuText name="menufooter">
+			<fontPath>./../fonts/CabinCondensed-Regular.ttf</fontPath>
+			<fontSize>0.018</fontSize>
+			<color>dddddd</color>
+		</menuText>
+		<menuText name="menutext">
+			<fontPath>./../fonts/CabinCondensed-Regular.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+			<color>dddddd</color>
+			<separatorColor>8080801a</separatorColor>
+			<selectorColor>dddddd</selectorColor>
+			<selectorColorEnd>cccccc</selectorColorEnd>
+			<selectedColor>101010</selectedColor>
+			<selectorGradientType>vertical</selectorGradientType>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./../fonts/CabinCondensed-Regular.ttf</fontPath>
+			<fontSize>0.016</fontSize>
+		</menuTextSmall>
+		<menuGroup name="menugroup">
+			<fontPath>./../fonts/CabinCondensed-Regular.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<color>ffffff</color>
+			<separatorColor>00000000</separatorColor>
+			<backgroundColor>303030</backgroundColor>
+			<lineSpacing>2</lineSpacing>
+		</menuGroup>
+		<menuBackground name="menubg">
+			<color>202020</color>
+			<scrollbarColor>000000</scrollbarColor>
+			<scrollbarSize>0.002</scrollbarSize>
+			<scrollbarAlignment>outerright</scrollbarAlignment>
+            <path>./menubg.png</path>
+		</menuBackground>
+		<menuIcons name="menuicons">
+			<iconKodi>./Kodi.png</iconKodi>
+			<iconSystem>./System.png</iconSystem>
+			<iconUpdates>./Updates.png</iconUpdates>
+			<iconGames>./Games.png</iconGames>
+			<iconControllers>./Controllers.png</iconControllers>
+			<iconUI>./UI.png</iconUI>
+			<iconSound>./Sound.png</iconSound>
+			<iconNetwork>./Network.png</iconNetwork>
+			<iconScraper>./Scraper.png</iconScraper>
+			<iconAdvanced>./Advanced.png</iconAdvanced>
+			<iconQuit>./Quit.png</iconQuit>
+			<iconRestart>./Restart.png</iconRestart>
+			<iconShutdown>./Shutdown.png</iconShutdown>
+			<iconFastShutdown>./Fastshutdown.png</iconFastShutdown>
+			<iconRetroachievements>./Contest.png</iconRetroachievements>
+			<iconManual>./Manual.png</iconManual>
+		</menuIcons>
+		<menuTextEdit name="menutextedit">
+			<inactive>./textinput_ninepatch.png</inactive>
+			<active>./textinput_ninepatch_active.png</active>
+		</menuTextEdit>
+		<menuButton name="menubutton">
+			<path>./button.png</path>
+			<filledPath>./button_filled.png</filledPath>
+			<cornerSize>8 8</cornerSize>
+		</menuButton>
+	</view>
+
+</theme>

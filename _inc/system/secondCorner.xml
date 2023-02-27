@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system" ifSubset="groupTiles:secondCorner|upperCorners|crossedCornersInverse">
+
+	<image name="secondCorner" extra="true" ifSubset="secondCornerSource:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+		<linearSmooth>true</linearSmooth>
+
+		<origin>0.5 0.5</origin>
+
+		<minSize ifSubset="secondCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${s.secondCorner}</minSize>
+		<maxSize ifSubset="secondCornerSource:marquee|marqueeBw">${s.secondCorner}</maxSize>
+
+		<pos>${p.secondCorner}</pos>
+
+		<scale ifSubset="secondCornerSource:marquee|marqueeBw">0.8</scale>
+
+		<zIndex>${mti}</zIndex>
+
+		<default ifSubset="secondCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/secondCorner.png</default>
+		<default ifSubset="secondCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/secondCorner.png</default>
+		<default ifSubset="secondCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/secondCorner.jpg</default>
+		<default ifSubset="secondCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/secondCorner.jpg</default>
+
+		<path ifSubset="secondCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/secondCorner.png</path>
+		<path ifSubset="secondCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/secondCorner.png</path>
+		<path ifSubset="secondCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/secondCorner.jpg</path>
+		<path ifSubset="secondCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/secondCorner.jpg</path>
+
+		<default ifSubset="secondCornerSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/secondCorner.png</default>
+		<default ifSubset="secondCornerSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/secondCorner.png</default>
+		<default ifSubset="secondCornerSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/secondCorner.jpg</default>
+		<default ifSubset="secondCornerSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/secondCorner.jpg</default>
+		<path ifSubset="secondCornerSource:image|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">{random:image}</path>
+
+		<path ifSubset="secondCornerSource:thumbnail|thumbnailBw">{random:thumbnail}</path>
+
+		<path ifSubset="secondCornerSource:fanart|fanartBw">{random:fanart}</path>
+
+		<path ifSubset="secondCornerSource:boxback|boxbackBw">{random:fanart}</path>
+		<path ifSubset="secondCornerSource:boxback|boxbackBw">{random:boxback}</path>
+
+		<default ifSubset="secondCornerSource:marquee|marqueeBw">./defaultMarquee.png</default>
+		<path ifSubset="secondCornerSource:marquee|marqueeBw">{random:marquee}</path>
+
+		<path ifSubset="secondCornerSource:custom|customBw">{random:fanart}</path>
+		<path ifSubset="secondCornerSource:custom|customBw">${path.customIn}/tiles/${system.theme}/secondCorner.png</path>
+		<path ifSubset="secondCornerSource:custom|customBw">${path.customOut}/tiles/${system.theme}/secondCorner.png</path>
+		<path ifSubset="secondCornerSource:custom|customBw">${path.customIn}/tiles/${system.theme}/secondCorner.jpg</path>
+		<path ifSubset="secondCornerSource:custom|customBw">${path.customOut}/tiles/${system.theme}/secondCorner.jpg</path>
+		
+		<saturation ifSubset="secondCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+	</image>
+
+	<image name="secondCornerb" extra="true" ifSubset="secondCornerSource:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<zIndex>${mtbi}</zIndex>
+		<path>./secondCorner.png</path>
+		<pos>${p.secondCorner}</pos>
+		<minSize>${s.secondCorner}</minSize>
+		<saturation ifSubset="secondCornerSource:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+	</image>
+
+	<video name="vsecondCorner" extra="true" ifSubset="secondCornerSource:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+		<delay>0.1</delay>
+		<effect>none</effect>
+		<origin>0.5 0.5</origin>
+		<pos>${p.secondCorner}</pos>
+		<minSize>${s.secondCorner}</minSize>
+		<zIndex>${mti}</zIndex>
+		<audio ifSubset="secondCornerSource:video|videoBw|videoCustom|videoCustomBw">false</audio>
+		<saturation ifSubset="secondCornerSource:videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+
+		<path>{random}</path>
+
+		<path ifSubset="secondCornerSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/secondCorner.mp4</path>
+		<path ifSubset="secondCornerSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/secondCorner.mp4</path>
+	</video>
+</view>
+
+</theme>
