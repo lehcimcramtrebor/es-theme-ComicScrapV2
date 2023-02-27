@@ -1,0 +1,13 @@
+------------------------------------------------------------------------------------------------------------------------
+BATOCERA - EMUELEC:
+------------------------------------------------------------------------------------------------------------------------
+The "_comicScrapV2Custom" folder can be moved or copied at same level than your "themes" folder.
+(For Batocera this will be ROOT of SHARE partition).
+
+------------------------------------------------------------------------------------------------------------------------
+RETROBAT
+------------------------------------------------------------------------------------------------------------------------
+The "_comicScrapV2Custom" folder can be moved or copied at root of Retrobat installation.
+
+
+IN ALL CASES, COPY OR MOVE FOLDER TO CUSTOMIZE YOUR THEME WITHOUT LOOSE ANYTHING WHEN YOU UPDATE THEME.
