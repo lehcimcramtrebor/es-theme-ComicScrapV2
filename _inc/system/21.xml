@@ -11,12 +11,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="system" ifSubset="groupTiles:no|secondCorner|lastCorner">
 
-	<image name="21" extra="true" ifSubset="t21:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+	<image name="21" extra="true" ifSubset="t21:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">
 		<linearSmooth>true</linearSmooth>
 
 		<origin>0.5 0.5</origin>
 
-		<minSize ifSubset="t21:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${s.21}</minSize>
+		<minSize ifSubset="t21:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">${s.21}</minSize>
 		<maxSize ifSubset="t21:marquee|marqueeBw">${s.21}</maxSize>
 
 		<pos>${p.21}</pos>
@@ -56,6 +56,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="t21:custom|customBw">${path.customOut}/tiles/${system.theme}/21.png</path>
 		<path ifSubset="t21:custom|customBw">${path.customIn}/tiles/${system.theme}/21.jpg</path>
 		<path ifSubset="t21:custom|customBw">${path.customOut}/tiles/${system.theme}/21.jpg</path>
+
+		<path ifSubset="t21:pinkComic">./11.png</path>
+		<path ifSubset="t21:blueComic">./12.png</path>
+		<path ifSubset="t21:redComic">./13.png</path>
+		<path ifSubset="t21:yellowComic">./14.png</path>
+		<path ifSubset="t21:greenComic">./22.png</path>
+		<path ifSubset="t21:purpleComic">./21.png</path>
+		<path ifSubset="t21:fireComic">./23.png</path>
 		
 		<saturation ifSubset="t21:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 	</image>

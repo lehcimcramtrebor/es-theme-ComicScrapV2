@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system" ifSubset="groupTiles:allTiles">
+
+	<image name="allTiles" extra="true" ifSubset="allTilesSource:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">
+		<linearSmooth>true</linearSmooth>
+
+		<origin>0.5 0.5</origin>
+
+		<minSize ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">${s.allTiles}</minSize>
+		<maxSize ifSubset="allTilesSource:marquee|marqueeBw">${s.allTiles}</maxSize>
+
+		<pos>${p.allTiles}</pos>
+
+		<scale ifSubset="allTilesSource:marquee|marqueeBw">0.8</scale>
+
+		<zIndex>${mti}</zIndex>
+
+		<default ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/allTiles.png</default>
+		<default ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/allTiles.png</default>
+		<default ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/allTiles.jpg</default>
+		<default ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/allTiles.jpg</default>
+
+		<path ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/allTiles.png</path>
+		<path ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/allTiles.png</path>
+		<path ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/allTiles.jpg</path>
+		<path ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/allTiles.jpg</path>
+
+		<default ifSubset="allTilesSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/allTiles.png</default>
+		<default ifSubset="allTilesSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/allTiles.png</default>
+		<default ifSubset="allTilesSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/allTiles.jpg</default>
+		<default ifSubset="allTilesSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/allTiles.jpg</default>
+		<path ifSubset="allTilesSource:image|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">{random:image}</path>
+
+		<path ifSubset="allTilesSource:thumbnail|thumbnailBw">{random:thumbnail}</path>
+
+		<path ifSubset="allTilesSource:fanart|fanartBw">{random:fanart}</path>
+
+		<path ifSubset="allTilesSource:boxback|boxbackBw">{random:fanart}</path>
+		<path ifSubset="allTilesSource:boxback|boxbackBw">{random:boxback}</path>
+
+		<default ifSubset="allTilesSource:marquee|marqueeBw">./defaultMarquee.png</default>
+		<path ifSubset="allTilesSource:marquee|marqueeBw">{random:marquee}</path>
+
+		<path ifSubset="allTilesSource:custom|customBw">{random:fanart}</path>
+		<path ifSubset="allTilesSource:custom|customBw">${path.customIn}/tiles/${system.theme}/allTiles.png</path>
+		<path ifSubset="allTilesSource:custom|customBw">${path.customOut}/tiles/${system.theme}/allTiles.png</path>
+		<path ifSubset="allTilesSource:custom|customBw">${path.customIn}/tiles/${system.theme}/allTiles.jpg</path>
+		<path ifSubset="allTilesSource:custom|customBw">${path.customOut}/tiles/${system.theme}/allTiles.jpg</path>
+
+		<path ifSubset="allTilesSource:pinkComic">./bigPink.png</path>
+		<path ifSubset="allTilesSource:blueComic">./bigBlue.png</path>
+		<path ifSubset="allTilesSource:redComic">./bigRed.png</path>
+		<path ifSubset="allTilesSource:yellowComic">./bigYellow.png</path>
+		<path ifSubset="allTilesSource:greenComic">./bigGreen.png</path>
+		<path ifSubset="allTilesSource:purpleComic">./bigPurple.png</path>
+		<path ifSubset="allTilesSource:fireComic">./bigFire.png</path>
+		
+		<saturation ifSubset="allTilesSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+	</image>
+
+	<image name="allTilesb" extra="true" ifSubset="allTilesSource:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<zIndex>${mtbi}</zIndex>
+		<path>./allTiles.png</path>
+		<pos>${p.allTiles}</pos>
+		<minSize>${s.allTiles}</minSize>
+		<saturation ifSubset="allTilesSource:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+	</image>
+
+	<video name="vallTiles" extra="true" ifSubset="allTilesSource:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+		<delay>0.1</delay>
+		<effect>none</effect>
+		<origin>0.5 0.5</origin>
+		<pos>${p.allTiles}</pos>
+		<minSize>${s.allTiles}</minSize>
+		<zIndex>${mti}</zIndex>
+		<audio ifSubset="allTilesSource:video|videoBw|videoCustom|videoCustomBw">false</audio>
+		<saturation ifSubset="allTilesSource:videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+
+		<path>{random}</path>
+
+		<path ifSubset="allTilesSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/allTiles.mp4</path>
+		<path ifSubset="allTilesSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/allTiles.mp4</path>
+	</video>
+</view>
+
+</theme>

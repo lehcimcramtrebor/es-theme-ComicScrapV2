@@ -64,6 +64,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<s.lastCorner>0.4578125 0.5314814814814815</s.lastCorner>
 		<p.lastCorner>0.7184895833333333 0.6472222222222222</p.lastCorner>
 
+		<s.allTiles>0.96 0.96</s.allTiles>
+		<p.allTiles>0.5 0.5</p.allTiles>
+
 		<sti>900</sti>
 		<stbi>800</stbi>
 		<mti>700</mti>
@@ -89,15 +92,44 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	</subset>
 
 	<subset name="groupTiles" displayName="${lang.groupTiles}" appliesTo="system,basic,detailed,grid,gamecarousel">
-		<include name="no" displayName="${lang.no}"/>
+		<include name="crossedCornersInverse" displayName="${lang.crossedCornersInverse}"/>
+		<include name="crossedCorners" displayName="${lang.crossedCorners}"/>
 		<include name="firstCorner" displayName="${lang.firstCorner}"/>
 		<include name="secondCorner" displayName="${lang.secondCorner}"/>
 		<include name="thirdCorner" displayName="${lang.thirdCorner}"/>
 		<include name="lastCorner" displayName="${lang.lastCorner}"/>
 		<include name="upperCorners" displayName="${lang.upperCorners}"/>
 		<include name="bottomCorners" displayName="${lang.bottomCorners}"/>
-		<include name="crossedCorners" displayName="${lang.crossedCorners}"/>
-		<include name="crossedCornersInverse" displayName="${lang.crossedCornersInverse}"/>
+		<include name="allTiles" displayName="${lang.allTiles}"/>
+		<include name="no" displayName="${lang.no}"/>
+	</subset>
+
+	<subset name="allTilesSource" displayName="${lang.allTilesSource}" ifSubset="groupTiles:allTiles" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<subset name="firstCornerSource" displayName="${lang.firstCornerSource}" ifSubset="groupTiles:firstCorner|upperCorners|crossedCorners" appliesTo="system,basic,detailed,grid,gamecarousel">
@@ -119,13 +151,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
 		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
 		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<subset name="secondCornerSource" displayName="${lang.secondCornerSource}" ifSubset="groupTiles:secondCorner|upperCorners|crossedCornersInverse" appliesTo="system,basic,detailed,grid,gamecarousel">
-		<include name="image" displayName="${lang.image}"/>
-		<include name="imageBw" displayName="${lang.imageBw}"/>
 		<include name="fanart" displayName="${lang.fanart}"/>
 		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
 		<include name="thumbnail" displayName="${lang.thumbnail}"/>
 		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
 		<include name="boxback" displayName="${lang.boxback}"/>
@@ -140,13 +179,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
 		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
 		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<subset name="thirdCornerSource" displayName="${lang.thirdCornerSource}" ifSubset="groupTiles:thirdCorner|bottomCorners|crossedCornersInverse" appliesTo="system,basic,detailed,grid,gamecarousel">
-		<include name="image" displayName="${lang.image}"/>
-		<include name="imageBw" displayName="${lang.imageBw}"/>
 		<include name="fanart" displayName="${lang.fanart}"/>
 		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
 		<include name="thumbnail" displayName="${lang.thumbnail}"/>
 		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
 		<include name="boxback" displayName="${lang.boxback}"/>
@@ -161,6 +207,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
 		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
 		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<subset name="lastCornerSource" displayName="${lang.lastCornerSource}" ifSubset="groupTiles:lastCorner|bottomCorners|crossedCorners" appliesTo="system,basic,detailed,grid,gamecarousel">
@@ -182,6 +235,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
 		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
 		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<subset name="t11" displayName="${lang.t11}" ifSubset="groupTiles:no|secondCorner|thirdCorner|lastCorner|bottomCorners|crossedCornersInverse" appliesTo="system,basic,detailed,grid,gamecarousel">
@@ -205,9 +265,24 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
 		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
 		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<subset name="t12" displayName="${lang.t12}" ifSubset="groupTiles:no|secondCorner|thirdCorner|lastCorner|bottomCorners|crossedCornersInverse" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
 		<include name="image" displayName="${lang.image}"/>
 		<include name="imageBw" displayName="${lang.imageBw}"/>
 		<include name="fanart" displayName="${lang.fanart}"/>
@@ -220,14 +295,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
 		<include name="custom" displayName="${lang.custom}"/>
 		<include name="customBw" displayName="${lang.customBw}"/>
-		<include name="video" displayName="${lang.video}"/>
-		<include name="videoBw" displayName="${lang.videoBw}"/>
-		<include name="videoAudio" displayName="${lang.videoAudio}"/>
-		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
-		<include name="videoCustom" displayName="${lang.videoCustom}"/>
-		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
-		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
-		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<subset name="t13" displayName="${lang.t13}" ifSubset="groupTiles:no|firstCorner|thirdCorner|lastCorner|bottomCorners|crossedCorners" appliesTo="system,basic,detailed,grid,gamecarousel">
@@ -251,6 +325,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
 		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
 		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<subset name="t14" displayName="${lang.t14}" ifSubset="groupTiles:no|firstCorner|thirdCorner|lastCorner|bottomCorners|crossedCorners" appliesTo="system,basic,detailed,grid,gamecarousel">
@@ -274,6 +355,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
 		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
 		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<subset name="t21" displayName="${lang.t21}" ifSubset="groupTiles:no|secondCorner|lastCorner" appliesTo="system,basic,detailed,grid,gamecarousel">
@@ -297,10 +385,25 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
 		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
 		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<subset name="t22" displayName="${lang.t22}" appliesTo="system,basic,detailed,grid,gamecarousel">
 		<include name="themeInclude" displayName="${lang.themeInclude}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+		<include name="emptyTile" ifSubset="groupTiles:allTiles" displayName="${lang.emptyTile}"/>
 		<include name="image" displayName="${lang.image}"/>
 		<include name="imageBw" displayName="${lang.imageBw}"/>
 		<include name="fanart" displayName="${lang.fanart}"/>
@@ -344,6 +447,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
 		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
 		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<subset name="t31" displayName="${lang.t31}" ifSubset="groupTiles:no|firstCorner|secondCorner|lastCorner|upperCorners|crossedCorners" appliesTo="system,basic,detailed,grid,gamecarousel">
@@ -367,6 +477,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
 		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
 		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<subset name="t32" displayName="${lang.t32}" ifSubset="groupTiles:no|firstCorner|secondCorner|lastCorner|upperCorners|crossedCorners" appliesTo="system,basic,detailed,grid,gamecarousel">
@@ -390,6 +507,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
 		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
 		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<subset name="t33" displayName="${lang.t33}" ifSubset="groupTiles:no|firstCorner|secondCorner|thirdCorner|upperCorners|crossedCornersInverse" appliesTo="system,basic,detailed,grid,gamecarousel">
@@ -413,9 +537,24 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
 		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
 		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<subset name="t34" displayName="${lang.t34}" ifSubset="groupTiles:no|firstCorner|secondCorner|thirdCorner|upperCorners|crossedCornersInverse" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
 		<include name="image" displayName="${lang.image}"/>
 		<include name="imageBw" displayName="${lang.imageBw}"/>
 		<include name="fanart" displayName="${lang.fanart}"/>
@@ -428,14 +567,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
 		<include name="custom" displayName="${lang.custom}"/>
 		<include name="customBw" displayName="${lang.customBw}"/>
-		<include name="video" displayName="${lang.video}"/>
-		<include name="videoBw" displayName="${lang.videoBw}"/>
-		<include name="videoAudio" displayName="${lang.videoAudio}"/>
-		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
-		<include name="videoCustom" displayName="${lang.videoCustom}"/>
-		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
-		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
-		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
 	<include>./_support/support.xml</include>
@@ -445,6 +583,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./_inc/system/secondCorner.xml</include>
 	<include>./_inc/system/thirdCorner.xml</include>
 	<include>./_inc/system/lastCorner.xml</include>
+	<include>./_inc/system/allTiles.xml</include>
 	<include>./_inc/system/11.xml</include>
 	<include>./_inc/system/12.xml</include>
 	<include>./_inc/system/13.xml</include>

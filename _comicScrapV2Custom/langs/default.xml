@@ -40,6 +40,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.bottomCorners>bottom corners (2x3)</lang.bottomCorners>
 	<lang.crossedCorners>crossed corners (2x3)</lang.crossedCorners>
 	<lang.crossedCornersInverse>inversed crossed corners (2x3)</lang.crossedCornersInverse>
+	<lang.allTiles>all tiles (x10 or x11)</lang.allTiles>
 
 	<lang.t11>(11) - first line, first tile priority source</lang.t11>
 	<lang.t12>(12) - first line, second tile priority source</lang.t12>
@@ -57,6 +58,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.secondCornerSource>second corner priority source</lang.secondCornerSource>
 	<lang.thirdCornerSource>third corner priority source</lang.thirdCornerSource>
 	<lang.lastCornerSource>last corner priority source</lang.lastCornerSource>
+	<lang.allTilesSource>all unified tiles priority source</lang.allTilesSource>
 	
 	<lang.themeInclude>default theme image</lang.themeInclude>
 	<lang.image>random images</lang.image>
@@ -79,6 +81,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.videoCustomBw>custom black and white videos (without audio, if customized)</lang.videoCustomBw>
 	<lang.videoCustomAudio>custom videos (audio enabled, if customized)</lang.videoCustomAudio>
 	<lang.videoCustomAudioBw>custom black and white videos (audio enabled, if customized)</lang.videoCustomAudioBw>
+	<lang.emptyTile>unify with all tiles</lang.emptyTile>
+	<lang.pinkComic>pink comic artwork</lang.pinkComic>
+	<lang.blueComic>blue comic artwork</lang.blueComic>
+	<lang.redComic>red comic artwork</lang.redComic>
+	<lang.yellowComic>yellow comic artwork</lang.yellowComic>
+	<lang.purpleComic>purple comic artwork</lang.purpleComic>
+	<lang.greenComic>green comic artwork</lang.greenComic>
+	<lang.fireComic>fire comic artwork</lang.fireComic>
 
 
 </variables>

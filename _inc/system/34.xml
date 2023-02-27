@@ -11,12 +11,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="system" ifSubset="groupTiles:no|firstCorner|secondCorner|thirdCorner|upperCorners|crossedCornersInverse">
 
-	<image name="34" extra="true" ifSubset="t34:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+	<image name="34" extra="true" ifSubset="t34:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">
 		<linearSmooth>true</linearSmooth>
 
 		<origin>0.5 0.5</origin>
 
-		<minSize ifSubset="t34:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${s.34}</minSize>
+		<minSize ifSubset="t34:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">${s.34}</minSize>
 		<maxSize ifSubset="t34:marquee|marqueeBw">${s.34}</maxSize>
 
 		<pos>${p.34}</pos>
@@ -56,7 +56,15 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="t34:custom|customBw">${path.customOut}/tiles/${system.theme}/34.png</path>
 		<path ifSubset="t34:custom|customBw">${path.customIn}/tiles/${system.theme}/34.jpg</path>
 		<path ifSubset="t34:custom|customBw">${path.customOut}/tiles/${system.theme}/34.jpg</path>
-		
+
+		<path ifSubset="t34:pinkComic">./11.png</path>
+		<path ifSubset="t34:blueComic">./12.png</path>
+		<path ifSubset="t34:redComic">./13.png</path>
+		<path ifSubset="t34:yellowComic">./14.png</path>
+		<path ifSubset="t34:greenComic">./22.png</path>
+		<path ifSubset="t34:purpleComic">./21.png</path>
+		<path ifSubset="t34:fireComic">./23.png</path>
+				
 		<saturation ifSubset="t34:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 	</image>
 

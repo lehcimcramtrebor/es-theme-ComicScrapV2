@@ -11,12 +11,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="system" ifSubset="groupTiles:thirdCorner|bottomCorners|crossedCornersInverse">
 
-	<image name="thirdCorner" extra="true" ifSubset="thirdCornerSource:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+	<image name="thirdCorner" extra="true" ifSubset="thirdCornerSource:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">
 		<linearSmooth>true</linearSmooth>
 
 		<origin>0.5 0.5</origin>
 
-		<minSize ifSubset="thirdCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${s.thirdCorner}</minSize>
+		<minSize ifSubset="thirdCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">${s.thirdCorner}</minSize>
 		<maxSize ifSubset="thirdCornerSource:marquee|marqueeBw">${s.thirdCorner}</maxSize>
 
 		<pos>${p.thirdCorner}</pos>
@@ -56,6 +56,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="thirdCornerSource:custom|customBw">${path.customOut}/tiles/${system.theme}/thirdCorner.png</path>
 		<path ifSubset="thirdCornerSource:custom|customBw">${path.customIn}/tiles/${system.theme}/thirdCorner.jpg</path>
 		<path ifSubset="thirdCornerSource:custom|customBw">${path.customOut}/tiles/${system.theme}/thirdCorner.jpg</path>
+
+		<path ifSubset="thirdCornerSource:pinkComic">./medPink.png</path>
+		<path ifSubset="thirdCornerSource:blueComic">./medBlue.png</path>
+		<path ifSubset="thirdCornerSource:redComic">./medRed.png</path>
+		<path ifSubset="thirdCornerSource:yellowComic">./medYellow.png</path>
+		<path ifSubset="thirdCornerSource:greenComic">./medGreen.png</path>
+		<path ifSubset="thirdCornerSource:purpleComic">./medPurple.png</path>
+		<path ifSubset="thirdCornerSource:fireComic">./medFire.png</path>
 		
 		<saturation ifSubset="thirdCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 	</image>

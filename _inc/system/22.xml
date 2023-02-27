@@ -14,6 +14,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<image name="22" extra="true" ifSubset="t22:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
 
 		<visible ifSubset="t22:themeInclude">false</visible>
+		<visible ifSubset="groupTiles:allTiles,t22:emptyTile">false</visible>
 
 		<linearSmooth>true</linearSmooth>
 
@@ -66,6 +67,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<image name="22b" extra="true" ifSubset="t22:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
 
 		<visible ifSubset="t22:themeInclude">false</visible>
+		<visible ifSubset="groupTiles:allTiles,t22:emptyTile">false</visible>
 
 		<linearSmooth>true</linearSmooth>
 		<origin>0.5 0.5</origin>
@@ -79,6 +81,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<video name="v22" extra="true" ifSubset="t22:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
 
 		<visible ifSubset="t22:themeInclude">false</visible>
+		<visible ifSubset="groupTiles:allTiles,t22:emptyTile">false</visible>
 
 		<delay>0.1</delay>
 		<effect>none</effect>
