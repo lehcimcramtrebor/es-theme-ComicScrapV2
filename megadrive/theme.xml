@@ -9,12 +9,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <theme>
 <formatVersion>7</formatVersion>
 
-	<variables>
-
-		<tint>ffffff</tint>
-		<tintTiles>f6f6f6</tintTiles>
-		<tintLogos>ffffff</tintLogos>
-
-	</variables>
+	<include>./../theme.xml</include>
 
 </theme>

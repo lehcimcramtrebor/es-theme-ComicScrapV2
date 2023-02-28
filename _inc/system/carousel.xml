@@ -15,34 +15,63 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<zIndex>2000</zIndex>
 		<color>00000000</color>
 		<scrollSound>./_assets/scroll.wav</scrollSound>
-		<maxLogoCount>3</maxLogoCount>
+		<maxLogoCount>2.5</maxLogoCount>
+		<origin>0 0</origin>
+		<size>0.9760416666666667 0.9759259259259259</size>
+		<pos>0.0130208333333333 0.012037037037037</pos>
+		<logoSize>${s.22}</logoSize>
+		<logoScale>1.14</logoScale>
 	</carousel>
 
 	<text name="logoText">
 		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
-		<fontSize>0.05</fontSize>
+		<fontSize>0.055</fontSize>
 		<text>${system.fullName}</text>
 		<color>000000</color>
-		<glowColor>ffffff</glowColor>
+		<glowColor>${tint}</glowColor>
 		<glowSize>5</glowSize>
 		<forceUppercase>true</forceUppercase>
 	</text>		
 
 	<image name="logo">
 		<linearSmooth>true</linearSmooth>
-		<path>./../logosCS/${system.theme}.png</path>
-		<path>./../logosCS/${system.theme}-${lang}.png</path>
-		<saturation>1.4</saturation>
+		<path>./../../${system.theme}/logo.png</path>
+		<path>./../../${system.theme}-${lang}.png</path>
+		<color>${tintLogos}</color>
+		<saturation>1.2</saturation>
 	</image>
 
 	<image name="logo" region="eu"></image>
 
 	<image name="logo" region="us">
-		<path>./../logosCS/us/${system.theme}.png</path>
+		<path>./../../${system.theme}/us/logo.png</path>
 	</image>
 
 	<image name="logo" region="jp">
-		<path>./../logosCS/jp/${system.theme}.png</path>
+		<path>./../../${system.theme}/jp/logo.png</path>
+	</image>
+
+	<image name="logo" ifSubset="carouselAnime:yes">
+		<scale>0.5</scale>
+		<storyboard event="activate" repeatAt="300">
+			<animation property="scale" from="0.8" to="1" duration="250" mode="easeOut"/>
+			<animation property="opacity" from="1" to="1" duration="300" mode="linear"/>
+			<animation property="origin" from="0.5 0.5" to="0.52 0.5" begin="50" duration="250" mode="easeInOut"/>
+			<animation property="origin" from="0.52 0.5" to="0.48 0.5" begin="300" duration="1000" autoreverse="true" repeat="10" mode="easeInOut"/>
+			<animation property="rotation" to="360" begin="4300" duration="250" mode="easeInOut"/>
+			<animation property="scale" to="1.1" begin="12000" duration="250" autoreverse="true" mode="bump"/>
+			<animation property="saturation" from="0.90" to="1.2" duration="300" mode="linear"/>
+		</storyboard>
+		<storyboard event="scroll">
+			<animation property="scale" from="0.8" to="0.8" duration="1" mode="easeOut"/>
+			<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+			<animation property="saturation" from="0.90" to="0.90" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="scale" from="1" to="0.8" duration="1" mode="easeOut"/>
+			<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+			<animation property="saturation" from="0.90" to="0.90" duration="1" mode="linear"/>
+		</storyboard>
 	</image>
 
 	<!-- INFOS BAR -->

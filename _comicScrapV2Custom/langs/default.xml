@@ -26,7 +26,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.no>no</lang.no>
 
 	<lang.tint>book tint</lang.tint>
-	<lang.tintStd>standard</lang.tintStd>
+	<lang.tintStd>less warm</lang.tintStd>
 	<lang.tintWarm>warm</lang.tintWarm>
 	<lang.tintUltraWarm>hot</lang.tintUltraWarm>
 	<lang.tintWhite>white</lang.tintWhite>
@@ -34,6 +34,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.controller>controller overlay</lang.controller>
 	<lang.stick>arcade stick</lang.stick>
 	<lang.player>player icons</lang.player>
+
+	<lang.carouselAnime>anime system logos</lang.carouselAnime>
 
 	<lang.helpIcons>help icons</lang.helpIcons>
 	<lang.defaultIcons>generic</lang.defaultIcons>
