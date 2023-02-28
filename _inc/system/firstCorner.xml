@@ -66,6 +66,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="firstCornerSource:fireComic">./medFire.png</path>
 		
 		<saturation ifSubset="firstCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<color>${tintTiles}</color>
 	</image>
 
 	<image name="firstCornerb" extra="true" ifSubset="firstCornerSource:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
@@ -76,6 +77,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>${p.firstCorner}</pos>
 		<minSize>${s.firstCorner}</minSize>
 		<saturation ifSubset="firstCornerSource:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<color>${tintTiles}</color>
 	</image>
 
 	<video name="vfirstCorner" extra="true" ifSubset="firstCornerSource:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
@@ -92,6 +94,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path ifSubset="firstCornerSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/firstCorner.mp4</path>
 		<path ifSubset="firstCornerSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/firstCorner.mp4</path>
+		<color>${tintTiles}</color>
 	</video>
 </view>
 

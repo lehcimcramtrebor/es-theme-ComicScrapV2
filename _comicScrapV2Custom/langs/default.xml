@@ -14,6 +14,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.yes>yes</lang.yes>
 	<lang.no>no</lang.no>
 
+	<lang.tint>book tint</lang.tint>
+	<lang.tintStd>standard</lang.tintStd>
+	<lang.tintWarm>warm</lang.tintWarm>
+	<lang.tintUltraWarm>hot</lang.tintUltraWarm>
+	<lang.tintWhite>white</lang.tintWhite>
+
 	<lang.controller>controller overlay</lang.controller>
 	<lang.stick>arcade stick</lang.stick>
 	<lang.player>player icons</lang.player>

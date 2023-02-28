@@ -17,8 +17,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path.customOut ifArch="windows">./../../../../_comicScrapV2Custom</path.customOut>
 		<path.customOut ifNotArch="windows">./../../_comicScrapV2Custom</path.customOut>
 
-		<tint>f5ebd4</tint>
-
 		<s.11>0.2380208333333333 0.2157407407407407</s.11>
 		<p.11>0.1736979166666667 0.2078703703703704</p.11>
 
@@ -75,6 +73,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<include>${path.customIn}/langs/default.xml</include>
 	<include>${path.customIn}/langs/${lang}.xml</include>
+
+	<subset name="tint" displayName="${lang.tint}">
+		<include name="tintStd" displayName="${lang.tintStd}">./_inc/overlays/tintStd.xml</include>
+		<include name="tintWarm" displayName="${lang.tintWarm}">./_inc/overlays/tintWarm.xml</include>
+		<include name="tintUltraWarm" displayName="${lang.tintUltraWarm}">./_inc/overlays/tintUltraWarm.xml</include>
+		<include name="tintWhite" displayName="${lang.tintWhite}">./_inc/overlays/tintWhite.xml</include>
+	</subset>
 
 	<subset name="controller" displayName="${lang.controller}">
 		<include name="stick" displayName="${lang.stick}"/>

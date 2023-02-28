@@ -29,6 +29,16 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<image name="overlay,overlayBack" extra="true">
 		<color>${tint}</color>
 	</image>
+	<image name="tintBehindOverlay" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<tile>true</tile>
+		<path>./paperTint.png</path>
+		<size>0.9760416666666667 0.9759259259259259</size>
+		<pos>0.0130208333333333 0.012037037037037</pos>
+		<zIndex>999</zIndex>
+		<color>${tint}</color>
+		<opacity>0.2</opacity>
+	</image>
 	<image name="paper" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./paper.png</path>

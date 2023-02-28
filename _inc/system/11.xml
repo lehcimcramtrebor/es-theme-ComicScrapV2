@@ -66,6 +66,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="t11:fireComic">./23.png</path>
 		
 		<saturation ifSubset="t11:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<color>${tintTiles}</color>
 	</image>
 
 	<image name="11b" extra="true" ifSubset="t11:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
@@ -76,6 +77,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>${p.11}</pos>
 		<minSize>${s.11}</minSize>
 		<saturation ifSubset="t11:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<color>${tintTiles}</color>
 	</image>
 
 	<video name="v11" extra="true" ifSubset="t11:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
@@ -92,6 +94,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path ifSubset="t11:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/11.mp4</path>
 		<path ifSubset="t11:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/11.mp4</path>
+		<color>${tintTiles}</color>
 	</video>
 </view>
 

@@ -62,6 +62,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="t22:custom|customBw">${path.customOut}/tiles/${system.theme}/22.jpg</path>
 		
 		<saturation ifSubset="t22:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<color>${tintTiles}</color>
 	</image>
 
 	<image name="22b" extra="true" ifSubset="t22:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
@@ -76,6 +77,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>${p.22}</pos>
 		<minSize>${s.22}</minSize>
 		<saturation ifSubset="t22:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<color>${tintTiles}</color>
 	</image>
 
 	<video name="v22" extra="true" ifSubset="t22:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
@@ -96,6 +98,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path ifSubset="t22:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/22.mp4</path>
 		<path ifSubset="t22:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/22.mp4</path>
+		<color>${tintTiles}</color>
 	</video>
 </view>
 

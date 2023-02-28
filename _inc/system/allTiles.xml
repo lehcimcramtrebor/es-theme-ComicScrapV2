@@ -66,6 +66,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="allTilesSource:fireComic">./bigFire.png</path>
 		
 		<saturation ifSubset="allTilesSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<color>${tintTiles}</color>
 	</image>
 
 	<image name="allTilesb" extra="true" ifSubset="allTilesSource:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
@@ -76,6 +77,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>${p.allTiles}</pos>
 		<minSize>${s.allTiles}</minSize>
 		<saturation ifSubset="allTilesSource:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<color>${tintTiles}</color>
 	</image>
 
 	<video name="vallTiles" extra="true" ifSubset="allTilesSource:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
@@ -92,6 +94,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path ifSubset="allTilesSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/allTiles.mp4</path>
 		<path ifSubset="allTilesSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/allTiles.mp4</path>
+		<color>${tintTiles}</color>
 	</video>
 </view>
 
