@@ -45,6 +45,244 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path>./../logosCS/jp/${system.theme}.png</path>
 	</image>
 
+	<!-- INFOS BAR -->
+
+	<text name="systemInfo">
+		<zIndex>1010</zIndex>
+		<pos>0 0.6365</pos>
+		<backgroundColor>00000000</backgroundColor>
+		<color>202020</color>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<opacity>0</opacity>
+		<storyboard repeatAt="1">
+			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="350"/>
+			<animation property="offsetX" from="0.05" duration="100" mode="easeOut" begin="350"/>
+			<animation property="opacity" from="1" to="0" duration="50" mode="easeIn" begin="2550"/>
+			<animation property="offsetX" to="-0.005" duration="50" mode="easeOut" begin="2550"/>
+			
+			<animation property="scale" from="1" to="1" duration="23200" mode="linear"/>
+
+		</storyboard>
+	</text>
+
+	<text name="info01" extra="true">
+		<text>${lang.systemName}:  ${system.fullName}</text>
+		<forceUppercase>true</forceUppercase>
+		<zIndex>1010</zIndex>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.6655</pos>
+		<size>0.94 0.26</size>
+		<backgroundColor>00000000</backgroundColor>
+		<color>202020</color>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<alignment>center</alignment>
+		<opacity>0</opacity>
+		<storyboard repeatAt="1">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="2850"/>
+			<animation property="offsetX" from="0.005" duration="100" mode="easeOut" begin="2850"/>
+			<animation property="opacity" from="1" to="0" duration="50" mode="easeIn" begin="4850"/>
+			<animation property="offsetX" to="-0.005" duration="50" mode="easeOut" begin="4850"/>
+
+			<animation property="scale" from="1" to="1" duration="23200" mode="linear"/>
+		</storyboard>
+	</text>
+
+	<text name="info02" extra="true">
+		<text>${lang.manufacturer}:  ${system.manufacturer}</text>
+		<forceUppercase>true</forceUppercase>
+		<zIndex>1010</zIndex>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.6655</pos>
+		<size>0.94 0.26</size>
+		<backgroundColor>00000000</backgroundColor>
+		<color>202020</color>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<alignment>center</alignment>
+		<opacity>0</opacity>
+		<storyboard repeatAt="1">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="5000"/>
+			<animation property="offsetX" from="0.005" duration="100" mode="easeOut" begin="5000"/>
+			<animation property="opacity" from="1" to="0" duration="50" mode="easeIn" begin="7000"/>
+			<animation property="offsetX" to="-0.005" duration="50" mode="easeOut" begin="7000"/>
+
+			<animation property="scale" from="1" to="1" duration="23200" mode="linear"/>
+		</storyboard>
+	</text>
+
+	<text name="info03" extra="true">
+		<text>${lang.releasedYear}:  ${system.releaseYear}</text>
+		<forceUppercase>true</forceUppercase>
+		<zIndex>1010</zIndex>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.6655</pos>
+		<size>0.94 0.26</size>
+		<backgroundColor>00000000</backgroundColor>
+		<color>202020</color>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<alignment>center</alignment>
+		<opacity>0</opacity>
+		<storyboard repeatAt="1">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="7150"/>
+			<animation property="offsetX" from="0.005" duration="100" mode="easeOut" begin="7150"/>
+			<animation property="opacity" from="1" to="0" duration="50" mode="easeIn" begin="9150"/>
+			<animation property="offsetX" to="-0.005" duration="50" mode="easeOut" begin="9150"/>
+
+			<animation property="scale" from="1" to="1" duration="23200" mode="linear"/>
+		</storyboard>
+	</text>
+
+	<text name="info04" extra="true">
+		<text>${lang.favorites}:  {binding:favorites}</text>
+		<forceUppercase>true</forceUppercase>
+		<zIndex>1010</zIndex>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.6655</pos>
+		<size>0.94 0.26</size>
+		<backgroundColor>00000000</backgroundColor>
+		<color>202020</color>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<alignment>center</alignment>
+		<opacity>0</opacity>
+		<storyboard repeatAt="1">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="9300"/>
+			<animation property="offsetX" from="0.005" duration="100" mode="easeOut" begin="9300"/>
+			<animation property="opacity" from="1" to="0" duration="50" mode="easeIn" begin="11300"/>
+			<animation property="offsetX" to="-0.005" duration="50" mode="easeOut" begin="11300"/>
+
+			<animation property="scale" from="1" to="1" duration="23200" mode="linear"/>
+		</storyboard>
+	</text>
+
+	<text name="info05" extra="true">
+		<text>${lang.gamesPlayed}:  {binding:gamesPlayed}</text>
+		<forceUppercase>true</forceUppercase>
+		<zIndex>1010</zIndex>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.6655</pos>
+		<size>0.94 0.26</size>
+		<backgroundColor>00000000</backgroundColor>
+		<color>202020</color>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<alignment>center</alignment>
+		<opacity>0</opacity>
+		<storyboard repeatAt="1">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="11450"/>
+			<animation property="offsetX" from="0.005" duration="100" mode="easeOut" begin="11450"/>
+			<animation property="opacity" from="1" to="0" duration="150" mode="easeIn" begin="13450"/>
+			<animation property="offsetX" to="-0.005" duration="150" mode="easeOut" begin="13450"/>
+
+			<animation property="scale" from="1" to="1" duration="23200" mode="linear"/>
+		</storyboard>
+	</text>
+
+	<text name="info06" extra="true">
+		<text>${lang.mostPlayed}:  {binding:mostPlayed}</text>
+		<forceUppercase>true</forceUppercase>
+		<zIndex>1010</zIndex>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.6655</pos>
+		<size>0.94 0.26</size>
+		<backgroundColor>00000000</backgroundColor>
+		<color>202020</color>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<alignment>center</alignment>
+		<opacity>0</opacity>
+		<storyboard repeatAt="1">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="13600"/>
+			<animation property="offsetX" from="0.005" duration="100" mode="easeOut" begin="13600"/>
+			<animation property="opacity" from="1" to="0" duration="150" mode="easeIn" begin="15600"/>
+			<animation property="offsetX" to="-0.005" duration="150" mode="easeOut" begin="15600"/>
+
+			<animation property="scale" from="1" to="1" duration="23200" mode="linear"/>
+		</storyboard>
+	</text>
+
+	<text name="info07" extra="true">
+		<text>${lang.lastPlayedDate}:  {binding:lastPlayedDate}</text>
+		<forceUppercase>true</forceUppercase>
+		<zIndex>1010</zIndex>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.6655</pos>
+		<size>0.94 0.26</size>
+		<backgroundColor>00000000</backgroundColor>
+		<color>202020</color>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<alignment>center</alignment>
+		<opacity>0</opacity>
+		<storyboard repeatAt="1">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="15750"/>
+			<animation property="offsetX" from="0.005" duration="100" mode="easeOut" begin="15750"/>
+			<animation property="opacity" from="1" to="0" duration="150" mode="easeIn" begin="17750"/>
+			<animation property="offsetX" to="-0.005" duration="150" mode="easeOut" begin="17750"/>
+
+			<animation property="scale" from="1" to="1" duration="23200" mode="linear"/>
+		</storyboard>
+	</text>
+
+	<text name="info08" extra="true">
+		<text>${lang.retroachievements}:  ${lang.cheevosTrue} (${cheevos.username})</text>
+		<text ifCheevos="false">${lang.retroachievements} ${lang.cheevosFalse}</text>
+		<forceUppercase>true</forceUppercase>
+		<zIndex>1010</zIndex>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.6655</pos>
+		<size>0.94 0.26</size>
+		<backgroundColor>00000000</backgroundColor>
+		<color>202020</color>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<alignment>center</alignment>
+		<opacity>0</opacity>
+		<storyboard repeatAt="1">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="17900"/>
+			<animation property="offsetX" from="0.005" duration="100" mode="easeOut" begin="17900"/>
+			<animation property="opacity" from="1" to="0" duration="150" mode="easeIn" begin="19900"/>
+			<animation property="offsetX" to="-0.005" duration="150" mode="easeOut" begin="19900"/>
+
+			<animation property="scale" from="1" to="1" duration="23200" mode="linear"/>
+		</storyboard>
+	</text>
+
+	<text name="info09" extra="true">
+		<text>${customText}</text>
+		<forceUppercase>true</forceUppercase>
+		<zIndex>1010</zIndex>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.6655</pos>
+		<size>0.94 0.26</size>
+		<backgroundColor>00000000</backgroundColor>
+		<color>202020</color>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<alignment>center</alignment>
+		<opacity>0</opacity>
+		<storyboard repeatAt="1">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="20050"/>
+			<animation property="offsetX" from="0.005" duration="100" mode="easeOut" begin="20050"/>
+			<animation property="opacity" from="1" to="0" duration="150" mode="easeIn" begin="22050"/>
+			<animation property="offsetX" to="-0.005" duration="150" mode="easeOut" begin="22050"/>
+
+			<animation property="scale" from="1" to="1" duration="23200" mode="linear"/>
+		</storyboard>
+	</text>
+
 </view>
 
 </theme>

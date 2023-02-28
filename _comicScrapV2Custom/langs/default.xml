@@ -11,6 +11,17 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <variables>
 
+	<lang.favorites>favorites</lang.favorites>
+	<lang.gamesPlayed>games played</lang.gamesPlayed>
+	<lang.mostPlayed>most played game</lang.mostPlayed>
+	<lang.lastPlayedDate>last played date</lang.lastPlayedDate>
+	<lang.retroachievements>retroachievements</lang.retroachievements>
+	<lang.cheevosTrue>supported</lang.cheevosTrue>
+	<lang.cheevosFalse>not supported / activated</lang.cheevosFalse>
+	<lang.releasedYear>released year</lang.releasedYear>
+	<lang.systemName>system</lang.systemName>
+	<lang.manufacturer>manufacturer</lang.manufacturer>
+	
 	<lang.yes>yes</lang.yes>
 	<lang.no>no</lang.no>
 

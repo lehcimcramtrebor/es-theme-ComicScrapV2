@@ -581,6 +581,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
+	<include>./${path.customIn}/customText.xml</include>
+	<include>./${path.customOut}/customText.xml</include>
 	<include>./_support/support.xml</include>
 	<include>./_inc/overlays/overlays.xml</include>
 	<include>./_inc/system/carousel.xml</include>
