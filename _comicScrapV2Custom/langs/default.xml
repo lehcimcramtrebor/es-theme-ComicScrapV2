@@ -52,6 +52,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.bottomLeft>out of tiles at bottom left</lang.bottomLeft>
 	<lang.flipCharacter>character horizontal flip</lang.flipCharacter>
 
+	<lang.boxes>display random covers</lang.boxes>
+
 	<lang.helpIcons>help icons</lang.helpIcons>
 	<lang.defaultIcons>generic</lang.defaultIcons>
 	<lang.xboxIcons>microsoft xbox</lang.xboxIcons>

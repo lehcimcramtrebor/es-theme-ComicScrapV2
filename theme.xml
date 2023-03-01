@@ -134,6 +134,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="yes" displayName="${lang.yes}"/>
 	</subset>
 
+	<subset name="boxes" displayName="${lang.boxes}" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="no" displayName="${lang.no}"/>
+		<include name="yes" displayName="${lang.yes}"/>
+	</subset>
+
 	<subset name="groupTiles" displayName="${lang.groupTiles}" appliesTo="system,basic,detailed,grid,gamecarousel">
 		<include name="crossedCornersInverse" displayName="${lang.crossedCornersInverse}"/>
 		<include name="crossedCorners" displayName="${lang.crossedCorners}"/>

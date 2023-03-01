@@ -9,7 +9,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <theme>
 <formatVersion>7</formatVersion>
 
-<view name="system" ifSubset="character:behindLogo|bottomRight|bottomLeft">
+<view name="system" ifSubset="character:behindLogo|bottomRight|bottomLeft|">
 
 	<image name="character" extra="true">
 		<linearSmooth>true</linearSmooth>
@@ -22,6 +22,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path region="jp">./../../_comicScrapV2Custom/characters/${system.theme}-jp.png</path>
 		<path region="jp">./${path.windows}/../../../../_comicScrapV2Custom/characters/${system.theme}-jp.png</path>
 
+		
 		<flipX ifSubset="flipCharacter:yes">true</flipX>
 	</image>
 
@@ -73,6 +74,65 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 			<animation property="opacity" from="0" to="0" duration="350" mode="linear"/>
 			<animation property="opacity" from="0" to="1" duration="150" mode="easeOutCubic" begin="350"/>
 			<animation property="offsetX" from="-0.025" to="0" duration="150" mode="bump" begin="350"/>
+		</storyboard>
+	</image>
+
+</view>
+
+<view name="system" ifSubset="boxes:yes">
+
+	<image name="boxes" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>{random:thumbnail}</path>
+		<origin>0 1</origin>
+		<origin>0 1</origin>
+		<pos>0.04 0.94</pos>
+		<maxSize>0.14 0.23</maxSize>
+		<zIndex>1001</zIndex>
+		<color>${tintLogos}</color>
+		<saturation>1.2</saturation>
+		<roundCorners>0.012</roundCorners>
+		<opacity>0</opacity>
+		<storyboard repeat="forever">
+			<animation property="opacity" from="0" to="0" duration="700" mode="linear"/>
+
+			<animation property="opacity" from="0" to="1" duration="100" mode="easeOutCubic" begin="700"/>
+			<animation property="offsetX" from="-0.025" to="0" duration="100" mode="bump" begin="700"/>
+
+			<animation property="opacity" from="1" to="0" duration="100" mode="easeOutCubic" begin="9300"/>
+			<animation property="offsetX" from="0" to="-0.025" duration="100" mode="bump" begin="9300"/>
+
+			<animation property="scale" from="1" to="1" duration="10000" mode="linear"/>
+
+		</storyboard>
+	</image>
+
+</view>
+
+<view name="system" ifSubset="character:bottomLeft,boxes:yes">
+
+	<image name="boxes" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>{random:thumbnail}</path>
+		<origin>1 1</origin>
+		<pos>0.962 0.94</pos>
+		<maxSize>0.14 0.23</maxSize>
+		<zIndex>1001</zIndex>
+		<color>${tintLogos}</color>
+		<saturation>1.2</saturation>
+		<roundCorners>0.012</roundCorners>
+		<opacity>0</opacity>
+		<storyboard repeat="forever">
+			<animation property="opacity" from="0" to="0" duration="700" mode="linear"/>
+
+			<animation property="opacity" from="0" to="1" duration="100" mode="easeOutCubic" begin="700"/>
+			<animation property="offsetX" from="0.025" to="0" duration="100" mode="bump" begin="700"/>
+
+			<animation property="opacity" from="1" to="0" duration="100" mode="easeOutCubic" begin="9300"/>
+			<animation property="offsetX" from="0" to="0.025" duration="100" mode="bump" begin="9300"/>
+
+			<animation property="scale" from="1" to="1" duration="10000" mode="linear"/>
+
 		</storyboard>
 	</image>
 
