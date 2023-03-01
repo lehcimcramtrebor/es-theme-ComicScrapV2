@@ -25,20 +25,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<zIndex>${mti}</zIndex>
 
-		<default ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/allTiles.png</default>
-		<default ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/allTiles.png</default>
-		<default ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/allTiles.jpg</default>
-		<default ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/allTiles.jpg</default>
+		<default ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/allTiles.png</default>
+		<default ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/default/allTiles.png</default>
+		<default ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/allTiles.jpg</default>
+		<default ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/default/allTiles.jpg</default>
 
-		<path ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/allTiles.png</path>
-		<path ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/allTiles.png</path>
-		<path ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/allTiles.jpg</path>
-		<path ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/allTiles.jpg</path>
+		<path ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/allTiles.png</path>
+		<path ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/default/allTiles.png</path>
+		<path ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/allTiles.jpg</path>
+		<path ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/default/allTiles.jpg</path>
 
-		<default ifSubset="allTilesSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/allTiles.png</default>
-		<default ifSubset="allTilesSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/allTiles.png</default>
-		<default ifSubset="allTilesSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/allTiles.jpg</default>
-		<default ifSubset="allTilesSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/allTiles.jpg</default>
+		<default ifSubset="allTilesSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">./../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.png</default>
+		<default ifSubset="allTilesSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.png</default>
+		<default ifSubset="allTilesSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">./../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.jpg</default>
+		<default ifSubset="allTilesSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.jpg</default>
 		<path ifSubset="allTilesSource:image|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">{random:image}</path>
 
 		<path ifSubset="allTilesSource:thumbnail|thumbnailBw">{random:thumbnail}</path>
@@ -52,10 +52,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="allTilesSource:marquee|marqueeBw">{random:marquee}</path>
 
 		<path ifSubset="allTilesSource:custom|customBw">{random:fanart}</path>
-		<path ifSubset="allTilesSource:custom|customBw">${path.customIn}/tiles/${system.theme}/allTiles.png</path>
-		<path ifSubset="allTilesSource:custom|customBw">${path.customOut}/tiles/${system.theme}/allTiles.png</path>
-		<path ifSubset="allTilesSource:custom|customBw">${path.customIn}/tiles/${system.theme}/allTiles.jpg</path>
-		<path ifSubset="allTilesSource:custom|customBw">${path.customOut}/tiles/${system.theme}/allTiles.jpg</path>
+		<path ifSubset="allTilesSource:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.png</path>
+		<path ifSubset="allTilesSource:custom|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.png</path>
+		<path ifSubset="allTilesSource:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.jpg</path>
+		<path ifSubset="allTilesSource:custom|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.jpg</path>
 
 		<path ifSubset="allTilesSource:pinkComic">./bigPink.png</path>
 		<path ifSubset="allTilesSource:blueComic">./bigBlue.png</path>
@@ -92,8 +92,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path>{random}</path>
 
-		<path ifSubset="allTilesSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/allTiles.mp4</path>
-		<path ifSubset="allTilesSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/allTiles.mp4</path>
+		<path ifSubset="allTilesSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">./../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.mp4</path>
+		<path ifSubset="allTilesSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.mp4</path>
 		<color>${tintTiles}</color>
 	</video>
 </view>

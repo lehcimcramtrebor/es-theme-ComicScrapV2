@@ -25,20 +25,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<zIndex>${mti}</zIndex>
 
-		<default ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/lastCorner.png</default>
-		<default ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/lastCorner.png</default>
-		<default ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/lastCorner.jpg</default>
-		<default ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/lastCorner.jpg</default>
+		<default ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/lastCorner.png</default>
+		<default ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/default/lastCorner.png</default>
+		<default ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/lastCorner.jpg</default>
+		<default ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/default/lastCorner.jpg</default>
 
-		<path ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/lastCorner.png</path>
-		<path ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/lastCorner.png</path>
-		<path ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customIn}/tiles/default/lastCorner.jpg</path>
-		<path ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">${path.customOut}/tiles/default/lastCorner.jpg</path>
+		<path ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/lastCorner.png</path>
+		<path ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/default/lastCorner.png</path>
+		<path ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/lastCorner.jpg</path>
+		<path ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/default/lastCorner.jpg</path>
 
-		<default ifSubset="lastCornerSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/lastCorner.png</default>
-		<default ifSubset="lastCornerSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/lastCorner.png</default>
-		<default ifSubset="lastCornerSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/lastCorner.jpg</default>
-		<default ifSubset="lastCornerSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/lastCorner.jpg</default>
+		<default ifSubset="lastCornerSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">./../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.png</default>
+		<default ifSubset="lastCornerSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.png</default>
+		<default ifSubset="lastCornerSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">./../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.jpg</default>
+		<default ifSubset="lastCornerSource:image|thumbnail|thumbnailBw|boxback|boxbackBw|fanart|fanartBw|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.jpg</default>
 		<path ifSubset="lastCornerSource:image|imageBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">{random:image}</path>
 
 		<path ifSubset="lastCornerSource:thumbnail|thumbnailBw">{random:thumbnail}</path>
@@ -52,10 +52,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="lastCornerSource:marquee|marqueeBw">{random:marquee}</path>
 
 		<path ifSubset="lastCornerSource:custom|customBw">{random:fanart}</path>
-		<path ifSubset="lastCornerSource:custom|customBw">${path.customIn}/tiles/${system.theme}/lastCorner.png</path>
-		<path ifSubset="lastCornerSource:custom|customBw">${path.customOut}/tiles/${system.theme}/lastCorner.png</path>
-		<path ifSubset="lastCornerSource:custom|customBw">${path.customIn}/tiles/${system.theme}/lastCorner.jpg</path>
-		<path ifSubset="lastCornerSource:custom|customBw">${path.customOut}/tiles/${system.theme}/lastCorner.jpg</path>
+		<path ifSubset="lastCornerSource:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.png</path>
+		<path ifSubset="lastCornerSource:custom|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.png</path>
+		<path ifSubset="lastCornerSource:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.jpg</path>
+		<path ifSubset="lastCornerSource:custom|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.jpg</path>
 
 		<path ifSubset="lastCornerSource:pinkComic">./medPink.png</path>
 		<path ifSubset="lastCornerSource:blueComic">./medBlue.png</path>
@@ -92,8 +92,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path>{random}</path>
 
-		<path ifSubset="lastCornerSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customIn}/tiles/${system.theme}/lastCorner.mp4</path>
-		<path ifSubset="lastCornerSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${path.customOut}/tiles/${system.theme}/lastCorner.mp4</path>
+		<path ifSubset="lastCornerSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">./../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.mp4</path>
+		<path ifSubset="lastCornerSource:videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.mp4</path>
 		<color>${tintTiles}</color>
 	</video>
 </view>

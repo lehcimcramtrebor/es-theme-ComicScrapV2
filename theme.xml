@@ -13,9 +13,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<defaultRegion region="eu">..</defaultRegion>
 
-		<path.customIn>./_comicScrapV2Custom</path.customIn>
-		<path.customOut ifArch="windows">./../../../../_comicScrapV2Custom</path.customOut>
-		<path.customOut ifNotArch="windows">./../../_comicScrapV2Custom</path.customOut>
+		<path.windows ifArch="windows">../..</path.windows>
 
 		<s.11>0.2380208333333333 0.2157407407407407</s.11>
 		<p.11>0.1736979166666667 0.2078703703703704</p.11>
@@ -71,8 +69,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<mtbi>600</mtbi>
 	</variables>
 
-	<include>${path.customIn}/langs/default.xml</include>
-	<include>${path.customIn}/langs/${lang}.xml</include>
+	<include>./_comicScrapV2Custom/langs/default.xml</include>
+	<include>./_comicScrapV2Custom/langs/${lang}.xml</include>
+	<include>./${path.windows}/../../_comicScrapV2Custom/langs/default.xml</include>
+	<include>./${path.windows}/../../_comicScrapV2Custom/langs/${lang}.xml</include>
 
 	<subset name="tint" displayName="${lang.tint}">
 		<include name="tintWarm" displayName="${lang.tintWarm}">./_inc/overlays/tintWarm.xml</include>
@@ -586,8 +586,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
-	<include>./${path.customIn}/customText.xml</include>
-	<include>./${path.customOut}/customText.xml</include>
+	<include>./_comicScrapV2Custom/customText.xml</include>
+	<include>./${path.windows}/../../_comicScrapV2Custom/customText.xml</include>
 	<include>./_support/support.xml</include>
 	<include>./_inc/overlays/overlays.xml</include>
 	<include>./_inc/system/carousel.xml</include>

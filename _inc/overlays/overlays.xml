@@ -66,10 +66,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="t22:greenComic">./../system/22.png</path>
 		<path ifSubset="t22:purpleComic">./../system/21.png</path>
 		<path ifSubset="t22:fireComic">./../system/23.png</path>
-		<path ifSubset="t22:themeInclude">${path.customIn}/tiles/_customCenter.png</path>
-		<path ifSubset="t22:themeInclude">${path.customIn}/tiles/_customCenter.jpg</path>
-		<path ifSubset="t22:themeInclude">${path.customOut}/tiles/_customCenter.png</path>
-		<path ifSubset="t22:themeInclude">${path.customOut}/tiles/_customCenter.jpg</path>
+		<path ifSubset="t22:themeInclude">./../../_comicScrapV2Custom/tiles/_customCenter.png</path>
+		<path ifSubset="t22:themeInclude">./../../_comicScrapV2Custom/tiles/_customCenter.jpg</path>
+		<path ifSubset="t22:themeInclude">./${path.windows}/../../../../_comicScrapV2Custom/tiles/_customCenter.png</path>
+		<path ifSubset="t22:themeInclude">./${path.windows}/../../../../_comicScrapV2Custom/tiles/_customCenter.jpg</path>
 
 		<zIndex>800</zIndex>
 		<visible ifSubset="groupTiles:allTiles,t22:emptyTile">false</visible>
