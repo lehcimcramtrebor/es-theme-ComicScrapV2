@@ -36,7 +36,21 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<image name="logo">
 		<linearSmooth>true</linearSmooth>
 		<path>./../../${system.theme}/logo.png</path>
-		<path>./../../${system.theme}-${lang}.png</path>
+
+		<path>./../../_comicScrapV2Custom/logos/${system.theme}.png</path>
+		<path>./../../_comicScrapV2Custom/logos/${system.theme}.svg</path>
+
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logos/${system.theme}.png</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logos/${system.theme}.svg</path>
+
+		<path>./../../${system.theme}/logo-${lang}.png</path>
+
+		<path>./../../_comicScrapV2Custom/logos/${system.theme}-${lang}.png</path>
+		<path>./../../_comicScrapV2Custom/logos/${system.theme}-${lang}.svg</path>
+		
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logos/${system.theme}-${lang}.png</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logos/${system.theme}-${lang}.svg</path>
+
 		<color>${tintLogos}</color>
 		<saturation>1.2</saturation>
 	</image>
@@ -45,10 +59,23 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<image name="logo" region="us">
 		<path>./../../${system.theme}/us/logo.png</path>
+
+		<path>./../../_comicScrapV2Custom/logos/${system.theme}-us.png</path>
+		<path>./../../_comicScrapV2Custom/logos/${system.theme}-us.svg</path>
+
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logos/${system.theme}-us.png</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logos/${system.theme}-us.svg</path>
+
 	</image>
 
 	<image name="logo" region="jp">
 		<path>./../../${system.theme}/jp/logo.png</path>
+
+		<path>./../../_comicScrapV2Custom/logos/${system.theme}-jp.png</path>
+		<path>./../../_comicScrapV2Custom/logos/${system.theme}-jp.svg</path>
+
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logos/${system.theme}-jp.png</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logos/${system.theme}-jp.svg</path>
 	</image>
 
 	<image name="logo" ifSubset="carouselAnime:yes">
