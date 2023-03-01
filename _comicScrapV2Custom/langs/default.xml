@@ -31,6 +31,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.generalMusic>play general</lang.generalMusic>
 	<lang.silence>cut all musics</lang.silence>
 
+	<lang.paperOverlay>paper fx intensity</lang.paperOverlay>
+	<lang.paperStrong>strong</lang.paperStrong>
+	<lang.paperLight>light</lang.paperLight>
 	<lang.tint>book tint</lang.tint>
 	<lang.tintStd>less warm</lang.tintStd>
 	<lang.tintWarm>warm</lang.tintWarm>

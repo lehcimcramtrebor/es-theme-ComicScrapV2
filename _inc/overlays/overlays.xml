@@ -38,6 +38,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<zIndex>999</zIndex>
 		<color>${tint}</color>
 		<opacity>0.2</opacity>
+		<opacity ifSubset="paperOverlay:paperLight">0.1</opacity>
 	</image>
 	<image name="paper" extra="true">
 		<linearSmooth>true</linearSmooth>
@@ -48,6 +49,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<zIndex>5000</zIndex>
 		<color>0000001a</color>
 		<opacity>0.85</opacity>
+		<opacity ifSubset="paperOverlay:paperLight">0.425</opacity>
 	</image>
 </view>
 
