@@ -14,7 +14,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<defaultTransition>instant</defaultTransition>
 		<zIndex>2000</zIndex>
 		<color>00000000</color>
-		<scrollSound>./_assets/scroll.wav</scrollSound>
+		<scrollSound>./../scroll.wav</scrollSound>
 		<maxLogoCount>2.5</maxLogoCount>
 		<origin>0 0</origin>
 		<size>0.9760416666666667 0.9759259259259259</size>

@@ -25,6 +25,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.yes>yes</lang.yes>
 	<lang.no>no</lang.no>
 
+	<lang.music>music</lang.music>
+	<lang.comixZone>comix zone album</lang.comixZone>
+	<lang.tmntAlbum>tmnt album</lang.tmntAlbum>
+	<lang.generalMusic>play general</lang.generalMusic>
+	<lang.silence>cut all musics</lang.silence>
+
 	<lang.tint>book tint</lang.tint>
 	<lang.tintStd>less warm</lang.tintStd>
 	<lang.tintWarm>warm</lang.tintWarm>
