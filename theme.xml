@@ -32,8 +32,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<s.22>0.4151041666666667 0.2712962962962963</s.22>
 		<p.22>0.4997395833333333 0.5087962962962963</p.22>
-		<s.22ch>0.36 0.25</s.22ch>
-		<p.22ch>0.68 0.6435185185185185</p.22ch>
 
 		<s.23>0.240625 0.2685185185185185</s.23>
 		<p.23>0.8270833333333333 0.5157407407407407</p.23>
@@ -64,6 +62,15 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<s.allTiles>0.96 0.96</s.allTiles>
 		<p.allTiles>0.5 0.5</p.allTiles>
+
+		<s.22ch>0.36 0.25</s.22ch>
+		<p.22ch>0.68 0.6435185185185185</p.22ch>
+
+		<s.chbr>0.3 0.36</s.chbr>
+		<p.chbr>0.9825 0.955</p.chbr>
+
+		<s.chbl>0.3 0.36</s.chbl>
+		<p.chbl>0.01875 0.955</p.chbl>
 
 		<sti>900</sti>
 		<stbi>800</stbi>
@@ -103,9 +110,16 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="no" displayName="${lang.no}"/>
 	</subset>
 
-	<subset name="character" displayName="${lang.character}">
+	<subset name="character" displayName="${lang.character}" appliesTo="system,basic,detailed,grid,gamecarousel">
 		<include name="behindLogo" displayName="${lang.behindLogo}"/>
+		<include name="bottomRight" displayName="${lang.bottomRight}"/>
+		<include name="bottomLeft" displayName="${lang.bottomLeft}"/>
 		<include name="no" displayName="${lang.no}"/>
+	</subset>
+
+	<subset name="flipCharacter" displayName="${lang.flipCharacter}" ifSubset="character:|behindLogo|bottomRight|bottomLeft" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="no" displayName="${lang.no}"/>
+		<include name="yes" displayName="${lang.yes}"/>
 	</subset>
 
 	<subset name="groupTiles" displayName="${lang.groupTiles}" appliesTo="system,basic,detailed,grid,gamecarousel">

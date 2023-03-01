@@ -11,7 +11,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="system">
 	<carousel name="systemcarousel">
-		<defaultTransition>fade</defaultTransition>
+		<defaultTransition>instant</defaultTransition>
 		<zIndex>2000</zIndex>
 		<color>00000000</color>
 		<scrollSound>./_assets/scroll.wav</scrollSound>
@@ -75,6 +75,25 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	</image>
 
 	<!-- INFOS BAR -->
+
+	<text name="infoScroll" extra="true">
+		<text>${system.fullName}</text>
+		<forceUppercase>true</forceUppercase>
+		<zIndex>1010</zIndex>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.6655</pos>
+		<size>0.94 0.26</size>
+		<backgroundColor>00000000</backgroundColor>
+		<color>202020</color>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<alignment>center</alignment>
+		<opacity>0</opacity>
+		<storyboard>
+			<animation property="opacity" from="1" to="1" duration="250" mode="easeIn"/>
+			<animation property="opacity" from="1" to="0" duration="50" mode="easeIn" begin="250"/>
+		</storyboard>
+	</text>
 
 	<text name="systemInfo">
 		<zIndex>1010</zIndex>

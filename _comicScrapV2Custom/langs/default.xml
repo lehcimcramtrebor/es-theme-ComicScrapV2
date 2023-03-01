@@ -38,7 +38,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.carouselAnime>anime system logos</lang.carouselAnime>
 
 	<lang.character>display customizable characters</lang.character>
-	<lang.behindLogo>behind logo</lang.behindLogo>
+	<lang.behindLogo>in tile behind logo</lang.behindLogo>
+	<lang.bottomRight>out of tiles at bottom right</lang.bottomRight>
+	<lang.bottomLeft>out of tiles at bottom left</lang.bottomLeft>
+	<lang.flipCharacter>character horizontal flip</lang.flipCharacter>
 
 	<lang.helpIcons>help icons</lang.helpIcons>
 	<lang.defaultIcons>generic</lang.defaultIcons>

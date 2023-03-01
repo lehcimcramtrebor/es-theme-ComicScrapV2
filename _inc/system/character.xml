@@ -9,17 +9,64 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <theme>
 <formatVersion>7</formatVersion>
 
-<view name="system" ifSubset="character:behindLogo">
+<view name="system" ifSubset="character:behindLogo|bottomRight|bottomLeft">
 
 	<image name="character" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./../../_comicScrapV2Custom/characters/${system.theme}.png</path>
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/characters/${system.theme}.png</path>
-		<zIndex>990</zIndex>
+		<flipX ifSubset="flipCharacter:yes">true</flipX>
+	</image>
+
+</view>
+
+<view name="system" ifSubset="character:behindLogo">
+
+	<image name="character" extra="true">
 		<origin>1 1</origin>
 		<pos>${p.22ch}</pos>
 		<maxSize>${s.22ch}</maxSize>
+		<zIndex>990</zIndex>
 		<color>${tintLogos}</color>
+		<storyboard>
+			<animation property="opacity" from="0" to="0" duration="350" mode="linear"/>
+			<animation property="opacity" from="0" to="1" duration="150" mode="easeOut" begin="350"/>
+			<animation property="offsetX" from="0.025" to="0" duration="150" mode="easeOut" begin="350"/>
+		</storyboard>
+	</image>
+
+</view>
+
+<view name="system" ifSubset="character:bottomRight">
+
+	<image name="character" extra="true">
+		<origin>1 1</origin>
+		<pos>${p.chbr}</pos>
+		<maxSize>${s.chbr}</maxSize>
+		<zIndex>1001</zIndex>
+		<color>${tint}</color>
+		<storyboard>
+			<animation property="opacity" from="0" to="0" duration="350" mode="linear"/>
+			<animation property="opacity" from="0" to="1" duration="150" mode="easeOutCubic" begin="350"/>
+			<animation property="offsetX" from="0.025" to="0" duration="150" mode="bump" begin="350"/>
+		</storyboard>
+	</image>
+
+</view>
+
+<view name="system" ifSubset="character:bottomLeft">
+
+	<image name="character" extra="true">
+		<origin>0 1</origin>
+		<pos>${p.chbl}</pos>
+		<maxSize>${s.chbl}</maxSize>
+		<zIndex>1001</zIndex>
+		<color>${tint}</color>
+		<storyboard>
+			<animation property="opacity" from="0" to="0" duration="350" mode="linear"/>
+			<animation property="opacity" from="0" to="1" duration="150" mode="easeOutCubic" begin="350"/>
+			<animation property="offsetX" from="-0.025" to="0" duration="150" mode="bump" begin="350"/>
+		</storyboard>
 	</image>
 
 </view>
