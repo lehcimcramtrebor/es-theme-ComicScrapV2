@@ -15,6 +15,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<linearSmooth>true</linearSmooth>
 		<path>./../../_comicScrapV2Custom/characters/${system.theme}.png</path>
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/characters/${system.theme}.png</path>
+
+		<path ifRegion="us">./../../_comicScrapV2Custom/characters/${system.theme}-us.png</path>
+		<path ifRegion="us">./${path.windows}/../../../../_comicScrapV2Custom/characters/${system.theme}-us.png</path>
+
+		<path ifRegion="jp">./../../_comicScrapV2Custom/characters/${system.theme}-jp.png</path>
+		<path ifRegion="jp">./${path.windows}/../../../../_comicScrapV2Custom/characters/${system.theme}-jp.png</path>
+
 		<flipX ifSubset="flipCharacter:yes">true</flipX>
 	</image>
 
