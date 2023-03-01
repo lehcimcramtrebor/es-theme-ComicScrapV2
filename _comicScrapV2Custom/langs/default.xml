@@ -37,6 +37,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<lang.carouselAnime>anime system logos</lang.carouselAnime>
 
+	<lang.character>display customizable characters</lang.character>
+	<lang.behindLogo>behind logo</lang.behindLogo>
+
 	<lang.helpIcons>help icons</lang.helpIcons>
 	<lang.defaultIcons>generic</lang.defaultIcons>
 	<lang.xboxIcons>microsoft xbox</lang.xboxIcons>

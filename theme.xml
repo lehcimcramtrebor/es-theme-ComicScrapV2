@@ -32,6 +32,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<s.22>0.4151041666666667 0.2712962962962963</s.22>
 		<p.22>0.4997395833333333 0.5087962962962963</p.22>
+		<s.22ch>0.36 0.25</s.22ch>
+		<p.22ch>0.68 0.6435185185185185</p.22ch>
 
 		<s.23>0.240625 0.2685185185185185</s.23>
 		<p.23>0.8270833333333333 0.5157407407407407</p.23>
@@ -98,6 +100,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<subset name="carouselAnime" displayName="${lang.carouselAnime}">
 		<include name="yes" displayName="${lang.yes}"/>
+		<include name="no" displayName="${lang.no}"/>
+	</subset>
+
+	<subset name="character" displayName="${lang.character}">
+		<include name="behindLogo" displayName="${lang.behindLogo}"/>
 		<include name="no" displayName="${lang.no}"/>
 	</subset>
 
@@ -607,6 +614,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./_inc/system/32.xml</include>
 	<include>./_inc/system/33.xml</include>
 	<include>./_inc/system/34.xml</include>
+	<include>./_inc/system/character.xml</include>
 	<include>./_inc/help/help.xml</include>
 	<include>./_inc/screen/screen.xml</include>
 	<include>./_inc/menu/menu.xml</include>
