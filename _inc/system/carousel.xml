@@ -88,11 +88,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 			<animation property="rotation" to="360" begin="4300" duration="175" mode="easeInOut"/>
 			<animation property="saturation" from="0.90" to="1.4" duration="300" mode="linear"/>
 		</storyboard>
-		<storyboard event="scroll">
+		<storyboard event="scroll" repeat="forever">
 			<animation property="saturation" from="0.90" to="0.90" duration="1" mode="linear"/>
+			<animation property="h" to="0" begin="2500" duration="30" autoreverse="true" mode="easeIn" repeat="2"/>
 		</storyboard>
-		<storyboard event="deactivate">
+		<storyboard event="deactivate" repeat="forever">
 			<animation property="saturation" from="0.90" to="0.90" duration="1" mode="linear"/>
+			<animation property="h" to="0" begin="2500" duration="30" autoreverse="true" mode="easeIn" repeat="2"/>
 		</storyboard>
 	</image>
 

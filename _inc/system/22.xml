@@ -63,6 +63,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		
 		<saturation ifSubset="t22:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
+
+		<opacity ifSubset="t22:marquee|marqueeBw">0</opacity>
+		<storyboard repeat="forever" ifSubset="t22:marquee|marqueeBw">
+			<animation property="opacity" from="0" to="0" duration="350" mode="linear"/>
+			<animation property="opacity" from="0" to="1" duration="350" mode="linear" begin="350"/>
+			<animation property="opacity" from="1" to="0" duration="350" mode="linear" begin="9300"/>
+			<animation property="scale" from="0.8" to="0.8" duration="10000" mode="linear"/>
+		</storyboard>
 	</image>
 
 	<image name="22b" extra="true" ifSubset="t22:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">

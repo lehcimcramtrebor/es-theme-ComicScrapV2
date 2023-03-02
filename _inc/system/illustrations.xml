@@ -51,7 +51,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>1 1</origin>
 		<pos>${p.chbr}</pos>
 		<maxSize>${s.chbr}</maxSize>
-		<zIndex>1001</zIndex>
+		<zIndex>1020</zIndex>
 		<color>${tint}</color>
 		<storyboard>
 			<animation property="opacity" from="0" to="0" duration="350" mode="linear"/>
@@ -68,7 +68,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0 1</origin>
 		<pos>${p.chbl}</pos>
 		<maxSize>${s.chbl}</maxSize>
-		<zIndex>1001</zIndex>
+		<zIndex>1020</zIndex>
 		<color>${tint}</color>
 		<storyboard>
 			<animation property="opacity" from="0" to="0" duration="350" mode="linear"/>
@@ -81,58 +81,408 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="system" ifSubset="boxes:yes">
 
-	<image name="boxes" extra="true">
+	<image name="boxeLeft4" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>{random:thumbnail}</path>
-		<origin>0 1</origin>
-		<origin>0 1</origin>
-		<pos>0.04 0.94</pos>
-		<maxSize>0.14 0.23</maxSize>
-		<zIndex>1001</zIndex>
+		<origin>0.5 1</origin>
+		<pos>0.084 0.936</pos>
+		<maxSize>0.07 0.23</maxSize>
+		<zIndex>1020</zIndex>
 		<color>${tintLogos}</color>
 		<saturation>1.2</saturation>
 		<roundCorners>0.012</roundCorners>
 		<opacity>0</opacity>
 		<storyboard repeat="forever">
-			<animation property="opacity" from="0" to="0" duration="700" mode="linear"/>
+			<animation property="opacity" from="0" to="0" duration="3100" mode="linear"/>
 
-			<animation property="opacity" from="0" to="1" duration="100" mode="easeOutCubic" begin="700"/>
-			<animation property="offsetX" from="-0.025" to="0" duration="100" mode="bump" begin="700"/>
+			<animation property="opacity" from="0" to="1" duration="500" mode="easeOutCubic" begin="3100"/>
+			<animation property="offsetY" from="0.025" to="0" duration="500" mode="bump" begin="3100"/>
 
-			<animation property="opacity" from="1" to="0" duration="100" mode="easeOutCubic" begin="9300"/>
-			<animation property="offsetX" from="0" to="-0.025" duration="100" mode="bump" begin="9300"/>
+			<animation property="opacity" from="1" to="0" duration="500" mode="easeOutCubic" begin="7900"/>
+			<animation property="offsetY" from="0" to="0.025" duration="500" mode="bump" begin="7900"/>
 
-			<animation property="scale" from="1" to="1" duration="10000" mode="linear"/>
+			<animation property="offsetX" from="0" to="0" duration="10000" mode="linear"/>
 
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3030"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3300"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3570"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3840"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4110"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4380"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4650"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4920"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5190"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5460"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5730"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6000"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6270"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6540"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6810"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7080"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7350"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7620"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7890"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="8160"/>
 		</storyboard>
 	</image>
 
-</view>
-
-<view name="system" ifSubset="character:bottomLeft,boxes:yes">
-
-	<image name="boxes" extra="true">
+	<image name="boxeLeft3" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>{random:thumbnail}</path>
-		<origin>1 1</origin>
-		<pos>0.962 0.94</pos>
-		<maxSize>0.14 0.23</maxSize>
-		<zIndex>1001</zIndex>
+		<origin>0.5 1</origin>
+		<pos>0.188 0.936</pos>
+		<maxSize>0.07 0.23</maxSize>
+		<zIndex>1020</zIndex>
 		<color>${tintLogos}</color>
 		<saturation>1.2</saturation>
 		<roundCorners>0.012</roundCorners>
 		<opacity>0</opacity>
 		<storyboard repeat="forever">
-			<animation property="opacity" from="0" to="0" duration="700" mode="linear"/>
+			<animation property="opacity" from="0" to="0" duration="3000" mode="linear"/>
 
-			<animation property="opacity" from="0" to="1" duration="100" mode="easeOutCubic" begin="700"/>
-			<animation property="offsetX" from="0.025" to="0" duration="100" mode="bump" begin="700"/>
+			<animation property="opacity" from="0" to="1" duration="500" mode="easeOutCubic" begin="3000"/>
+			<animation property="offsetY" from="0.025" to="0" duration="500" mode="bump" begin="3000"/>
 
-			<animation property="opacity" from="1" to="0" duration="100" mode="easeOutCubic" begin="9300"/>
-			<animation property="offsetX" from="0" to="0.025" duration="100" mode="bump" begin="9300"/>
+			<animation property="opacity" from="1" to="0" duration="500" mode="easeOutCubic" begin="7850"/>
+			<animation property="offsetY" from="0" to="0.025" duration="500" mode="bump" begin="7850"/>
 
-			<animation property="scale" from="1" to="1" duration="10000" mode="linear"/>
+			<animation property="offsetX" from="0" to="0" duration="10000" mode="linear"/>
 
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3060"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3330"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3600"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3870"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4140"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4410"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4680"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4950"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5220"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5490"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5760"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6030"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6300"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6570"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6840"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7110"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7380"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7650"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7920"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="8190"/>
+		</storyboard>
+	</image>
+
+	<image name="boxeLeft2" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>{random:thumbnail}</path>
+		<origin>0.5 1</origin>
+		<pos>0.292 0.936</pos>
+		<maxSize>0.07 0.23</maxSize>
+		<zIndex>1020</zIndex>
+		<color>${tintLogos}</color>
+		<saturation>1.2</saturation>
+		<roundCorners>0.012</roundCorners>
+		<opacity>0</opacity>
+		<storyboard repeat="forever">
+			<animation property="opacity" from="0" to="0" duration="2900" mode="linear"/>
+
+			<animation property="opacity" from="0" to="1" duration="500" mode="easeOutCubic" begin="2900"/>
+			<animation property="offsetY" from="0.025" to="0" duration="500" mode="bump" begin="2900"/>
+
+			<animation property="opacity" from="1" to="0" duration="500" mode="easeOutCubic" begin="7800"/>
+			<animation property="offsetY" from="0" to="0.025" duration="500" mode="bump" begin="7800"/>
+
+			<animation property="offsetX" from="0" to="0" duration="10000" mode="linear"/>
+
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3090"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3360"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3630"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3900"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4170"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4440"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4710"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4980"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5250"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5520"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5790"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6060"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6330"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6600"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6870"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7140"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7410"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7680"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7950"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="8220"/>
+		</storyboard>
+	</image>
+
+	<image name="boxeLeft1" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>{random:thumbnail}</path>
+		<origin>0.5 1</origin>
+		<pos>0.396 0.936</pos>
+		<maxSize>0.07 0.23</maxSize>
+		<zIndex>1020</zIndex>
+		<color>${tintLogos}</color>
+		<saturation>1.2</saturation>
+		<roundCorners>0.012</roundCorners>
+		<opacity>0</opacity>
+		<storyboard repeat="forever">
+			<animation property="opacity" from="0" to="0" duration="2800" mode="linear"/>
+
+			<animation property="opacity" from="0" to="1" duration="500" mode="easeOutCubic" begin="2800"/>
+			<animation property="offsetY" from="0.025" to="0" duration="500" mode="bump" begin="2800"/>
+
+			<animation property="opacity" from="1" to="0" duration="500" mode="easeOutCubic" begin="7750"/>
+			<animation property="offsetY" from="0" to="0.025" duration="500" mode="bump" begin="7750"/>
+
+			<animation property="offsetX" from="0" to="0" duration="10000" mode="linear"/>
+
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3120"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3390"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3660"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3930"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4200"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4470"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4740"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5010"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5280"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5550"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5820"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6090"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6360"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6630"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6900"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7170"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7440"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7710"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7980"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="8250"/>
+		</storyboard>
+	</image>
+
+	<image name="boxeCenter" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>{random:thumbnail}</path>
+		<origin>0.5 1</origin>
+		<pos>0.5 0.936</pos>
+		<maxSize>0.07 0.23</maxSize>
+		<zIndex>1020</zIndex>
+		<color>${tintLogos}</color>
+		<saturation>1.2</saturation>
+		<roundCorners>0.012</roundCorners>
+		<opacity>0</opacity>
+		<storyboard repeat="forever">
+			<animation property="opacity" from="0" to="0" duration="2700" mode="linear"/>
+
+			<animation property="opacity" from="0" to="1" duration="500" mode="easeOutCubic" begin="2700"/>
+			<animation property="offsetY" from="0.025" to="0" duration="500" mode="bump" begin="2700"/>
+
+			<animation property="opacity" from="1" to="0" duration="500" mode="easeOutCubic" begin="7700"/>
+			<animation property="offsetY" from="0" to="0.025" duration="500" mode="bump" begin="7700"/>
+
+			<animation property="offsetX" from="0" to="0" duration="10000" mode="linear"/>
+
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3150"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3420"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3690"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3960"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4230"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4500"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4770"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5040"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5310"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5580"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5850"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6120"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6390"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6660"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6930"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7200"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7470"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7740"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="8010"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="8280"/>
+		</storyboard>
+	</image>
+
+	<image name="boxeRight1" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>{random:thumbnail}</path>
+		<origin>0.5 1</origin>
+		<pos>0.604 0.936</pos>
+		<maxSize>0.07 0.23</maxSize>
+		<zIndex>1020</zIndex>
+		<color>${tintLogos}</color>
+		<saturation>1.2</saturation>
+		<roundCorners>0.012</roundCorners>
+		<opacity>0</opacity>
+		<storyboard repeat="forever">
+			<animation property="opacity" from="0" to="0" duration="2800" mode="linear"/>
+
+			<animation property="opacity" from="0" to="1" duration="500" mode="easeOutCubic" begin="2800"/>
+			<animation property="offsetY" from="0.025" to="0" duration="500" mode="bump" begin="2800"/>
+
+			<animation property="opacity" from="1" to="0" duration="500" mode="easeOutCubic" begin="7750"/>
+			<animation property="offsetY" from="0" to="0.025" duration="500" mode="bump" begin="7750"/>
+
+			<animation property="offsetX" from="0" to="0" duration="10000" mode="linear"/>
+
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3180"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3450"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3720"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3990"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4260"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4530"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4800"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5070"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5340"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5610"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5880"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6150"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6420"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6690"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6960"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7230"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7500"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7770"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="8040"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="8310"/>
+		</storyboard>
+	</image>
+
+	<image name="boxeRight2" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>{random:thumbnail}</path>
+		<origin>0.5 1</origin>
+		<pos>0.708 0.936</pos>
+		<maxSize>0.07 0.23</maxSize>
+		<zIndex>1020</zIndex>
+		<color>${tintLogos}</color>
+		<saturation>1.2</saturation>
+		<roundCorners>0.012</roundCorners>
+		<opacity>0</opacity>
+		<storyboard repeat="forever">
+			<animation property="opacity" from="0" to="0" duration="2900" mode="linear"/>
+
+			<animation property="opacity" from="0" to="1" duration="500" mode="easeOutCubic" begin="2900"/>
+			<animation property="offsetY" from="0.025" to="0" duration="500" mode="bump" begin="2900"/>
+
+			<animation property="opacity" from="1" to="0" duration="500" mode="easeOutCubic" begin="7800"/>
+			<animation property="offsetY" from="0" to="0.025" duration="500" mode="bump" begin="7800"/>
+
+			<animation property="offsetX" from="0" to="0" duration="10000" mode="linear"/>
+
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3210"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3480"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3750"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4020"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4290"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4560"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4830"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5100"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5370"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5640"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5910"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6180"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6450"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6720"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6990"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7260"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7530"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7800"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="8070"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="8340"/>
+		</storyboard>
+	</image>
+
+	<image name="boxeRight3" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>{random:thumbnail}</path>
+		<origin>0.5 1</origin>
+		<pos>0.812 0.936</pos>
+		<maxSize>0.07 0.23</maxSize>
+		<zIndex>1020</zIndex>
+		<color>${tintLogos}</color>
+		<saturation>1.2</saturation>
+		<roundCorners>0.012</roundCorners>
+		<opacity>0</opacity>
+		<storyboard repeat="forever">
+			<animation property="opacity" from="0" to="0" duration="3000" mode="linear"/>
+
+			<animation property="opacity" from="0" to="1" duration="500" mode="easeOutCubic" begin="3000"/>
+			<animation property="offsetY" from="0.025" to="0" duration="500" mode="bump" begin="3000"/>
+
+			<animation property="opacity" from="1" to="0" duration="500" mode="easeOutCubic" begin="7850"/>
+			<animation property="offsetY" from="0" to="0.025" duration="500" mode="bump" begin="7850"/>
+
+			<animation property="offsetX" from="0" to="0" duration="10000" mode="linear"/>
+
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3240"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3510"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3780"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4050"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4320"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4590"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4860"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5130"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5400"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5670"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5940"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6210"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6480"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6750"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7020"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7290"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7560"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7830"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="8100"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="8370"/>
+		</storyboard>
+	</image>
+
+	<image name="boxeRight4" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>{random:thumbnail}</path>
+		<origin>0.5 1</origin>
+		<pos>0.916 0.936</pos>
+		<maxSize>0.07 0.23</maxSize>
+		<zIndex>1020</zIndex>
+		<color>${tintLogos}</color>
+		<saturation>1.2</saturation>
+		<roundCorners>0.012</roundCorners>
+		<opacity>0</opacity>
+		<storyboard repeat="forever">
+			<animation property="opacity" from="0" to="0" duration="3100" mode="linear"/>
+
+			<animation property="opacity" from="0" to="1" duration="500" mode="easeOutCubic" begin="3100"/>
+			<animation property="offsetY" from="0.025" to="0" duration="500" mode="bump" begin="3100"/>
+
+			<animation property="opacity" from="1" to="0" duration="500" mode="easeOutCubic" begin="7900"/>
+			<animation property="offsetY" from="0" to="0.025" duration="500" mode="bump" begin="7900"/>
+
+			<animation property="offsetX" from="0" to="0" duration="10000" mode="linear"/>
+
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3270"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3540"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="3810"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4080"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4350"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4620"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="4890"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5160"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5430"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5700"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="5970"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6240"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6510"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="6780"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7050"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7320"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7590"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="7860"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="8130"/>
+			<animation property="colorEnd" to="dddddd" duration="140" mode="easeInOut" autoreverse="true" begin="8400"/>
 		</storyboard>
 	</image>
 

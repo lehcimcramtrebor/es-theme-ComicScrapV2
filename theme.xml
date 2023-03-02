@@ -417,8 +417,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="imageBw" displayName="${lang.imageBw}"/>
 		<include name="fanart" displayName="${lang.fanart}"/>
 		<include name="fanartBw" displayName="${lang.fanartBw}"/>
-		<include name="marquee" displayName="${lang.marquee}"/>
-		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
 		<include name="thumbnail" displayName="${lang.thumbnail}"/>
 		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
 		<include name="boxback" displayName="${lang.boxback}"/>
@@ -456,8 +454,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="imageBw" displayName="${lang.imageBw}"/>
 		<include name="fanart" displayName="${lang.fanart}"/>
 		<include name="fanartBw" displayName="${lang.fanartBw}"/>
-		<include name="marquee" displayName="${lang.marquee}"/>
-		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
 		<include name="thumbnail" displayName="${lang.thumbnail}"/>
 		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
 		<include name="boxback" displayName="${lang.boxback}"/>
@@ -479,8 +475,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="imageBw" displayName="${lang.imageBw}"/>
 		<include name="fanart" displayName="${lang.fanart}"/>
 		<include name="fanartBw" displayName="${lang.fanartBw}"/>
-		<include name="marquee" displayName="${lang.marquee}"/>
-		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
 		<include name="thumbnail" displayName="${lang.thumbnail}"/>
 		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
 		<include name="boxback" displayName="${lang.boxback}"/>
