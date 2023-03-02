@@ -646,7 +646,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./_inc/system/32.xml</include>
 	<include>./_inc/system/33.xml</include>
 	<include>./_inc/system/34.xml</include>
-	<include>./_inc/system/character.xml</include>
+	<include>./_inc/system/illustrations.xml</include>
 	<include>./_inc/help/help.xml</include>
 	<include>./_inc/screen/screen.xml</include>
 	<include>./_inc/menu/menu.xml</include>
