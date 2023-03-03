@@ -67,6 +67,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.snesAltIcons region="eu">super nintendo alternative</lang.snesAltIcons>
 	<lang.snesAltIcons region="jp">nintendo super famicom alternative</lang.snesAltIcons>
 
+	<lang.forceCustomTiles>force custom images</lang.forceCustomTiles>
 	<lang.groupTiles>group tiles</lang.groupTiles>
 	<lang.firstCorner>first corner (x3)</lang.firstCorner>
 	<lang.secondCorner>second corner(x3)</lang.secondCorner>

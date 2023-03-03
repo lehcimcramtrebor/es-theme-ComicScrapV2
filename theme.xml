@@ -139,6 +139,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="yes" displayName="${lang.yes}"/>
 	</subset>
 
+	<subset name="forceCustomTiles" displayName="${lang.forceCustomTiles}" appliesTo="system,basic,detailed,grid,gamecarousel">
+		<include name="yes" displayName="${lang.yes}"/>
+		<include name="no" displayName="${lang.no}"/>
+	</subset>
+
 	<subset name="groupTiles" displayName="${lang.groupTiles}" appliesTo="system,basic,detailed,grid,gamecarousel">
 		<include name="crossedCornersInverse" displayName="${lang.crossedCornersInverse}"/>
 		<include name="crossedCorners" displayName="${lang.crossedCorners}"/>

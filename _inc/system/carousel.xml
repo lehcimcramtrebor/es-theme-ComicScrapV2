@@ -11,7 +11,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="system">
 	<carousel name="systemcarousel">
-		<defaultTransition>fade</defaultTransition>
+		<defaultTransition>instant</defaultTransition>
 		<zIndex>2000</zIndex>
 		<color>00000000</color>
 		<scrollSound>./../scroll.wav</scrollSound>

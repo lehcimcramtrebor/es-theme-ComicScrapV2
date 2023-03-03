@@ -43,6 +43,12 @@ This file will be displayed in one image behind all tiles except center tile.
 
 You can also choose in theme menu to display empty tile in center tile (22) to display custom image in all tiles (center include).
 
+--------------------------------------------------------------------------------------------------------------------------
+Videos.
+--------------------------------------------------------------------------------------------------------------------------
+
+YOU CAN ALSO PLACE VIDEOS WITH SAME NAMING NOMENCLATURE (.mp4) !
+(Just select custom videos in theme menu for system or tile you want)
 
 --------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------
