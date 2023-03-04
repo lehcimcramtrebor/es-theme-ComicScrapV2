@@ -11,3 +11,14 @@ megadrive-ujp.png, snes-jp etc.. (or .svg) for JP versions.
 auto-allgames-fr.png or auto-allgames-es.png or auto-allgames-de.png etc.. (or .svg) for specicic langs.
 
 
+
+CREATE YOURS WITH ILLUSTRATOR:
+
+Illustrator file included, install Shaka Pow font.
+
+Multiple Graphic styles are pre-configured in file.
+
+Juste create or modify texts and apply any graphics style i'have created.
+
+
+
