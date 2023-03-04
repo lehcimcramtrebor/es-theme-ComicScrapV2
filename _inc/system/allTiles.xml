@@ -65,11 +65,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="allTilesSource:purpleComic">./bigPurple.png</path>
 		<path ifSubset="allTilesSource:fireComic">./bigFire.png</path>
 
-		<path ifSubset="forceCustomTiles:yes">./../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.png</path>
-		<path ifSubset="forceCustomTiles:yes">./../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.jpg</path>
-		<path ifSubset="forceCustomTiles:yes">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.png</path>
-		<path ifSubset="forceCustomTiles:yes">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.jpg</path>
-		
 		<saturation ifSubset="allTilesSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 	</image>

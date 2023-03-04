@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+	<variables>
+		<bypass.11></bypass.11>
+		<bypass.12></bypass.12>
+		<bypass.13></bypass.13>
+		<bypass.14></bypass.14>
+		<bypass.21></bypass.21>
+		<bypass.22></bypass.22>
+		<bypass.23></bypass.23>
+		<bypass.31></bypass.31>
+		<bypass.32></bypass.32>
+		<bypass.33></bypass.33>
+		<bypass.34></bypass.34>
+		
+		<bypass.firstCorner>x</bypass.firstCorner>
+		<bypass.secondCorner>x</bypass.secondCorner>
+		<bypass.thirdCorner>x</bypass.thirdCorner>
+		<bypass.lastCorner>x</bypass.lastCorner>
+
+		<bypass.allTiles>x</bypass.allTiles>
+	</variables>
+	
+	<subset name="groupTiles" displayName="${lang.blocked.groupTiles}" appliesTo="${allViews}">
+		<include name="no" displayName="${lang.no}"/>
+	</subset>
+
+	<subset name="t11" displayName="${lang.blocked.t11}" appliesTo="${allViews}">
+		<include name="marquee" displayName="${lang.marquee}"/>
+	</subset>
+
+	<subset name="t12" displayName="${lang.blocked.t12}" appliesTo="${allViews}">
+		<include name="marquee" displayName="${lang.marquee}"/>
+	</subset>
+
+	<subset name="t13" displayName="${lang.blocked.t13}" appliesTo="${allViews}">
+		<include name="marquee" displayName="${lang.marquee}"/>
+	</subset>
+
+	<subset name="t14" displayName="${lang.blocked.t14}" appliesTo="${allViews}">
+		<include name="marquee" displayName="${lang.marquee}"/>
+	</subset>
+
+	<subset name="t21" displayName="${lang.t21}" appliesTo="${allViews}">
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="t22" displayName="${lang.t22}" appliesTo="${allViews}">
+		<include name="themeInclude" displayName="${lang.themeInclude}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="t23" displayName="${lang.t23}" appliesTo="${allViews}">
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="t31" displayName="${lang.blocked.t31}" appliesTo="${allViews}">
+		<include name="marquee" displayName="${lang.marquee}"/>
+	</subset>
+
+	<subset name="t32" displayName="${lang.blocked.t32}" appliesTo="${allViews}">
+		<include name="marquee" displayName="${lang.marquee}"/>
+	</subset>
+
+	<subset name="t33" displayName="${lang.blocked.t33}" appliesTo="${allViews}">
+		<include name="marquee" displayName="${lang.marquee}"/>
+	</subset>
+
+	<subset name="t34" displayName="${lang.blocked.t34}" appliesTo="${allViews}">
+		<include name="marquee" displayName="${lang.marquee}"/>
+	</subset>
+	
+</theme>

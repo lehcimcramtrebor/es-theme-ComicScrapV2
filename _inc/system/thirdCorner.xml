@@ -64,11 +64,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="thirdCornerSource:greenComic">./medGreen.png</path>
 		<path ifSubset="thirdCornerSource:purpleComic">./medPurple.png</path>
 		<path ifSubset="thirdCornerSource:fireComic">./medFire.png</path>
-
-		<path ifSubset="forceCustomTiles:yes">./../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.png</path>
-		<path ifSubset="forceCustomTiles:yes">./../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.jpg</path>
-		<path ifSubset="forceCustomTiles:yes">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.png</path>
-		<path ifSubset="forceCustomTiles:yes">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.jpg</path>
 		
 		<saturation ifSubset="thirdCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>

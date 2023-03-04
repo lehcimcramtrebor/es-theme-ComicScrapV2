@@ -60,11 +60,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="t22:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/22.jpg</path>
 		<path ifSubset="t22:custom|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/22.png</path>
 		<path ifSubset="t22:custom|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/22.jpg</path>
-
-		<path ifSubset="forceCustomTiles:yes">./../../_comicScrapV2Custom/tiles/${system.theme}/22.png</path>
-		<path ifSubset="forceCustomTiles:yes">./../../_comicScrapV2Custom/tiles/${system.theme}/22.jpg</path>
-		<path ifSubset="forceCustomTiles:yes">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/22.png</path>
-		<path ifSubset="forceCustomTiles:yes">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/22.jpg</path>
 		
 		<saturation ifSubset="t22:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>

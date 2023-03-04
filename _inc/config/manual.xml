@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+	<variables>
+		<bypass.11></bypass.11>
+		<bypass.12></bypass.12>
+		<bypass.13></bypass.13>
+		<bypass.14></bypass.14>
+		<bypass.21></bypass.21>
+		<bypass.22></bypass.22>
+		<bypass.23></bypass.23>
+		<bypass.31></bypass.31>
+		<bypass.32></bypass.32>
+		<bypass.33></bypass.33>
+		<bypass.34></bypass.34>
+		
+		<bypass.firstCorner></bypass.firstCorner>
+		<bypass.secondCorner></bypass.secondCorner>
+		<bypass.thirdCorner></bypass.thirdCorner>
+		<bypass.lastCorner></bypass.lastCorner>
+
+		<bypass.allTiles></bypass.allTiles>
+	</variables>
+	
+	<subset name="groupTiles" displayName="${lang.groupTiles}" appliesTo="${allViews}">
+		<include name="crossedCornersInverse" displayName="${lang.crossedCornersInverse}"/>
+		<include name="crossedCorners" displayName="${lang.crossedCorners}"/>
+		<include name="firstCorner" displayName="${lang.firstCorner}"/>
+		<include name="secondCorner" displayName="${lang.secondCorner}"/>
+		<include name="thirdCorner" displayName="${lang.thirdCorner}"/>
+		<include name="lastCorner" displayName="${lang.lastCorner}"/>
+		<include name="upperCorners" displayName="${lang.upperCorners}"/>
+		<include name="bottomCorners" displayName="${lang.bottomCorners}"/>
+		<include name="allTiles" displayName="${lang.allTiles}"/>
+		<include name="no" displayName="${lang.no}"/>
+	</subset>
+
+	<subset name="allTilesSource" displayName="${lang.allTilesSource}" ifSubset="groupTiles:allTiles" appliesTo="${allViews}">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="firstCornerSource" displayName="${lang.firstCornerSource}" ifSubset="groupTiles:firstCorner|upperCorners|crossedCorners" appliesTo="${allViews}">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="secondCornerSource" displayName="${lang.secondCornerSource}" ifSubset="groupTiles:secondCorner|upperCorners|crossedCornersInverse" appliesTo="${allViews}">
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="thirdCornerSource" displayName="${lang.thirdCornerSource}" ifSubset="groupTiles:thirdCorner|bottomCorners|crossedCornersInverse" appliesTo="${allViews}">
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="lastCornerSource" displayName="${lang.lastCornerSource}" ifSubset="groupTiles:lastCorner|bottomCorners|crossedCorners" appliesTo="${allViews}">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="t11" displayName="${lang.t11}" ifSubset="groupTiles:no|secondCorner|thirdCorner|lastCorner|bottomCorners|crossedCornersInverse" appliesTo="${allViews}">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="t12" displayName="${lang.t12}" ifSubset="groupTiles:no|secondCorner|thirdCorner|lastCorner|bottomCorners|crossedCornersInverse" appliesTo="${allViews}">
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="t13" displayName="${lang.t13}" ifSubset="groupTiles:no|firstCorner|thirdCorner|lastCorner|bottomCorners|crossedCorners" appliesTo="${allViews}">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="t14" displayName="${lang.t14}" ifSubset="groupTiles:no|firstCorner|thirdCorner|lastCorner|bottomCorners|crossedCorners" appliesTo="${allViews}">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="t21" displayName="${lang.t21}" ifSubset="groupTiles:no|secondCorner|lastCorner" appliesTo="${allViews}">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="t22" displayName="${lang.t22}" appliesTo="${allViews}">
+		<include name="themeInclude" displayName="${lang.themeInclude}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+		<include name="emptyTile" ifSubset="groupTiles:allTiles" displayName="${lang.emptyTile}"/>
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+	</subset>
+
+	<subset name="t23" displayName="${lang.t23}" ifSubset="groupTiles:no|firstCorner|thirdCorner" appliesTo="${allViews}">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="t31" displayName="${lang.t31}" ifSubset="groupTiles:no|firstCorner|secondCorner|lastCorner|upperCorners|crossedCorners" appliesTo="${allViews}">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="t32" displayName="${lang.t32}" ifSubset="groupTiles:no|firstCorner|secondCorner|lastCorner|upperCorners|crossedCorners" appliesTo="${allViews}">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="t33" displayName="${lang.t33}" ifSubset="groupTiles:no|firstCorner|secondCorner|thirdCorner|upperCorners|crossedCornersInverse" appliesTo="${allViews}">
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+
+	<subset name="t34" displayName="${lang.t34}" ifSubset="groupTiles:no|firstCorner|secondCorner|thirdCorner|upperCorners|crossedCornersInverse" appliesTo="${allViews}">
+		<include name="image" displayName="${lang.image}"/>
+		<include name="imageBw" displayName="${lang.imageBw}"/>
+		<include name="fanart" displayName="${lang.fanart}"/>
+		<include name="fanartBw" displayName="${lang.fanartBw}"/>
+		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
+		<include name="thumbnail" displayName="${lang.thumbnail}"/>
+		<include name="thumbnailBw" displayName="${lang.thumbnailBw}"/>
+		<include name="boxback" displayName="${lang.boxback}"/>
+		<include name="boxbackBw" displayName="${lang.boxbackBw}"/>
+		<include name="custom" displayName="${lang.custom}"/>
+		<include name="customBw" displayName="${lang.customBw}"/>
+		<include name="video" displayName="${lang.video}"/>
+		<include name="videoBw" displayName="${lang.videoBw}"/>
+		<include name="videoAudio" displayName="${lang.videoAudio}"/>
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}"/>
+		<include name="videoCustom" displayName="${lang.videoCustom}"/>
+		<include name="videoCustomBw" displayName="${lang.videoCustomBw}"/>
+		<include name="videoCustomAudio" displayName="${lang.videoCustomAudio}"/>
+		<include name="videoCustomAudioBw" displayName="${lang.videoCustomAudioBw}"/>
+		<include name="pinkComic" displayName="${lang.pinkComic}"/>
+		<include name="blueComic" displayName="${lang.blueComic}"/>
+		<include name="redComic" displayName="${lang.redComic}"/>
+		<include name="yellowComic" displayName="${lang.yellowComic}"/>
+		<include name="purpleComic" displayName="${lang.purpleComic}"/>
+		<include name="greenComic" displayName="${lang.greenComic}"/>
+		<include name="fireComic" displayName="${lang.fireComic}"/>
+	</subset>
+	
+</theme>
