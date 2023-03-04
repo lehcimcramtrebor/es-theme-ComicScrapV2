@@ -28,6 +28,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<scale ifSubset="t22:marquee|marqueeBw">0.8</scale>
 
 		<zIndex>${sti}</zIndex>
+		<zIndex ifSubset="t22:marquee|marqueeBw">${stm}</zIndex>
 
 		<default ifSubset="t22:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/22.png</default>
 		<default ifSubset="t22:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/22.jpg</default>
@@ -51,9 +52,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path ifSubset="t22:boxback|boxbackBw">{random:fanart}</path>
 		<path ifSubset="t22:boxback|boxbackBw">{random:boxback}</path>
-
-		<default ifSubset="t22:marquee|marqueeBw">./defaultMarquee.png</default>
-		<path ifSubset="t22:marquee|marqueeBw">{random:marquee}</path>
 
 		<path ifSubset="t22:custom|customBw">{random:fanart}</path>
 		<path ifSubset="t22:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/22.png</path>

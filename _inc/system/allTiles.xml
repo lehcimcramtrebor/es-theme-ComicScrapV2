@@ -24,6 +24,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<scale ifSubset="allTilesSource:marquee|marqueeBw">0.8</scale>
 
 		<zIndex>${mti}</zIndex>
+		<zIndex ifSubset="allTilesSource:marquee|marqueeBw">${stm}</zIndex>
 
 		<default ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/allTiles.png</default>
 		<default ifSubset="allTilesSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/allTiles.jpg</default>
@@ -78,6 +79,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<minSize>${s.allTiles}</minSize>
 		<saturation ifSubset="allTilesSource:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
+	</image>
+
+	<image name="allTilesc" extra="true" ifSubset="forceCustoms:yes">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<zIndex>${mti}</zIndex>
+		<pos>${p.allTiles}</pos>
+		<minSize>${s.allTiles}</minSize>
+		<saturation ifSubset="allTilesSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<color>${tintTiles}</color>
+		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.png</path>
+		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.jpg</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.png</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.jpg</path>
 	</image>
 
 	<video name="vallTiles" extra="true" ifSubset="allTilesSource:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">

@@ -73,7 +73,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="t22:themeInclude">./${path.windows}/../../../../_comicScrapV2Custom/tiles/_customCenter.png</path>
 		<path ifSubset="t22:themeInclude">./${path.windows}/../../../../_comicScrapV2Custom/tiles/_customCenter.jpg</path>
 
-		<zIndex>800</zIndex>
+		<zIndex>901</zIndex>
 		<visible ifSubset="groupTiles:allTiles,t22:emptyTile">false</visible>
 	</image>
 </view>

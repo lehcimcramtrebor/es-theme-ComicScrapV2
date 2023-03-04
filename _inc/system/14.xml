@@ -24,6 +24,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<scale ifSubset="t14:marquee|marqueeBw">0.8</scale>
 
 		<zIndex>${sti}</zIndex>
+		<zIndex ifSubset="t14:marquee|marqueeBw">${stm}</zIndex>
 
 		<default ifSubset="t14:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/14.png</default>
 		<default ifSubset="t14:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/14.jpg</default>
@@ -48,8 +49,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="t14:boxback|boxbackBw">{random:fanart}</path>
 		<path ifSubset="t14:boxback|boxbackBw">{random:boxback}</path>
 
-		<default ifSubset="t14:marquee|marqueeBw">./defaultMarquee.png</default>
+		<default ifSubset="t14:marquee|marqueeBw">./../../_comicScrapV2Custom/marquees/default/14.png</default>
+		<default ifSubset="t14:marquee|marqueeBw">./${path.windows}/../../../../_comicScrapV2Custom/marquees/default/14.png</default>
+		<default ifSubset="t14:marquee|marqueeBw">./../../_comicScrapV2Custom/marquees/${system.theme}/14.png</default>
+		<default ifSubset="t14:marquee|marqueeBw">./${path.windows}/../../../../_comicScrapV2Custom/marquees/${system.theme}/14.png</default>
 		<path ifSubset="t14:marquee|marqueeBw">{random:marquee}</path>
+		<path ifSubset="forceCustomMarquees:yes,t14:marquee|marqueeBw">./../../_comicScrapV2Custom/marquees/${system.theme}/14.png</path>
+		<path ifSubset="forceCustomMarquees:yes,t14:marquee|marqueeBw">./${path.windows}/../../../../_comicScrapV2Custom/marquees/${system.theme}/14.png</path>
 
 		<path ifSubset="t14:custom|customBw">{random:fanart}</path>
 		<path ifSubset="t14:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/14.png</path>
@@ -86,6 +92,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<minSize>${s.14}</minSize>
 		<saturation ifSubset="t14:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
+	</image>
+
+	<image name="14c" extra="true" ifSubset="forceCustoms:yes">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<zIndex>${sti}</zIndex>
+		<pos>${p.14}</pos>
+		<minSize>${s.14}</minSize>
+		<saturation ifSubset="t14:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<color>${tintTiles}</color>
+		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/14.png</path>
+		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/14.jpg</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/14.png</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/14.jpg</path>
 	</image>
 
 	<video name="v14" extra="true" ifSubset="t14:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">

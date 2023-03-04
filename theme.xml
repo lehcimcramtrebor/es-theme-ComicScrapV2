@@ -75,6 +75,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<p.chbl>0.01875 0.955</p.chbl>
 
 		<sti>900</sti>
+		<stm>910</stm>
 		<stbi>800</stbi>
 		<mti>700</mti>
 		<mtbi>600</mtbi>
@@ -139,6 +140,16 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<subset name="boxes" displayName="${lang.boxes}" appliesTo="${allViews}">
 		<include name="no" displayName="${lang.no}"/>
 		<include name="yes" displayName="${lang.yes}"/>
+	</subset>
+
+	<subset name="forceCustoms" displayName="${lang.forceCustoms}" appliesTo="${allViews}">
+		<include name="yes" displayName="${lang.yes}"/>
+		<include name="no" displayName="${lang.no}"/>
+	</subset>
+
+	<subset name="forceCustomMarquees" displayName="${lang.forceCustomMarquees}" appliesTo="${allViews}">
+		<include name="yes" displayName="${lang.yes}"/>
+		<include name="no" displayName="${lang.no}"/>
 	</subset>
 
 	<!--CONFIGS---------------------------------------------------------------------------------------------------------------------->

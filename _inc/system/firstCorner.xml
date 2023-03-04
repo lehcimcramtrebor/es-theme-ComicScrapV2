@@ -80,6 +80,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<color>${tintTiles}</color>
 	</image>
 
+	<image name="firstCornerc" extra="true" ifSubset="forceCustoms:yes">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<zIndex>${mti}</zIndex>
+		<pos>${p.firstCorner}</pos>
+		<minSize>${s.firstCorner}</minSize>
+		<saturation ifSubset="firstCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<color>${tintTiles}</color>
+		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/firstCorner.png</path>
+		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/firstCorner.jpg</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/firstCorner.png</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/firstCorner.jpg</path>
+	</image>
+
 	<video name="vfirstCorner" extra="true" ifSubset="firstCornerSource:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
 		<delay>0.1</delay>
 		<effect>none</effect>

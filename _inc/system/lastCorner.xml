@@ -80,6 +80,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<color>${tintTiles}</color>
 	</image>
 
+	<image name="lastCornerc" extra="true" ifSubset="forceCustoms:yes">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<zIndex>${mti}</zIndex>
+		<pos>${p.lastCorner}</pos>
+		<minSize>${s.lastCorner}</minSize>
+		<saturation ifSubset="lastCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<color>${tintTiles}</color>
+		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.png</path>
+		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.jpg</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.png</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.jpg</path>
+	</image>
+
 	<video name="vlastCorner" extra="true" ifSubset="lastCornerSource:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
 		<delay>0.1</delay>
 		<effect>none</effect>

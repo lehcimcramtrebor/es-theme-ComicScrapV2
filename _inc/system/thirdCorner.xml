@@ -80,6 +80,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<color>${tintTiles}</color>
 	</image>
 
+	<image name="thirdCornerc" extra="true" ifSubset="forceCustoms:yes">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<zIndex>${mti}</zIndex>
+		<pos>${p.thirdCorner}</pos>
+		<minSize>${s.thirdCorner}</minSize>
+		<saturation ifSubset="thirdCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<color>${tintTiles}</color>
+		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.png</path>
+		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.jpg</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.png</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.jpg</path>
+	</image>
+
 	<video name="vthirdCorner" extra="true" ifSubset="thirdCornerSource:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
 		<delay>0.1</delay>
 		<effect>none</effect>

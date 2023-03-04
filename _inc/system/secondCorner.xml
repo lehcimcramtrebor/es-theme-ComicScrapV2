@@ -80,6 +80,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<color>${tintTiles}</color>
 	</image>
 
+	<image name="secondCornerb" extra="true" ifSubset="forceCustoms:yes">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<zIndex>${mti}</zIndex>
+		<pos>${p.secondCorner}</pos>
+		<minSize>${s.secondCorner}</minSize>
+		<saturation ifSubset="secondCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<color>${tintTiles}</color>
+		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.png</path>
+		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.jpg</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.png</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.jpg</path>
+	</image>
+
 	<video name="vsecondCorner" extra="true" ifSubset="secondCornerSource:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
 		<delay>0.1</delay>
 		<effect>none</effect>
