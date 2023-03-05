@@ -1,0 +1,1 @@
+You can duplicate default file and rename by system name to personnalize animated message at end of loop animation under carousel. 
