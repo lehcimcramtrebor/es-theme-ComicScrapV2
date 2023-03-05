@@ -11,17 +11,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="system" ifSubset="groupTiles:thirdCorner|bottomCorners|crossedCornersInverse">
 
-	<image name="thirdCorner" extra="true" ifSubset="thirdCornerSource:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">
+	<image name="thirdCorner" extra="true" ifSubset="thirdCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">
 		<linearSmooth>true</linearSmooth>
 
 		<origin>0.5 0.5</origin>
 
 		<minSize ifSubset="thirdCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">${s.thirdCorner}</minSize>
-		<maxSize ifSubset="thirdCornerSource:marquee|marqueeBw">${s.thirdCorner}</maxSize>
 
 		<pos>${p.thirdCorner}</pos>
-
-		<scale ifSubset="thirdCornerSource:marquee|marqueeBw">0.8</scale>
 
 		<zIndex>${mti}</zIndex>
 
@@ -48,9 +45,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="thirdCornerSource:boxback|boxbackBw">{random:fanart}</path>
 		<path ifSubset="thirdCornerSource:boxback|boxbackBw">{random:boxback}</path>
 
-		<default ifSubset="thirdCornerSource:marquee|marqueeBw">./defaultMarquee.png</default>
-		<path ifSubset="thirdCornerSource:marquee|marqueeBw">{random:marquee}</path>
-
 		<path ifSubset="thirdCornerSource:custom|customBw">{random:fanart}</path>
 		<path ifSubset="thirdCornerSource:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.png</path>
 		<path ifSubset="thirdCornerSource:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.jpg</path>
@@ -65,18 +59,18 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="thirdCornerSource:purpleComic">./medPurple.png</path>
 		<path ifSubset="thirdCornerSource:fireComic">./medFire.png</path>
 		
-		<saturation ifSubset="thirdCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="thirdCornerSource:imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 	</image>
 
-	<image name="thirdCornerb" extra="true" ifSubset="thirdCornerSource:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+	<image name="thirdCornerb" extra="true" ifSubset="thirdCornerSource:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
 		<linearSmooth>true</linearSmooth>
 		<origin>0.5 0.5</origin>
 		<zIndex>${mtbi}</zIndex>
 		<path>./thirdCorner.png</path>
 		<pos>${p.thirdCorner}</pos>
 		<minSize>${s.thirdCorner}</minSize>
-		<saturation ifSubset="thirdCornerSource:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="thirdCornerSource:videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 	</image>
 
@@ -86,7 +80,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<zIndex>${mti}</zIndex>
 		<pos>${p.thirdCorner}</pos>
 		<minSize>${s.thirdCorner}</minSize>
-		<saturation ifSubset="thirdCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="thirdCornerSource:imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.png</path>
 		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.jpg</path>

@@ -11,17 +11,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="system" ifSubset="groupTiles:secondCorner|upperCorners|crossedCornersInverse">
 
-	<image name="secondCorner" extra="true" ifSubset="secondCornerSource:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">
+	<image name="secondCorner" extra="true" ifSubset="secondCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">
 		<linearSmooth>true</linearSmooth>
 
 		<origin>0.5 0.5</origin>
 
 		<minSize ifSubset="secondCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">${s.secondCorner}</minSize>
-		<maxSize ifSubset="secondCornerSource:marquee|marqueeBw">${s.secondCorner}</maxSize>
 
 		<pos>${p.secondCorner}</pos>
-
-		<scale ifSubset="secondCornerSource:marquee|marqueeBw">0.8</scale>
 
 		<zIndex>${mti}</zIndex>
 
@@ -48,9 +45,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="secondCornerSource:boxback|boxbackBw">{random:fanart}</path>
 		<path ifSubset="secondCornerSource:boxback|boxbackBw">{random:boxback}</path>
 
-		<default ifSubset="secondCornerSource:marquee|marqueeBw">./defaultMarquee.png</default>
-		<path ifSubset="secondCornerSource:marquee|marqueeBw">{random:marquee}</path>
-
 		<path ifSubset="secondCornerSource:custom|customBw">{random:fanart}</path>
 		<path ifSubset="secondCornerSource:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.png</path>
 		<path ifSubset="secondCornerSource:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.jpg</path>
@@ -65,18 +59,18 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="secondCornerSource:purpleComic">./medPurple.png</path>
 		<path ifSubset="secondCornerSource:fireComic">./medFire.png</path>
 	
-		<saturation ifSubset="secondCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="secondCornerSource:imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 	</image>
 
-	<image name="secondCornerb" extra="true" ifSubset="secondCornerSource:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+	<image name="secondCornerb" extra="true" ifSubset="secondCornerSource:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
 		<linearSmooth>true</linearSmooth>
 		<origin>0.5 0.5</origin>
 		<zIndex>${mtbi}</zIndex>
 		<path>./secondCorner.png</path>
 		<pos>${p.secondCorner}</pos>
 		<minSize>${s.secondCorner}</minSize>
-		<saturation ifSubset="secondCornerSource:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="secondCornerSource:videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 	</image>
 
@@ -86,7 +80,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<zIndex>${mti}</zIndex>
 		<pos>${p.secondCorner}</pos>
 		<minSize>${s.secondCorner}</minSize>
-		<saturation ifSubset="secondCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="secondCornerSource:imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.png</path>
 		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.jpg</path>

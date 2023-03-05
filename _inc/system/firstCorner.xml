@@ -11,17 +11,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="system" ifSubset="groupTiles:firstCorner|upperCorners|crossedCorners">
 
-	<image name="firstCorner" extra="true" ifSubset="firstCornerSource:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">
+	<image name="firstCorner" extra="true" ifSubset="firstCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">
 		<linearSmooth>true</linearSmooth>
 
 		<origin>0.5 0.5</origin>
 
 		<minSize ifSubset="firstCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">${s.firstCorner}</minSize>
-		<maxSize ifSubset="firstCornerSource:marquee|marqueeBw">${s.firstCorner}</maxSize>
 
 		<pos>${p.firstCorner}</pos>
-
-		<scale ifSubset="firstCornerSource:marquee|marqueeBw">0.8</scale>
 
 		<zIndex>${mti}</zIndex>
 
@@ -48,9 +45,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="firstCornerSource:boxback|boxbackBw">{random:fanart}</path>
 		<path ifSubset="firstCornerSource:boxback|boxbackBw">{random:boxback}</path>
 
-		<default ifSubset="firstCornerSource:marquee|marqueeBw">./defaultMarquee.png</default>
-		<path ifSubset="firstCornerSource:marquee|marqueeBw">{random:marquee}</path>
-
 		<path ifSubset="firstCornerSource:custom|customBw">{random:fanart}</path>
 		<path ifSubset="firstCornerSource:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/firstCorner.png</path>
 		<path ifSubset="firstCornerSource:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/firstCorner.jpg</path>
@@ -65,18 +59,18 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="firstCornerSource:purpleComic">./medPurple.png</path>
 		<path ifSubset="firstCornerSource:fireComic">./medFire.png</path>
 		
-		<saturation ifSubset="firstCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="firstCornerSource:imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 	</image>
 
-	<image name="firstCornerb" extra="true" ifSubset="firstCornerSource:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+	<image name="firstCornerb" extra="true" ifSubset="firstCornerSource:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
 		<linearSmooth>true</linearSmooth>
 		<origin>0.5 0.5</origin>
 		<zIndex>${mtbi}</zIndex>
 		<path>./firstCorner.png</path>
 		<pos>${p.firstCorner}</pos>
 		<minSize>${s.firstCorner}</minSize>
-		<saturation ifSubset="firstCornerSource:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="firstCornerSource:videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 	</image>
 
@@ -86,7 +80,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<zIndex>${mti}</zIndex>
 		<pos>${p.firstCorner}</pos>
 		<minSize>${s.firstCorner}</minSize>
-		<saturation ifSubset="firstCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="firstCornerSource:imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/firstCorner.png</path>
 		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/firstCorner.jpg</path>

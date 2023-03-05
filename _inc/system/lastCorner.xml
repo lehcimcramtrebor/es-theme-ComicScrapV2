@@ -11,17 +11,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="system" ifSubset="groupTiles:lastCorner|bottomCorners|crossedCorners">
 
-	<image name="lastCorner" extra="true" ifSubset="lastCornerSource:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">
+	<image name="lastCorner" extra="true" ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">
 		<linearSmooth>true</linearSmooth>
 
 		<origin>0.5 0.5</origin>
 
 		<minSize ifSubset="lastCornerSource:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">${s.lastCorner}</minSize>
-		<maxSize ifSubset="lastCornerSource:marquee|marqueeBw">${s.lastCorner}</maxSize>
 
 		<pos>${p.lastCorner}</pos>
-
-		<scale ifSubset="lastCornerSource:marquee|marqueeBw">0.8</scale>
 
 		<zIndex>${mti}</zIndex>
 
@@ -48,9 +45,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="lastCornerSource:boxback|boxbackBw">{random:fanart}</path>
 		<path ifSubset="lastCornerSource:boxback|boxbackBw">{random:boxback}</path>
 
-		<default ifSubset="lastCornerSource:marquee|marqueeBw">./defaultMarquee.png</default>
-		<path ifSubset="lastCornerSource:marquee|marqueeBw">{random:marquee}</path>
-
 		<path ifSubset="lastCornerSource:custom|customBw">{random:fanart}</path>
 		<path ifSubset="lastCornerSource:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.png</path>
 		<path ifSubset="lastCornerSource:custom|customBw">./../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.jpg</path>
@@ -65,18 +59,18 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="lastCornerSource:purpleComic">./medPurple.png</path>
 		<path ifSubset="lastCornerSource:fireComic">./medFire.png</path>
 		
-		<saturation ifSubset="lastCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="lastCornerSource:imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 	</image>
 
-	<image name="lastCornerb" extra="true" ifSubset="lastCornerSource:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+	<image name="lastCornerb" extra="true" ifSubset="lastCornerSource:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
 		<linearSmooth>true</linearSmooth>
 		<origin>0.5 0.5</origin>
 		<zIndex>${mtbi}</zIndex>
 		<path>./lastCorner.png</path>
 		<pos>${p.lastCorner}</pos>
 		<minSize>${s.lastCorner}</minSize>
-		<saturation ifSubset="lastCornerSource:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="lastCornerSource:videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 	</image>
 
@@ -86,7 +80,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<zIndex>${mti}</zIndex>
 		<pos>${p.lastCorner}</pos>
 		<minSize>${s.lastCorner}</minSize>
-		<saturation ifSubset="lastCornerSource:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="lastCornerSource:imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.png</path>
 		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.jpg</path>
