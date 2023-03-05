@@ -54,7 +54,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<lang.boxes>display random covers</lang.boxes>
 
-	<lang.forceCustoms>force custom pictures (if availables)</lang.forceCustoms>
+	<lang.forceCustoms>force peripherals custom pictures (if availables)</lang.forceCustoms>
 	<lang.forceCustomMarquees>allow custom marquees (if availables)</lang.forceCustomMarquees>
 
 	<lang.forceStyleConfig>pre-configured style</lang.forceStyleConfig>
