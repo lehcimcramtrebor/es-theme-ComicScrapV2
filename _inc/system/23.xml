@@ -11,20 +11,16 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="system" ifSubset="groupTiles:no|firstCorner|thirdCorner">
 
-	<image name="23" extra="true" ifSubset="t23:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">
+	<image name="23" extra="true" ifSubset="t23:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">
 		<linearSmooth>true</linearSmooth>
 
 		<origin>0.5 0.5</origin>
 
 		<minSize ifSubset="t23:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw|pinkComic|blueComic|redComic|yellowComic|greenComic|purpleComic|fireComic">${s.23}</minSize>
-		<maxSize ifSubset="t23:marquee|marqueeBw">${s.23}</maxSize>
 
 		<pos>${p.23}</pos>
 
-		<scale ifSubset="t23:marquee|marqueeBw">0.8</scale>
-
 		<zIndex>${sti}</zIndex>
-		<zIndex ifSubset="t23:marquee|marqueeBw">${stm}</zIndex>
 
 		<default ifSubset="t23:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/23.png</default>
 		<default ifSubset="t23:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/23.jpg</default>
@@ -63,26 +59,19 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="t23:purpleComic">./21.png</path>
 		<path ifSubset="t23:fireComic">./23.png</path>
 		
-		<saturation ifSubset="t23:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="t23:imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 
-		<opacity ifSubset="t23:marquee|marqueeBw">0</opacity>
-		<storyboard repeat="forever" ifSubset="t23:marquee|marqueeBw">
-			<animation property="opacity" from="0" to="0" duration="350" mode="linear"/>
-			<animation property="opacity" from="0" to="1" duration="350" mode="linear" begin="350"/>
-			<animation property="opacity" from="1" to="0" duration="350" mode="linear" begin="9300"/>
-			<animation property="scale" from="0.8" to="0.8" duration="10000" mode="linear"/>
-		</storyboard>
 	</image>
 
-	<image name="23b" extra="true" ifSubset="t23:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+	<image name="23b" extra="true" ifSubset="t23:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
 		<linearSmooth>true</linearSmooth>
 		<origin>0.5 0.5</origin>
 		<zIndex>${stbi}</zIndex>
 		<path>./23.png</path>
 		<pos>${p.23}</pos>
 		<minSize>${s.23}</minSize>
-		<saturation ifSubset="t23:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="t23:videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 	</image>
 
@@ -92,7 +81,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<zIndex>${sti}</zIndex>
 		<pos>${p.23}</pos>
 		<minSize>${s.23}</minSize>
-		<saturation ifSubset="t23:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="t23:imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/23.png</path>
 		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/23.jpg</path>

@@ -11,7 +11,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="system">
 
-	<image name="22" extra="true" ifSubset="t22:image|thumbnail|fanart|marquee|boxback|custom|imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+	<image name="22" extra="true" ifSubset="t22:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
 
 		<visible ifSubset="t22:themeInclude">false</visible>
 		<visible ifSubset="groupTiles:allTiles,t22:emptyTile">false</visible>
@@ -21,14 +21,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 0.5</origin>
 
 		<minSize ifSubset="t22:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">${s.22}</minSize>
-		<maxSize ifSubset="t22:marquee|marqueeBw">${s.22}</maxSize>
 
 		<pos>${p.22}</pos>
 
-		<scale ifSubset="t22:marquee|marqueeBw">0.8</scale>
-
 		<zIndex>${sti}</zIndex>
-		<zIndex ifSubset="t22:marquee|marqueeBw">${stm}</zIndex>
 
 		<default ifSubset="t22:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/22.png</default>
 		<default ifSubset="t22:image|thumbnail|fanart|boxback|custom|imageBw|thumbnailBw|fanartBw|boxbackBw|customBw">./../../_comicScrapV2Custom/tiles/default/22.jpg</default>
@@ -59,19 +55,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="t22:custom|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/22.png</path>
 		<path ifSubset="t22:custom|customBw">./${path.windows}/../../../../_comicScrapV2Custom/tiles/${system.theme}/22.jpg</path>
 		
-		<saturation ifSubset="t22:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="t22:imageBw|thumbnailBw|fanartBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 
-		<opacity ifSubset="t22:marquee|marqueeBw">0</opacity>
-		<storyboard repeat="forever" ifSubset="t22:marquee|marqueeBw">
-			<animation property="opacity" from="0" to="0" duration="350" mode="linear"/>
-			<animation property="opacity" from="0" to="1" duration="350" mode="linear" begin="350"/>
-			<animation property="opacity" from="1" to="0" duration="350" mode="linear" begin="9300"/>
-			<animation property="scale" from="0.8" to="0.8" duration="10000" mode="linear"/>
-		</storyboard>
 	</image>
 
-	<image name="22b" extra="true" ifSubset="t22:marquee|marqueeBw|video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
+	<image name="22b" extra="true" ifSubset="t22:video|videoBw|videoAudio|videoAudioBw|videoCustom|videoCustomBw|videoCustomAudio|videoCustomAudioBw">
 
 		<visible ifSubset="t22:themeInclude">false</visible>
 		<visible ifSubset="groupTiles:allTiles,t22:emptyTile">false</visible>
@@ -82,7 +71,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path>./22.png</path>
 		<pos>${p.22}</pos>
 		<minSize>${s.22}</minSize>
-		<saturation ifSubset="t22:marqueeBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
+		<saturation ifSubset="t22:videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 	</image>
 
