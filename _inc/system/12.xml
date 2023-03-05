@@ -100,6 +100,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<zIndex>${sti}</zIndex>
 		<pos>${p.12}</pos>
 		<minSize>${s.12}</minSize>
+		<saturation>1.4</saturation>
 		<saturation ifSubset="t12:imageBw|thumbnailBw|fanartBw|marqueeBw|boxbackBw|customBw|videoBw|videoAudioBw|videoCustomBw|videoCustomAudioBw">0</saturation>
 		<color>${tintTiles}</color>
 		<path>./../../_comicScrapV2Custom/tiles/${system.theme}/12.png</path>
