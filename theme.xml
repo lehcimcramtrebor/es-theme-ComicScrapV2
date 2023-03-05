@@ -86,6 +86,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./${path.windows}/../../_comicScrapV2Custom/langs/default.xml</include>
 	<include>./${path.windows}/../../_comicScrapV2Custom/langs/${lang}.xml</include>
 
+	<include>./_support/support.xml</include>
+
 	<subset name="music" displayName="${lang.music}">
 		<include name="comixZone" displayName="${lang.comixZone}"/>
 		<include name="tmntAlbum" displayName="${lang.tmntAlbum}"/>
@@ -123,6 +125,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<subset name="carouselAnime" displayName="${lang.carouselAnime}">
 		<include name="yes" displayName="${lang.yes}"/>
 		<include name="no" displayName="${lang.no}"/>
+	</subset>
+
+	<subset name="crazyComix" displayName="${lang.crazyComix}">
+		<include name="no" displayName="${lang.no}"/>
+		<include name="turner" displayName="${lang.turner}"/>
+		<include name="kowa" displayName="${lang.kowa}"/>
 	</subset>
 
 	<subset name="character" displayName="${lang.character}" appliesTo="system,basic,detailed,grid,gamecarousel">
@@ -163,7 +171,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<include>./_comicScrapV2Custom/customText.xml</include>
 	<include>./${path.windows}/../../_comicScrapV2Custom/customText.xml</include>
-	<include>./_support/support.xml</include>
 	<include>./_inc/music/music.xml</include>
 	<include>./_inc/overlays/overlays.xml</include>
 	<include>./_inc/system/carousel.xml</include>
@@ -186,8 +193,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./_inc/system/${bypass.34}34.xml</include>
 
 	<include>./_inc/system/illustrations.xml</include>
+	
 	<include>./_inc/help/help.xml</include>
 	<include>./_inc/screen/screen.xml</include>
 	<include>./_inc/menu/menu.xml</include>
+	<include>./_inc/crazyComix/crazyComix.xml</include>
 	
 </theme>

@@ -16,6 +16,17 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<color>202020</color>
 		<zIndex>99</zIndex>
 	</image>
+
+	<image name="overlayFrame" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./frame.png</path>
+		<size>1 1</size>
+		<origin>0.5 0.5</origin>
+		<color>${tint}</color>
+		<zIndex>1995</zIndex>
+		<y>0.5</y>
+		<x>0.5</x>
+	</image>
 	<image name="overlay" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<size>1 1</size>

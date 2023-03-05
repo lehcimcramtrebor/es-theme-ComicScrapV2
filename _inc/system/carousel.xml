@@ -80,13 +80,59 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/logos/${system.theme}-jp.svg</path>
 	</image>
 
-	<image name="logo" ifSubset="carouselAnime:yes">
+	<image name="logo" ifSubset="carouselAnime:no">
 		<scale>0.5</scale>
 		<storyboard event="activate" repeatAt="300">
+			<animation property="saturation" from="0.90" to="1.4" duration="300" mode="linear"/>
+		</storyboard>
+		<storyboard event="scroll">
+			<animation property="saturation" from="0.90" to="0.90" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="saturation" from="0.90" to="0.90" duration="1" mode="linear"/>
+		</storyboard>
+	</image>
+
+	<image name="logo" ifSubset="carouselAnime:yes">
+		<scale>0.5</scale>
+		<storyboard event="activate">
 			<animation property="origin" from="0.5 0.5" to="0.61 0.5" begin="0" duration="250" mode="easeInOut"/>
 			<animation property="origin" from="0.61 0.5" to="0.382 0.5" begin="250" duration="1500" autoreverse="true" repeat="10" mode="easeInOut"/>
 			<animation property="rotation" to="360" begin="4300" duration="175" mode="easeInOut"/>
 			<animation property="saturation" from="0.90" to="1.4" duration="300" mode="linear"/>
+		</storyboard>
+		<storyboard event="scroll" repeat="forever">
+			<animation property="saturation" from="0.90" to="0.90" duration="1" mode="linear"/>
+			<animation property="h" to="0" begin="2500" duration="30" autoreverse="true" mode="easeIn" repeat="2"/>
+		</storyboard>
+		<storyboard event="deactivate" repeat="forever">
+			<animation property="saturation" from="0.90" to="0.90" duration="1" mode="linear"/>
+			<animation property="h" to="0" begin="2500" duration="30" autoreverse="true" mode="easeIn" repeat="2"/>
+		</storyboard>
+	</image>
+
+	<image name="logo" ifSubset="carouselAnime:no,crazyComix:turner|kowa">
+		<scale>0.5</scale>
+		<storyboard event="activate">
+			<animation property="saturation" from="0.90" to="1.4" duration="300" mode="linear"/>
+			<animation property="offsetY" to="0.0025" begin="0" autoreverse="true" repeat="11" duration="50" mode="EaseInOut"/>
+		</storyboard>
+		<storyboard event="scroll">
+			<animation property="saturation" from="0.90" to="0.90" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+			<animation property="saturation" from="0.90" to="0.90" duration="1" mode="linear"/>
+		</storyboard>
+	</image>
+
+	<image name="logo" ifSubset="carouselAnime:yes,crazyComix:turner|kowa">
+		<scale>0.5</scale>
+		<storyboard event="activate">
+			<animation property="origin" from="0.61 0.5" to="0.61 0.5" begin="0" duration="900" mode="easeInOut"/>
+			<animation property="origin" from="0.61 0.5" to="0.382 0.5" begin="1150" duration="1500" autoreverse="true" repeat="10" mode="easeInOut"/>
+			<animation property="rotation" to="360" begin="4300" duration="175" mode="easeInOut"/>
+			<animation property="saturation" from="0.90" to="1.4" duration="300" mode="linear"/>
+			<animation property="offsetY" to="0.0025" begin="0" autoreverse="true" repeat="11" duration="50" mode="EaseInOut"/>
 		</storyboard>
 		<storyboard event="scroll" repeat="forever">
 			<animation property="saturation" from="0.90" to="0.90" duration="1" mode="linear"/>
