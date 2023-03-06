@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+	<include>./defaults/default-13.xml</include>
+	<include>./defaults/default-14.xml</include>
+
+	<include>./defaults/default-31.xml</include>
+	<include>./defaults/default-32.xml</include>
+
+	<include>./defaults/default-firstCorner.xml</include>
+	<include>./defaults/default-lastCorner.xml</include>
+
+	<include>./marquees/marquee-11.xml</include>
+	<include>./marquees/marquee-12.xml</include>
+	<include>./marquees/marquee-13.xml</include>
+	<include>./marquees/marquee-14.xml</include>
+
+	<include>./marquees/marquee-31.xml</include>
+	<include>./marquees/marquee-32.xml</include>
+	<include>./marquees/marquee-33.xml</include>
+	<include>./marquees/marquee-34.xml</include>
+
+</theme>

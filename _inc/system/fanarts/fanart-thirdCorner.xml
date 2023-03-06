@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+
+	<image name="fanart.thirdCorner" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<minSize>${s.thirdCorner}</minSize>
+		<pos>${p.thirdCorner}</pos>
+		<color>${tintTiles}</color>
+		<zIndex>${ti}</zIndex>
+
+		<default>./../../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.png</default>
+		<default>./../../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.jpg</default>
+		<default>./${path.windows}/../../../../../_comicScrapV2Custom/${system.theme}/default/thirdCorner.png</default>
+		<default>./${path.windows}/../../../../../_comicScrapV2Custom/${system.theme}/default/thirdCorner.jpg</default>
+
+		<path>{random:fanart}</path>
+
+		<path ifSubset="forceCustoms:yes">./../../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.png</path>
+		<path ifSubset="forceCustoms:yes">./../../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.jpg</path>
+		<path ifSubset="forceCustoms:yes">./${path.windows}/../../../../../_comicScrapV2Custom/${system.theme}/default/thirdCorner.png</path>
+		<path ifSubset="forceCustoms:yes">./${path.windows}/../../../../../_comicScrapV2Custom/${system.theme}/default/thirdCorner.jpg</path>
+	</image>
+
+</view>
+
+</theme>
