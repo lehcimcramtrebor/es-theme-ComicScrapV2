@@ -61,7 +61,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.forceCustoms>force peripherals custom pictures (if availables)</lang.forceCustoms>
 	<lang.forceCustomMarquees>allow custom marquees (if availables)</lang.forceCustomMarquees>
 
-	<lang.forceStyleConfig>pre-configured style (can need to be actived to times to work)</lang.forceStyleConfig>
+	<lang.forceStyleConfig>pre-configured style (may require re-manipulating the menu to work)</lang.forceStyleConfig>
 	<lang.manual>no (manual)</lang.manual>
 	<lang.allTilesMarquees>comic marquees (blocked config)</lang.allTilesMarquees>
 
@@ -108,22 +108,22 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.lastCornerSource>last corner priority source</lang.lastCornerSource>
 	<lang.allTilesSource>all unified tiles priority source</lang.allTilesSource>
 
-	<lang.blocked.t11>(11) - (blocked by config)</lang.blocked.t11>
-	<lang.blocked.t12>(12) - (blocked by config)</lang.blocked.t12>
-	<lang.blocked.t13>(13) - (blocked by config)</lang.blocked.t13>
-	<lang.blocked.t14>(14) - (blocked by config)</lang.blocked.t14>
-	<lang.blocked.t21>(21) - (blocked by config)</lang.blocked.t21>
-	<lang.blocked.t22>(22, center) - (blocked by config)</lang.blocked.t22>
-	<lang.blocked.t23>(23) - (blocked by config)</lang.blocked.t23>
-	<lang.blocked.t31>(31) - (blocked by config)</lang.blocked.t31>
-	<lang.blocked.t32>(32) - (blocked by config)</lang.blocked.t32>
-	<lang.blocked.t33>(33) - (blocked by config)</lang.blocked.t33>
-	<lang.blocked.t34>(34) - (blocked by config)</lang.blocked.t34>
-	<lang.blocked.firstCornerSource>first corner (blocked by config)</lang.blocked.firstCornerSource>
-	<lang.blocked.secondCornerSource>second corner (blocked by config)</lang.blocked.secondCornerSource>
-	<lang.blocked.thirdCornerSource>third corner (blocked by config)</lang.blocked.thirdCornerSource>
-	<lang.blocked.lastCornerSource>last corner (blocked by config)</lang.blocked.lastCornerSource>
-	<lang.blocked.allTilesSource>all unified tiles (blocked by config)</lang.blocked.allTilesSource>
+	<lang.blocked.t11>(11) - (restricted by style)</lang.blocked.t11>
+	<lang.blocked.t12>(12) - (restricted by style)</lang.blocked.t12>
+	<lang.blocked.t13>(13) - (restricted by style)</lang.blocked.t13>
+	<lang.blocked.t14>(14) - (restricted by style)</lang.blocked.t14>
+	<lang.blocked.t21>(21) - (restricted by style)</lang.blocked.t21>
+	<lang.blocked.t22>(22, center) - (restricted by style)</lang.blocked.t22>
+	<lang.blocked.t23>(23) - (restricted by style)</lang.blocked.t23>
+	<lang.blocked.t31>(31) - (restricted by style)</lang.blocked.t31>
+	<lang.blocked.t32>(32) - (restricted by style)</lang.blocked.t32>
+	<lang.blocked.t33>(33) - (restricted by style)</lang.blocked.t33>
+	<lang.blocked.t34>(34) - (restricted by style)</lang.blocked.t34>
+	<lang.blocked.firstCornerSource>first corner (blocked by style)</lang.blocked.firstCornerSource>
+	<lang.blocked.secondCornerSource>second corner (blocked by style)</lang.blocked.secondCornerSource>
+	<lang.blocked.thirdCornerSource>third corner (blocked by style)</lang.blocked.thirdCornerSource>
+	<lang.blocked.lastCornerSource>last corner (blocked by style)</lang.blocked.lastCornerSource>
+	<lang.blocked.allTilesSource>all unified tiles (blocked by style)</lang.blocked.allTilesSource>
 	
 	<lang.themeInclude>default customizable theme image</lang.themeInclude>
 	<lang.image>random images</lang.image>

@@ -36,18 +36,22 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<subset name="t11" displayName="${lang.blocked.t11}" appliesTo="${allViews}">
 		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
 	</subset>
 
 	<subset name="t12" displayName="${lang.blocked.t12}" appliesTo="${allViews}">
 		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
 	</subset>
 
 	<subset name="t13" displayName="${lang.blocked.t13}" appliesTo="${allViews}">
 		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
 	</subset>
 
 	<subset name="t14" displayName="${lang.blocked.t14}" appliesTo="${allViews}">
 		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
 	</subset>
 
 	<subset name="t21" displayName="${lang.t21}" appliesTo="${allViews}">
@@ -83,18 +87,22 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<subset name="t31" displayName="${lang.blocked.t31}" appliesTo="${allViews}">
 		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
 	</subset>
 
 	<subset name="t32" displayName="${lang.blocked.t32}" appliesTo="${allViews}">
 		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
 	</subset>
 
 	<subset name="t33" displayName="${lang.blocked.t33}" appliesTo="${allViews}">
 		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
 	</subset>
 
 	<subset name="t34" displayName="${lang.blocked.t34}" appliesTo="${allViews}">
 		<include name="marquee" displayName="${lang.marquee}"/>
+		<include name="marqueeBw" displayName="${lang.marqueeBw}"/>
 	</subset>
 	
 </theme>
