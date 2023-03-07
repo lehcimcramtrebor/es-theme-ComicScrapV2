@@ -55,8 +55,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.character>adjustable by system - display customizable characters</lang.character>
 	<lang.behindLogo>in tile behind logo</lang.behindLogo>
 	<lang.bottomRight>out of tiles at bottom right</lang.bottomRight>
-	<lang.bottomLeft>out of tiles at bottom left</lang.bottomLeft>
-	<lang.flipCharacter>adjustable by system - character horizontal flip</lang.flipCharacter>
 
 	<lang.boxes>adjustable by system - display random covers</lang.boxes>
 

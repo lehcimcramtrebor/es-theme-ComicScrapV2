@@ -71,9 +71,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<s.chbr>0.3 0.36</s.chbr>
 		<p.chbr>0.9825 0.955</p.chbr>
 
-		<s.chbl>0.3 0.36</s.chbl>
-		<p.chbl>0.01875 0.955</p.chbl>
-
 		<di>800</di> 		<!--default index-->
 		<ti>900</ti>		<!--image index-->
 		<oi>905</oi>		<!--overwrite index-->
@@ -151,13 +148,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<subset name="character" displayName="${lang.character}" appliesTo="${allViews}">
 		<include name="behindLogo" displayName="${lang.behindLogo}"/>
 		<include name="bottomRight" displayName="${lang.bottomRight}"/>
-		<include name="bottomLeft" displayName="${lang.bottomLeft}"/>
 		<include name="no" displayName="${lang.no}"/>
-	</subset>
-
-	<subset name="flipCharacter" displayName="${lang.flipCharacter}" ifSubset="character:|behindLogo|bottomRight|bottomLeft" appliesTo="${allViews}">
-		<include name="no" displayName="${lang.no}"/>
-		<include name="yes" displayName="${lang.yes}"/>
 	</subset>
 
 	<subset name="boxes" displayName="${lang.boxes}" appliesTo="${allViews}">
@@ -277,7 +268,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./_inc/overlays/overlays.xml</include>
 	<include>./_inc/system/carousel.xml</include>
 
-	<include>./_inc/system/illustrations.xml</include>
+	<include>./_inc/system/randomCovers.xml</include>
+
+	<include>./_inc/illustrations/illustrations.xml</include>
 	
 	<include>./_inc/help/help.xml</include>
 	<include>./_inc/screen/screen.xml</include>
