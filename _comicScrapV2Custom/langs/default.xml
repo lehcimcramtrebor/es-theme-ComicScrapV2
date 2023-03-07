@@ -48,7 +48,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<lang.crazyComix>crazy comix carousel</lang.crazyComix>
 	<lang.turner>sketch turner</lang.turner>
+	<lang.allowCustomTurner>allow custom (sketch turner by default)</lang.allowCustomTurner>
 	<lang.kowa>teenage mutants ninja turtles</lang.kowa>
+	<lang.allowCustomKowa>allow custom (tmnt by default)</lang.allowCustomKowa>
 
 	<lang.character>adjustable by system - display customizable characters</lang.character>
 	<lang.behindLogo>in tile behind logo</lang.behindLogo>

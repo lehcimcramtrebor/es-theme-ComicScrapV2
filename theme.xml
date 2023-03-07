@@ -144,6 +144,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="no" displayName="${lang.no}"/>
 		<include name="turner" displayName="${lang.turner}"/>
 		<include name="kowa" displayName="${lang.kowa}"/>
+		<include name="allowCustomTurner" displayName="${lang.allowCustomTurner}"/>
+		<include name="allowCustomKowa" displayName="${lang.allowCustomKowa}"/>
 	</subset>
 
 	<subset name="character" displayName="${lang.character}" appliesTo="${allViews}">

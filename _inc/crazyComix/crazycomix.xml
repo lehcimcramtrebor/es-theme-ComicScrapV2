@@ -11,7 +11,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="system">
 
-	<image name="comic" ifSubset="crazyComix:turner|kowa" extra="true">
+	<image name="comic" ifSubset="crazyComix:turner|kowa|allowCustomTurner|allowCustomKowa" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./comic.png</path>
 		<maxSize>99 1</maxSize>
@@ -28,7 +28,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		</storyboard>
 	</image>
 
-	<image name="scrap" ifSubset="crazyComix:turner|kowa" extra="true">
+	<image name="scrap" ifSubset="crazyComix:turner|kowa|allowCustomTurner|allowCustomKowa" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./scrap.png</path>
 		<maxSize>99 1</maxSize>
@@ -45,7 +45,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		</storyboard>
 	</image>
 
-	<image name="comixCharacter" ifSubset="crazyComix:turner|kowa" extra="true">
+	<image name="comixCharacter" ifSubset="crazyComix:turner|kowa|allowCustomTurner|allowCustomKowa" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<maxSize>99 1</maxSize>
 		<origin>0.5 0.5</origin>
@@ -62,12 +62,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		</storyboard>
 	</image>
 
-	<image name="comixCharacter" ifSubset="crazyComix:turner" extra="true">
+	<image name="comixCharacter" ifSubset="crazyComix:turner|allowCustomTurner" extra="true">
 		<path>./turner.png</path>
+		<path ifSubset="crazyComix:allowCustomTurner">./../../_comicScrapV2Custom/crazycomix/default.png</path>
+		<path ifSubset="crazyComix:allowCustomTurner">./../../_comicScrapV2Custom/crazycomix/${system.theme}.png</path>
+		<path ifSubset="crazyComix:allowCustomTurner">./${path.windows}/../../../../_comicScrapV2Custom/crazycomix/default.png</path>
+		<path ifSubset="crazyComix:allowCustomTurner">./${path.windows}/../../../../_comicScrapV2Custom/crazycomix/${system.theme}.png</path>
 	</image>
 
-	<image name="comixCharacter" ifSubset="crazyComix:kowa" extra="true">
+	<image name="comixCharacter" ifSubset="crazyComix:kowa|allowCustomKowa" extra="true">
 		<path>./kowa.png</path>
+		<path ifSubset="crazyComix:allowCustomKowa">./../../_comicScrapV2Custom/crazycomix/default.png</path>
+		<path ifSubset="crazyComix:allowCustomKowa">./../../_comicScrapV2Custom/crazycomix/${system.theme}.png</path>
+		<path ifSubset="crazyComix:allowCustomKowa">./${path.windows}/../../../../_comicScrapV2Custom/crazycomix/default.png</path>
+		<path ifSubset="crazyComix:allowCustomKowa">./${path.windows}/../../../../_comicScrapV2Custom/crazycomix/${system.theme}.png</path>
 	</image>
 
 </view>
