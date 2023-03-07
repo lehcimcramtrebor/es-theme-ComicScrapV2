@@ -54,6 +54,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<y>0.5</y>
 		<x>0.5</x>
 		<opacity>0</opacity>
+		<saturation>1.1</saturation>
 		<storyboard>
 			<animation property="scale" from="1" to="1.005" begin="0" autoreverse="true" repeat="forever" duration="50" mode="EaseInOut"/>
 			<animation property="y" from="0.5" to="1.5" begin="1200" duration="150" mode="EaseIn"/>
