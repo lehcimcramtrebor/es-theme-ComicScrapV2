@@ -26,6 +26,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path>{random:marquee}</path>
 
+		<path ifSubset="forceDefaultMarquees:yes|def12i|defUpper">./../../../_comicScrapV2Custom/marquees/default/13.png</path>
+		<path ifSubset="forceDefaultMarquees:yes|def12i|defUpper">./${path.windows}/../../../../../_comicScrapV2Custom/marquees/default/13.png</path>
+
 		<path ifSubset="forceCustomMarquees:yes">./../../../_comicScrapV2Custom/marquees/${system.theme}/13.png</path>
 		<path ifSubset="forceCustomMarquees:yes">./${path.windows}/../../../../../_comicScrapV2Custom/marquees/${system.theme}/13.png</path>
 

@@ -50,17 +50,35 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.turner>sketch turner</lang.turner>
 	<lang.kowa>teenage mutants ninja turtles</lang.kowa>
 
-	<lang.character>display customizable characters</lang.character>
+	<lang.character>adjustable by system - display customizable characters</lang.character>
 	<lang.behindLogo>in tile behind logo</lang.behindLogo>
 	<lang.bottomRight>out of tiles at bottom right</lang.bottomRight>
 	<lang.bottomLeft>out of tiles at bottom left</lang.bottomLeft>
-	<lang.flipCharacter>character horizontal flip</lang.flipCharacter>
+	<lang.flipCharacter>adjustable by system - character horizontal flip</lang.flipCharacter>
 
-	<lang.boxes>display random covers</lang.boxes>
+	<lang.boxes>adjustable by system - display random covers</lang.boxes>
 
-	<lang.forceCustoms>force peripherals custom pictures (if availables)</lang.forceCustoms>
-	<lang.forceCustomMarquees>allow custom marquees (if availables)</lang.forceCustomMarquees>
+	<lang.forceCustoms>adjustable by system - force peripherals custom pictures (when are availables)</lang.forceCustoms>
+	<lang.forceCustomMarquees>adjustable by system - allow custom marquees (when are availables)</lang.forceCustomMarquees>
+	<lang.forceDefaultMarquees>adjustable by system - force default marquees (when are enabled)</lang.forceDefaultMarquees>
 
+	<lang.filterComixRandoms>adjustable by system - randoms tiles canvas (when are enabled)</lang.filterComixRandoms>
+	<lang.cut12>one of two</lang.cut12>
+	<lang.cut12i>one of two (inversed)</lang.cut12i>
+	<lang.cut24>two by two</lang.cut24>
+	<lang.cut24i>two by two (inversed)</lang.cut24i>
+	<lang.cut24m>in every corner</lang.cut24m>
+	<lang.cut24c>except in every corner</lang.cut24c>
+	<lang.cut14>all except upper left and bottom right</lang.cut14>
+	<lang.cut14i>all except upper right and bottom left</lang.cut14i>
+	<lang.cutUpper>entire bottom line</lang.cutUpper>
+	<lang.cutBottom>entire upper line</lang.cutBottom>
+
+	<lang.def12>one of two</lang.def12>
+	<lang.def12i>one of two (inversed)</lang.def12i>
+	<lang.defUpper>on upper line</lang.defUpper>
+	<lang.defBottom>on bottom line</lang.defBottom>
+	
 	<lang.helpIcons>help icons</lang.helpIcons>
 	<lang.defaultIcons>generic</lang.defaultIcons>
 	<lang.xboxIcons>microsoft xbox</lang.xboxIcons>
@@ -74,16 +92,77 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.snesAltIcons region="eu">super nintendo alternative</lang.snesAltIcons>
 	<lang.snesAltIcons region="jp">nintendo super famicom alternative</lang.snesAltIcons>
 
+	<lang.overwrite2123>adjustable by system - draw over left and right carousel tiles</lang.overwrite2123>
+
 	<lang.centerTile>center tile source</lang.centerTile>
 	<lang.themeInclude>default customizable image</lang.themeInclude>
 	<lang.systemCustom>priorize customs (by system)</lang.systemCustom>
-	<lang.pinkComic>comic pink</lang.pinkComic>
-	<lang.blueComic>comic blue</lang.blueComic>
-	<lang.redComic>comic red</lang.redComic>
-	<lang.yellowComic>comic yellow</lang.yellowComic>
-	<lang.greenComic>comic green</lang.greenComic>
-	<lang.purpleComic>comic purple</lang.purpleComic>
+	
 	<lang.fireComic>comic fire</lang.fireComic>
+
+	<lang.pinkComic>comic pink</lang.pinkComic>
+	<lang.pinkBlueComic>comic pink / blue</lang.pinkBlueComic>
+	<lang.pinkRedComic>comic pink / red</lang.pinkRedComic>
+	<lang.pinkYellowComic>comic pink / yellow</lang.pinkYellowComic>
+	<lang.pinkGreenComic>comic pink / green</lang.pinkGreenComic>
+	<lang.pinkPurpleComic>comic pink / purple</lang.pinkPurpleComic>
+
+	<lang.blueComic>comic blue</lang.blueComic>
+	<lang.bluePinkComic>comic blue / pink</lang.bluePinkComic>
+	<lang.blueRedComic>comic blue / red</lang.blueRedComic>
+	<lang.blueYellowComic>comic blue / yellow</lang.blueYellowComic>
+	<lang.blueGreenComic>comic blue / green</lang.blueGreenComic>
+	<lang.bluePurpleComic>comic blue / purple</lang.bluePurpleComic>
+
+	<lang.redComic>comic red</lang.redComic>
+	<lang.redPinkComic>comic red / pink</lang.redPinkComic>
+	<lang.redBlueComic>comic red / blue</lang.redBlueComic>
+	<lang.redYellowComic>comic red / yellow</lang.redYellowComic>
+	<lang.redGreenComic>comic red / green</lang.redGreenComic>
+	<lang.redPurpleComic>comic red / purple</lang.redPurpleComic>
+
+	<lang.yellowComic>comic yellow</lang.yellowComic>
+	<lang.yellowPinkComic>comic yellow / pink</lang.yellowPinkComic>
+	<lang.yellowBlueComic>comic yellow / blue</lang.yellowBlueComic>
+	<lang.yellowRedComic>comic yellow / red</lang.yellowRedComic>
+	<lang.yellowGreenComic>comic yellow / green</lang.yellowGreenComic>
+	<lang.yellowPurpleComic>comic yellow / purple</lang.yellowPurpleComic>
+
+	<lang.greenComic>comic green</lang.greenComic>
+	<lang.greenPinkComic>comic green / pink</lang.greenPinkComic>
+	<lang.greenBlueComic>comic green / blue</lang.greenBlueComic>
+	<lang.greenRedComic>comic green / red</lang.greenRedComic>
+	<lang.greenYellowComic>comic green / yellow</lang.greenYellowComic>
+	<lang.greenPurpleComic>comic green / purple</lang.greenPurpleComic>
+
+	<lang.purpleComic>comic purple</lang.purpleComic>
+	<lang.purplePinkComic>comic purple / pink</lang.purplePinkComic>
+	<lang.purpleBlueComic>comic purple / blue</lang.purpleBlueComic>
+	<lang.purpleRedComic>comic purple / red</lang.purpleRedComic>
+	<lang.purpleYellowComic>comic purple / yellow</lang.purpleYellowComic>
+	<lang.purpleGreenComic>comic purple / green</lang.purpleGreenComic>
+
+	<lang.style>adjustable by system - style</lang.style>
+
+	<lang.allTilesMarquees>comix marquees - ungrouped tiles</lang.allTilesMarquees>
+	<lang.allTilesMarqueesC2C3>comix marquees - crossed corners</lang.allTilesMarqueesC2C3>
+	<lang.allTilesMarqueesC1C4>comix marquees - crossed corners (inversed)</lang.allTilesMarqueesC1C4>
+	<lang.allTilesMarqueesALL>comix marquees - all tiles grouped</lang.allTilesMarqueesALL>
+
+	<lang.allTilesFanarts>fanarts - ungrouped tiles</lang.allTilesFanarts>
+	<lang.allTilesFanartsC2C3>fanarts - crossed corners</lang.allTilesFanartsC2C3>
+	<lang.allTilesFanartsC1C4>fanarts - crossed corners (inversed)</lang.allTilesFanartsC1C4>
+	<lang.allTilesFanartsALL>fanarts - all tiles grouped</lang.allTilesFanartsALL>
+
+	<lang.allTilesFanartsMarquees>fanarts and marquees - ungrouped tiles</lang.allTilesFanartsMarquees>
+	<lang.allTilesFanartsMarqueesC2C3>fanarts and marquees - crossed corners</lang.allTilesFanartsMarqueesC2C3>
+	<lang.allTilesFanartsMarqueesC1C4>fanarts and marquees - crossed corners (inversed)</lang.allTilesFanartsMarqueesC1C4>
+	<lang.allTilesFanartsMarqueesALL>fanarts and marquees - all tiles grouped</lang.allTilesFanartsMarqueesALL>
+
+	<lang.allTileThumbnails>comix thumbnails - ungrouped tiles</lang.allTileThumbnails>
+	<lang.allTilesThumbnailsC2C3>comix thumbnails - crossed corners</lang.allTilesThumbnailsC2C3>
+	<lang.allTilesThumbnailsC1C4>comix thumbnails - crossed corners (inversed)</lang.allTilesThumbnailsC1C4>
+	<lang.allTilesThumbnailsALL>comix thumbnails - all tiles grouped</lang.allTilesThumbnailsALL>
 
 </variables>
 
