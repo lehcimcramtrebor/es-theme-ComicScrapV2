@@ -15,11 +15,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<linearSmooth>true</linearSmooth>
 		<origin>0.5 0.5</origin>
 		<maxSize>${s.33}</maxSize>
-		<scale>0.80</scale>
+		<scale>0.76</scale>
 		<pos>${p.33}</pos>
 		<color>${tintTiles}</color>
 		<zIndex>${mti}</zIndex>
-		<roundCorners>0.02</roundCorners>
+		<roundCorners>0.04</roundCorners>
 		<saturation>1.4</saturation>
 
 		<path>{random:thumbnail}</path>

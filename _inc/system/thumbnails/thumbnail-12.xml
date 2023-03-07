@@ -15,11 +15,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<linearSmooth>true</linearSmooth>
 		<origin>0.5 0.5</origin>
 		<maxSize>${s.12}</maxSize>
-		<scale>0.80</scale>
+		<scale>0.76</scale>
 		<pos>${p.12}</pos>
 		<color>${tintTiles}</color>
 		<zIndex>${mti}</zIndex>
-		<roundCorners>0.02</roundCorners>
+		<roundCorners>0.04</roundCorners>
 		<saturation>1.4</saturation>
 
 		<path>{random:thumbnail}</path>
@@ -29,7 +29,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 			<animation property="opacity" from="0" to="0" duration="400" mode="linear"/>
 			<animation property="opacity" from="0" to="1" duration="350" mode="linear" begin="400"/>
 			<animation property="opacity" from="1" to="0" duration="350" mode="linear" begin="9350"/>
-			<animation property="scale" from="0.8" to="0.8" duration="10000" mode="linear"/>
+			<animation property="scale" from="0.76" to="0.76" duration="10000" mode="linear"/>
 		</storyboard>
 	</image>
 
