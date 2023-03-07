@@ -19,6 +19,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>${p.13}</pos>
 		<color>${tintTiles}</color>
 		<zIndex>${mti}</zIndex>
+		<saturation>1.4</saturation>
 
 		<default>./../../../_comicScrapV2Custom/marquees/default/13.png</default>
 		<default>./${path.windows}/../../../../../_comicScrapV2Custom/marquees/default/13.png</default>

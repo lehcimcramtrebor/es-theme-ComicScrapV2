@@ -152,6 +152,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="allTilesMarqueesC2C3" displayName="${lang.allTilesMarqueesC2C3}">./_inc/system/style-allTilesMarqueesC2C3.xml</include>
 		<include name="allTilesMarqueesC1C4" displayName="${lang.allTilesMarqueesC1C4}">./_inc/system/style-allTilesMarqueesC1C4.xml</include>
 		<include name="allTilesMarqueesALL" displayName="${lang.allTilesMarqueesALL}">./_inc/system/style-allTilesMarqueesALL.xml</include>
+		<!--comix thumbnails-->
+		<include name="allTileThumbnails" displayName="${lang.allTileThumbnails}">./_inc/system/style-allTilesThumbnails.xml</include>
+		<include name="allTilesThumbnailsC2C3" displayName="${lang.allTilesThumbnailsC2C3}">./_inc/system/style-allTilesThumbnailsC2C3.xml</include>
+		<include name="allTilesThumbnailsC1C4" displayName="${lang.allTilesThumbnailsC1C4}">./_inc/system/style-allTilesThumbnailsC1C4.xml</include>
+		<include name="allTilesThumbnailsALL" displayName="${lang.allTilesThumbnailsALL}">./_inc/system/style-allTilesThumbnailsALL.xml</include>
 		<!--fanarts-->
 		<include name="allTilesFanarts" displayName="${lang.allTilesFanarts}">./_inc/system/style-allTilesFanarts.xml</include>
 		<include name="allTilesFanartsC2C3" displayName="${lang.allTilesFanartsC2C3}">./_inc/system/style-allTilesFanartsC2C3.xml</include>
@@ -162,6 +167,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="allTilesFanartsMarqueesC2C3" displayName="${lang.allTilesFanartsMarqueesC2C3}">./_inc/system/style-allTilesFanartsMarqueesC2C3.xml</include>
 		<include name="allTilesFanartsMarqueesC1C4" displayName="${lang.allTilesFanartsMarqueesC1C4}">./_inc/system/style-allTilesFanartsMarqueesC1C4.xml</include>
 		<include name="allTilesFanartsMarqueesALL" displayName="${lang.allTilesFanartsMarqueesALL}">./_inc/system/style-allTilesFanartsMarqueesALL.xml</include>
+	</subset>
+
+	<subset name="filterComixRandoms" displayName="${lang.filterComixRandoms}" appliesTo="${allViews}">
+		<include name="no" displayName="${lang.no}"/>
+		<include name="cut12" displayName="${lang.cut12}">./_inc/system/style-cut12.xml</include>
+		<include name="cut12i" displayName="${lang.cut12i}">./_inc/system/style-cut12i.xml</include>
+		<include name="cut24" displayName="${lang.cut24}">./_inc/system/style-cut24.xml</include>
+		<include name="cut24i" displayName="${lang.cut24i}">./_inc/system/style-cut24i.xml</include>
+		<include name="cut24m" displayName="${lang.cut24m}">./_inc/system/style-cut24m.xml</include>
+		<include name="cut24c" displayName="${lang.cut24c}">./_inc/system/style-cut24c.xml</include>
+		<include name="cut14" displayName="${lang.cut14}">./_inc/system/style-cut14.xml</include>
+		<include name="cut14i" displayName="${lang.cut14i}">./_inc/system/style-cut14i.xml</include>
+		<include name="cutUpper" displayName="${lang.cutUpper}">./_inc/system/style-cutUpper.xml</include>
+		<include name="cutBottom" displayName="${lang.cutBottom}">./_inc/system/style-cutBottom.xml</include>
 	</subset>
 
 	<subset name="overwrite2123" displayName="${lang.overwrite2123}" appliesTo="${allViews}">

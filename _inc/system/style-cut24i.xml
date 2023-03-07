@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+	<include>./cuts/cut-13.xml</include>
+	<include>./cuts/cut-14.xml</include>
+
+	<include>./cuts/cut-31.xml</include>
+	<include>./cuts/cut-32.xml</include>
+
+</theme>
