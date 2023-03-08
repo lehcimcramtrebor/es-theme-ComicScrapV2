@@ -79,12 +79,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	</variables>
 
+	<include>./_support/support.xml</include>
+
 	<include>./_comicScrapV2Custom/langs/default.xml</include>
 	<include>./_comicScrapV2Custom/langs/${lang}.xml</include>
 	<include>./${path.windows}/../../_comicScrapV2Custom/langs/default.xml</include>
 	<include>./${path.windows}/../../_comicScrapV2Custom/langs/${lang}.xml</include>
-
-	<include>./_support/support.xml</include>
 
 	<subset name="music" displayName="${lang.music}">
 		<include name="comixZone" displayName="${lang.comixZone}"/>
