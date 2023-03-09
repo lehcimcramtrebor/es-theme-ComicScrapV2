@@ -76,9 +76,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="centerTile:blueComic">./../system/comics/12.png</path>
 		<path ifSubset="centerTile:redComic">./../system/comics/13.png</path>
 		<path ifSubset="centerTile:yellowComic">./../system/comics/14.png</path>
-		<path ifSubset="centerTile:greenComic">./../system/comics/22.png</path>
+		<path ifSubset="centerTile:greenComic">./../system/comics/23.png</path>
 		<path ifSubset="centerTile:purpleComic">./../system/comics/21.png</path>
-		<path ifSubset="centerTile:fireComic">./../system/comics/23.png</path>
+		<path ifSubset="centerTile:fireComic">./../system/comics/22.png</path>
 		<path ifSubset="centerTile:themeInclude">./../../_comicScrapV2Custom/tiles/_customCenter.png</path>
 		<path ifSubset="centerTile:themeInclude">./../../_comicScrapV2Custom/tiles/_customCenter.jpg</path>
 		<path ifSubset="centerTile:themeInclude">./${path.windows}/../../../../_comicScrapV2Custom/tiles/_customCenter.png</path>

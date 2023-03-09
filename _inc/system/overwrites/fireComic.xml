@@ -18,7 +18,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>${p.21}</pos>
 		<color>${tintTiles}</color>
 		<zIndex>${oi}</zIndex>
-		<path>./../comics/13.png</path>
+		<path>./../comics/22.png</path>
 	</image>
 
 	<image name="overwrite.23" extra="true">
@@ -28,7 +28,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>${p.23}</pos>
 		<color>${tintTiles}</color>
 		<zIndex>${oi}</zIndex>
-		<path>./../comics/23.png</path>
+		<path>./../comics/22.png</path>
 	</image>
 
 </view>

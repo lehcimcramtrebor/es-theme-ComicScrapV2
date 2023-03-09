@@ -11,24 +11,15 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="system">
 
-	<image name="overwrite.21" extra="true">
+	<image name="comic.allTiles" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<origin>0.5 0.5</origin>
-		<minSize>${s.21}</minSize>
-		<pos>${p.21}</pos>
+		<minSize>${s.allTiles}</minSize>
+		<pos>${p.allTiles}</pos>
 		<color>${tintTiles}</color>
-		<zIndex>${oi}</zIndex>
-		<path>./../comics/13.png</path>
-	</image>
+		<zIndex>${di}</zIndex>
 
-	<image name="overwrite.23" extra="true">
-		<linearSmooth>true</linearSmooth>
-		<origin>0.5 0.5</origin>
-		<minSize>${s.23}</minSize>
-		<pos>${p.23}</pos>
-		<color>${tintTiles}</color>
-		<zIndex>${oi}</zIndex>
-		<path>./../comics/23.png</path>
+		<path>./bigRed.png</path>
 	</image>
 
 </view>

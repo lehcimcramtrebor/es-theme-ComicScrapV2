@@ -12,6 +12,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<subset name="groupTiles" displayName="${lang.groupTiles}" appliesTo="${allViews}">
 		<include name="no" displayName="${lang.no}">./manual-groupTiles-no.xml</include>
 		<include name="crossedCorners" displayName="${lang.crossedCorners}">./manual-groupTiles-crossedCorners.xml</include>
+		<include name="crossedCornersInversed" displayName="${lang.crossedCornersInversed}">./manual-groupTiles-crossedCornersInversed.xml</include>
+		<include name="allTiles" displayName="${lang.allTiles}">./manual-groupTiles-allTiles.xml</include>
 	</subset>
 
 </theme>

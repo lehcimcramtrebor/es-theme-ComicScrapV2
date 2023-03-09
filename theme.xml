@@ -178,6 +178,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<subset name="overwrite2123" displayName="${lang.overwrite2123}" appliesTo="${allViews}">
 		<include name="no" displayName="${lang.no}"/>
 
+		<include name="fireComic" displayName="${lang.fireComic}">./_inc/system/overwrites/fireComic.xml</include>
+
 		<include name="pinkComic" displayName="${lang.pinkComic}">./_inc/system/overwrites/pinkComic.xml</include>
 		<include name="pinkBlueComic" displayName="${lang.pinkBlueComic}">./_inc/system/overwrites/pinkBlueComic.xml</include>
 		<include name="pinkRedComic" displayName="${lang.pinkRedComic}">./_inc/system/overwrites/pinkRedComic.xml</include>
