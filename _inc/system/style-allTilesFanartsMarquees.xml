@@ -45,4 +45,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./marquees/marquee-33.xml</include>
 	<include>./marquees/marquee-34.xml</include>
 
+	<include>./style-cut_subsets.xml</include>
+
 </theme>

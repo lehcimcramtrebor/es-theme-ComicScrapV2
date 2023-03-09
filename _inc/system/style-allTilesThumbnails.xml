@@ -32,4 +32,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./thumbnails/thumbnail-33.xml</include>
 	<include>./thumbnails/thumbnail-34.xml</include>
 
+	<include>./style-cut_subsets.xml</include>
+
 </theme>

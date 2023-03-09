@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+
+	<image name="thumbnail.13" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<maxSize>${s.13}</maxSize>
+		<scale>0.74</scale>
+		<pos>${p.13}</pos>
+		<color>${tintTiles}</color>
+		<zIndex>${mti}</zIndex>
+		<roundCorners>0.04</roundCorners>
+		<saturation>0</saturation>
+
+		<path>{random:thumbnail}</path>
+
+		<opacity>0</opacity>
+		<storyboard repeat="forever">
+			<animation property="opacity" from="0" to="0" duration="450" mode="linear"/>
+			<animation property="opacity" from="0" to="1" duration="350" mode="linear" begin="450"/>
+			<animation property="opacity" from="1" to="0" duration="350" mode="linear" begin="9400"/>
+			<animation property="scale" from="0.74" to="0.74" duration="10000" mode="linear"/>
+		</storyboard>
+	</image>
+
+</view>
+
+</theme>

@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<!-- 11 -------------------------------------------------------------------------------------------------------------------->
+	<subset name="t.11" displayName="${lang.t.11}" appliesTo="${allViews}">
+		<!--COLOR-->
+
+		<!--comix marquees-->
+		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-11.xml</include>
+		<!--comix thumbnails-->
+		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-11.xml</include>
+		<!--images-->
+		<include name="image" displayName="${lang.image}">./images/image-11.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-11.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./marquees/marquee-11.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./images/image-11.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./thumbnails/thumbnail-11.xml</include>
+		<!--fanarts-->
+		<include name="fanart" displayName="${lang.fanart}">./fanarts/fanart-11.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./fanarts/fanart-11.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./marquees/marquee-11.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./fanarts/fanart-11.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./thumbnails/thumbnail-11.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-11.xml</include>
+		<!--videos audio false-->
+		<include name="video" displayName="${lang.video}">./videos/video-11.xml</include>
+		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-11.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-11.xml</include>
+		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-11.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-11.xml</include>
+
+		<!--MIX-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./comicsBw/comic-11.xml</include>
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./marquees/marquee-11.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./comicsBw/comic-11.xml</include>
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./thumbnails/thumbnail-11.xml</include>
+		<!--images-->
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./imagesBw/image-11.xml</include>
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./marquees/marquee-11.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./imagesBw/image-11.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./thumbnails/thumbnail-11.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./fanartsBw/fanart-11.xml</include>
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./marquees/marquee-11.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./fanartsBw/fanart-11.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./thumbnails/thumbnail-11.xml</include>
+
+		<!--BLACK AND WHITE-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marqueeBw" displayName="${lang.comicBw+marquee}">./comicMarqueesBw/marquee-11.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnailBw" displayName="${lang.comicBw+thumbnail}">./comicThumbnailsBw/thumbnail-11.xml</include>
+		<!--images-->
+		<include name="imageBw" displayName="${lang.imageBw}">./imagesBw/image-11.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./imagesBw/image-11.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./marqueesBw/marquee-11.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./imagesBw/image-11.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./thumbnailsBw/thumbnail-11.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw" displayName="${lang.fanartBw}">./fanartsBw/fanart-11.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./fanartsBw/fanart-11.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./marqueesBw/marquee-11.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./fanartsBw/fanart-11.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./thumbnailsBw/thumbnail-11.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-11.xml</include>
+		<!--videos audio false-->
+		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-11.xml</include>
+		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-11.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-11.xml</include>
+		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-11.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-11.xml</include>
+	</subset>
+
+<!-- 12 -------------------------------------------------------------------------------------------------------------------->
+	<subset name="t.12" displayName="${lang.t.12}" appliesTo="${allViews}">
+		<!--COLOR-->
+
+		<!--comix marquees-->
+		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-12.xml</include>
+		<!--comix thumbnails-->
+		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-12.xml</include>
+		<!--images-->
+		<include name="image" displayName="${lang.image}">./images/image-12.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-12.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./marquees/marquee-12.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./images/image-12.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./thumbnails/thumbnail-12.xml</include>
+		<!--fanarts-->
+		<include name="fanart" displayName="${lang.fanart}">./fanarts/fanart-12.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./fanarts/fanart-12.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./marquees/marquee-12.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./fanarts/fanart-12.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./thumbnails/thumbnail-12.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-12.xml</include>
+		<!--videos audio false-->
+		<include name="video" displayName="${lang.video}">./videos/video-12.xml</include>
+		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-12.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-12.xml</include>
+		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-12.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-12.xml</include>
+
+		<!--MIX-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./comicsBw/comic-12.xml</include>
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./marquees/marquee-12.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./comicsBw/comic-12.xml</include>
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./thumbnails/thumbnail-12.xml</include>
+		<!--images-->
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./imagesBw/image-12.xml</include>
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./marquees/marquee-12.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./imagesBw/image-12.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./thumbnails/thumbnail-12.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./fanartsBw/fanart-12.xml</include>
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./marquees/marquee-12.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./fanartsBw/fanart-12.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./thumbnails/thumbnail-12.xml</include>
+
+		<!--BLACK AND WHITE-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marqueeBw" displayName="${lang.comicBw+marquee}">./comicMarqueesBw/marquee-12.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnailBw" displayName="${lang.comicBw+thumbnail}">./comicThumbnailsBw/thumbnail-12.xml</include>
+		<!--images-->
+		<include name="imageBw" displayName="${lang.imageBw}">./imagesBw/image-12.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./imagesBw/image-12.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./marqueesBw/marquee-12.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./imagesBw/image-12.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./thumbnailsBw/thumbnail-12.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw" displayName="${lang.fanartBw}">./fanartsBw/fanart-12.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./fanartsBw/fanart-12.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./marqueesBw/marquee-12.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./fanartsBw/fanart-12.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./thumbnailsBw/thumbnail-12.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-12.xml</include>
+		<!--videos audio false-->
+		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-12.xml</include>
+		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-12.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-12.xml</include>
+		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-12.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-12.xml</include>
+	</subset>
+
+<!-- 13 -------------------------------------------------------------------------------------------------------------------->
+	<subset name="t.13" displayName="${lang.t.13}" appliesTo="${allViews}">
+		<!--COLOR-->
+
+		<!--comix marquees-->
+		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-13.xml</include>
+		<!--comix thumbnails-->
+		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-13.xml</include>
+		<!--images-->
+		<include name="image" displayName="${lang.image}">./images/image-13.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-13.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./marquees/marquee-13.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./images/image-13.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./thumbnails/thumbnail-13.xml</include>
+		<!--fanarts-->
+		<include name="fanart" displayName="${lang.fanart}">./fanarts/fanart-13.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./fanarts/fanart-13.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./marquees/marquee-13.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./fanarts/fanart-13.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./thumbnails/thumbnail-13.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-13.xml</include>
+		<!--videos audio false-->
+		<include name="video" displayName="${lang.video}">./videos/video-13.xml</include>
+		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-13.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-13.xml</include>
+		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-13.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-13.xml</include>
+
+		<!--MIX-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./comicsBw/comic-13.xml</include>
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./marquees/marquee-13.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./comicsBw/comic-13.xml</include>
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./thumbnails/thumbnail-13.xml</include>
+		<!--images-->
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./imagesBw/image-13.xml</include>
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./marquees/marquee-13.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./imagesBw/image-13.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./thumbnails/thumbnail-13.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./fanartsBw/fanart-13.xml</include>
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./marquees/marquee-13.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./fanartsBw/fanart-13.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./thumbnails/thumbnail-13.xml</include>
+
+		<!--BLACK AND WHITE-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marqueeBw" displayName="${lang.comicBw+marquee}">./comicMarqueesBw/marquee-13.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnailBw" displayName="${lang.comicBw+thumbnail}">./comicThumbnailsBw/thumbnail-13.xml</include>
+		<!--images-->
+		<include name="imageBw" displayName="${lang.imageBw}">./imagesBw/image-13.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./imagesBw/image-13.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./marqueesBw/marquee-13.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./imagesBw/image-13.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./thumbnailsBw/thumbnail-13.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw" displayName="${lang.fanartBw}">./fanartsBw/fanart-13.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./fanartsBw/fanart-13.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./marqueesBw/marquee-13.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./fanartsBw/fanart-13.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./thumbnailsBw/thumbnail-13.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-13.xml</include>
+		<!--videos audio false-->
+		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-13.xml</include>
+		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-13.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-13.xml</include>
+		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-13.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-13.xml</include>
+	</subset>
+
+<!-- 14 -------------------------------------------------------------------------------------------------------------------->
+	<subset name="t.14" displayName="${lang.t.14}" appliesTo="${allViews}">
+		<!--COLOR-->
+
+		<!--comix marquees-->
+		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-14.xml</include>
+		<!--comix thumbnails-->
+		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-14.xml</include>
+		<!--images-->
+		<include name="image" displayName="${lang.image}">./images/image-14.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-14.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./marquees/marquee-14.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./images/image-14.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./thumbnails/thumbnail-14.xml</include>
+		<!--fanarts-->
+		<include name="fanart" displayName="${lang.fanart}">./fanarts/fanart-14.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./fanarts/fanart-14.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./marquees/marquee-14.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./fanarts/fanart-14.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./thumbnails/thumbnail-14.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-14.xml</include>
+		<!--videos audio false-->
+		<include name="video" displayName="${lang.video}">./videos/video-14.xml</include>
+		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-14.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-14.xml</include>
+		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-14.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-14.xml</include>
+
+		<!--MIX-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./comicsBw/comic-14.xml</include>
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./marquees/marquee-14.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./comicsBw/comic-14.xml</include>
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./thumbnails/thumbnail-14.xml</include>
+		<!--images-->
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./imagesBw/image-14.xml</include>
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./marquees/marquee-14.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./imagesBw/image-14.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./thumbnails/thumbnail-14.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./fanartsBw/fanart-14.xml</include>
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./marquees/marquee-14.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./fanartsBw/fanart-14.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./thumbnails/thumbnail-14.xml</include>
+
+		<!--BLACK AND WHITE-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marqueeBw" displayName="${lang.comicBw+marquee}">./comicMarqueesBw/marquee-14.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnailBw" displayName="${lang.comicBw+thumbnail}">./comicThumbnailsBw/thumbnail-14.xml</include>
+		<!--images-->
+		<include name="imageBw" displayName="${lang.imageBw}">./imagesBw/image-14.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./imagesBw/image-14.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./marqueesBw/marquee-14.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./imagesBw/image-14.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./thumbnailsBw/thumbnail-14.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw" displayName="${lang.fanartBw}">./fanartsBw/fanart-14.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./fanartsBw/fanart-14.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./marqueesBw/marquee-14.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./fanartsBw/fanart-14.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./thumbnailsBw/thumbnail-14.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-14.xml</include>
+		<!--videos audio false-->
+		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-14.xml</include>
+		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-14.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-14.xml</include>
+		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-14.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-14.xml</include>
+	</subset>
+
+<!-- 21 -------------------------------------------------------------------------------------------------------------------->
+	<subset name="t.21" displayName="${lang.t.21}" appliesTo="${allViews}">
+		<!--COLOR-->
+
+		<!--images-->
+		<include name="image" displayName="${lang.image}">./images/image-21.xml</include>
+		<!--fanarts-->
+		<include name="fanart" displayName="${lang.fanart}">./fanarts/fanart-21.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-21.xml</include>
+		<!--videos audio false-->
+		<include name="video" displayName="${lang.video}">./videos/video-21.xml</include>
+		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-21.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-21.xml</include>
+		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-21.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-21.xml</include>
+
+		<!--BLACK AND WHITE-->
+
+		<!--images-->
+		<include name="imageBw" displayName="${lang.imageBw}">./imagesBw/image-21.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw" displayName="${lang.fanartBw}">./fanartsBw/fanart-21.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-21.xml</include>
+		<!--videos audio false-->
+		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-21.xml</include>
+		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-21.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-21.xml</include>
+		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-21.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-21.xml</include>
+	</subset>
+
+<!-- 23 -------------------------------------------------------------------------------------------------------------------->
+	<subset name="t.23" displayName="${lang.t.23}" appliesTo="${allViews}">
+		<!--COLOR-->
+
+		<!--images-->
+		<include name="image" displayName="${lang.image}">./images/image-23.xml</include>
+		<!--fanarts-->
+		<include name="fanart" displayName="${lang.fanart}">./fanarts/fanart-23.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-23.xml</include>
+		<!--videos audio false-->
+		<include name="video" displayName="${lang.video}">./videos/video-23.xml</include>
+		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-23.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-23.xml</include>
+		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-23.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-23.xml</include>
+
+		<!--BLACK AND WHITE-->
+
+		<!--images-->
+		<include name="imageBw" displayName="${lang.imageBw}">./imagesBw/image-23.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw" displayName="${lang.fanartBw}">./fanartsBw/fanart-23.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-23.xml</include>
+		<!--videos audio false-->
+		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-23.xml</include>
+		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-23.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-23.xml</include>
+		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-23.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-23.xml</include>
+	</subset>
+
+<!-- 31 -------------------------------------------------------------------------------------------------------------------->
+	<subset name="t.31" displayName="${lang.t.31}" appliesTo="${allViews}">
+		<!--COLOR-->
+
+		<!--comix marquees-->
+		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-31.xml</include>
+		<!--comix thumbnails-->
+		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-31.xml</include>
+		<!--images-->
+		<include name="image" displayName="${lang.image}">./images/image-31.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-31.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./marquees/marquee-31.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./images/image-31.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./thumbnails/thumbnail-31.xml</include>
+		<!--fanarts-->
+		<include name="fanart" displayName="${lang.fanart}">./fanarts/fanart-31.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./fanarts/fanart-31.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./marquees/marquee-31.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./fanarts/fanart-31.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./thumbnails/thumbnail-31.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-31.xml</include>
+		<!--videos audio false-->
+		<include name="video" displayName="${lang.video}">./videos/video-31.xml</include>
+		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-31.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-31.xml</include>
+		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-31.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-31.xml</include>
+
+		<!--MIX-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./comicsBw/comic-31.xml</include>
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./marquees/marquee-31.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./comicsBw/comic-31.xml</include>
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./thumbnails/thumbnail-31.xml</include>
+		<!--images-->
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./imagesBw/image-31.xml</include>
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./marquees/marquee-31.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./imagesBw/image-31.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./thumbnails/thumbnail-31.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./fanartsBw/fanart-31.xml</include>
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./marquees/marquee-31.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./fanartsBw/fanart-31.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./thumbnails/thumbnail-31.xml</include>
+
+		<!--BLACK AND WHITE-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marqueeBw" displayName="${lang.comicBw+marquee}">./comicMarqueesBw/marquee-31.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnailBw" displayName="${lang.comicBw+thumbnail}">./comicThumbnailsBw/thumbnail-31.xml</include>
+		<!--images-->
+		<include name="imageBw" displayName="${lang.imageBw}">./imagesBw/image-31.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./imagesBw/image-31.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./marqueesBw/marquee-31.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./imagesBw/image-31.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./thumbnailsBw/thumbnail-31.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw" displayName="${lang.fanartBw}">./fanartsBw/fanart-31.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./fanartsBw/fanart-31.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./marqueesBw/marquee-31.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./fanartsBw/fanart-31.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./thumbnailsBw/thumbnail-31.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-31.xml</include>
+		<!--videos audio false-->
+		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-31.xml</include>
+		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-31.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-31.xml</include>
+		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-31.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-31.xml</include>
+	</subset>
+
+<!-- 32 -------------------------------------------------------------------------------------------------------------------->
+	<subset name="t.32" displayName="${lang.t.32}" appliesTo="${allViews}">
+		<!--COLOR-->
+
+		<!--comix marquees-->
+		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-32.xml</include>
+		<!--comix thumbnails-->
+		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-32.xml</include>
+		<!--images-->
+		<include name="image" displayName="${lang.image}">./images/image-32.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-32.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./marquees/marquee-32.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./images/image-32.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./thumbnails/thumbnail-32.xml</include>
+		<!--fanarts-->
+		<include name="fanart" displayName="${lang.fanart}">./fanarts/fanart-32.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./fanarts/fanart-32.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./marquees/marquee-32.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./fanarts/fanart-32.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./thumbnails/thumbnail-32.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-32.xml</include>
+		<!--videos audio false-->
+		<include name="video" displayName="${lang.video}">./videos/video-32.xml</include>
+		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-32.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-32.xml</include>
+		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-32.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-32.xml</include>
+
+		<!--MIX-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./comicsBw/comic-32.xml</include>
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./marquees/marquee-32.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./comicsBw/comic-32.xml</include>
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./thumbnails/thumbnail-32.xml</include>
+		<!--images-->
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./imagesBw/image-32.xml</include>
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./marquees/marquee-32.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./imagesBw/image-32.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./thumbnails/thumbnail-32.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./fanartsBw/fanart-32.xml</include>
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./marquees/marquee-32.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./fanartsBw/fanart-32.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./thumbnails/thumbnail-32.xml</include>
+
+		<!--BLACK AND WHITE-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marqueeBw" displayName="${lang.comicBw+marquee}">./comicMarqueesBw/marquee-32.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnailBw" displayName="${lang.comicBw+thumbnail}">./comicThumbnailsBw/thumbnail-32.xml</include>
+		<!--images-->
+		<include name="imageBw" displayName="${lang.imageBw}">./imagesBw/image-32.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./imagesBw/image-32.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./marqueesBw/marquee-32.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./imagesBw/image-32.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./thumbnailsBw/thumbnail-32.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw" displayName="${lang.fanartBw}">./fanartsBw/fanart-32.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./fanartsBw/fanart-32.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./marqueesBw/marquee-32.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./fanartsBw/fanart-32.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./thumbnailsBw/thumbnail-32.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-32.xml</include>
+		<!--videos audio false-->
+		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-32.xml</include>
+		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-32.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-32.xml</include>
+		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-32.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-32.xml</include>
+	</subset>
+
+<!-- 33 -------------------------------------------------------------------------------------------------------------------->
+	<subset name="t.33" displayName="${lang.t.33}" appliesTo="${allViews}">
+		<!--COLOR-->
+
+		<!--comix marquees-->
+		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-33.xml</include>
+		<!--comix thumbnails-->
+		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-33.xml</include>
+		<!--images-->
+		<include name="image" displayName="${lang.image}">./images/image-33.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-33.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./marquees/marquee-33.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./images/image-33.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./thumbnails/thumbnail-33.xml</include>
+		<!--fanarts-->
+		<include name="fanart" displayName="${lang.fanart}">./fanarts/fanart-33.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./fanarts/fanart-33.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./marquees/marquee-33.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./fanarts/fanart-33.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./thumbnails/thumbnail-33.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-33.xml</include>
+		<!--videos audio false-->
+		<include name="video" displayName="${lang.video}">./videos/video-33.xml</include>
+		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-33.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-33.xml</include>
+		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-33.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-33.xml</include>
+
+		<!--MIX-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./comicsBw/comic-33.xml</include>
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./marquees/marquee-33.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./comicsBw/comic-33.xml</include>
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./thumbnails/thumbnail-33.xml</include>
+		<!--images-->
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./imagesBw/image-33.xml</include>
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./marquees/marquee-33.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./imagesBw/image-33.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./thumbnails/thumbnail-33.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./fanartsBw/fanart-33.xml</include>
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./marquees/marquee-33.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./fanartsBw/fanart-33.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./thumbnails/thumbnail-33.xml</include>
+
+		<!--BLACK AND WHITE-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marqueeBw" displayName="${lang.comicBw+marquee}">./comicMarqueesBw/marquee-33.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnailBw" displayName="${lang.comicBw+thumbnail}">./comicThumbnailsBw/thumbnail-33.xml</include>
+		<!--images-->
+		<include name="imageBw" displayName="${lang.imageBw}">./imagesBw/image-33.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./imagesBw/image-33.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./marqueesBw/marquee-33.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./imagesBw/image-33.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./thumbnailsBw/thumbnail-33.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw" displayName="${lang.fanartBw}">./fanartsBw/fanart-33.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./fanartsBw/fanart-33.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./marqueesBw/marquee-33.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./fanartsBw/fanart-33.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./thumbnailsBw/thumbnail-33.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-33.xml</include>
+		<!--videos audio false-->
+		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-33.xml</include>
+		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-33.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-33.xml</include>
+		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-33.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-33.xml</include>
+	</subset>
+
+<!-- 34 -------------------------------------------------------------------------------------------------------------------->
+	<subset name="t.34" displayName="${lang.t.34}" appliesTo="${allViews}">
+		<!--COLOR-->
+
+		<!--comix marquees-->
+		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-34.xml</include>
+		<!--comix thumbnails-->
+		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-34.xml</include>
+		<!--images-->
+		<include name="image" displayName="${lang.image}">./images/image-34.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-34.xml</include>
+		<include name="image+marquee" displayName="${lang.image+marquee}">./marquees/marquee-34.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./images/image-34.xml</include>
+		<include name="image+thumbnail" displayName="${lang.image+thumbnail}">./thumbnails/thumbnail-34.xml</include>
+		<!--fanarts-->
+		<include name="fanart" displayName="${lang.fanart}">./fanarts/fanart-34.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./fanarts/fanart-34.xml</include>
+		<include name="fanart+marquee" displayName="${lang.fanart+marquee}">./marquees/marquee-34.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./fanarts/fanart-34.xml</include>
+		<include name="fanart+thumbnail" displayName="${lang.fanart+thumbnail}">./thumbnails/thumbnail-34.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-34.xml</include>
+		<!--videos audio false-->
+		<include name="video" displayName="${lang.video}">./videos/video-34.xml</include>
+		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-34.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-34.xml</include>
+		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-34.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-34.xml</include>
+
+		<!--MIX-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./comicsBw/comic-34.xml</include>
+		<include name="comicBw+marquee" displayName="${lang.comicBw+marquee}">./marquees/marquee-34.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./comicsBw/comic-34.xml</include>
+		<include name="comicBw+thumbnail" displayName="${lang.comicBw+thumbnail}">./thumbnails/thumbnail-34.xml</include>
+		<!--images-->
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./imagesBw/image-34.xml</include>
+		<include name="imageBw+marquee" displayName="${lang.imageBw+marquee}">./marquees/marquee-34.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./imagesBw/image-34.xml</include>
+		<include name="imageBw+thumbnail" displayName="${lang.imageBw+thumbnail}">./thumbnails/thumbnail-34.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./fanartsBw/fanart-34.xml</include>
+		<include name="fanartBw+marquee" displayName="${lang.fanartBw+marquee}">./marquees/marquee-34.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./fanartsBw/fanart-34.xml</include>
+		<include name="fanartBw+thumbnail" displayName="${lang.fanartBw+thumbnail}">./thumbnails/thumbnail-34.xml</include>
+
+		<!--BLACK AND WHITE-->
+
+		<!--comix marquees-->
+		<include name="comicBw+marqueeBw" displayName="${lang.comicBw+marquee}">./comicMarqueesBw/marquee-34.xml</include>
+		<!--comix thumbnails-->
+		<include name="comicBw+thumbnailBw" displayName="${lang.comicBw+thumbnail}">./comicThumbnailsBw/thumbnail-34.xml</include>
+		<!--images-->
+		<include name="imageBw" displayName="${lang.imageBw}">./imagesBw/image-34.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./imagesBw/image-34.xml</include>
+		<include name="imageBw+marqueeBw" displayName="${lang.imageBw+marqueeBw}">./marqueesBw/marquee-34.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./imagesBw/image-34.xml</include>
+		<include name="imageBw+thumbnailBw" displayName="${lang.imageBw+thumbnailBw}">./thumbnailsBw/thumbnail-34.xml</include>
+		<!--fanarts-->
+		<include name="fanartBw" displayName="${lang.fanartBw}">./fanartsBw/fanart-34.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./fanartsBw/fanart-34.xml</include>
+		<include name="fanartBw+marqueeBw" displayName="${lang.fanartBw+marqueeBw}">./marqueesBw/marquee-34.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./fanartsBw/fanart-34.xml</include>
+		<include name="fanartBw+thumbnailBw" displayName="${lang.fanartBw+thumbnailBw}">./thumbnailsBw/thumbnail-34.xml</include>
+		<!--thumbnails full-->
+		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-34.xml</include>
+		<!--videos audio false-->
+		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-34.xml</include>
+		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-34.xml</include>
+		<!--videos audio true-->
+		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-34.xml</include>
+		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-34.xml</include>
+		<!--just comixs-->
+		<include name="comics" displayName="${lang.comics}">./comics/comic-34.xml</include>
+	</subset>
+
+</theme>

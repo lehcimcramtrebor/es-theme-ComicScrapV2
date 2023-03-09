@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+	<include>./../comics/comic-12.xml</include>
+
+<view name="system">
+
+	<image name="image.12" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<minSize>${s.12}</minSize>
+		<pos>${p.12}</pos>
+		<color>${tintTiles}</color>
+		<zIndex>${ti}</zIndex>
+
+		<default>./../../../_comicScrapV2Custom/tiles/${system.theme}/12.png</default>
+		<default>./../../../_comicScrapV2Custom/tiles/${system.theme}/12.jpg</default>
+		<default>./${path.windows}/../../../../../_comicScrapV2Custom/${system.theme}/default/12.png</default>
+		<default>./${path.windows}/../../../../../_comicScrapV2Custom/${system.theme}/default/12.jpg</default>
+
+		<path>{random:image}</path>
+
+		<path ifSubset="forceCustoms:yes">./../../../_comicScrapV2Custom/tiles/${system.theme}/12.png</path>
+		<path ifSubset="forceCustoms:yes">./../../../_comicScrapV2Custom/tiles/${system.theme}/12.jpg</path>
+		<path ifSubset="forceCustoms:yes">./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/12.png</path>
+		<path ifSubset="forceCustoms:yes">./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/12.jpg</path>
+	</image>
+
+</view>
+
+</theme>

@@ -9,6 +9,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <theme>
 <formatVersion>7</formatVersion>
 
+	<include>./../comics/comic-11.xml</include>
+
 <view name="system">
 
 	<image name="fanart.11" extra="true">
@@ -28,8 +30,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path ifSubset="forceCustoms:yes">./../../../_comicScrapV2Custom/tiles/${system.theme}/11.png</path>
 		<path ifSubset="forceCustoms:yes">./../../../_comicScrapV2Custom/tiles/${system.theme}/11.jpg</path>
-		<path ifSubset="forceCustoms:yes">./${path.windows}/../../../../../_comicScrapV2Custom/${system.theme}/default/11.png</path>
-		<path ifSubset="forceCustoms:yes">./${path.windows}/../../../../../_comicScrapV2Custom/${system.theme}/default/11.jpg</path>
+		<path ifSubset="forceCustoms:yes">./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/11.png</path>
+		<path ifSubset="forceCustoms:yes">./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/11.jpg</path>
 	</image>
 
 </view>

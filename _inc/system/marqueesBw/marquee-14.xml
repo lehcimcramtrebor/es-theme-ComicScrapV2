@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+
+	<image name="marquee.14" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<maxSize>${s.14}</maxSize>
+		<scale>0.80</scale>
+		<pos>${p.14}</pos>
+		<color>${tintTiles}</color>
+		<zIndex>${mti}</zIndex>
+		<saturation>0</saturation>
+
+		<default>./../../../_comicScrapV2Custom/marquees/default/14.png</default>
+		<default>./${path.windows}/../../../../../_comicScrapV2Custom/marquees/default/14.png</default>
+
+		<path>{random:marquee}</path>
+
+		<path ifSubset="forceDefaultMarquees:yes|def12|defUpper">./../../../_comicScrapV2Custom/marquees/default/14.png</path>
+		<path ifSubset="forceDefaultMarquees:yes|def12|defUpper">./${path.windows}/../../../../../_comicScrapV2Custom/marquees/default/14.png</path>
+
+		<path ifSubset="forceCustomMarquees:yes">./../../../_comicScrapV2Custom/marquees/${system.theme}/14.png</path>
+		<path ifSubset="forceCustomMarquees:yes">./${path.windows}/../../../../../_comicScrapV2Custom/marquees/${system.theme}/14.png</path>
+
+		<opacity>0</opacity>
+		<storyboard repeat="forever">
+			<animation property="opacity" from="0" to="0" duration="500" mode="linear"/>
+			<animation property="opacity" from="0" to="1" duration="350" mode="linear" begin="500"/>
+			<animation property="opacity" from="1" to="0" duration="350" mode="linear" begin="9450"/>
+			<animation property="scale" from="0.8" to="0.8" duration="10000" mode="linear"/>
+		</storyboard>
+	</image>
+
+</view>
+
+</theme>

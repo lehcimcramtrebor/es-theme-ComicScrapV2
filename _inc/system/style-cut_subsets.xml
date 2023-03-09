@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+	<subset name="filterComixRandoms" displayName="${lang.filterComixRandoms}" appliesTo="${allViews}">
+		<include name="no" displayName="${lang.no}"/>
+		<include name="cut12" displayName="${lang.cut12}">./style-cut12.xml</include>
+		<include name="cut12i" displayName="${lang.cut12i}">./style-cut12i.xml</include>
+		<include name="cut24" displayName="${lang.cut24}">./style-cut24.xml</include>
+		<include name="cut24i" displayName="${lang.cut24i}">./style-cut24i.xml</include>
+		<include name="cut24m" displayName="${lang.cut24m}">./style-cut24m.xml</include>
+		<include name="cut24c" displayName="${lang.cut24c}">./style-cut24c.xml</include>
+		<include name="cut14" displayName="${lang.cut14}">./style-cut14.xml</include>
+		<include name="cut14i" displayName="${lang.cut14i}">./style-cut14i.xml</include>
+		<include name="cutUpper" displayName="${lang.cutUpper}">./style-cutUpper.xml</include>
+		<include name="cutBottom" displayName="${lang.cutBottom}">./style-cutBottom.xml</include>
+	</subset>
+
+</theme>
