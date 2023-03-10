@@ -231,22 +231,18 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="allTilesMarquees" displayName="${lang.allTilesMarquees}">./_inc/system/style-allTilesMarquees.xml</include>
 		<include name="allTilesMarqueesC2C3" displayName="${lang.allTilesMarqueesC2C3}">./_inc/system/style-allTilesMarqueesC2C3.xml</include>
 		<include name="allTilesMarqueesC1C4" displayName="${lang.allTilesMarqueesC1C4}">./_inc/system/style-allTilesMarqueesC1C4.xml</include>
-		<include name="allTilesMarqueesALL" displayName="${lang.allTilesMarqueesALL}">./_inc/system/style-allTilesMarqueesALL.xml</include>
 		<!--fanarts-->
 		<include name="allTilesFanarts" displayName="${lang.allTilesFanarts}">./_inc/system/style-allTilesFanarts.xml</include>
 		<include name="allTilesFanartsC2C3" displayName="${lang.allTilesFanartsC2C3}">./_inc/system/style-allTilesFanartsC2C3.xml</include>
 		<include name="allTilesFanartsC1C4" displayName="${lang.allTilesFanartsC1C4}">./_inc/system/style-allTilesFanartsC1C4.xml</include>
-		<include name="allTilesFanartsALL" displayName="${lang.allTilesFanartsALL}">./_inc/system/style-allTilesFanartsALL.xml</include>
 		<!--fanarts/marquees-->
 		<include name="allTilesFanartsMarquees" displayName="${lang.allTilesFanartsMarquees}">./_inc/system/style-allTilesFanartsMarquees.xml</include>
 		<include name="allTilesFanartsMarqueesC2C3" displayName="${lang.allTilesFanartsMarqueesC2C3}">./_inc/system/style-allTilesFanartsMarqueesC2C3.xml</include>
 		<include name="allTilesFanartsMarqueesC1C4" displayName="${lang.allTilesFanartsMarqueesC1C4}">./_inc/system/style-allTilesFanartsMarqueesC1C4.xml</include>
-		<include name="allTilesFanartsMarqueesALL" displayName="${lang.allTilesFanartsMarqueesALL}">./_inc/system/style-allTilesFanartsMarqueesALL.xml</include>
 		<!--comix thumbnails-->
 		<include name="allTileThumbnails" displayName="${lang.allTileThumbnails}">./_inc/system/style-allTilesThumbnails.xml</include>
 		<include name="allTilesThumbnailsC2C3" displayName="${lang.allTilesThumbnailsC2C3}">./_inc/system/style-allTilesThumbnailsC2C3.xml</include>
 		<include name="allTilesThumbnailsC1C4" displayName="${lang.allTilesThumbnailsC1C4}">./_inc/system/style-allTilesThumbnailsC1C4.xml</include>
-		<include name="allTilesThumbnailsALL" displayName="${lang.allTilesThumbnailsALL}">./_inc/system/style-allTilesThumbnailsALL.xml</include>
 -->	</subset>
 
 	<include>./_comicScrapV2Custom/customText/default.xml</include>
