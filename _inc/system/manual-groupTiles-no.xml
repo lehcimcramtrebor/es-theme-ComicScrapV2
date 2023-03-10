@@ -15,8 +15,44 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<!--comix marquees-->
 		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-11.xml</include>
+
+		<include name="comicBlue+marquee" displayName="${lang.comicBlue+marquee}">./comics/comic-11-blue.xml</include>
+		<include name="comicBlue+marquee" displayName="${lang.comicBlue+marquee}">./marquees/marquee-11.xml</include>
+
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./comics/comic-11-fire.xml</include>
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./marquees/marquee-11.xml</include>
+
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./comics/comic-11-green.xml</include>
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./marquees/marquee-11.xml</include>
+
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./comics/comic-11-purple.xml</include>
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./marquees/marquee-11.xml</include>
+
+		<include name="comicRed+marquee" displayName="${lang.comicRed+marquee}">./comics/comic-11-red.xml</include>
+		<include name="comicRed+marquee" displayName="${lang.comicRed+marquee}">./marquees/marquee-11.xml</include>
+
+		<include name="comicYellow+marquee" displayName="${lang.comicYellow+marquee}">./comics/comic-11-yellow.xml</include>
+		<include name="comicYellow+marquee" displayName="${lang.comicYellow+marquee}">./marquees/marquee-11.xml</include>
 		<!--comix thumbnails-->
 		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-11.xml</include>
+
+		<include name="comicBlue+thumbnail" displayName="${lang.comicBlue+thumbnail}">./comics/comic-11-blue.xml</include>
+		<include name="comicBlue+thumbnail" displayName="${lang.comicBlue+thumbnail}">./thumbnails/thumbnail-11.xml</include>
+
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./comics/comic-11-fire.xml</include>
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./thumbnails/thumbnail-11.xml</include>
+
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./comics/comic-11-green.xml</include>
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./thumbnails/thumbnail-11.xml</include>
+
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./comics/comic-11-purple.xml</include>
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./thumbnails/thumbnail-11.xml</include>
+
+		<include name="comicRed+thumbnail" displayName="${lang.comicRed+thumbnail}">./comics/comic-11-red.xml</include>
+		<include name="comicRed+thumbnail" displayName="${lang.comicRed+thumbnail}">./thumbnails/thumbnail-11.xml</include>
+
+		<include name="comicYellow+thumbnail" displayName="${lang.comicYellow+thumbnail}">./comics/comic-11-yellow.xml</include>
+		<include name="comicYellow+thumbnail" displayName="${lang.comicYellow+thumbnail}">./thumbnails/thumbnail-11.xml</include>
 		<!--images-->
 		<include name="image" displayName="${lang.image}">./images/image-11.xml</include>
 		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-11.xml</include>
@@ -39,6 +75,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-11.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comics}">./comics/comic-11.xml</include>
+		<include name="comicsBlue" displayName="${lang.comics}">./comics/comic-11-blue.xml</include>
+		<include name="comicsFire" displayName="${lang.comicsBlue}">./comics/comic-11-fire.xml</include>
+		<include name="comicsGreen" displayName="${lang.comicsGreen}">./comics/comic-11-green.xml</include>
+		<include name="comicsPurple" displayName="${lang.comicsPurple}">./comics/comic-11-purple.xml</include>
+		<include name="comicsRed" displayName="${lang.comicsRed}">./comics/comic-11-red.xml</include>
+		<include name="comicsYellow" displayName="${lang.comicsYellow}">./comics/comic-11-yellow.xml</include>
 
 		<!--MIX-->
 
@@ -95,8 +137,44 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<!--comix marquees-->
 		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-12.xml</include>
+
+		<include name="comicPink+marquee" displayName="${lang.comicPink+marquee}">./comics/comic-12-pink.xml</include>
+		<include name="comicPink+marquee" displayName="${lang.comicPink+marquee}">./marquees/marquee-12.xml</include>
+
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./comics/comic-12-fire.xml</include>
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./marquees/marquee-12.xml</include>
+
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./comics/comic-12-green.xml</include>
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./marquees/marquee-12.xml</include>
+
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./comics/comic-12-purple.xml</include>
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./marquees/marquee-12.xml</include>
+
+		<include name="comicRed+marquee" displayName="${lang.comicRed+marquee}">./comics/comic-12-red.xml</include>
+		<include name="comicRed+marquee" displayName="${lang.comicRed+marquee}">./marquees/marquee-12.xml</include>
+
+		<include name="comicYellow+marquee" displayName="${lang.comicYellow+marquee}">./comics/comic-12-yellow.xml</include>
+		<include name="comicYellow+marquee" displayName="${lang.comicYellow+marquee}">./marquees/marquee-12.xml</include>
 		<!--comix thumbnails-->
 		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-12.xml</include>
+
+		<include name="comicPink+thumbnail" displayName="${lang.comicPink+thumbnail}">./comics/comic-12-pink.xml</include>
+		<include name="comicPink+thumbnail" displayName="${lang.comicPink+thumbnail}">./thumbnails/thumbnail-12.xml</include>
+
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./comics/comic-12-fire.xml</include>
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./thumbnails/thumbnail-12.xml</include>
+
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./comics/comic-12-green.xml</include>
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./thumbnails/thumbnail-12.xml</include>
+
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./comics/comic-12-purple.xml</include>
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./thumbnails/thumbnail-12.xml</include>
+
+		<include name="comicRed+thumbnail" displayName="${lang.comicRed+thumbnail}">./comics/comic-12-red.xml</include>
+		<include name="comicRed+thumbnail" displayName="${lang.comicRed+thumbnail}">./thumbnails/thumbnail-12.xml</include>
+
+		<include name="comicYellow+thumbnail" displayName="${lang.comicYellow+thumbnail}">./comics/comic-12-yellow.xml</include>
+		<include name="comicYellow+thumbnail" displayName="${lang.comicYellow+thumbnail}">./thumbnails/thumbnail-12.xml</include>
 		<!--images-->
 		<include name="image" displayName="${lang.image}">./images/image-12.xml</include>
 		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-12.xml</include>
@@ -119,6 +197,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-12.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comics}">./comics/comic-12.xml</include>
+		<include name="comicsPink" displayName="${lang.comicsPink}">./comics/comic-12-pink.xml</include>
+		<include name="comicsFire" displayName="${lang.comicsFire}">./comics/comic-12-fire.xml</include>
+		<include name="comicsGreen" displayName="${lang.comicsGreen}">./comics/comic-12-green.xml</include>
+		<include name="comicsPurple" displayName="${lang.comicsPurple}">./comics/comic-12-purple.xml</include>
+		<include name="comicsRed" displayName="${lang.comicsRed}">./comics/comic-12-red.xml</include>
+		<include name="comicsYellow" displayName="${lang.comicsYellow}">./comics/comic-12-yellow.xml</include>
 
 		<!--MIX-->
 
@@ -175,8 +259,44 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<!--comix marquees-->
 		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-13.xml</include>
+
+		<include name="comicPink+marquee" displayName="${lang.comicPink+marquee}">./comics/comic-13-pink.xml</include>
+		<include name="comicPink+marquee" displayName="${lang.comicPink+marquee}">./marquees/marquee-13.xml</include>
+
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./comics/comic-13-fire.xml</include>
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./marquees/marquee-13.xml</include>
+
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./comics/comic-13-green.xml</include>
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./marquees/marquee-13.xml</include>
+
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./comics/comic-13-purple.xml</include>
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./marquees/marquee-13.xml</include>
+
+		<include name="comicBlue+marquee" displayName="${lang.comicBlue+marquee}">./comics/comic-13-blue.xml</include>
+		<include name="comicBlue+marquee" displayName="${lang.comicBlue+marquee}">./marquees/marquee-13.xml</include>
+
+		<include name="comicYellow+marquee" displayName="${lang.comicYellow+marquee}">./comics/comic-13-yellow.xml</include>
+		<include name="comicYellow+marquee" displayName="${lang.comicYellow+marquee}">./marquees/marquee-13.xml</include>
 		<!--comix thumbnails-->
 		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-13.xml</include>
+
+		<include name="comicPink+thumbnail" displayName="${lang.comicPink+thumbnail}">./comics/comic-13-pink.xml</include>
+		<include name="comicPink+thumbnail" displayName="${lang.comicPink+thumbnail}">./thumbnails/thumbnail-13.xml</include>
+
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./comics/comic-13-fire.xml</include>
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./thumbnails/thumbnail-13.xml</include>
+
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./comics/comic-13-green.xml</include>
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./thumbnails/thumbnail-13.xml</include>
+
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./comics/comic-13-purple.xml</include>
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./thumbnails/thumbnail-13.xml</include>
+
+		<include name="comicBlue+thumbnail" displayName="${lang.comicBlue+thumbnail}">./comics/comic-13-blue.xml</include>
+		<include name="comicBlue+thumbnail" displayName="${lang.comicBlue+thumbnail}">./thumbnails/thumbnail-13.xml</include>
+
+		<include name="comicYellow+thumbnail" displayName="${lang.comicYellow+thumbnail}">./comics/comic-13-yellow.xml</include>
+		<include name="comicYellow+thumbnail" displayName="${lang.comicYellow+thumbnail}">./thumbnails/thumbnail-13.xml</include>
 		<!--images-->
 		<include name="image" displayName="${lang.image}">./images/image-13.xml</include>
 		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-13.xml</include>
@@ -199,6 +319,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-13.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comics}">./comics/comic-13.xml</include>
+		<include name="comicsPink" displayName="${lang.comicsPink}">./comics/comic-13-pink.xml</include>
+		<include name="comicsFire" displayName="${lang.comicsFire}">./comics/comic-13-fire.xml</include>
+		<include name="comicsGreen" displayName="${lang.comicsGreen}">./comics/comic-13-green.xml</include>
+		<include name="comicsPurple" displayName="${lang.comicsPurple}">./comics/comic-13-purple.xml</include>
+		<include name="comicsBlue" displayName="${lang.comicsBlue}">./comics/comic-13-blue.xml</include>
+		<include name="comicsYellow" displayName="${lang.comicsYellow}">./comics/comic-13-yellow.xml</include>
 
 		<!--MIX-->
 
@@ -255,8 +381,44 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<!--comix marquees-->
 		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-14.xml</include>
+
+		<include name="comicPink+marquee" displayName="${lang.comicPink+marquee}">./comics/comic-14-pink.xml</include>
+		<include name="comicPink+marquee" displayName="${lang.comicPink+marquee}">./marquees/marquee-14.xml</include>
+
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./comics/comic-14-fire.xml</include>
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./marquees/marquee-14.xml</include>
+
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./comics/comic-14-green.xml</include>
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./marquees/marquee-14.xml</include>
+
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./comics/comic-14-purple.xml</include>
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./marquees/marquee-14.xml</include>
+
+		<include name="comicBlue+marquee" displayName="${lang.comicBlue+marquee}">./comics/comic-14-blue.xml</include>
+		<include name="comicBlue+marquee" displayName="${lang.comicBlue+marquee}">./marquees/marquee-14.xml</include>
+
+		<include name="comicRed+marquee" displayName="${lang.comicRed+marquee}">./comics/comic-14-red.xml</include>
+		<include name="comicRed+marquee" displayName="${lang.comicRed+marquee}">./marquees/marquee-14.xml</include>
 		<!--comix thumbnails-->
 		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-14.xml</include>
+
+		<include name="comicPink+thumbnail" displayName="${lang.comicPink+thumbnail}">./comics/comic-14-pink.xml</include>
+		<include name="comicPink+thumbnail" displayName="${lang.comicPink+thumbnail}">./thumbnails/thumbnail-14.xml</include>
+
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./comics/comic-14-fire.xml</include>
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./thumbnails/thumbnail-14.xml</include>
+
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./comics/comic-14-green.xml</include>
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./thumbnails/thumbnail-14.xml</include>
+
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./comics/comic-14-purple.xml</include>
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./thumbnails/thumbnail-14.xml</include>
+
+		<include name="comicBlue+thumbnail" displayName="${lang.comicBlue+thumbnail}">./comics/comic-14-blue.xml</include>
+		<include name="comicBlue+thumbnail" displayName="${lang.comicBlue+thumbnail}">./thumbnails/thumbnail-14.xml</include>
+
+		<include name="comicRed+thumbnail" displayName="${lang.comicRed+thumbnail}">./comics/comic-14-red.xml</include>
+		<include name="comicRed+thumbnail" displayName="${lang.comicRed+thumbnail}">./thumbnails/thumbnail-14.xml</include>
 		<!--images-->
 		<include name="image" displayName="${lang.image}">./images/image-14.xml</include>
 		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-14.xml</include>
@@ -279,6 +441,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-14.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comics}">./comics/comic-14.xml</include>
+		<include name="comicsPink" displayName="${lang.comicsPink}">./comics/comic-14-pink.xml</include>
+		<include name="comicsFire" displayName="${lang.comicsFire}">./comics/comic-14-fire.xml</include>
+		<include name="comicsGreen" displayName="${lang.comicsGreen}">./comics/comic-14-green.xml</include>
+		<include name="comicsPurple" displayName="${lang.comicsPurple}">./comics/comic-14-purple.xml</include>
+		<include name="comicsBlue" displayName="${lang.comicsBlue}">./comics/comic-14-blue.xml</include>
+		<include name="comicsRed" displayName="${lang.comicsRed}">./comics/comic-14-red.xml</include>
 
 		<!--MIX-->
 
@@ -335,6 +503,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comics}">./comics/comic-21.xml</include>
+		<include name="comicsPink" displayName="${lang.comicsPink}">./comics/comic-21-pink.xml</include>
+		<include name="comicsFire" displayName="${lang.comicsFire}">./comics/comic-21-fire.xml</include>
+		<include name="comicsGreen" displayName="${lang.comicsGreen}">./comics/comic-21-green.xml</include>
+		<include name="comicsYellow" displayName="${lang.comicsYellow}">./comics/comic-21-yellow.xml</include>
+		<include name="comicsBlue" displayName="${lang.comicsBlue}">./comics/comic-21-blue.xml</include>
+		<include name="comicsRed" displayName="${lang.comicsRed}">./comics/comic-21-red.xml</include>
 		<!--images-->
 		<include name="image" displayName="${lang.image}">./images/image-21.xml</include>
 		<!--fanarts-->
@@ -372,6 +546,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comics}">./comics/comic-23.xml</include>
+		<include name="comicsPink" displayName="${lang.comicsPink}">./comics/comic-23-pink.xml</include>
+		<include name="comicsFire" displayName="${lang.comicsFire}">./comics/comic-23-fire.xml</include>
+		<include name="comicsPurple" displayName="${lang.comicsPurple}">./comics/comic-23-purple.xml</include>
+		<include name="comicsYellow" displayName="${lang.comicsYellow}">./comics/comic-23-yellow.xml</include>
+		<include name="comicsBlue" displayName="${lang.comicsBlue}">./comics/comic-23-blue.xml</include>
+		<include name="comicsRed" displayName="${lang.comicsRed}">./comics/comic-23-red.xml</include>
 		<!--images-->
 		<include name="image" displayName="${lang.image}">./images/image-23.xml</include>
 		<!--fanarts-->
@@ -409,8 +589,44 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<!--comix marquees-->
 		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-31.xml</include>
+
+		<include name="comicPink+marquee" displayName="${lang.comicPink+marquee}">./comics/comic-31-pink.xml</include>
+		<include name="comicPink+marquee" displayName="${lang.comicPink+marquee}">./marquees/marquee-31.xml</include>
+
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./comics/comic-31-fire.xml</include>
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./marquees/marquee-31.xml</include>
+
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./comics/comic-31-green.xml</include>
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./marquees/marquee-31.xml</include>
+
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./comics/comic-31-purple.xml</include>
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./marquees/marquee-31.xml</include>
+
+		<include name="comicBlue+marquee" displayName="${lang.comicBlue+marquee}">./comics/comic-31-blue.xml</include>
+		<include name="comicBlue+marquee" displayName="${lang.comicBlue+marquee}">./marquees/marquee-31.xml</include>
+
+		<include name="comicRed+marquee" displayName="${lang.comicRed+marquee}">./comics/comic-31-red.xml</include>
+		<include name="comicRed+marquee" displayName="${lang.comicRed+marquee}">./marquees/marquee-31.xml</include>
 		<!--comix thumbnails-->
 		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-31.xml</include>
+
+		<include name="comicPink+thumbnail" displayName="${lang.comicPink+thumbnail}">./comics/comic-31-pink.xml</include>
+		<include name="comicPink+thumbnail" displayName="${lang.comicPink+thumbnail}">./thumbnails/thumbnail-31.xml</include>
+
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./comics/comic-31-fire.xml</include>
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./thumbnails/thumbnail-31.xml</include>
+
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./comics/comic-31-green.xml</include>
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./thumbnails/thumbnail-31.xml</include>
+
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./comics/comic-31-purple.xml</include>
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./thumbnails/thumbnail-31.xml</include>
+
+		<include name="comicBlue+thumbnail" displayName="${lang.comicBlue+thumbnail}">./comics/comic-31-blue.xml</include>
+		<include name="comicBlue+thumbnail" displayName="${lang.comicBlue+thumbnail}">./thumbnails/thumbnail-31.xml</include>
+
+		<include name="comicRed+thumbnail" displayName="${lang.comicRed+thumbnail}">./comics/comic-31-red.xml</include>
+		<include name="comicRed+thumbnail" displayName="${lang.comicRed+thumbnail}">./thumbnails/thumbnail-31.xml</include>
 		<!--images-->
 		<include name="image" displayName="${lang.image}">./images/image-31.xml</include>
 		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-31.xml</include>
@@ -433,6 +649,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-31.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comics}">./comics/comic-31.xml</include>
+		<include name="comicsPink" displayName="${lang.comicsPink}">./comics/comic-31-pink.xml</include>
+		<include name="comicsFire" displayName="${lang.comicsFire}">./comics/comic-31-fire.xml</include>
+		<include name="comicsGreen" displayName="${lang.comicsGreen}">./comics/comic-31-green.xml</include>
+		<include name="comicsPurple" displayName="${lang.comicsPurple}">./comics/comic-31-purple.xml</include>
+		<include name="comicsBlue" displayName="${lang.comicsBlue}">./comics/comic-31-blue.xml</include>
+		<include name="comicsRed" displayName="${lang.comicsRed}">./comics/comic-31-red.xml</include>
 
 		<!--MIX-->
 
@@ -489,8 +711,44 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<!--comix marquees-->
 		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-32.xml</include>
+
+		<include name="comicPink+marquee" displayName="${lang.comicPink+marquee}">./comics/comic-32-pink.xml</include>
+		<include name="comicPink+marquee" displayName="${lang.comicPink+marquee}">./marquees/marquee-32.xml</include>
+
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./comics/comic-32-fire.xml</include>
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./marquees/marquee-32.xml</include>
+
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./comics/comic-32-green.xml</include>
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./marquees/marquee-32.xml</include>
+
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./comics/comic-32-purple.xml</include>
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./marquees/marquee-32.xml</include>
+
+		<include name="comicBlue+marquee" displayName="${lang.comicBlue+marquee}">./comics/comic-32-blue.xml</include>
+		<include name="comicBlue+marquee" displayName="${lang.comicBlue+marquee}">./marquees/marquee-32.xml</include>
+
+		<include name="comicYellow+marquee" displayName="${lang.comicYellow+marquee}">./comics/comic-32-yellow.xml</include>
+		<include name="comicYellow+marquee" displayName="${lang.comicYellow+marquee}">./marquees/marquee-32.xml</include>
 		<!--comix thumbnails-->
 		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-32.xml</include>
+
+		<include name="comicPink+thumbnail" displayName="${lang.comicPink+thumbnail}">./comics/comic-32-pink.xml</include>
+		<include name="comicPink+thumbnail" displayName="${lang.comicPink+thumbnail}">./thumbnails/thumbnail-32.xml</include>
+
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./comics/comic-32-fire.xml</include>
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./thumbnails/thumbnail-32.xml</include>
+
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./comics/comic-32-green.xml</include>
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./thumbnails/thumbnail-32.xml</include>
+
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./comics/comic-32-purple.xml</include>
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./thumbnails/thumbnail-32.xml</include>
+
+		<include name="comicBlue+thumbnail" displayName="${lang.comicBlue+thumbnail}">./comics/comic-32-blue.xml</include>
+		<include name="comicBlue+thumbnail" displayName="${lang.comicBlue+thumbnail}">./thumbnails/thumbnail-32.xml</include>
+
+		<include name="comicYellow+thumbnail" displayName="${lang.comicYellow+thumbnail}">./comics/comic-32-yellow.xml</include>
+		<include name="comicYellow+thumbnail" displayName="${lang.comicYellow+thumbnail}">./thumbnails/thumbnail-32.xml</include>
 		<!--images-->
 		<include name="image" displayName="${lang.image}">./images/image-32.xml</include>
 		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-32.xml</include>
@@ -513,6 +771,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-32.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comics}">./comics/comic-32.xml</include>
+		<include name="comicsPink" displayName="${lang.comicsPink}">./comics/comic-32-pink.xml</include>
+		<include name="comicsFire" displayName="${lang.comicsFire}">./comics/comic-32-fire.xml</include>
+		<include name="comicsGreen" displayName="${lang.comicsGreen}">./comics/comic-32-green.xml</include>
+		<include name="comicsPurple" displayName="${lang.comicsPurple}">./comics/comic-32-purple.xml</include>
+		<include name="comicsBlue" displayName="${lang.comicsBlue}">./comics/comic-32-blue.xml</include>
+		<include name="comicsYellow" displayName="${lang.comicsYellow}">./comics/comic-32-yellow.xml</include>
 
 		<!--MIX-->
 
@@ -569,8 +833,44 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<!--comix marquees-->
 		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-33.xml</include>
+
+		<include name="comicPink+marquee" displayName="${lang.comicPink+marquee}">./comics/comic-33-pink.xml</include>
+		<include name="comicPink+marquee" displayName="${lang.comicPink+marquee}">./marquees/marquee-33.xml</include>
+
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./comics/comic-33-fire.xml</include>
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./marquees/marquee-33.xml</include>
+
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./comics/comic-33-green.xml</include>
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./marquees/marquee-33.xml</include>
+
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./comics/comic-33-purple.xml</include>
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./marquees/marquee-33.xml</include>
+
+		<include name="comicRed+marquee" displayName="${lang.comicRed+marquee}">./comics/comic-33-red.xml</include>
+		<include name="comicRed+marquee" displayName="${lang.comicRed+marquee}">./marquees/marquee-33.xml</include>
+
+		<include name="comicYellow+marquee" displayName="${lang.comicYellow+marquee}">./comics/comic-33-yellow.xml</include>
+		<include name="comicYellow+marquee" displayName="${lang.comicYellow+marquee}">./marquees/marquee-33.xml</include>
 		<!--comix thumbnails-->
 		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-33.xml</include>
+
+		<include name="comicPink+thumbnail" displayName="${lang.comicPink+thumbnail}">./comics/comic-33-pink.xml</include>
+		<include name="comicPink+thumbnail" displayName="${lang.comicPink+thumbnail}">./thumbnails/thumbnail-33.xml</include>
+
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./comics/comic-33-fire.xml</include>
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./thumbnails/thumbnail-33.xml</include>
+
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./comics/comic-33-green.xml</include>
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./thumbnails/thumbnail-33.xml</include>
+
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./comics/comic-33-purple.xml</include>
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./thumbnails/thumbnail-33.xml</include>
+
+		<include name="comicRed+thumbnail" displayName="${lang.comicRed+thumbnail}">./comics/comic-33-red.xml</include>
+		<include name="comicRed+thumbnail" displayName="${lang.comicRed+thumbnail}">./thumbnails/thumbnail-33.xml</include>
+
+		<include name="comicYellow+thumbnail" displayName="${lang.comicYellow+thumbnail}">./comics/comic-33-yellow.xml</include>
+		<include name="comicYellow+thumbnail" displayName="${lang.comicYellow+thumbnail}">./thumbnails/thumbnail-33.xml</include>
 		<!--images-->
 		<include name="image" displayName="${lang.image}">./images/image-33.xml</include>
 		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-33.xml</include>
@@ -593,6 +893,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-33.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comics}">./comics/comic-33.xml</include>
+		<include name="comicsPink" displayName="${lang.comicsPink}">./comics/comic-33-pink.xml</include>
+		<include name="comicsFire" displayName="${lang.comicsFire}">./comics/comic-33-fire.xml</include>
+		<include name="comicsGreen" displayName="${lang.comicsGreen}">./comics/comic-33-green.xml</include>
+		<include name="comicsPurple" displayName="${lang.comicsPurple}">./comics/comic-33-purple.xml</include>
+		<include name="comicsRed" displayName="${lang.comicsRed}">./comics/comic-33-red.xml</include>
+		<include name="comicsYellow" displayName="${lang.comicsYellow}">./comics/comic-33-yellow.xml</include>
 
 		<!--MIX-->
 
@@ -649,8 +955,44 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<!--comix marquees-->
 		<include name="comic+marquee" displayName="${lang.comic+marquee}">./comicMarquees/marquee-34.xml</include>
+
+		<include name="comicBlue+marquee" displayName="${lang.comicBlue+marquee}">./comics/comic-34-blue.xml</include>
+		<include name="comicBlue+marquee" displayName="${lang.comicBlue+marquee}">./marquees/marquee-34.xml</include>
+
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./comics/comic-34-fire.xml</include>
+		<include name="comicFire+marquee" displayName="${lang.comicFire+marquee}">./marquees/marquee-34.xml</include>
+
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./comics/comic-34-green.xml</include>
+		<include name="comicGreen+marquee" displayName="${lang.comicGreen+marquee}">./marquees/marquee-34.xml</include>
+
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./comics/comic-34-purple.xml</include>
+		<include name="comicPurple+marquee" displayName="${lang.comicPurple+marquee}">./marquees/marquee-34.xml</include>
+
+		<include name="comicRed+marquee" displayName="${lang.comicRed+marquee}">./comics/comic-34-red.xml</include>
+		<include name="comicRed+marquee" displayName="${lang.comicRed+marquee}">./marquees/marquee-34.xml</include>
+
+		<include name="comicYellow+marquee" displayName="${lang.comicYellow+marquee}">./comics/comic-34-yellow.xml</include>
+		<include name="comicYellow+marquee" displayName="${lang.comicYellow+marquee}">./marquees/marquee-34.xml</include>
 		<!--comix thumbnails-->
 		<include name="comic+thumbnail" displayName="${lang.comic+thumbnail}">./comicThumbnails/thumbnail-34.xml</include>
+
+		<include name="comicBlue+thumbnail" displayName="${lang.comicBlue+thumbnail}">./comics/comic-34-blue.xml</include>
+		<include name="comicBlue+thumbnail" displayName="${lang.comicBlue+thumbnail}">./thumbnails/thumbnail-34.xml</include>
+
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./comics/comic-34-fire.xml</include>
+		<include name="comicFire+thumbnail" displayName="${lang.comicFire+thumbnail}">./thumbnails/thumbnail-34.xml</include>
+
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./comics/comic-34-green.xml</include>
+		<include name="comicGreen+thumbnail" displayName="${lang.comicGreen+thumbnail}">./thumbnails/thumbnail-34.xml</include>
+
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./comics/comic-34-purple.xml</include>
+		<include name="comicPurple+thumbnail" displayName="${lang.comicPurple+thumbnail}">./thumbnails/thumbnail-34.xml</include>
+
+		<include name="comicRed+thumbnail" displayName="${lang.comicRed+thumbnail}">./comics/comic-34-red.xml</include>
+		<include name="comicRed+thumbnail" displayName="${lang.comicRed+thumbnail}">./thumbnails/thumbnail-34.xml</include>
+
+		<include name="comicYellow+thumbnail" displayName="${lang.comicYellow+thumbnail}">./comics/comic-34-yellow.xml</include>
+		<include name="comicYellow+thumbnail" displayName="${lang.comicYellow+thumbnail}">./thumbnails/thumbnail-34.xml</include>
 		<!--images-->
 		<include name="image" displayName="${lang.image}">./images/image-34.xml</include>
 		<include name="image+marquee" displayName="${lang.image+marquee}">./images/image-34.xml</include>
@@ -673,6 +1015,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-34.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comics}">./comics/comic-34.xml</include>
+		<include name="comicsBlue" displayName="${lang.comics}">./comics/comic-34-blue.xml</include>
+		<include name="comicsFire" displayName="${lang.comicsBlue}">./comics/comic-34-fire.xml</include>
+		<include name="comicsGreen" displayName="${lang.comicsGreen}">./comics/comic-34-green.xml</include>
+		<include name="comicsPurple" displayName="${lang.comicsPurple}">./comics/comic-34-purple.xml</include>
+		<include name="comicsRed" displayName="${lang.comicsRed}">./comics/comic-34-red.xml</include>
+		<include name="comicsYellow" displayName="${lang.comicsYellow}">./comics/comic-34-yellow.xml</include>
 
 		<!--MIX-->
 
