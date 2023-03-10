@@ -33,6 +33,16 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path ifSubset="forceCustoms:yes">./../../../_comicScrapV2Custom/tiles/${system.theme}/13.jpg</path>
 		<path ifSubset="forceCustoms:yes">./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/13.png</path>
 		<path ifSubset="forceCustoms:yes">./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/13.jpg</path>
+
+		<opacity>0</opacity>
+		<storyboard repeatAt="10000">
+			<animation property="opacity" from="1" to="1" duration="9250" mode="linear"/>
+			<animation property="opacity" from="1" to="0" duration="250" mode="linear" begin="9250"/>
+			<animation property="opacity" from="0" to="1" duration="250" mode="linear" begin="10500"/>
+			<animation property="opacity" from="1" to="0" duration="250" mode="linear" begin="19500"/>
+			<animation property="scale" from="1" to="1" duration="10000" mode="linear"/>
+			<animation property="scale" from="1" to="1" duration="10000" mode="linear" begin="10000"/>
+		</storyboard>
 	</image>
 
 </view>

@@ -226,7 +226,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<subset name="style" displayName="${lang.style}" appliesTo="${allViews}">
 		<include name="manual" displayName="${lang.manual}">./_inc/system/manual-groupTiles.xml</include>
 
-
 		<!--comix marquees-->
 		<include name="allTilesMarquees" displayName="${lang.allTilesMarquees}">./_inc/system/style-allTilesMarquees.xml</include>
 		<include name="allTilesMarqueesC2C3" displayName="${lang.allTilesMarqueesC2C3}">./_inc/system/style-allTilesMarqueesC2C3.xml</include>
