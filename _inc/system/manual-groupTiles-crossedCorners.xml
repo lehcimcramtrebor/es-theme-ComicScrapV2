@@ -49,7 +49,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="comicMedFire+thumbnail" displayName="${lang.comicMedFire+thumbnail}">./comics/comic-firstCorner-medFire.xml</include>
 		<include name="comicMedFire+thumbnail" displayName="${lang.comicMedFire+thumbnail}">./thumbnails/thumbnail-11.xml</include>
 		<include name="comicMedFire+thumbnail" displayName="${lang.comicMedFire+thumbnail}">./thumbnails/thumbnail-12.xml</include>
-		<!--images-->
 
 		<include name="comicMedGreen+thumbnail" displayName="${lang.comicMedGreen+thumbnail}">./comics/comic-firstCorner-medGreen.xml</include>
 		<include name="comicMedGreen+thumbnail" displayName="${lang.comicMedGreen+thumbnail}">./thumbnails/thumbnail-11.xml</include>
