@@ -44,6 +44,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		</storyboard>
 	</image>
 
+	<image name="patchCustom.secondCorner" extra="true" ifSubset="forceCustoms:yes">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<minSize>${s.secondCorner}</minSize>
+		<pos>${p.secondCorner}</pos>
+		<color>${tintTiles}</color>
+		<zIndex>${pi}</zIndex>
+
+		<path>./../../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.png</path>
+		<path>./../../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.jpg</path>
+		<path>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.png</path>
+		<path>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.jpg</path>
+	</image>
+
 </view>
 
 </theme>

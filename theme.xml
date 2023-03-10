@@ -73,6 +73,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<di>800</di> 		<!--default index-->
 		<ti>900</ti>		<!--image index-->
+		<pi>901</pi>		<!--patch index-->
 		<oi>905</oi>		<!--overwrite index-->
 		<vti>910</vti>		<!--video index-->
 		<mti>920</mti>		<!--marquee index-->
