@@ -44,6 +44,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		</storyboard>
 	</image>
 
+	<image name="patchCustom.12" extra="true" ifSubset="forceCustoms:yes">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<minSize>${s.12}</minSize>
+		<pos>${p.12}</pos>
+		<color>${tintTiles}</color>
+		<zIndex>${pi}</zIndex>
+
+		<path>./../../../_comicScrapV2Custom/tiles/${system.theme}/12.png</path>
+		<path>./../../../_comicScrapV2Custom/tiles/${system.theme}/12.jpg</path>
+		<path>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/12.png</path>
+		<path>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/12.jpg</path>
+	</image>
+
 </view>
 
 </theme>

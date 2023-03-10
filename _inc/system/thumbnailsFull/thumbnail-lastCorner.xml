@@ -44,6 +44,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		</storyboard>
 	</image>
 
+	<image name="patchCustom.lastCorner" extra="true" ifSubset="forceCustoms:yes">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<minSize>${s.lastCorner}</minSize>
+		<pos>${p.lastCorner}</pos>
+		<color>${tintTiles}</color>
+		<zIndex>${pi}</zIndex>
+
+		<path>./../../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.png</path>
+		<path>./../../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.jpg</path>
+		<path>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.png</path>
+		<path>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/lastCorner.jpg</path>
+	</image>
+
 </view>
 
 </theme>

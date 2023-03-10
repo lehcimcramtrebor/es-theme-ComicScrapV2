@@ -147,22 +147,18 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.allTilesMarquees>comix marquees - ungrouped tiles</lang.allTilesMarquees>
 	<lang.allTilesMarqueesC2C3>comix marquees - crossed corners</lang.allTilesMarqueesC2C3>
 	<lang.allTilesMarqueesC1C4>comix marquees - crossed corners (inversed)</lang.allTilesMarqueesC1C4>
-	<lang.allTilesMarqueesALL>comix marquees - all tiles grouped</lang.allTilesMarqueesALL>
 
 	<lang.allTilesFanarts>fanarts - ungrouped tiles</lang.allTilesFanarts>
 	<lang.allTilesFanartsC2C3>fanarts - crossed corners</lang.allTilesFanartsC2C3>
 	<lang.allTilesFanartsC1C4>fanarts - crossed corners (inversed)</lang.allTilesFanartsC1C4>
-	<lang.allTilesFanartsALL>fanarts - all tiles grouped</lang.allTilesFanartsALL>
 
 	<lang.allTilesFanartsMarquees>fanarts and marquees - ungrouped tiles</lang.allTilesFanartsMarquees>
 	<lang.allTilesFanartsMarqueesC2C3>fanarts and marquees - crossed corners</lang.allTilesFanartsMarqueesC2C3>
 	<lang.allTilesFanartsMarqueesC1C4>fanarts and marquees - crossed corners (inversed)</lang.allTilesFanartsMarqueesC1C4>
-	<lang.allTilesFanartsMarqueesALL>fanarts and marquees - all tiles grouped</lang.allTilesFanartsMarqueesALL>
 
 	<lang.allTileThumbnails>comix thumbnails - ungrouped tiles</lang.allTileThumbnails>
 	<lang.allTilesThumbnailsC2C3>comix thumbnails - crossed corners</lang.allTilesThumbnailsC2C3>
 	<lang.allTilesThumbnailsC1C4>comix thumbnails - crossed corners (inversed)</lang.allTilesThumbnailsC1C4>
-	<lang.allTilesThumbnailsALL>comix thumbnails - all tiles grouped</lang.allTilesThumbnailsALL>
 
 </variables>
 
