@@ -43,7 +43,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		</menuGroup>
 		<menuBackground name="menubg">
 			<color>202020</color>
-			<scrollbarColor>000000</scrollbarColor>
+			<scrollbarColor>cccccc</scrollbarColor>
 			<scrollbarSize>0.002</scrollbarSize>
 			<scrollbarAlignment>outerright</scrollbarAlignment>
             <path>./menubg.png</path>

@@ -12,8 +12,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <variables>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-<!--Menu entries--------------------------------------------------------------------------------------------------------------->
+<!--Menu entries (BE CAREFUL TO NOT MODIFY SPECIALS CHARACTERS AND LAYOUT (spaces))-------------------------------------------->
 <!----------------------------------------------------------------------------------------------------------------------------->
+
 			 <lang.pp.donation>⊂support⊃   make donation</lang.pp.donation>
 				   <lang.music>⊂music⊃     play</lang.music>
 			  <lang.controller>⊂icons⊃     controller overlay</lang.controller>
@@ -46,8 +47,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 			<lang.secondCorner>    ⊂c2⊃    theme second corner source</lang.secondCorner>
 			 <lang.thirdCorner>    ⊂c3⊃    theme second corner source</lang.thirdCorner>
 			  <lang.lastCorner>    ⊂c4⊃    theme last corner source</lang.lastCorner>
+
+	
+
 <!----------------------------------------------------------------------------------------------------------------------------->
+<!--Language------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.yes>yes</lang.yes>
+	<lang.no>no</lang.no>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Support options------------------------------------------------------------------------------------------------------------>
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 	<lang.pp.themecreator>to beautiful guy who create this theme</lang.pp.themecreator>
@@ -56,6 +69,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.pp.emuelec>to emuelec team</lang.pp.emuelec>
 	<lang.pp.amberelec>to amberelec team</lang.pp.amberelec>
 	<lang.pp.no>no</lang.pp.no>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Bindings------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
 
 	<lang.favorites>favorites</lang.favorites>
 	<lang.gamesPlayed>games played</lang.gamesPlayed>
@@ -67,14 +86,22 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.releasedYear>released year</lang.releasedYear>
 	<lang.systemName>system</lang.systemName>
 	<lang.manufacturer>manufacturer</lang.manufacturer>
-	
-	<lang.yes>yes</lang.yes>
-	<lang.no>no</lang.no>
 
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Music Otions--------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
 	<lang.comixZone>comix zone album</lang.comixZone>
 	<lang.tmntAlbum>tmnt album</lang.tmntAlbum>
 	<lang.generalMusic>play general</lang.generalMusic>
 	<lang.silence>cut all musics</lang.silence>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--FX Otions------------------------------------------------------------------------------------------------------------------>
+<!----------------------------------------------------------------------------------------------------------------------------->
 
 	<lang.paperStrong>strong</lang.paperStrong>
 	<lang.paperLight>light</lang.paperLight>
@@ -87,15 +114,30 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.player>player icons</lang.player>
 
 
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Crazy Comix Options-------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
 	<lang.turner>sketch turner</lang.turner>
 	<lang.allowCustomTurner>allow custom (sketch turner by default)</lang.allowCustomTurner>
 	<lang.kowa>teenage mutants ninja turtles</lang.kowa>
 	<lang.allowCustomKowa>allow custom (tmnt by default)</lang.allowCustomKowa>
 
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Illustrations Options------------------------------------------------------------------------------------------------------>
+<!----------------------------------------------------------------------------------------------------------------------------->
+
 	<lang.behindLogo>in tile behind logo</lang.behindLogo>
 	<lang.bottomRight>out of tiles at bottom right</lang.bottomRight>
 
 
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Style randoms canva Options------------------------------------------------------------------------------------------------>
+<!----------------------------------------------------------------------------------------------------------------------------->
 
 	<lang.cut12>one of two</lang.cut12>
 	<lang.cut12i>one of two (inversed)</lang.cut12i>
@@ -107,6 +149,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.cut14i>all except upper right and bottom left</lang.cut14i>
 	<lang.cutUpper>entire bottom line</lang.cutUpper>
 	<lang.cutBottom>entire upper line</lang.cutBottom>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Force default marquues Options--------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
 
 	<lang.def12>one of two</lang.def12>
 	<lang.def12i>one of two (inversed)</lang.def12i>
@@ -126,53 +174,63 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.snesAltIcons region="jp">nintendo super famicom alternative</lang.snesAltIcons>
 
 
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Center tile & Overwrite left / right tiles Options -------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
 	<lang.themeInclude>default customizable image</lang.themeInclude>
 	<lang.systemCustom>priorize customs (by system)</lang.systemCustom>
 	
 	<lang.fireComic>comic fire</lang.fireComic>
 
 	<lang.pinkComic>comic pink</lang.pinkComic>
-	<lang.pinkBlueComic>comic pink / blue</lang.pinkBlueComic>
-	<lang.pinkRedComic>comic pink / red</lang.pinkRedComic>
-	<lang.pinkYellowComic>comic pink / yellow</lang.pinkYellowComic>
-	<lang.pinkGreenComic>comic pink / green</lang.pinkGreenComic>
-	<lang.pinkPurpleComic>comic pink / purple</lang.pinkPurpleComic>
+	<lang.pinkBlueComic>comic pink/blue</lang.pinkBlueComic>
+	<lang.pinkRedComic>comic pink/red</lang.pinkRedComic>
+	<lang.pinkYellowComic>comic pink/yellow</lang.pinkYellowComic>
+	<lang.pinkGreenComic>comic pink/green</lang.pinkGreenComic>
+	<lang.pinkPurpleComic>comic pink/purple</lang.pinkPurpleComic>
 
 	<lang.blueComic>comic blue</lang.blueComic>
-	<lang.bluePinkComic>comic blue / pink</lang.bluePinkComic>
-	<lang.blueRedComic>comic blue / red</lang.blueRedComic>
-	<lang.blueYellowComic>comic blue / yellow</lang.blueYellowComic>
-	<lang.blueGreenComic>comic blue / green</lang.blueGreenComic>
-	<lang.bluePurpleComic>comic blue / purple</lang.bluePurpleComic>
+	<lang.bluePinkComic>comic blue/pink</lang.bluePinkComic>
+	<lang.blueRedComic>comic blue/red</lang.blueRedComic>
+	<lang.blueYellowComic>comic blue/yellow</lang.blueYellowComic>
+	<lang.blueGreenComic>comic blue/green</lang.blueGreenComic>
+	<lang.bluePurpleComic>comic blue/purple</lang.bluePurpleComic>
 
 	<lang.redComic>comic red</lang.redComic>
-	<lang.redPinkComic>comic red / pink</lang.redPinkComic>
-	<lang.redBlueComic>comic red / blue</lang.redBlueComic>
-	<lang.redYellowComic>comic red / yellow</lang.redYellowComic>
-	<lang.redGreenComic>comic red / green</lang.redGreenComic>
-	<lang.redPurpleComic>comic red / purple</lang.redPurpleComic>
+	<lang.redPinkComic>comic red/pink</lang.redPinkComic>
+	<lang.redBlueComic>comic red/blue</lang.redBlueComic>
+	<lang.redYellowComic>comic red/yellow</lang.redYellowComic>
+	<lang.redGreenComic>comic red/green</lang.redGreenComic>
+	<lang.redPurpleComic>comic red/purple</lang.redPurpleComic>
 
 	<lang.yellowComic>comic yellow</lang.yellowComic>
-	<lang.yellowPinkComic>comic yellow / pink</lang.yellowPinkComic>
-	<lang.yellowBlueComic>comic yellow / blue</lang.yellowBlueComic>
-	<lang.yellowRedComic>comic yellow / red</lang.yellowRedComic>
-	<lang.yellowGreenComic>comic yellow / green</lang.yellowGreenComic>
-	<lang.yellowPurpleComic>comic yellow / purple</lang.yellowPurpleComic>
+	<lang.yellowPinkComic>comic yellow/pink</lang.yellowPinkComic>
+	<lang.yellowBlueComic>comic yellow/blue</lang.yellowBlueComic>
+	<lang.yellowRedComic>comic yellow/red</lang.yellowRedComic>
+	<lang.yellowGreenComic>comic yellow/green</lang.yellowGreenComic>
+	<lang.yellowPurpleComic>comic yellow/purple</lang.yellowPurpleComic>
 
 	<lang.greenComic>comic green</lang.greenComic>
-	<lang.greenPinkComic>comic green / pink</lang.greenPinkComic>
-	<lang.greenBlueComic>comic green / blue</lang.greenBlueComic>
-	<lang.greenRedComic>comic green / red</lang.greenRedComic>
-	<lang.greenYellowComic>comic green / yellow</lang.greenYellowComic>
-	<lang.greenPurpleComic>comic green / purple</lang.greenPurpleComic>
+	<lang.greenPinkComic>comic green/pink</lang.greenPinkComic>
+	<lang.greenBlueComic>comic green/blue</lang.greenBlueComic>
+	<lang.greenRedComic>comic green/red</lang.greenRedComic>
+	<lang.greenYellowComic>comic green/yellow</lang.greenYellowComic>
+	<lang.greenPurpleComic>comic green/purple</lang.greenPurpleComic>
 
 	<lang.purpleComic>comic purple</lang.purpleComic>
-	<lang.purplePinkComic>comic purple / pink</lang.purplePinkComic>
-	<lang.purpleBlueComic>comic purple / blue</lang.purpleBlueComic>
-	<lang.purpleRedComic>comic purple / red</lang.purpleRedComic>
-	<lang.purpleYellowComic>comic purple / yellow</lang.purpleYellowComic>
-	<lang.purpleGreenComic>comic purple / green</lang.purpleGreenComic>
+	<lang.purplePinkComic>comic purple/pink</lang.purplePinkComic>
+	<lang.purpleBlueComic>comic purple/blue</lang.purpleBlueComic>
+	<lang.purpleRedComic>comic purple/red</lang.purpleRedComic>
+	<lang.purpleYellowComic>comic purple/yellow</lang.purpleYellowComic>
+	<lang.purpleGreenComic>comic purple/green</lang.purpleGreenComic>
 
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Pre-configured styles Options---------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
 
 	<lang.allTilesMarquees>comix marquees • ungrouped tiles</lang.allTilesMarquees>
 	<lang.allTilesMarqueesC2C3>comix marquees • crossed corners</lang.allTilesMarqueesC2C3>
