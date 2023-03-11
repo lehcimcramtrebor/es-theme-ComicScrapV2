@@ -15,7 +15,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path.windows ifArch="windows">../..</path.windows>
 
-		<allViews>system,basic,detailed,grid,gamecarousel</allViews>
+		<allViews>                                                system,basic,detailed,grid,gamecarousel</allViews>
 
 		<s.11>0.2380208333333333 0.2157407407407407</s.11>
 		<p.11>0.1736979166666667 0.2078703703703704</p.11>
@@ -80,12 +80,17 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	</variables>
 
-	<include>./_support/support.xml</include>
 
 	<include>./_comicScrapV2Custom/langs/default.xml</include>
 	<include>./_comicScrapV2Custom/langs/${lang}.xml</include>
 	<include>./${path.windows}/../../_comicScrapV2Custom/langs/default.xml</include>
 	<include>./${path.windows}/../../_comicScrapV2Custom/langs/${lang}.xml</include>
+
+	<include>./_support/support.xml</include>
+
+	<subset name="SPACER-01" displayName=" ">
+		<include name=" "/>
+	</subset>
 
 	<subset name="music" displayName="${lang.music}">
 		<include name="comixZone" displayName="${lang.comixZone}"/>
@@ -94,16 +99,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="silence" displayName="${lang.silence}"/>
 	</subset>
 
-	<subset name="paperOverlay" displayName="${lang.paperOverlay}">
-		<include name="paperStrong" displayName="${lang.paperStrong}"/>
-		<include name="paperLight" displayName="${lang.paperLight}"/>
-	</subset>
-
-	<subset name="tint" displayName="${lang.tint}">
-		<include name="tintWarm" displayName="${lang.tintWarm}">./_inc/overlays/tintWarm.xml</include>
-		<include name="tintStd" displayName="${lang.tintStd}">./_inc/overlays/tintStd.xml</include>
-		<include name="tintUltraWarm" displayName="${lang.tintUltraWarm}">./_inc/overlays/tintUltraWarm.xml</include>
-		<include name="tintWhite" displayName="${lang.tintWhite}">./_inc/overlays/tintWhite.xml</include>
+	<subset name="SPACER-01" displayName=" ">
+		<include name=" "/>
 	</subset>
 
 	<subset name="controller" displayName="${lang.controller}">
@@ -119,6 +116,26 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="psxIcons" displayName="${lang.psxIcons}"/>
 		<include name="snesIcons" displayName="${lang.snesIcons}"/>
 		<include name="snesAltIcons" displayName="${lang.snesAltIcons}"/>
+	</subset>
+
+	<subset name="paperOverlay" displayName="${lang.paperOverlay}">
+		<include name="paperStrong" displayName="${lang.paperStrong}"/>
+		<include name="paperLight" displayName="${lang.paperLight}"/>
+	</subset>
+
+	<subset name="tint" displayName="${lang.tint}">
+		<include name="tintWarm" displayName="${lang.tintWarm}">./_inc/overlays/tintWarm.xml</include>
+		<include name="tintStd" displayName="${lang.tintStd}">./_inc/overlays/tintStd.xml</include>
+		<include name="tintUltraWarm" displayName="${lang.tintUltraWarm}">./_inc/overlays/tintUltraWarm.xml</include>
+		<include name="tintWhite" displayName="${lang.tintWhite}">./_inc/overlays/tintWhite.xml</include>
+	</subset>
+
+	<subset name="crazyComix" displayName="${lang.crazyComix}">
+		<include name="no" displayName="${lang.no}"/>
+		<include name="turner" displayName="${lang.turner}"/>
+		<include name="kowa" displayName="${lang.kowa}"/>
+		<include name="allowCustomTurner" displayName="${lang.allowCustomTurner}"/>
+		<include name="allowCustomKowa" displayName="${lang.allowCustomKowa}"/>
 	</subset>
 
 	<subset name="carouselAnime" displayName="${lang.carouselAnime}">
@@ -138,14 +155,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
-	<subset name="crazyComix" displayName="${lang.crazyComix}">
-		<include name="no" displayName="${lang.no}"/>
-		<include name="turner" displayName="${lang.turner}"/>
-		<include name="kowa" displayName="${lang.kowa}"/>
-		<include name="allowCustomTurner" displayName="${lang.allowCustomTurner}"/>
-		<include name="allowCustomKowa" displayName="${lang.allowCustomKowa}"/>
-	</subset>
-
 	<subset name="character" displayName="${lang.character}" appliesTo="${allViews}">
 		<include name="behindLogo" displayName="${lang.behindLogo}"/>
 		<include name="bottomRight" displayName="${lang.bottomRight}"/>
@@ -157,6 +166,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="yes" displayName="${lang.yes}"/>
 	</subset>
 
+	<subset name="forceCustomMarquees" displayName="${lang.forceCustomMarquees}" appliesTo="${allViews}">
+		<include name="yes" displayName="${lang.yes}"/>
+		<include name="no" displayName="${lang.no}"/>
+	</subset>
+
 	<subset name="forceDefaultMarquees" displayName="${lang.forceDefaultMarquees}" appliesTo="${allViews}">
 		<include name="no" displayName="${lang.no}"/>
 		<include name="yes" displayName="${lang.yes}"/>
@@ -164,11 +178,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="def12i" displayName="${lang.def12i}"/>
 		<include name="defUpper" displayName="${lang.defUpper}"/>
 		<include name="defBottom" displayName="${lang.defBottom}"/>
-	</subset>
-
-	<subset name="forceCustomMarquees" displayName="${lang.forceCustomMarquees}" appliesTo="${allViews}">
-		<include name="yes" displayName="${lang.yes}"/>
-		<include name="no" displayName="${lang.no}"/>
 	</subset>
 
 	<subset name="forceCustoms" displayName="${lang.forceCustoms}" appliesTo="${allViews}">

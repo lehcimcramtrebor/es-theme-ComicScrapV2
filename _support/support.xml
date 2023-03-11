@@ -6,7 +6,7 @@ By Helmic
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
-
+<!--
        <variables>
 
         <lang.pp.donation>support developers</lang.pp.donation>
@@ -27,14 +27,14 @@ By Helmic
 		<lang.pp.no lang="fr">non</lang.pp.no>
 
 	</variables>
-
+-->
     <subset name="donation" displayName="${lang.pp.donation}">
 		<include name="no" displayName="${lang.pp.no}"/>
         <include name="retrobat" displayName="${lang.pp.retrobat}"/>
         <include name="batocera" displayName="${lang.pp.batocera}"/>
-<!--        <include name="emuelec" displayName="${lang.pp.emuelec}"/>
+        <include name="emuelec" displayName="${lang.pp.emuelec}"/>
         <include name="amberelec" displayName="${lang.pp.amberelec}"/>
--->        <include name="themecreator" displayName="${lang.pp.themecreator}"/>
+        <include name="themecreator" displayName="${lang.pp.themecreator}"/>
     </subset>
 
     <view name="system">

@@ -10,8 +10,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <formatVersion>7</formatVersion>
 	<view name="menu">
 		<menuText name="menutitle">
-			<fontPath>./../fonts/CabinCondensed-Regular.ttf</fontPath>
-			<fontSize>0.026</fontSize>
+			<fontPath>./../fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.028</fontSize>
 			<color>dddddd</color>
 		</menuText>
 		<menuText name="menufooter">
@@ -20,8 +20,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 			<color>dddddd</color>
 		</menuText>
 		<menuText name="menutext">
-			<fontPath>./../fonts/CabinCondensed-Regular.ttf</fontPath>
-			<fontSize>0.022</fontSize>
+			<fontPath>./../fonts/FiraCode-SemiBold.ttf</fontPath>
+			<fontSize>0.018</fontSize>
 			<color>dddddd</color>
 			<separatorColor>8080801a</separatorColor>
 			<selectorColor>dddddd</selectorColor>
@@ -30,12 +30,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 			<selectorGradientType>vertical</selectorGradientType>
 		</menuText>
 		<menuTextSmall name="menutextsmall">
-			<fontPath>./../fonts/CabinCondensed-Regular.ttf</fontPath>
+			<fontPath>./../fonts/Cabin_Condensed-Italic.ttf</fontPath>
 			<fontSize>0.016</fontSize>
 		</menuTextSmall>
 		<menuGroup name="menugroup">
-			<fontPath>./../fonts/CabinCondensed-Regular.ttf</fontPath>
-			<fontSize>0.02</fontSize>
+			<fontPath>./../fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.024</fontSize>
 			<color>ffffff</color>
 			<separatorColor>00000000</separatorColor>
 			<backgroundColor>303030</backgroundColor>

@@ -11,6 +11,52 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <variables>
 
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Menu entries--------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+			 <lang.pp.donation>⊂support⊃   make donation</lang.pp.donation>
+				   <lang.music>⊂music⊃     play</lang.music>
+			  <lang.controller>⊂icons⊃     controller overlay</lang.controller>
+			   <lang.helpIcons>            help buttons</lang.helpIcons>
+			<lang.paperOverlay>⊂fx⊃        paper fx intensity</lang.paperOverlay>
+					<lang.tint>            book tint</lang.tint>
+			  <lang.crazyComix>⊂carousel⊃  crazy comix</lang.crazyComix>
+		   <lang.carouselAnime>            logos animation</lang.carouselAnime>
+			  <lang.centerTile>            center tile source</lang.centerTile>
+			   <lang.character>⊂theme⊃     customizable illustrations</lang.character>
+	               <lang.boxes>            random covers</lang.boxes>
+	 <lang.forceCustomMarquees>⊂marquees⊃  allow custom marquees (when marquees are availables)</lang.forceCustomMarquees>
+	<lang.forceDefaultMarquees>            force default theme marquees (when marquees are enabled)</lang.forceDefaultMarquees>
+	        <lang.forceCustoms>⊂randoms⊃   replace randoms by custom pictures (when customs exist)</lang.forceCustoms>
+		   <lang.overwrite2123>⊂tiles⊃     overwrite left and right carousel tiles</lang.overwrite2123>
+				   <lang.style>            pre-configured style</lang.style>
+	  <lang.filterComixRandoms>            randoms tiles canvas (when are enabled)</lang.filterComixRandoms>
+			  <lang.groupTiles>⊂group⊃     unify tiles</lang.groupTiles>
+					<lang.t.11>    ⊂11⊃    theme upper left tile source</lang.t.11>
+					<lang.t.12>    ⊂12⊃    theme upper second tile source</lang.t.12>
+					<lang.t.13>    ⊂13⊃    theme upper third tile source</lang.t.13>
+					<lang.t.14>    ⊂14⊃    theme upper right tile source</lang.t.14>
+					<lang.t.21>    ⊂21⊃    theme middle left tile source</lang.t.21>
+					<lang.t.23>    ⊂23⊃    theme middle right tile source</lang.t.23>
+					<lang.t.31>    ⊂31⊃    theme bottom left tile source</lang.t.31>
+					<lang.t.32>    ⊂32⊃    theme bottom second tile source</lang.t.32>
+					<lang.t.33>    ⊂33⊃    theme bottom third tile source</lang.t.33>
+					<lang.t.34>    ⊂34⊃    theme bottom right tile source</lang.t.34>
+			 <lang.firstCorner>    ⊂c1⊃    theme first corner source</lang.firstCorner>
+			<lang.secondCorner>    ⊂c2⊃    theme second corner source</lang.secondCorner>
+			 <lang.thirdCorner>    ⊂c3⊃    theme second corner source</lang.thirdCorner>
+			  <lang.lastCorner>    ⊂c4⊃    theme last corner source</lang.lastCorner>
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.pp.themecreator>to beautiful guy who create this theme</lang.pp.themecreator>
+	<lang.pp.retrobat>to retrobat team</lang.pp.retrobat>
+	<lang.pp.batocera>to batocera team</lang.pp.batocera>
+	<lang.pp.emuelec>to emuelec team</lang.pp.emuelec>
+	<lang.pp.amberelec>to amberelec team</lang.pp.amberelec>
+	<lang.pp.no>no</lang.pp.no>
+
 	<lang.favorites>favorites</lang.favorites>
 	<lang.gamesPlayed>games played</lang.gamesPlayed>
 	<lang.mostPlayed>most played game</lang.mostPlayed>
@@ -25,44 +71,32 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.yes>yes</lang.yes>
 	<lang.no>no</lang.no>
 
-	<lang.music>music</lang.music>
 	<lang.comixZone>comix zone album</lang.comixZone>
 	<lang.tmntAlbum>tmnt album</lang.tmntAlbum>
 	<lang.generalMusic>play general</lang.generalMusic>
 	<lang.silence>cut all musics</lang.silence>
 
-	<lang.paperOverlay>paper fx intensity</lang.paperOverlay>
 	<lang.paperStrong>strong</lang.paperStrong>
 	<lang.paperLight>light</lang.paperLight>
-	<lang.tint>book tint</lang.tint>
 	<lang.tintStd>less warm</lang.tintStd>
 	<lang.tintWarm>warm</lang.tintWarm>
 	<lang.tintUltraWarm>hot</lang.tintUltraWarm>
 	<lang.tintWhite>white</lang.tintWhite>
 
-	<lang.controller>controller overlay</lang.controller>
 	<lang.stick>arcade stick</lang.stick>
 	<lang.player>player icons</lang.player>
 
-	<lang.carouselAnime>anime system logos</lang.carouselAnime>
 
-	<lang.crazyComix>crazy comix carousel</lang.crazyComix>
 	<lang.turner>sketch turner</lang.turner>
 	<lang.allowCustomTurner>allow custom (sketch turner by default)</lang.allowCustomTurner>
 	<lang.kowa>teenage mutants ninja turtles</lang.kowa>
 	<lang.allowCustomKowa>allow custom (tmnt by default)</lang.allowCustomKowa>
 
-	<lang.character>adjustable by system - display customizable characters</lang.character>
 	<lang.behindLogo>in tile behind logo</lang.behindLogo>
 	<lang.bottomRight>out of tiles at bottom right</lang.bottomRight>
 
-	<lang.boxes>adjustable by system - display random covers</lang.boxes>
 
-	<lang.forceCustoms>adjustable by system - force peripherals custom pictures (when are availables)</lang.forceCustoms>
-	<lang.forceCustomMarquees>adjustable by system - allow custom marquees (when are availables)</lang.forceCustomMarquees>
-	<lang.forceDefaultMarquees>adjustable by system - force default marquees (when are enabled)</lang.forceDefaultMarquees>
 
-	<lang.filterComixRandoms>adjustable by system - randoms tiles canvas (when are enabled)</lang.filterComixRandoms>
 	<lang.cut12>one of two</lang.cut12>
 	<lang.cut12i>one of two (inversed)</lang.cut12i>
 	<lang.cut24>two by two</lang.cut24>
@@ -79,7 +113,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.defUpper>on upper line</lang.defUpper>
 	<lang.defBottom>on bottom line</lang.defBottom>
 	
-	<lang.helpIcons>help icons</lang.helpIcons>
 	<lang.defaultIcons>generic</lang.defaultIcons>
 	<lang.xboxIcons>microsoft xbox</lang.xboxIcons>
 	<lang.xboxOneIcons>microsoft xbox one</lang.xboxOneIcons>
@@ -92,9 +125,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.snesAltIcons region="eu">super nintendo alternative</lang.snesAltIcons>
 	<lang.snesAltIcons region="jp">nintendo super famicom alternative</lang.snesAltIcons>
 
-	<lang.overwrite2123>adjustable by system - draw over left and right carousel tiles</lang.overwrite2123>
 
-	<lang.centerTile>center tile source</lang.centerTile>
 	<lang.themeInclude>default customizable image</lang.themeInclude>
 	<lang.systemCustom>priorize customs (by system)</lang.systemCustom>
 	
@@ -142,23 +173,27 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.purpleYellowComic>comic purple / yellow</lang.purpleYellowComic>
 	<lang.purpleGreenComic>comic purple / green</lang.purpleGreenComic>
 
-	<lang.style>adjustable by system - style</lang.style>
 
-	<lang.allTilesMarquees>comix marquees - ungrouped tiles</lang.allTilesMarquees>
-	<lang.allTilesMarqueesC2C3>comix marquees - crossed corners</lang.allTilesMarqueesC2C3>
-	<lang.allTilesMarqueesC1C4>comix marquees - crossed corners (inversed)</lang.allTilesMarqueesC1C4>
+	<lang.allTilesMarquees>comix marquees • ungrouped tiles</lang.allTilesMarquees>
+	<lang.allTilesMarqueesC2C3>comix marquees • crossed corners</lang.allTilesMarqueesC2C3>
+	<lang.allTilesMarqueesC1C4>comix marquees • crossed corners (inversed)</lang.allTilesMarqueesC1C4>
 
-	<lang.allTilesFanarts>fanarts - ungrouped tiles</lang.allTilesFanarts>
-	<lang.allTilesFanartsC2C3>fanarts - crossed corners</lang.allTilesFanartsC2C3>
-	<lang.allTilesFanartsC1C4>fanarts - crossed corners (inversed)</lang.allTilesFanartsC1C4>
+	<lang.allTilesFanarts>fanarts • ungrouped tiles</lang.allTilesFanarts>
+	<lang.allTilesFanartsC2C3>fanarts • crossed corners</lang.allTilesFanartsC2C3>
+	<lang.allTilesFanartsC1C4>fanarts • crossed corners (inversed)</lang.allTilesFanartsC1C4>
 
-	<lang.allTilesFanartsMarquees>fanarts and marquees - ungrouped tiles</lang.allTilesFanartsMarquees>
-	<lang.allTilesFanartsMarqueesC2C3>fanarts and marquees - crossed corners</lang.allTilesFanartsMarqueesC2C3>
-	<lang.allTilesFanartsMarqueesC1C4>fanarts and marquees - crossed corners (inversed)</lang.allTilesFanartsMarqueesC1C4>
+	<lang.allTilesFanartsMarquees>fanarts and marquees • ungrouped tiles</lang.allTilesFanartsMarquees>
+	<lang.allTilesFanartsMarqueesC2C3>fanarts and marquees • crossed corners</lang.allTilesFanartsMarqueesC2C3>
+	<lang.allTilesFanartsMarqueesC1C4>fanarts and marquees • crossed corners (inversed)</lang.allTilesFanartsMarqueesC1C4>
 
-	<lang.allTileThumbnails>comix thumbnails - ungrouped tiles</lang.allTileThumbnails>
-	<lang.allTilesThumbnailsC2C3>comix thumbnails - crossed corners</lang.allTilesThumbnailsC2C3>
-	<lang.allTilesThumbnailsC1C4>comix thumbnails - crossed corners (inversed)</lang.allTilesThumbnailsC1C4>
+	<lang.allTileThumbnails>comix thumbnails • ungrouped tiles</lang.allTileThumbnails>
+	<lang.allTilesThumbnailsC2C3>comix thumbnails • crossed corners</lang.allTilesThumbnailsC2C3>
+	<lang.allTilesThumbnailsC1C4>comix thumbnails • crossed corners (inversed)</lang.allTilesThumbnailsC1C4>
+
+	<lang.crossedCorners>upper left and bottom right corners</lang.crossedCorners>
+	<lang.crossedCornersInversed>upper right and bottom left corners</lang.crossedCornersInversed>
+	<lang.unifyAllTiles>group all tiles in one</lang.unifyAllTiles>
+
 
 </variables>
 
