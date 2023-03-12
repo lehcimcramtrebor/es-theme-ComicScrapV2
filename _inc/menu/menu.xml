@@ -44,7 +44,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 			<alignment>center</alignment>
 		</menuGroup>
 		<menuBackground name="menubg">
-			<color>${tintLogos}</color>
+			<color>${tint}</color>
 			<scrollbarColor>03eaf9</scrollbarColor>
 			<scrollbarSize>0.0015</scrollbarSize>
 			<scrollbarCorner>0.6</scrollbarCorner>
