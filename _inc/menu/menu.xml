@@ -10,17 +10,18 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <formatVersion>7</formatVersion>
 	<view name="menu">
 		<menuText name="menutitle">
-			<fontPath>./../fonts/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.028</fontSize>
+			<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+			<fontSize>0.036</fontSize>
 			<color>dddddd</color>
+			<glowColor>ff0000</glowColor>
 		</menuText>
 		<menuText name="menufooter">
-			<fontPath>./../fonts/CabinCondensed-Regular.ttf</fontPath>
-			<fontSize>0.018</fontSize>
+			<fontPath>./../fonts/Cabin_Condensed-Italic.ttf</fontPath>
+			<fontSize>0.014</fontSize>
 			<color>dddddd</color>
 		</menuText>
 		<menuText name="menutext">
-			<fontPath>./../fonts/FiraCode-SemiBold.ttf</fontPath>
+			<fontPath>./../fonts/FiraCode-Bold.ttf</fontPath>
 			<fontSize>0.018</fontSize>
 			<color>dddddd</color>
 			<separatorColor>8080801a</separatorColor>
@@ -35,7 +36,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		</menuTextSmall>
 		<menuGroup name="menugroup">
 			<fontPath>./../fonts/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.024</fontSize>
+			<fontSize>0.020</fontSize>
 			<color>ffffff</color>
 			<separatorColor>00000000</separatorColor>
 			<backgroundColor>303030</backgroundColor>
