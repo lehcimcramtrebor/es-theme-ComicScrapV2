@@ -29,7 +29,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	 <lang.forceCustomMarquees>⊂games logos⊃  allow custom logos (when logos are availables)</lang.forceCustomMarquees>
 	<lang.forceDefaultMarquees>               force default theme logos (when logos are enabled)</lang.forceDefaultMarquees>
 	        <lang.forceCustoms>⊂randoms⊃      replace randoms by custom pictures (when customs exist)</lang.forceCustoms>
-				   <lang.style>⊂tiles⊃        pre-configured styles</lang.style>
+				   <lang.style>⊂styles⊃       pre-configured styles</lang.style>
 		   <lang.overwrite2123>⊂overwrite⊃    overwrite left and right carousel tiles</lang.overwrite2123>
 	  <lang.filterComixRandoms>               randoms tiles canvas (when are enabled)</lang.filterComixRandoms>
 			  <lang.groupTiles>⊂group⊃        unify tiles</lang.groupTiles>

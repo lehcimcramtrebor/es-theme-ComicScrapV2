@@ -10,10 +10,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <formatVersion>7</formatVersion>
 	<view name="menu">
 		<menuText name="menutitle">
-			<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
-			<fontSize>0.036</fontSize>
-			<color>dddddd</color>
-			<glowColor>ff0000</glowColor>
+			<fontPath>./../fonts/NotoSansMono-ExtraBold.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+			<color>202020</color>
 		</menuText>
 		<menuText name="menufooter">
 			<fontPath>./../fonts/Cabin_Condensed-Italic.ttf</fontPath>
@@ -21,33 +20,38 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 			<color>dddddd</color>
 		</menuText>
 		<menuText name="menutext">
-			<fontPath>./../fonts/FiraCode-Bold.ttf</fontPath>
-			<fontSize>0.018</fontSize>
-			<color>dddddd</color>
-			<separatorColor>8080801a</separatorColor>
-			<selectorColor>dddddd</selectorColor>
-			<selectorColorEnd>cccccc</selectorColorEnd>
-			<selectedColor>101010</selectedColor>
+			<fontPath>./../fonts/NotoSansMono_SemiCondensed-Bold.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+			<color>121212</color>
+			<separatorColor>00000000</separatorColor>
+			<selectorColor>202020cc</selectorColor>
+			<selectorColorEnd>202020cc</selectorColorEnd>
+			<selectedColor>ffffff</selectedColor>
 			<selectorGradientType>vertical</selectorGradientType>
 		</menuText>
 		<menuTextSmall name="menutextsmall">
 			<fontPath>./../fonts/Cabin_Condensed-Italic.ttf</fontPath>
 			<fontSize>0.016</fontSize>
+			<color>dddddd</color>
 		</menuTextSmall>
 		<menuGroup name="menugroup">
-			<fontPath>./../fonts/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.020</fontSize>
-			<color>ffffff</color>
+			<fontPath>./../fonts/NotoSansMono_SemiCondensed-ExtraBold.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+			<color>202020</color>
 			<separatorColor>00000000</separatorColor>
-			<backgroundColor>303030</backgroundColor>
-			<lineSpacing>2</lineSpacing>
+			<backgroundColor>00000000</backgroundColor>
+			<lineSpacing>3</lineSpacing>
+			<alignment>center</alignment>
 		</menuGroup>
 		<menuBackground name="menubg">
-			<color>202020</color>
-			<scrollbarColor>cccccc</scrollbarColor>
-			<scrollbarSize>0.002</scrollbarSize>
-			<scrollbarAlignment>outerright</scrollbarAlignment>
+			<color>${tintLogos}</color>
+			<scrollbarColor>03eaf9</scrollbarColor>
+			<scrollbarSize>0.0015</scrollbarSize>
+			<scrollbarCorner>0.6</scrollbarCorner>
+			<scrollbarAlignment>innerRight</scrollbarAlignment>
             <path>./menubg.png</path>
+			<cornerSize>18 18</cornerSize>
+			<roundCorners>0.018</roundCorners>
 		</menuBackground>
 		<menuIcons name="menuicons">
 			<iconKodi>./Kodi.png</iconKodi>
