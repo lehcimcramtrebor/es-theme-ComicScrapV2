@@ -9,7 +9,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <theme>
 <formatVersion>7</formatVersion>
 
-	<include>./../comics/comic-34.xml</include>
+	<include>./../comicsBw/comic-34.xml</include>
 
 <view name="system">
 
@@ -22,7 +22,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<color>${tintTiles}</color>
 		<zIndex>${mti}</zIndex>
 		<roundCorners>0.04</roundCorners>
-		<saturation>1.4</saturation>
+		<saturation>0</saturation>
 		<path>{random:thumbnail}</path>
 
 		<opacity>0</opacity>

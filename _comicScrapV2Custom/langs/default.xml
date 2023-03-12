@@ -15,38 +15,39 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <!--Menu entries (BE CAREFUL TO NOT MODIFY SPECIALS CHARACTERS AND LAYOUT (spaces))-------------------------------------------->
 <!----------------------------------------------------------------------------------------------------------------------------->
 
-			 <lang.pp.donation>⊂support⊃   make donation</lang.pp.donation>
-				   <lang.music>⊂music⊃     play</lang.music>
-			  <lang.controller>⊂icons⊃     controller overlay</lang.controller>
-			   <lang.helpIcons>            help buttons</lang.helpIcons>
-			<lang.paperOverlay>⊂fx⊃        paper fx intensity</lang.paperOverlay>
-					<lang.tint>            book tint</lang.tint>
-			  <lang.crazyComix>⊂carousel⊃  crazy comix</lang.crazyComix>
-		   <lang.carouselAnime>            logos animation</lang.carouselAnime>
-			  <lang.centerTile>            center tile source</lang.centerTile>
-			   <lang.character>⊂theme⊃     customizable illustrations</lang.character>
-	               <lang.boxes>            random covers</lang.boxes>
-	 <lang.forceCustomMarquees>⊂marquees⊃  allow custom marquees (when marquees are availables)</lang.forceCustomMarquees>
-	<lang.forceDefaultMarquees>            force default theme marquees (when marquees are enabled)</lang.forceDefaultMarquees>
-	        <lang.forceCustoms>⊂randoms⊃   replace randoms by custom pictures (when customs exist)</lang.forceCustoms>
-		   <lang.overwrite2123>⊂tiles⊃     overwrite left and right carousel tiles</lang.overwrite2123>
-				   <lang.style>            pre-configured style</lang.style>
-	  <lang.filterComixRandoms>            randoms tiles canvas (when are enabled)</lang.filterComixRandoms>
-			  <lang.groupTiles>⊂group⊃     unify tiles</lang.groupTiles>
-					<lang.t.11>    ⊂11⊃    theme upper left tile source</lang.t.11>
-					<lang.t.12>    ⊂12⊃    theme upper second tile source</lang.t.12>
-					<lang.t.13>    ⊂13⊃    theme upper third tile source</lang.t.13>
-					<lang.t.14>    ⊂14⊃    theme upper right tile source</lang.t.14>
-					<lang.t.21>    ⊂21⊃    theme middle left tile source</lang.t.21>
-					<lang.t.23>    ⊂23⊃    theme middle right tile source</lang.t.23>
-					<lang.t.31>    ⊂31⊃    theme bottom left tile source</lang.t.31>
-					<lang.t.32>    ⊂32⊃    theme bottom second tile source</lang.t.32>
-					<lang.t.33>    ⊂33⊃    theme bottom third tile source</lang.t.33>
-					<lang.t.34>    ⊂34⊃    theme bottom right tile source</lang.t.34>
-			 <lang.firstCorner>    ⊂c1⊃    theme first corner source</lang.firstCorner>
-			<lang.secondCorner>    ⊂c2⊃    theme second corner source</lang.secondCorner>
-			 <lang.thirdCorner>    ⊂c3⊃    theme second corner source</lang.thirdCorner>
-			  <lang.lastCorner>    ⊂c4⊃    theme last corner source</lang.lastCorner>
+			 <lang.pp.donation>⊂support⊃      make donation</lang.pp.donation>
+				   <lang.music>⊂music⊃        play</lang.music>
+			  <lang.controller>⊂icons⊃        controller overlay</lang.controller>
+			   <lang.helpIcons>               help buttons</lang.helpIcons>
+			<lang.paperOverlay>⊂fx⊃           paper fx intensity</lang.paperOverlay>
+					<lang.tint>               book tint</lang.tint>
+			  <lang.crazyComix>⊂carousel⊃     crazy comix</lang.crazyComix>
+		   <lang.carouselAnime>               system logos animation</lang.carouselAnime>
+			  <lang.centerTile>               center tile source</lang.centerTile>
+			   <lang.character>⊂theme⊃        customizable illustrations</lang.character>
+	               <lang.boxes>               random boxes</lang.boxes>
+	 <lang.forceCustomMarquees>⊂games logos⊃  allow custom logos (when logos are availables)</lang.forceCustomMarquees>
+	<lang.forceDefaultMarquees>               force default theme logos (when logos are enabled)</lang.forceDefaultMarquees>
+	        <lang.forceCustoms>⊂randoms⊃      replace randoms by custom pictures (when customs exist)</lang.forceCustoms>
+				   <lang.style>⊂tiles⊃        pre-configured styles</lang.style>
+		   <lang.overwrite2123>⊂overwrite⊃    overwrite left and right carousel tiles</lang.overwrite2123>
+	  <lang.filterComixRandoms>               randoms tiles canvas (when are enabled)</lang.filterComixRandoms>
+			  <lang.groupTiles>⊂group⊃        unify tiles</lang.groupTiles>
+					<lang.t.11>    ⊂11⊃       source: upper left tile</lang.t.11>
+					<lang.t.12>    ⊂12⊃       source: upper second tile</lang.t.12>
+					<lang.t.13>    ⊂13⊃       source: upper third tile</lang.t.13>
+					<lang.t.14>    ⊂14⊃       source: upper right tile</lang.t.14>
+					<lang.t.21>    ⊂21⊃       source: middle left tile</lang.t.21>
+					<lang.t.23>    ⊂23⊃       source: middle right tile</lang.t.23>
+					<lang.t.31>    ⊂31⊃       source: bottom left tile</lang.t.31>
+					<lang.t.32>    ⊂32⊃       source: bottom second tile</lang.t.32>
+					<lang.t.33>    ⊂33⊃       source: bottom third tile</lang.t.33>
+					<lang.t.34>    ⊂34⊃       source: bottom right tile</lang.t.34>
+			 <lang.firstCorner>    ⊂c1⊃       source: first corner</lang.firstCorner>
+			<lang.secondCorner>    ⊂c2⊃       source: second corner</lang.secondCorner>
+			 <lang.thirdCorner>    ⊂c3⊃       source: second corner</lang.thirdCorner>
+			  <lang.lastCorner>    ⊂c4⊃       source: last corner</lang.lastCorner>
+			    <lang.allTiles>⊂source⊃       unified source</lang.allTiles>
 
 	
 
@@ -232,25 +233,103 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <!--Pre-configured styles Options---------------------------------------------------------------------------------------------->
 <!----------------------------------------------------------------------------------------------------------------------------->
 
-	<lang.allTilesMarquees>comix marquees • ungrouped tiles</lang.allTilesMarquees>
-	<lang.allTilesMarqueesC2C3>comix marquees • crossed corners</lang.allTilesMarqueesC2C3>
-	<lang.allTilesMarqueesC1C4>comix marquees • crossed corners (inversed)</lang.allTilesMarqueesC1C4>
+	<lang.allTilesMarquees>comix logos • ungrouped tiles</lang.allTilesMarquees>
+	<lang.allTilesMarqueesC2C3>comix logos • crossed c2-c3</lang.allTilesMarqueesC2C3>
+	<lang.allTilesMarqueesC1C4>comix logos • crossed c1-c4</lang.allTilesMarqueesC1C4>
 
 	<lang.allTilesFanarts>fanarts • ungrouped tiles</lang.allTilesFanarts>
-	<lang.allTilesFanartsC2C3>fanarts • crossed corners</lang.allTilesFanartsC2C3>
-	<lang.allTilesFanartsC1C4>fanarts • crossed corners (inversed)</lang.allTilesFanartsC1C4>
+	<lang.allTilesFanartsC2C3>fanarts • crossed c2-c3</lang.allTilesFanartsC2C3>
+	<lang.allTilesFanartsC1C4>fanarts • crossed c1-c4</lang.allTilesFanartsC1C4>
 
-	<lang.allTilesFanartsMarquees>fanarts and marquees • ungrouped tiles</lang.allTilesFanartsMarquees>
-	<lang.allTilesFanartsMarqueesC2C3>fanarts and marquees • crossed corners</lang.allTilesFanartsMarqueesC2C3>
-	<lang.allTilesFanartsMarqueesC1C4>fanarts and marquees • crossed corners (inversed)</lang.allTilesFanartsMarqueesC1C4>
+	<lang.allTilesFanartsMarquees>fanarts and logos • ungrouped tiles</lang.allTilesFanartsMarquees>
+	<lang.allTilesFanartsMarqueesC2C3>fanarts and logos • crossed c2-c3</lang.allTilesFanartsMarqueesC2C3>
+	<lang.allTilesFanartsMarqueesC1C4>fanarts and logos • crossed c1-c4</lang.allTilesFanartsMarqueesC1C4>
 
-	<lang.allTileThumbnails>comix thumbnails • ungrouped tiles</lang.allTileThumbnails>
-	<lang.allTilesThumbnailsC2C3>comix thumbnails • crossed corners</lang.allTilesThumbnailsC2C3>
-	<lang.allTilesThumbnailsC1C4>comix thumbnails • crossed corners (inversed)</lang.allTilesThumbnailsC1C4>
+	<lang.allTileThumbnails>comix boxes • ungrouped tiles</lang.allTileThumbnails>
+	<lang.allTilesThumbnailsC2C3>comix boxes • crossed c2-c3</lang.allTilesThumbnailsC2C3>
+	<lang.allTilesThumbnailsC1C4>comix boxes • crossed c1-c4</lang.allTilesThumbnailsC1C4>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Manual tiles Options------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
 
 	<lang.crossedCorners>upper left and bottom right corners</lang.crossedCorners>
 	<lang.crossedCornersInversed>upper right and bottom left corners</lang.crossedCornersInversed>
 	<lang.unifyAllTiles>group all tiles in one</lang.unifyAllTiles>
+
+
+	<lang.comicPink-marquee>logos (pink)</lang.comicPink-marquee>
+	<lang.comicBlue-marquee>logos (blue)</lang.comicBlue-marquee>
+	<lang.comicRed-marquee>logos (red)</lang.comicRed-marquee>
+	<lang.comicYellow-marquee>logos (yellow)</lang.comicYellow-marquee>
+	<lang.comicPurple-marquee>logos (purple)</lang.comicPurple-marquee>
+	<lang.comicGreen-marquee>logos (green)</lang.comicGreen-marquee>
+	<lang.comicFire-marquee>logos (fire)</lang.comicFire-marquee>
+	<lang.comicAllTiles-marquee>logos (default blue)</lang.comicAllTiles-marquee>
+
+	<lang.comicPink-thumbnail>games boxes (pink)</lang.comicPink-thumbnail>
+	<lang.comicBlue-thumbnail>games boxes (blue)</lang.comicBlue-thumbnail>
+	<lang.comicRed-thumbnail>games boxes (red)</lang.comicRed-thumbnail>
+	<lang.comicYellow-thumbnail>games boxes (yellow)</lang.comicYellow-thumbnail>
+	<lang.comicPurple-thumbnail>games boxes (purple)</lang.comicPurple-thumbnail>
+	<lang.comicGreen-thumbnail>games boxes (green)</lang.comicGreen-thumbnail>
+	<lang.comicFire-thumbnail>games boxes (fire)</lang.comicFire-thumbnail>
+	<lang.comicAllTiles-thumbnail>games boxes (default blue)</lang.comicAllTiles-thumbnail>
+
+	<lang.comicPink>comic (pink)</lang.comicPink>
+	<lang.comicBlue>comic (blue)</lang.comicBlue>
+	<lang.comicRed>comic (red)</lang.comicRed>
+	<lang.comicYellow>comic (yellow)</lang.comicYellow>
+	<lang.comicPurple>comic (purple)</lang.comicPurple>
+	<lang.comicGreen>comic (green)</lang.comicGreen>
+	<lang.comicFire>comic (fire)</lang.comicFire>
+	<lang.comicAllTiles>comic (default blue)</lang.comicAllTiles>
+
+	<lang.image>screenshots</lang.image>
+	<lang.image-marquee>screenshots / logos</lang.image-marquee>
+	<lang.image-thumbnail>screenshots / games boxes</lang.image-thumbnail>
+
+	<lang.fanart>fanarts</lang.fanart>
+	<lang.fanart-marquee>fanarts / logos</lang.fanart-marquee>
+	<lang.fanart-thumbnail>fanarts / games boxes</lang.fanart-thumbnail>
+
+	<lang.thumbnailFull>games boxes (fill)</lang.thumbnailFull>
+
+	<lang.video>videos (custom allowed)</lang.video>
+	<lang.videoRandom>videos (only randoms)</lang.videoRandom>
+	<lang.videoAudio>videos with audio (custom allowed)</lang.videoAudio>
+	<lang.videoRandomAudio>videos with audio (only randoms)</lang.videoRandomAudio>
+
+	<lang.comicBw-marquee>mix: b/w comic / color logos</lang.comicBw-marquee>
+	<lang.comicBw-thumbnail>mix: b/w comic / color games boxes</lang.comicBw-thumbnail>
+
+	<lang.imageBw-marquee>mix: b/w screenshots / color logos</lang.imageBw-marquee>
+	<lang.imageBw-thumbnail>mix: b/w screenshots / color games boxes</lang.imageBw-thumbnail>
+
+	<lang.fanartBw-marquee>mix: b/w fanarts / color logos</lang.fanartBw-marquee>
+	<lang.fanartBw-thumbnail>mix: b/w fanarts / color games boxes</lang.fanartBw-thumbnail>
+
+	<lang.comicBw-marqueeBw>b/w: logos (comic)</lang.comicBw-marqueeBw>
+	<lang.comicBw-thumbnailBw>b/w :games boxes (comic)</lang.comicBw-thumbnailBw>
+
+	<lang.imageBw>b/w: screenshots</lang.imageBw>
+	<lang.imageBw-marqueeBw>b/w: screenshots / logos</lang.imageBw-marqueeBw>
+	<lang.imageBw-thumbnailBw>b/w: screenshots / games boxes</lang.imageBw-thumbnailBw>
+
+	<lang.fanartBw>b/w: fanarts</lang.fanartBw>
+	<lang.fanartBw-marqueeBw>b/w: fanarts / logos</lang.fanartBw-marqueeBw>
+	<lang.fanartBw-thumbnailBw>b/w: fanarts / games boxes</lang.fanartBw-thumbnailBw>
+
+	<lang.thumbnailFullBw>b/w: games boxes (fill)</lang.thumbnailFullBw>
+
+	<lang.videoBw>b/w: videos (custom allowed)</lang.videoBw>
+	<lang.videoRandomBw>b/w: videos (only randoms)</lang.videoRandomBw>
+	<lang.videoAudioBw>b/w: videos with audio (custom allowed)</lang.videoAudioBw>
+	<lang.videoRandomAudioBw>b/w: videos with audio (only randoms)</lang.videoRandomAudioBw>
+
+	<lang.comicBw>b/w: comic</lang.comicBw>
 
 
 </variables>

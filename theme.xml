@@ -15,7 +15,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path.windows ifArch="windows">../..</path.windows>
 
-		<allViews>                                                system,basic,detailed,grid,gamecarousel</allViews>
+		<allViews>                                                            system,basic,detailed,grid,gamecarousel</allViews>
 
 		<s.11>0.2380208333333333 0.2157407407407407</s.11>
 		<p.11>0.1736979166666667 0.2078703703703704</p.11>
@@ -88,19 +88,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<include>./_support/support.xml</include>
 
-	<subset name="SPACER-01" displayName=" ">
-		<include name=" "/>
-	</subset>
-
 	<subset name="music" displayName="${lang.music}">
 		<include name="comixZone" displayName="${lang.comixZone}"/>
 		<include name="tmntAlbum" displayName="${lang.tmntAlbum}"/>
 		<include name="generalMusic" displayName="${lang.generalMusic}"/>
 		<include name="silence" displayName="${lang.silence}"/>
-	</subset>
-
-	<subset name="SPACER-01" displayName=" ">
-		<include name=" "/>
 	</subset>
 
 	<subset name="controller" displayName="${lang.controller}">
@@ -185,6 +177,27 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="no" displayName="${lang.no}"/>
 	</subset>
 
+	<subset name="style" displayName="${lang.style}" appliesTo="${allViews}">
+		<include name="manual" displayName="${lang.manual}">./_inc/system/manual-groupTiles.xml</include>
+
+		<!--comix marquees-->
+		<include name="allTilesMarquees" displayName="${lang.allTilesMarquees}">./_inc/system/style-allTilesMarquees.xml</include>
+		<include name="allTilesMarqueesC2C3" displayName="${lang.allTilesMarqueesC2C3}">./_inc/system/style-allTilesMarqueesC2C3.xml</include>
+		<include name="allTilesMarqueesC1C4" displayName="${lang.allTilesMarqueesC1C4}">./_inc/system/style-allTilesMarqueesC1C4.xml</include>
+		<!--fanarts-->
+		<include name="allTilesFanarts" displayName="${lang.allTilesFanarts}">./_inc/system/style-allTilesFanarts.xml</include>
+		<include name="allTilesFanartsC2C3" displayName="${lang.allTilesFanartsC2C3}">./_inc/system/style-allTilesFanartsC2C3.xml</include>
+		<include name="allTilesFanartsC1C4" displayName="${lang.allTilesFanartsC1C4}">./_inc/system/style-allTilesFanartsC1C4.xml</include>
+		<!--fanarts/marquees-->
+		<include name="allTilesFanartsMarquees" displayName="${lang.allTilesFanartsMarquees}">./_inc/system/style-allTilesFanartsMarquees.xml</include>
+		<include name="allTilesFanartsMarqueesC2C3" displayName="${lang.allTilesFanartsMarqueesC2C3}">./_inc/system/style-allTilesFanartsMarqueesC2C3.xml</include>
+		<include name="allTilesFanartsMarqueesC1C4" displayName="${lang.allTilesFanartsMarqueesC1C4}">./_inc/system/style-allTilesFanartsMarqueesC1C4.xml</include>
+		<!--comix thumbnails-->
+		<include name="allTileThumbnails" displayName="${lang.allTileThumbnails}">./_inc/system/style-allTilesThumbnails.xml</include>
+		<include name="allTilesThumbnailsC2C3" displayName="${lang.allTilesThumbnailsC2C3}">./_inc/system/style-allTilesThumbnailsC2C3.xml</include>
+		<include name="allTilesThumbnailsC1C4" displayName="${lang.allTilesThumbnailsC1C4}">./_inc/system/style-allTilesThumbnailsC1C4.xml</include>
+	</subset>
+
 	<subset name="overwrite2123" displayName="${lang.overwrite2123}" appliesTo="${allViews}">
 		<include name="no" displayName="${lang.no}"/>
 
@@ -232,27 +245,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="purpleYellowComic" displayName="${lang.purpleYellowComic}">./_inc/system/overwrites/purpleYellowComic.xml</include>
 		<include name="purpleGreenComic" displayName="${lang.purpleGreenComic}">./_inc/system/overwrites/purpleGreenComic.xml</include>
 	</subset>
-
-	<subset name="style" displayName="${lang.style}" appliesTo="${allViews}">
-		<include name="manual" displayName="${lang.manual}">./_inc/system/manual-groupTiles.xml</include>
-
-		<!--comix marquees-->
-		<include name="allTilesMarquees" displayName="${lang.allTilesMarquees}">./_inc/system/style-allTilesMarquees.xml</include>
-		<include name="allTilesMarqueesC2C3" displayName="${lang.allTilesMarqueesC2C3}">./_inc/system/style-allTilesMarqueesC2C3.xml</include>
-		<include name="allTilesMarqueesC1C4" displayName="${lang.allTilesMarqueesC1C4}">./_inc/system/style-allTilesMarqueesC1C4.xml</include>
-		<!--fanarts-->
-		<include name="allTilesFanarts" displayName="${lang.allTilesFanarts}">./_inc/system/style-allTilesFanarts.xml</include>
-		<include name="allTilesFanartsC2C3" displayName="${lang.allTilesFanartsC2C3}">./_inc/system/style-allTilesFanartsC2C3.xml</include>
-		<include name="allTilesFanartsC1C4" displayName="${lang.allTilesFanartsC1C4}">./_inc/system/style-allTilesFanartsC1C4.xml</include>
-		<!--fanarts/marquees-->
-		<include name="allTilesFanartsMarquees" displayName="${lang.allTilesFanartsMarquees}">./_inc/system/style-allTilesFanartsMarquees.xml</include>
-		<include name="allTilesFanartsMarqueesC2C3" displayName="${lang.allTilesFanartsMarqueesC2C3}">./_inc/system/style-allTilesFanartsMarqueesC2C3.xml</include>
-		<include name="allTilesFanartsMarqueesC1C4" displayName="${lang.allTilesFanartsMarqueesC1C4}">./_inc/system/style-allTilesFanartsMarqueesC1C4.xml</include>
-		<!--comix thumbnails-->
-		<include name="allTileThumbnails" displayName="${lang.allTileThumbnails}">./_inc/system/style-allTilesThumbnails.xml</include>
-		<include name="allTilesThumbnailsC2C3" displayName="${lang.allTilesThumbnailsC2C3}">./_inc/system/style-allTilesThumbnailsC2C3.xml</include>
-		<include name="allTilesThumbnailsC1C4" displayName="${lang.allTilesThumbnailsC1C4}">./_inc/system/style-allTilesThumbnailsC1C4.xml</include>
--->	</subset>
 
 	<include>./_comicScrapV2Custom/customText/default.xml</include>
 	<include>./${path.windows}/../../_comicScrapV2Custom/customText/default.xml</include>
