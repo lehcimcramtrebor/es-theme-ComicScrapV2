@@ -9,7 +9,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <theme>
 <formatVersion>7</formatVersion>
 
-<view name="system" ifSubset="boxes:yes">
+<view name="system">
 
 	<image name="boxeLeft4" extra="true">
 		<linearSmooth>true</linearSmooth>
@@ -17,7 +17,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>0.084 0.936</pos>
 		<maxSize>0.07 0.23</maxSize>
-		<zIndex>1020</zIndex>
+		<zIndex>1021</zIndex>
 		<color>${tintLogos}</color>
 		<saturation>1.2</saturation>
 		<roundCorners>0.02</roundCorners>
@@ -64,7 +64,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>0.188 0.936</pos>
 		<maxSize>0.07 0.23</maxSize>
-		<zIndex>1020</zIndex>
+		<zIndex>1021</zIndex>
 		<color>${tintLogos}</color>
 		<saturation>1.2</saturation>
 		<roundCorners>0.02</roundCorners>
@@ -111,7 +111,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>0.292 0.936</pos>
 		<maxSize>0.07 0.23</maxSize>
-		<zIndex>1020</zIndex>
+		<zIndex>1021</zIndex>
 		<color>${tintLogos}</color>
 		<saturation>1.2</saturation>
 		<roundCorners>0.02</roundCorners>
@@ -158,7 +158,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>0.396 0.936</pos>
 		<maxSize>0.07 0.23</maxSize>
-		<zIndex>1020</zIndex>
+		<zIndex>1021</zIndex>
 		<color>${tintLogos}</color>
 		<saturation>1.2</saturation>
 		<roundCorners>0.02</roundCorners>
@@ -205,7 +205,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>0.5 0.936</pos>
 		<maxSize>0.07 0.23</maxSize>
-		<zIndex>1020</zIndex>
+		<zIndex>1021</zIndex>
 		<color>${tintLogos}</color>
 		<saturation>1.2</saturation>
 		<roundCorners>0.02</roundCorners>
@@ -252,7 +252,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>0.604 0.936</pos>
 		<maxSize>0.07 0.23</maxSize>
-		<zIndex>1020</zIndex>
+		<zIndex>1021</zIndex>
 		<color>${tintLogos}</color>
 		<saturation>1.2</saturation>
 		<roundCorners>0.02</roundCorners>
@@ -299,7 +299,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>0.708 0.936</pos>
 		<maxSize>0.07 0.23</maxSize>
-		<zIndex>1020</zIndex>
+		<zIndex>1021</zIndex>
 		<color>${tintLogos}</color>
 		<saturation>1.2</saturation>
 		<roundCorners>0.02</roundCorners>
@@ -346,7 +346,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>0.812 0.936</pos>
 		<maxSize>0.07 0.23</maxSize>
-		<zIndex>1020</zIndex>
+		<zIndex>1021</zIndex>
 		<color>${tintLogos}</color>
 		<saturation>1.2</saturation>
 		<roundCorners>0.02</roundCorners>
@@ -393,7 +393,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>0.916 0.936</pos>
 		<maxSize>0.07 0.23</maxSize>
-		<zIndex>1020</zIndex>
+		<zIndex>1021</zIndex>
 		<color>${tintLogos}</color>
 		<saturation>1.2</saturation>
 		<roundCorners>0.02</roundCorners>

@@ -25,7 +25,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		   <lang.carouselAnime>               system logos animation</lang.carouselAnime>
 			  <lang.centerTile>               center tile source</lang.centerTile>
 			   <lang.character>⊂theme⊃        customizable illustrations</lang.character>
-	               <lang.boxes>               random boxes</lang.boxes>
+	               <lang.boxes>               random boxes animation</lang.boxes>
 	 <lang.forceCustomMarquees>⊂games logos⊃  allow custom logos (when logos are availables)</lang.forceCustomMarquees>
 	<lang.forceDefaultMarquees>               force default theme logos (when logos are enabled)</lang.forceDefaultMarquees>
 	        <lang.forceCustoms>⊂randoms⊃      replace randoms by custom pictures (when customs exist)</lang.forceCustoms>
@@ -133,6 +133,15 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<lang.behindLogo>in tile behind logo</lang.behindLogo>
 	<lang.bottomRight>out of tiles at bottom right</lang.bottomRight>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Random Boxes--------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.boxesX9>9x tilting boxes</lang.boxesX9>
+	<lang.boxesX3>3x stacked boxes</lang.boxesX3>
 
 
 
