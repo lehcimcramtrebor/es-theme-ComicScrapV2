@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+	<include>./../images/image-allTiles.xml</include>
+
+<view name="system">
+
+	<video name="video.allTiles" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<minSize>${s.allTiles}</minSize>
+		<pos>${p.allTiles}</pos>
+		<color>${tintTiles}</color>
+		<zIndex>${vti}</zIndex>
+		<delay>0.6</delay>
+		<effect>none</effect>
+		<audio>true</audio>
+
+		<path>{random}</path>
+
+		<path>./../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.mp4</path>
+		<path>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.mp4</path>
+	</video>
+
+</view>
+
+</theme>

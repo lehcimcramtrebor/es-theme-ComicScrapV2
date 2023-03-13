@@ -221,10 +221,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-allTiles.xml</include>
 		<!--videos audio false-->
 		<include name="video" displayName="${lang.video}">./videos/video-allTiles.xml</include>
+		<include name="videoScreenshot" displayName="${lang.videoScreenshot}">./videosScreenshots/video-allTiles.xml</include>
 		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-allTiles.xml</include>
+		<include name="videoRandomScreenshots" displayName="${lang.videoRandomScreenshots}">./videoRandomScreenshots/video-allTiles.xml</include>
 		<!--videos audio true-->
 		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-allTiles.xml</include>
+		<include name="videoAudioScreenshot" displayName="${lang.videoAudioScreenshot}">./videoAudioScreenshots/video-allTiles.xml</include>
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-allTiles.xml</include>
+		<include name="videoRandomAudioScreenshot" displayName="${lang.videoRandomAudioScreenshot}">./videoRandomAudioScreenshots/video-allTiles.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comicAllTiles}">./comics/comic-allTiles.xml</include>
 		<include name="comicBigFire" displayName="${lang.comicFire}">./comics/comic-bigFire.xml</include>
@@ -368,10 +372,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-allTiles.xml</include>
 		<!--videos audio false-->
 		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-allTiles.xml</include>
+		<include name="videoBwScreenshots" displayName="${lang.videoBwScreenshots}">./videoBwScreenshots/video-allTiles.xml</include>
 		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-allTiles.xml</include>
+		<include name="videoRandomBwScreenshots" displayName="${lang.videoRandomBwScreenshots}">./videoRandomBwScreenshots/video-allTiles.xml</include>
 		<!--videos audio true-->
 		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-allTiles.xml</include>
+		<include name="videoAudioBwScreenshots" displayName="${lang.videoAudioBwScreenshots}">./videoAudioBwScreenshots/video-allTiles.xml</include>
 		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-allTiles.xml</include>
+		<include name="videoRandomAudioBwScreenshots" displayName="${lang.videoRandomAudioBwScreenshots}">./videoRandomAudioBwScreenshots/video-allTiles.xml</include>
 		<!--just comixs-->
 		<include name="comicsBw" displayName="${lang.comicBw}">./comicsBw/comic-allTiles.xml</include>
 	</subset>

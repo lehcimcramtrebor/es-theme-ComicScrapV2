@@ -93,10 +93,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-firstCorner.xml</include>
 		<!--videos audio false-->
 		<include name="video" displayName="${lang.video}">./videos/video-firstCorner.xml</include>
+		<include name="videoScreenshot" displayName="${lang.videoScreenshot}">./videosScreenshots/video-firstCorner.xml</include>
 		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-firstCorner.xml</include>
+		<include name="videoRandomScreenshots" displayName="${lang.videoRandomScreenshots}">./videoRandomScreenshots/video-firstCorner.xml</include>
 		<!--videos audio true-->
 		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-firstCorner.xml</include>
+		<include name="videoAudioScreenshot" displayName="${lang.videoAudioScreenshot}">./videoAudioScreenshots/video-firstCorner.xml</include>
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-firstCorner.xml</include>
+		<include name="videoRandomAudioScreenshot" displayName="${lang.videoRandomAudioScreenshot}">./videoRandomAudioScreenshots/video-firstCorner.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comicBlue}">./comics/comic-firstCorner.xml</include>
 		<include name="comicsMedFire" displayName="${lang.comicFire}">./comics/comic-firstCorner-medFire.xml</include>
@@ -167,10 +171,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-firstCorner.xml</include>
 		<!--videos audio false-->
 		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-firstCorner.xml</include>
+		<include name="videoBwScreenshots" displayName="${lang.videoBwScreenshots}">./videoBwScreenshots/video-firstCorner.xml</include>
 		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-firstCorner.xml</include>
+		<include name="videoRandomBwScreenshots" displayName="${lang.videoRandomBwScreenshots}">./videoRandomBwScreenshots/video-firstCorner.xml</include>
 		<!--videos audio true-->
 		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-firstCorner.xml</include>
+		<include name="videoAudioBwScreenshots" displayName="${lang.videoAudioBwScreenshots}">./videoAudioBwScreenshots/video-firstCorner.xml</include>
 		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-firstCorner.xml</include>
+		<include name="videoRandomAudioBwScreenshots" displayName="${lang.videoRandomAudioBwScreenshots}">./videoRandomAudioBwScreenshots/video-firstCorner.xml</include>
 		<!--just comixs-->
 		<include name="comicsBw" displayName="${lang.comicBw}">./comicsBw/comic-firstCorner.xml</include>
 	</subset>
@@ -235,10 +243,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-13.xml</include>
 		<!--videos audio false-->
 		<include name="video" displayName="${lang.video}">./videos/video-13.xml</include>
+		<include name="videoScreenshot" displayName="${lang.videoScreenshot}">./videosScreenshots/video-13.xml</include>
 		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-13.xml</include>
+		<include name="videoRandomScreenshots" displayName="${lang.videoRandomScreenshots}">./videoRandomScreenshots/video-13.xml</include>
 		<!--videos audio true-->
 		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-13.xml</include>
+		<include name="videoAudioScreenshot" displayName="${lang.videoAudioScreenshot}">./videoAudioScreenshots/video-13.xml</include>
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-13.xml</include>
+		<include name="videoRandomAudioScreenshot" displayName="${lang.videoRandomAudioScreenshot}">./videoRandomAudioScreenshots/video-13.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comicRed}">./comics/comic-13.xml</include>
 		<include name="comicsPink" displayName="${lang.comicPink}">./comics/comic-13-pink.xml</include>
@@ -289,10 +301,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-13.xml</include>
 		<!--videos audio false-->
 		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-13.xml</include>
+		<include name="videoBwScreenshots" displayName="${lang.videoBwScreenshots}">./videoBwScreenshots/video-13.xml</include>
 		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-13.xml</include>
+		<include name="videoRandomBwScreenshots" displayName="${lang.videoRandomBwScreenshots}">./videoRandomBwScreenshots/video-13.xml</include>
 		<!--videos audio true-->
 		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-13.xml</include>
+		<include name="videoAudioBwScreenshots" displayName="${lang.videoAudioBwScreenshots}">./videoAudioBwScreenshots/video-13.xml</include>
 		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-13.xml</include>
+		<include name="videoRandomAudioBwScreenshots" displayName="${lang.videoRandomAudioBwScreenshots}">./videoRandomAudioBwScreenshots/video-13.xml</include>
 		<!--just comixs-->
 		<include name="comicsBw" displayName="${lang.comicBw}">./comicsBw/comic-13.xml</include>
 	</subset>
@@ -357,10 +373,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-14.xml</include>
 		<!--videos audio false-->
 		<include name="video" displayName="${lang.video}">./videos/video-14.xml</include>
+		<include name="videoScreenshot" displayName="${lang.videoScreenshot}">./videosScreenshots/video-14.xml</include>
 		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-14.xml</include>
+		<include name="videoRandomScreenshots" displayName="${lang.videoRandomScreenshots}">./videoRandomScreenshots/video-14.xml</include>
 		<!--videos audio true-->
 		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-14.xml</include>
+		<include name="videoAudioScreenshot" displayName="${lang.videoAudioScreenshot}">./videoAudioScreenshots/video-14.xml</include>
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-14.xml</include>
+		<include name="videoRandomAudioScreenshot" displayName="${lang.videoRandomAudioScreenshot}">./videoRandomAudioScreenshots/video-14.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comicYellow}">./comics/comic-14.xml</include>
 		<include name="comicsPink" displayName="${lang.comicPink}">./comics/comic-14-pink.xml</include>
@@ -411,10 +431,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-14.xml</include>
 		<!--videos audio false-->
 		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-14.xml</include>
+		<include name="videoBwScreenshots" displayName="${lang.videoBwScreenshots}">./videoBwScreenshots/video-14.xml</include>
 		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-14.xml</include>
+		<include name="videoRandomBwScreenshots" displayName="${lang.videoRandomBwScreenshots}">./videoRandomBwScreenshots/video-14.xml</include>
 		<!--videos audio true-->
 		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-14.xml</include>
+		<include name="videoAudioBwScreenshots" displayName="${lang.videoAudioBwScreenshots}">./videoAudioBwScreenshots/video-14.xml</include>
 		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-14.xml</include>
+		<include name="videoRandomAudioBwScreenshots" displayName="${lang.videoRandomAudioBwScreenshots}">./videoRandomAudioBwScreenshots/video-14.xml</include>
 		<!--just comixs-->
 		<include name="comicsBw" displayName="${lang.comicBw}">./comicsBw/comic-14.xml</include>
 	</subset>
@@ -479,10 +503,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-31.xml</include>
 		<!--videos audio false-->
 		<include name="video" displayName="${lang.video}">./videos/video-31.xml</include>
+		<include name="videoScreenshot" displayName="${lang.videoScreenshot}">./videosScreenshots/video-31.xml</include>
 		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-31.xml</include>
+		<include name="videoRandomScreenshots" displayName="${lang.videoRandomScreenshots}">./videoRandomScreenshots/video-31.xml</include>
 		<!--videos audio true-->
 		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-31.xml</include>
+		<include name="videoAudioScreenshot" displayName="${lang.videoAudioScreenshot}">./videoAudioScreenshots/video-31.xml</include>
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-31.xml</include>
+		<include name="videoRandomAudioScreenshot" displayName="${lang.videoRandomAudioScreenshot}">./videoRandomAudioScreenshots/video-31.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comicYellow}">./comics/comic-31.xml</include>
 		<include name="comicsPink" displayName="${lang.comicPink}">./comics/comic-31-pink.xml</include>
@@ -533,10 +561,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-31.xml</include>
 		<!--videos audio false-->
 		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-31.xml</include>
+		<include name="videoBwScreenshots" displayName="${lang.videoBwScreenshots}">./videoBwScreenshots/video-31.xml</include>
 		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-31.xml</include>
+		<include name="videoRandomBwScreenshots" displayName="${lang.videoRandomBwScreenshots}">./videoRandomBwScreenshots/video-31.xml</include>
 		<!--videos audio true-->
 		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-31.xml</include>
+		<include name="videoAudioBwScreenshots" displayName="${lang.videoAudioBwScreenshots}">./videoAudioBwScreenshots/video-31.xml</include>
 		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-31.xml</include>
+		<include name="videoRandomAudioBwScreenshots" displayName="${lang.videoRandomAudioBwScreenshots}">./videoRandomAudioBwScreenshots/video-31.xml</include>
 		<!--just comixs-->
 		<include name="comicsBw" displayName="${lang.comicBw}">./comicsBw/comic-31.xml</include>
 	</subset>
@@ -601,10 +633,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-32.xml</include>
 		<!--videos audio false-->
 		<include name="video" displayName="${lang.video}">./videos/video-32.xml</include>
+		<include name="videoScreenshot" displayName="${lang.videoScreenshot}">./videosScreenshots/video-32.xml</include>
 		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-32.xml</include>
+		<include name="videoRandomScreenshots" displayName="${lang.videoRandomScreenshots}">./videoRandomScreenshots/video-32.xml</include>
 		<!--videos audio true-->
 		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-32.xml</include>
+		<include name="videoAudioScreenshot" displayName="${lang.videoAudioScreenshot}">./videoAudioScreenshots/video-32.xml</include>
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-32.xml</include>
+		<include name="videoRandomAudioScreenshot" displayName="${lang.videoRandomAudioScreenshot}">./videoRandomAudioScreenshots/video-32.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comicRed}">./comics/comic-32.xml</include>
 		<include name="comicsPink" displayName="${lang.comicPink}">./comics/comic-32-pink.xml</include>
@@ -655,10 +691,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-32.xml</include>
 		<!--videos audio false-->
 		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-32.xml</include>
+		<include name="videoBwScreenshots" displayName="${lang.videoBwScreenshots}">./videoBwScreenshots/video-32.xml</include>
 		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-32.xml</include>
+		<include name="videoRandomBwScreenshots" displayName="${lang.videoRandomBwScreenshots}">./videoRandomBwScreenshots/video-32.xml</include>
 		<!--videos audio true-->
 		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-32.xml</include>
+		<include name="videoAudioBwScreenshots" displayName="${lang.videoAudioBwScreenshots}">./videoAudioBwScreenshots/video-32.xml</include>
 		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-32.xml</include>
+		<include name="videoRandomAudioBwScreenshots" displayName="${lang.videoRandomAudioBwScreenshots}">./videoRandomAudioBwScreenshots/video-32.xml</include>
 		<!--just comixs-->
 		<include name="comicsBw" displayName="${lang.comicBw}">./comicsBw/comic-32.xml</include>
 	</subset>
@@ -747,10 +787,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="thumbnailFull" displayName="${lang.thumbnailFull}">./thumbnailsFull/thumbnail-lastCorner.xml</include>
 		<!--videos audio false-->
 		<include name="video" displayName="${lang.video}">./videos/video-lastCorner.xml</include>
+		<include name="videoScreenshot" displayName="${lang.videoScreenshot}">./videosScreenshots/video-lastCorner.xml</include>
 		<include name="videoRandom" displayName="${lang.videoRandom}">./videosRandom/video-lastCorner.xml</include>
+		<include name="videoRandomScreenshots" displayName="${lang.videoRandomScreenshots}">./videoRandomScreenshots/video-lastCorner.xml</include>
 		<!--videos audio true-->
 		<include name="videoAudio" displayName="${lang.videoAudio}">./videosAudio/video-lastCorner.xml</include>
+		<include name="videoAudioScreenshot" displayName="${lang.videoAudioScreenshot}">./videoAudioScreenshots/video-lastCorner.xml</include>
 		<include name="videoRandomAudio" displayName="${lang.videoRandomAudio}">./videosRandomAudio/video-lastCorner.xml</include>
+		<include name="videoRandomAudioScreenshot" displayName="${lang.videoRandomAudioScreenshot}">./videoRandomAudioScreenshots/video-lastCorner.xml</include>
 		<!--just comixs-->
 		<include name="comics" displayName="${lang.comicPurple}">./comics/comic-lastCorner.xml</include>
 		<include name="comicsMedFire" displayName="${lang.comicFire}">./comics/comic-lastCorner-medFire.xml</include>
@@ -821,10 +865,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="thumbnailFullBw" displayName="${lang.thumbnailFullBw}">./thumbnailsFullBw/thumbnail-lastCorner.xml</include>
 		<!--videos audio false-->
 		<include name="videoBw" displayName="${lang.videoBw}">./videosBw/video-lastCorner.xml</include>
+		<include name="videoBwScreenshots" displayName="${lang.videoBwScreenshots}">./videoBwScreenshots/video-lastCorner.xml</include>
 		<include name="videoRandomBw" displayName="${lang.videoRandomBw}">./videosRandomBw/video-lastCorner.xml</include>
+		<include name="videoRandomBwScreenshots" displayName="${lang.videoRandomBwScreenshots}">./videoRandomBwScreenshots/video-lastCorner.xml</include>
 		<!--videos audio true-->
 		<include name="videoAudioBw" displayName="${lang.videoAudioBw}">./videosAudioBw/video-lastCorner.xml</include>
+		<include name="videoAudioBwScreenshots" displayName="${lang.videoAudioBwScreenshots}">./videoAudioBwScreenshots/video-lastCorner.xml</include>
 		<include name="videoRandomAudioBw" displayName="${lang.videoRandomAudioBw}">./videosRandomAudioBw/video-lastCorner.xml</include>
+		<include name="videoRandomAudioBwScreenshots" displayName="${lang.videoRandomAudioBwScreenshots}">./videoRandomAudioBwScreenshots/video-lastCorner.xml</include>
 		<!--just comixs-->
 		<include name="comicsBw" displayName="${lang.comicBw}">./comicsBw/comic-lastCorner.xml</include>
 	</subset>

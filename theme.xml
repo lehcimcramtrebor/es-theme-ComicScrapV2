@@ -15,7 +15,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path.windows ifArch="windows">../..</path.windows>
 
-		<allViews>                                                                  system,basic,detailed,grid,gamecarousel</allViews>
+		<allViews>                                                       system,basic,detailed,grid,gamecarousel</allViews>
 
 		<s.11>0.2380208333333333 0.2157407407407407</s.11>
 		<p.11>0.1736979166666667 0.2078703703703704</p.11>
@@ -204,7 +204,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<!--videos-->
 		<include name="peripheralVideos" displayName="${lang.peripheralVideos}">./_inc/system/style-peripheralVideos.xml</include>
 		<include name="peripheralVideosBackgrounds" displayName="${lang.peripheralVideosBackgrounds}">./_inc/system/style-peripheralVideosBackgrounds.xml</include>
-		<include name="peripheralVideosFanarts" displayName="${lang.peripheralVideosFanarts}">./_inc/system/style-peripheralVideosFanarts.xml</include>
 	</subset>
 
 	<subset name="overwrite2123" displayName="${lang.overwrite2123}" appliesTo="${allViews}">

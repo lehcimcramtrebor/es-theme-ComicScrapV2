@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+	<include>./../imagesBw/image-firstCorner.xml</include>
+
+<view name="system">
+
+	<video name="video.firstCorner" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<origin>0.5 0.5</origin>
+		<minSize>${s.firstCorner}</minSize>
+		<pos>${p.firstCorner}</pos>
+		<color>${tintTiles}</color>
+		<zIndex>${vti}</zIndex>
+		<delay>0.6</delay>
+		<effect>none</effect>
+		<audio>true</audio>
+		<saturation>0</saturation>
+
+		<path>{random}</path>
+
+		<path>./../../../_comicScrapV2Custom/tiles/${system.theme}/firstCorner.mp4</path>
+		<path>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/firstCorner.mp4</path>
+	</video>
+
+</view>
+
+</theme>
