@@ -15,7 +15,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path.windows ifArch="windows">../..</path.windows>
 
-		<allViews>                                                            system,basic,detailed,grid,gamecarousel</allViews>
+		<allViews>                                                                  system,basic,detailed,grid,gamecarousel</allViews>
 
 		<s.11>0.2380208333333333 0.2157407407407407</s.11>
 		<p.11>0.1736979166666667 0.2078703703703704</p.11>
@@ -193,10 +193,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="allTilesFanartsMarquees" displayName="${lang.allTilesFanartsMarquees}">./_inc/system/style-allTilesFanartsMarquees.xml</include>
 		<include name="allTilesFanartsMarqueesC2C3" displayName="${lang.allTilesFanartsMarqueesC2C3}">./_inc/system/style-allTilesFanartsMarqueesC2C3.xml</include>
 		<include name="allTilesFanartsMarqueesC1C4" displayName="${lang.allTilesFanartsMarqueesC1C4}">./_inc/system/style-allTilesFanartsMarqueesC1C4.xml</include>
-		<!--comix thumbnails-->
-		<include name="allTileThumbnails" displayName="${lang.allTileThumbnails}">./_inc/system/style-allTilesThumbnails.xml</include>
-		<include name="allTilesThumbnailsC2C3" displayName="${lang.allTilesThumbnailsC2C3}">./_inc/system/style-allTilesThumbnailsC2C3.xml</include>
-		<include name="allTilesThumbnailsC1C4" displayName="${lang.allTilesThumbnailsC1C4}">./_inc/system/style-allTilesThumbnailsC1C4.xml</include>
 	</subset>
 
 	<subset name="overwrite2123" displayName="${lang.overwrite2123}" appliesTo="${allViews}">
