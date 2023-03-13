@@ -23,8 +23,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<default>./../../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.png</default>
 		<default>./../../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.jpg</default>
-		<default>./${path.windows}/../../../../../_comicScrapV2Custom/${system.theme}/default/thirdCorner.png</default>
-		<default>./${path.windows}/../../../../../_comicScrapV2Custom/${system.theme}/default/thirdCorner.jpg</default>
+		<default>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.png</default>
+		<default>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/thirdCorner.jpg</default>
 
 		<path>{random:image}</path>
 

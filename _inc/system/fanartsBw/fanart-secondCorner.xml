@@ -24,8 +24,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<default>./../../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.png</default>
 		<default>./../../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.jpg</default>
-		<default>./${path.windows}/../../../../../_comicScrapV2Custom/${system.theme}/default/secondCorner.png</default>
-		<default>./${path.windows}/../../../../../_comicScrapV2Custom/${system.theme}/default/secondCorner.jpg</default>
+		<default>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.png</default>
+		<default>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/secondCorner.jpg</default>
 
 		<path>{random:fanart}</path>
 

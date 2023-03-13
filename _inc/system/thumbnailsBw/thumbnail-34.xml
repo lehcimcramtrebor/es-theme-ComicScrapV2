@@ -21,6 +21,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<zIndex>${mti}</zIndex>
 		<roundCorners>0.04</roundCorners>
 		<saturation>0</saturation>
+
 		<path>{random:thumbnail}</path>
 
 		<opacity>0</opacity>

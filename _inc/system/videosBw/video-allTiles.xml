@@ -27,8 +27,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path>{random}</path>
 
-		<path>./../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.png</path>
-		<path>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.png</path>
+		<path>./../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.mp4</path>
+		<path>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/allTiles.mp4</path>
 	</video>
 
 </view>
