@@ -193,6 +193,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="allTilesFanartsMarquees" displayName="${lang.allTilesFanartsMarquees}">./_inc/system/style-allTilesFanartsMarquees.xml</include>
 		<include name="allTilesFanartsMarqueesC2C3" displayName="${lang.allTilesFanartsMarqueesC2C3}">./_inc/system/style-allTilesFanartsMarqueesC2C3.xml</include>
 		<include name="allTilesFanartsMarqueesC1C4" displayName="${lang.allTilesFanartsMarqueesC1C4}">./_inc/system/style-allTilesFanartsMarqueesC1C4.xml</include>
+		<!--videos-->
+		<include name="peripheralVideos" displayName="${lang.peripheralVideos}">./_inc/system/style-peripheralVideos.xml</include>
 	</subset>
 
 	<subset name="overwrite2123" displayName="${lang.overwrite2123}" appliesTo="${allViews}">
