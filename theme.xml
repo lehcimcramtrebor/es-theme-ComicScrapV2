@@ -203,6 +203,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="allTilesFanartsMarqueesC1C4" displayName="${lang.allTilesFanartsMarqueesC1C4}">./_inc/system/style-allTilesFanartsMarqueesC1C4.xml</include>
 		<!--videos-->
 		<include name="peripheralVideos" displayName="${lang.peripheralVideos}">./_inc/system/style-peripheralVideos.xml</include>
+		<include name="peripheralVideosBackgrounds" displayName="${lang.peripheralVideosBackgrounds}">./_inc/system/style-peripheralVideosBackgrounds.xml</include>
+		<include name="peripheralVideosFanarts" displayName="${lang.peripheralVideosFanarts}">./_inc/system/style-peripheralVideosFanarts.xml</include>
 	</subset>
 
 	<subset name="overwrite2123" displayName="${lang.overwrite2123}" appliesTo="${allViews}">

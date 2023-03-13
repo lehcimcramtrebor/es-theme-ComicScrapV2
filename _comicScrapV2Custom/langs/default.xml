@@ -269,7 +269,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.allTilesFanartsMarqueesC2C3>fanarts and logos • crossed c2-c3</lang.allTilesFanartsMarqueesC2C3>
 	<lang.allTilesFanartsMarqueesC1C4>fanarts and logos • crossed c1-c4</lang.allTilesFanartsMarqueesC1C4>
 
-	<lang.peripheralVideos>peripheral videos (x10, heavy)</lang.peripheralVideos>
+	<lang.peripheralVideos>peripheral videos/screenshots (x10)</lang.peripheralVideos>
+	<lang.peripheralVideosBackgrounds>peripheral videos/backgrounds (x10)</lang.peripheralVideosBackgrounds>
+	<lang.peripheralVideosFanarts>peripheral videos/fanarts (x10)</lang.peripheralVideosFanarts>
 
 
 

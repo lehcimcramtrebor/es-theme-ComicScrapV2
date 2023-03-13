@@ -9,8 +9,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <theme>
 <formatVersion>7</formatVersion>
 
-	<include>./../comicsBw/comic-21.xml</include>
-
 <view name="system">
 
 	<image name="image.21" extra="true">
