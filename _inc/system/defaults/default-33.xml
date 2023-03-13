@@ -23,10 +23,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/default/33.png</path>
 		<path>./${path.windows}/../../../../../_comicScrapV2Custom/tiles/default/33.jpg</path>
 
-		<path ifSubset="forceCustoms:yes">./../../../_comicScrapV2Custom/tiles/${system.theme}/33.png</path>
-		<path ifSubset="forceCustoms:yes">./../../../_comicScrapV2Custom/tiles/${system.theme}/33.jpg</path>
-		<path ifSubset="forceCustoms:yes">./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/33.png</path>
-		<path ifSubset="forceCustoms:yes">./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/33.jpg</path>
+		<path ifSubset="forceCustoms:yes|forceJustDefaults|forceAllExceptImages|forceAllExceptFanarts|forceAllExceptThumbnailsFull">./../../../_comicScrapV2Custom/tiles/${system.theme}/33.png</path>
+		<path ifSubset="forceCustoms:yes|forceJustDefaults|forceAllExceptImages|forceAllExceptFanarts|forceAllExceptThumbnailsFull">./../../../_comicScrapV2Custom/tiles/${system.theme}/33.jpg</path>
+		<path ifSubset="forceCustoms:yes|forceJustDefaults|forceAllExceptImages|forceAllExceptFanarts|forceAllExceptThumbnailsFull">./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/33.png</path>
+		<path ifSubset="forceCustoms:yes|forceJustDefaults|forceAllExceptImages|forceAllExceptFanarts|forceAllExceptThumbnailsFull">./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/33.jpg</path>
 	</image>
 
 </view>

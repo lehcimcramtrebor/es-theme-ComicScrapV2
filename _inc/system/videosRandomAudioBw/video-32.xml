@@ -9,7 +9,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <theme>
 <formatVersion>7</formatVersion>
 
-	<include>./../comicsBw/comic-32.xml</include>
+	<include>./../defaultsBw/default-32.xml</include>
 
 <view name="system">
 
@@ -19,7 +19,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<minSize>${s.32}</minSize>
 		<pos>${p.32}</pos>
 		<color>${tintTiles}</color>
-		<zIndex>${ti}</zIndex>
+		<zIndex>${vti}</zIndex>
 		<delay>0.6</delay>
 		<effect>none</effect>
 		<audio>true</audio>

@@ -29,10 +29,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path>{random:fanart}</path>
 
-		<path ifSubset="forceCustoms:yes">./../../../_comicScrapV2Custom/tiles/${system.theme}/12.png</path>
-		<path ifSubset="forceCustoms:yes">./../../../_comicScrapV2Custom/tiles/${system.theme}/12.jpg</path>
-		<path ifSubset="forceCustoms:yes">./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/12.png</path>
-		<path ifSubset="forceCustoms:yes">./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/12.jpg</path>
+		<path ifSubset="forceCustoms:yes|forceJustFanarts|forceAllExceptImages|forceAllExceptThumbnailsFull|forceAllExceptDefaults">./../../../_comicScrapV2Custom/tiles/${system.theme}/12.png</path>
+		<path ifSubset="forceCustoms:yes|forceJustFanarts|forceAllExceptImages|forceAllExceptThumbnailsFull|forceAllExceptDefaults">./../../../_comicScrapV2Custom/tiles/${system.theme}/12.jpg</path>
+		<path ifSubset="forceCustoms:yes|forceJustFanarts|forceAllExceptImages|forceAllExceptThumbnailsFull|forceAllExceptDefaults">./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/12.png</path>
+		<path ifSubset="forceCustoms:yes|forceJustFanarts|forceAllExceptImages|forceAllExceptThumbnailsFull|forceAllExceptDefaults">./${path.windows}/../../../../../_comicScrapV2Custom/tiles/${system.theme}/12.jpg</path>
 
 		<opacity>0</opacity>
 		<storyboard repeatAt="10000">
@@ -45,7 +45,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		</storyboard>
 	</image>
 
-	<image name="patchCustom.12" extra="true" ifSubset="forceCustoms:yes">
+	<image name="patchCustom.12" extra="true" ifSubset="forceCustoms:yes|forceJustFanarts|forceAllExceptImages|forceAllExceptThumbnailsFull|forceAllExceptDefaults">
 		<linearSmooth>true</linearSmooth>
 		<origin>0.5 0.5</origin>
 		<minSize>${s.12}</minSize>

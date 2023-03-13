@@ -176,6 +176,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<subset name="forceCustoms" displayName="${lang.forceCustoms}" appliesTo="${allViews}">
 		<include name="yes" displayName="${lang.yes}"/>
 		<include name="no" displayName="${lang.no}"/>
+		<include name="forceJustFanarts" displayName="${lang.forceJustFanarts}"/>
+		<include name="forceJustImages" displayName="${lang.forceJustImages}"/>
+		<include name="forceJustThumbnailsFull" displayName="${lang.forceJustThumbnailsFull}"/>
+		<include name="forceJustDefaults" displayName="${lang.forceJustDefaults}"/>
+		<include name="forceAllExceptImages" displayName="${lang.forceAllExceptImages}"/>
+		<include name="forceAllExceptFanarts" displayName="${lang.forceAllExceptFanarts}"/>
+		<include name="forceAllExceptThumbnailsFull" displayName="${lang.forceAllExceptThumbnailsFull}"/>
+		<include name="forceAllExceptDefaults" displayName="${lang.forceAllExceptDefaults}"/>
 	</subset>
 
 	<subset name="style" displayName="${lang.style}" appliesTo="${allViews}">

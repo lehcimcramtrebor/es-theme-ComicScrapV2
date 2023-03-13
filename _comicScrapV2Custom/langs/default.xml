@@ -28,7 +28,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	               <lang.boxes>               random boxes animation</lang.boxes>
 	 <lang.forceCustomMarquees>⊂games logos⊃  allow custom logos (when logos are availables)</lang.forceCustomMarquees>
 	<lang.forceDefaultMarquees>               force default theme logos (when logos are enabled)</lang.forceDefaultMarquees>
-	        <lang.forceCustoms>⊂randoms⊃      replace randoms by custom pictures (when customs exist)</lang.forceCustoms>
+	        <lang.forceCustoms>⊂randoms⊃      replace randoms by availables customs</lang.forceCustoms>
 				   <lang.style>⊂styles⊃       pre-configured styles</lang.style>
 		   <lang.overwrite2123>⊂overwrite⊃    overwrite left and right carousel tiles</lang.overwrite2123>
 	  <lang.filterComixRandoms>               randoms tiles canvas (when are enabled)</lang.filterComixRandoms>
@@ -182,6 +182,21 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.snesAltIcons region="us">nintendo super nes alternative</lang.snesAltIcons>
 	<lang.snesAltIcons region="eu">super nintendo alternative</lang.snesAltIcons>
 	<lang.snesAltIcons region="jp">nintendo super famicom alternative</lang.snesAltIcons>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Force Customs Options------------------------------------------------------------------------------------------------------>
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.forceJustFanarts>fanarts</lang.forceJustFanarts>
+	<lang.forceJustImages>screenshots</lang.forceJustImages>
+	<lang.forceJustThumbnailsFull>filled boxes</lang.forceJustThumbnailsFull>
+	<lang.forceJustDefaults>backgrounds</lang.forceJustDefaults>
+	<lang.forceAllExceptImages>all except screenshots</lang.forceAllExceptImages>
+	<lang.forceAllExceptFanarts>all except fanarts</lang.forceAllExceptFanarts>
+	<lang.forceAllExceptThumbnailsFull>all except filled boxes</lang.forceAllExceptThumbnailsFull>
+	<lang.forceAllExceptDefaults>all except backgrounds</lang.forceAllExceptDefaults>
 
 
 
