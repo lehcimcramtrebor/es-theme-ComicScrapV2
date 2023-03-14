@@ -28,10 +28,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	               <lang.boxes>               random boxes animation</lang.boxes>
 	 <lang.forceCustomMarquees>⊂games logos⊃  allow custom logos (when logos are availables)</lang.forceCustomMarquees>
 	<lang.forceDefaultMarquees>               force default theme logos (when logos are enabled)</lang.forceDefaultMarquees>
-	        <lang.forceCustoms>⊂randoms⊃      replace randoms by availables customs</lang.forceCustoms>
+	        <lang.forceCustoms>⊂randoms⊃      replace randoms (filled) by availables customs</lang.forceCustoms>
 				   <lang.style>⊂styles⊃       pre-configured styles</lang.style>
 		   <lang.overwrite2123>⊂overwrite⊃    overwrite left and right carousel tiles</lang.overwrite2123>
-	  <lang.filterComixRandoms>               randoms tiles canvas (when are enabled)</lang.filterComixRandoms>
+	  <lang.filterComixRandoms>               style* randoms tiles canvas</lang.filterComixRandoms>
 			  <lang.groupTiles>⊂group⊃        unify tiles</lang.groupTiles>
 					<lang.t.11>    ⊂11⊃       source: upper left tile</lang.t.11>
 					<lang.t.12>    ⊂12⊃       source: upper second tile</lang.t.12>
@@ -320,14 +320,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<lang.thumbnailFull>games boxes (fill)</lang.thumbnailFull>
 
-	<lang.video>videos (custom allowed)</lang.video>
-	<lang.videoScreenshot>videos/screenshots (custom allowed)</lang.videoScreenshot>
-	<lang.videoRandom>videos (only randoms)</lang.videoRandom>
-	<lang.videoRandomScreenshots>videos/screenshots (only randoms)</lang.videoRandomScreenshots>
-	<lang.videoAudio>videos/audio (custom allowed)</lang.videoAudio>
-	<lang.videoAudioScreenshot>videos/screenshots/audio (custom allowed)</lang.videoAudioScreenshot>
-	<lang.videoRandomAudio>videos/audio (only randoms)</lang.videoRandomAudio>
-	<lang.videoRandomAudioScreenshot>videos/screenshots/audio (only randoms)</lang.videoRandomAudioScreenshot>
+	<lang.video>videos / backgrounds (custom allowed)</lang.video>
+	<lang.videoScreenshot>videos / screenshots (custom allowed)</lang.videoScreenshot>
+	<lang.videoRandom>videos / backgrounds (only randoms)</lang.videoRandom>
+	<lang.videoRandomScreenshots>videos / screenshots (only randoms)</lang.videoRandomScreenshots>
+	<lang.videoAudio>videos / audio / backgrounds (custom allowed)</lang.videoAudio>
+	<lang.videoAudioScreenshot>videos / audio / screenshots (custom allowed)</lang.videoAudioScreenshot>
+	<lang.videoRandomAudio>videos / audio / backgrounds (only randoms)</lang.videoRandomAudio>
+	<lang.videoRandomAudioScreenshot>videos / audio / screenshots (only randoms)</lang.videoRandomAudioScreenshot>
 
 	<lang.comicBw-marquee>mix: b/w comic / color logos</lang.comicBw-marquee>
 	<lang.comicBw-thumbnail>mix: b/w comic / color games boxes</lang.comicBw-thumbnail>
@@ -351,14 +351,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<lang.thumbnailFullBw>b/w: games boxes (fill)</lang.thumbnailFullBw>
 
-	<lang.videoBw>b/w: videos (custom allowed)</lang.videoBw>
-	<lang.videoBwScreenshots>b/w: videos/screenshots (custom allowed)</lang.videoBwScreenshots>
-	<lang.videoRandomBw>b/w: videos (only randoms)</lang.videoRandomBw>
-	<lang.videoRandomBwScreenshots>b/w: videos/screenshots (only randoms)</lang.videoRandomBwScreenshots>
-	<lang.videoAudioBw>b/w: videos with audio (custom allowed)</lang.videoAudioBw>
-	<lang.videoAudioBwScreenshots>b/w: videos/screenshots with audio (custom allowed)</lang.videoAudioBwScreenshots>
-	<lang.videoRandomAudioBw>b/w: videos with audio (only randoms)</lang.videoRandomAudioBw>
-	<lang.videoRandomAudioBwScreenshots>b/w: videos/screenshots with audio (only randoms)</lang.videoRandomAudioBwScreenshots>
+	<lang.videoBw>b/w: videos / backgrounds (custom allowed)</lang.videoBw>
+	<lang.videoBwScreenshots>b/w: videos / screenshots (custom allowed)</lang.videoBwScreenshots>
+	<lang.videoRandomBw>b/w: videos / backgrounds (only randoms)</lang.videoRandomBw>
+	<lang.videoRandomBwScreenshots>b/w: videos / screenshots (only randoms)</lang.videoRandomBwScreenshots>
+	<lang.videoAudioBw>b/w: videos / audio / backgrounds (custom allowed)</lang.videoAudioBw>
+	<lang.videoAudioBwScreenshots>b/w: videos / audio / screenshots (custom allowed)</lang.videoAudioBwScreenshots>
+	<lang.videoRandomAudioBw>b/w: videos / audio / backgrounds (only randoms)</lang.videoRandomAudioBw>
+	<lang.videoRandomAudioBwScreenshots>b/w: videos / audio / screenshots (only randoms)</lang.videoRandomAudioBwScreenshots>
 
 	<lang.comicBw>b/w: comic</lang.comicBw>
 
