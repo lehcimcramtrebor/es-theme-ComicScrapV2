@@ -160,6 +160,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<fontSize>0.026</fontSize>
 		<alignment>center</alignment>
 		<opacity>0</opacity>
+		<rotation>0.68</rotation>
 		<storyboard>
 			<animation property="opacity" from="1" to="1" duration="250" mode="easeIn"/>
 			<animation property="opacity" from="1" to="0" duration="50" mode="easeIn" begin="250"/>
@@ -174,6 +175,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
 		<fontSize>0.026</fontSize>
 		<opacity>0</opacity>
+		<rotation>0.68</rotation>
 		<storyboard repeatAt="1">
 			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="350"/>
 			<animation property="offsetX" from="0.05" duration="100" mode="easeOut" begin="350"/>
@@ -198,6 +200,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<fontSize>0.026</fontSize>
 		<alignment>center</alignment>
 		<opacity>0</opacity>
+		<rotation>0.68</rotation>
 		<storyboard repeatAt="1">
 			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
 			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="2850"/>
@@ -222,6 +225,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<fontSize>0.026</fontSize>
 		<alignment>center</alignment>
 		<opacity>0</opacity>
+		<rotation>0.68</rotation>
 		<storyboard repeatAt="1">
 			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
 			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="5000"/>
@@ -246,6 +250,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<fontSize>0.026</fontSize>
 		<alignment>center</alignment>
 		<opacity>0</opacity>
+		<rotation>0.68</rotation>
 		<storyboard repeatAt="1">
 			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
 			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="7150"/>
@@ -270,6 +275,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<fontSize>0.026</fontSize>
 		<alignment>center</alignment>
 		<opacity>0</opacity>
+		<rotation>0.68</rotation>
 		<storyboard repeatAt="1">
 			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
 			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="9300"/>
@@ -294,6 +300,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<fontSize>0.026</fontSize>
 		<alignment>center</alignment>
 		<opacity>0</opacity>
+		<rotation>0.68</rotation>
 		<storyboard repeatAt="1">
 			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
 			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="11450"/>
@@ -318,6 +325,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<fontSize>0.026</fontSize>
 		<alignment>center</alignment>
 		<opacity>0</opacity>
+		<rotation>0.68</rotation>
 		<storyboard repeatAt="1">
 			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
 			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="13600"/>
@@ -342,6 +350,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<fontSize>0.026</fontSize>
 		<alignment>center</alignment>
 		<opacity>0</opacity>
+		<rotation>0.68</rotation>
 		<storyboard repeatAt="1">
 			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
 			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="15750"/>
@@ -367,6 +376,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<fontSize>0.026</fontSize>
 		<alignment>center</alignment>
 		<opacity>0</opacity>
+		<rotation>0.68</rotation>
 		<storyboard repeatAt="1">
 			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
 			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="17900"/>
@@ -391,6 +401,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<fontSize>0.026</fontSize>
 		<alignment>center</alignment>
 		<opacity>0</opacity>
+		<rotation>0.68</rotation>
 		<storyboard repeatAt="1">
 			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
 			<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="20050"/>
