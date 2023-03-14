@@ -257,17 +257,21 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <!--Pre-configured styles Options---------------------------------------------------------------------------------------------->
 <!----------------------------------------------------------------------------------------------------------------------------->
 
-	<lang.allTilesMarquees>comix logos • ungrouped tiles</lang.allTilesMarquees>
+	<lang.allTilesMarquees>comix logos • ungrouped</lang.allTilesMarquees>
 	<lang.allTilesMarqueesC2C3>comix logos • crossed c2-c3</lang.allTilesMarqueesC2C3>
 	<lang.allTilesMarqueesC1C4>comix logos • crossed c1-c4</lang.allTilesMarqueesC1C4>
 
-	<lang.allTilesFanarts>fanarts • ungrouped tiles</lang.allTilesFanarts>
+	<lang.allTilesFanarts>fanarts • ungrouped</lang.allTilesFanarts>
 	<lang.allTilesFanartsC2C3>fanarts • crossed c2-c3</lang.allTilesFanartsC2C3>
 	<lang.allTilesFanartsC1C4>fanarts • crossed c1-c4</lang.allTilesFanartsC1C4>
 
-	<lang.allTilesFanartsMarquees>fanarts and logos • ungrouped tiles</lang.allTilesFanartsMarquees>
+	<lang.allTilesFanartsMarquees>fanarts and logos • ungrouped</lang.allTilesFanartsMarquees>
 	<lang.allTilesFanartsMarqueesC2C3>fanarts and logos • crossed c2-c3</lang.allTilesFanartsMarqueesC2C3>
 	<lang.allTilesFanartsMarqueesC1C4>fanarts and logos • crossed c1-c4</lang.allTilesFanartsMarqueesC1C4>
+
+	<lang.allTilesScreenshots>screenshots • ungrouped</lang.allTilesScreenshots>
+
+	<lang.mixMarqueesVideos>mix logos / videos (x4) • ungrouped</lang.mixMarqueesVideos>
 
 	<lang.peripheralVideos>peripheral videos/screenshots (x10)</lang.peripheralVideos>
 	<lang.peripheralVideosBackgrounds>peripheral videos/backgrounds (x10)</lang.peripheralVideosBackgrounds>
