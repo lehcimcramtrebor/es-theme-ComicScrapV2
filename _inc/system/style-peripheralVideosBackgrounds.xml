@@ -9,19 +9,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <theme>
 <formatVersion>7</formatVersion>
 
-	<include>./defaults/default-11.xml</include>
-	<include>./defaults/default-12.xml</include>
-	<include>./defaults/default-13.xml</include>
-	<include>./defaults/default-14.xml</include>
-
-	<include>./defaults/default-21.xml</include>
-	<include>./defaults/default-23.xml</include>
-
-	<include>./defaults/default-31.xml</include>
-	<include>./defaults/default-32.xml</include>
-	<include>./defaults/default-33.xml</include>
-	<include>./defaults/default-34.xml</include>
-
 	<include>./videos/video-11.xml</include>
 	<include>./videos/video-12.xml</include>
 	<include>./videos/video-13.xml</include>
