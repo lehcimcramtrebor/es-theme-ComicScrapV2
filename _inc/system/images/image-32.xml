@@ -8,6 +8,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <theme>
 <formatVersion>7</formatVersion>
+	<include>./../defaults/default-32.xml</include>
 
 <view name="system">
 
