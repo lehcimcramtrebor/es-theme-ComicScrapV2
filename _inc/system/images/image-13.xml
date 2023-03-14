@@ -18,6 +18,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>${p.13}</pos>
 		<color>${tintTiles}</color>
 		<zIndex>${ti}</zIndex>
+		<saturation>1.1</saturation>
 
 		<default>./../../../_comicScrapV2Custom/tiles/${system.theme}/13.png</default>
 		<default>./../../../_comicScrapV2Custom/tiles/${system.theme}/13.jpg</default>
@@ -49,6 +50,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>${p.13}</pos>
 		<color>${tintTiles}</color>
 		<zIndex>${pi}</zIndex>
+		<saturation>1.1</saturation>
 
 		<path>./../../../_comicScrapV2Custom/tiles/${system.theme}/13.png</path>
 		<path>./../../../_comicScrapV2Custom/tiles/${system.theme}/13.jpg</path>
