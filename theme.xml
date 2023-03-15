@@ -270,6 +270,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./_inc/music/music.xml</include>
 	<include>./_inc/overlays/overlays.xml</include>
 	<include>./_inc/commons/logos.xml</include>
+	<include>./_inc/commons/md_marquees.xml</include>
 	<include>./_inc/system/carousel.xml</include>
 
 	<include>./_inc/illustrations/illustrations.xml</include>

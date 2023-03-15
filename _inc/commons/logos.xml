@@ -32,9 +32,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<color>${tintLogos}</color>
 		<saturation>1.2</saturation>
 		<zIndex>500</zIndex>
+		<origin>0.5 0.5</origin>
+		<pos>0.25 0.1462962962962963</pos>
+		<maxSize>0.3864583333333333 0.112962962962963</maxSize>
 	</image>
-
-	<image name="logo" region="eu"></image>
 
 	<image name="logo" region="us">
 		<path>./../../${system.theme}/us/logo.png</path>
@@ -57,6 +58,79 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/logos/${system.theme}-jp.svg</path>
 	</image>
 
+	<image name="classic" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./../logosClassic/${system.theme}.png</path>
+
+		<path>./../../_comicScrapV2Custom/logosClassic/${system.theme}.png</path>
+		<path>./../../_comicScrapV2Custom/logosClassic/${system.theme}.svg</path>
+
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logosClassic/${system.theme}.png</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logosClassic/${system.theme}.svg</path>
+
+		<path>./../logosClassic/${system.theme}-${lang}.png</path>
+
+		<path>./../../_comicScrapV2Custom/logosClassic/${system.theme}-${lang}.png</path>
+		<path>./../../_comicScrapV2Custom/logosClassic/${system.theme}-${lang}.svg</path>
+		
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logosClassic/${system.theme}-${lang}.png</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logosClassic/${system.theme}-${lang}.svg</path>
+
+		<color>${tintLogos}</color>
+		<saturation>1.2</saturation>
+		<zIndex>500</zIndex>
+		<origin>0.5 0.5</origin>
+	</image>
+
+
+	<image name="classic" region="us" extra="true">
+		<path>./../logosClassic/us/${system.theme}.png</path>
+
+		<path>./../../_comicScrapV2Custom/logos/${system.theme}-us.png</path>
+		<path>./../../_comicScrapV2Custom/logos/${system.theme}-us.svg</path>
+
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logosClassic/${system.theme}-us.png</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logosClassic/${system.theme}-us.svg</path>
+
+	</image>
+
+	<image name="classic" region="jp" extra="true">
+		<path>./../logosClassic/jp/${system.theme}.png</path>
+
+		<path>./../../_comicScrapV2Custom/logosClassic/${system.theme}-jp.png</path>
+		<path>./../../_comicScrapV2Custom/logosClassic/${system.theme}-jp.svg</path>
+
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logosClassic/${system.theme}-jp.png</path>
+		<path>./${path.windows}/../../../../_comicScrapV2Custom/logosClassic/${system.theme}-jp.svg</path>
+	</image>
+
 </view>
+
+<view name="basic">
+
+	<image name="classic" extra="true">
+		<pos>0.75 0.1462962962962963</pos>
+		<maxSize>0.24 0.1</maxSize>
+	</image>
+
+</view>
+
+<view name="detailed,grid">
+
+	<image name="classic" extra="true">
+		<pos>0.8791666666666667 0.1462962962962963</pos>
+		<maxSize>0.13 0.1</maxSize>
+	</image>
+
+</view>
+
+<customView name="library">
+
+	<image name="classic" extra="true">
+		<pos>0.75 0.1462962962962963</pos>
+		<maxSize>0.24 0.1</maxSize>
+	</image>
+
+</customView>
 
 </theme>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="detailed,grid">
+
+	<image name="md_marquee">
+		<linearSmooth>true</linearSmooth>
+		<color>${tintLogos}</color>
+		<saturation>1.2</saturation>
+		<zIndex>500</zIndex>
+		<origin>0.5 0.5</origin>
+		<pos>0.665 0.1462962962962963</pos>
+		<maxSize>0.20 0.1</maxSize>
+		<storyboard event="open">
+			<animation property="opacity" from="0" to="1" duration="400" mode="easeIn"/>
+		</storyboard>
+		<storyboard event="activateNext">
+			<animation property="offsetY" from="0.025" to="0" duration="150" mode="easeOutCubic"/>
+			<animation property="opacity" from="0" to="1" duration="150" mode="easeOut"/>
+		</storyboard>
+		<storyboard event="activatePrev">
+			<animation property="offsetY" from="-0.025" to="0" duration="150" mode="easeOutCubic"/>
+			<animation property="opacity" from="0" to="1" duration="150" mode="easeOut"/>
+		</storyboard>
+		<storyboard event="deactivateNext">
+			<animation property="opacity" to="0" duration="150" mode="easeOut"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" to="0" duration="150" mode="easeOut"/>
+		</storyboard>
+	</image>
+
+</view>
+
+<customView name="library">
+
+	<image name="md_marquee" extra="true">
+		<visible>false</visible>
+	</image>
+
+</customView>
+
+</theme>
