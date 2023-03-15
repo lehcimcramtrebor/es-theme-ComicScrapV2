@@ -9,7 +9,21 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <theme>
 <formatVersion>7</formatVersion>
 
-<view name="system,basic,detailed,grid,gamecarousel">
+<view name="system,basic,detailed,grid">
+	<text name="signature" extra="true">
+		<text>Helmic</text>
+		<fontPath>./../fonts/Lotions.otf</fontPath>
+		<zIndex>1030</zIndex>
+		<color>000000</color>
+		<glowColor>0000000d</glowColor>
+		<glowSize>1</glowSize>
+		<fontSize>0.04</fontSize>
+		<origin>1 1</origin>
+		<pos>0.963 0.949</pos>
+		<alignment>right</alignment>
+		<verticalAlignment>bottom</verticalAlignment>
+	</text>
+	
 	<image name="maskAll" extra="true">
 		<path>./../white.png</path>
 		<size>1 1</size>
@@ -105,7 +119,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	</image>
 </view>
 
-<view name="detailed,gamecarousel">
+<view name="detailed">
 	<image name="overlay" extra="true">
 		<path>./detailed.png</path>
 	</image>

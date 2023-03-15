@@ -14,15 +14,11 @@ auto-allgames-fr.png or auto-allgames-es.png or auto-allgames-de.png etc.. (or .
 
 CREATE YOURS WITH ILLUSTRATOR:
 
-Illustrator file included, install Shaka Pow font.
+Illustrator file included (2022 and superior), install Shaka Pow font.
 
 Multiple Graphic styles are pre-configured in file.
 
 Juste create or modify texts and apply any graphics style i'have created.
-
-For linux you can install illustrator from https://github.com/Gictorbit/illustratorCClinux.
-
-For windows, search in google for "Yolodelabanane". You must find ~1.8 Go archive.
 
 
 

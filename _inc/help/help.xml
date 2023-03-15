@@ -8,7 +8,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <theme>
 <formatVersion>7</formatVersion>
-	<view name="menu,system,basic,detailed,grid,gamecarousel">
+	<view name="menu,system,basic,detailed,grid">
 
 		<helpsystem name="help">
 			<textColor>202020</textColor>

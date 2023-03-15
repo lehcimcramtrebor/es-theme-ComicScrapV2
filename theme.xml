@@ -15,7 +15,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path.windows ifArch="windows">../..</path.windows>
 
-		<allViews>                                                       system,basic,detailed,grid,gamecarousel</allViews>
+		<allViews>                                                       system,basic,detailed,grid</allViews>
 
 		<s.11>0.2380208333333333 0.2157407407407407</s.11>
 		<p.11>0.1736979166666667 0.2078703703703704</p.11>
@@ -269,6 +269,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<include>./_inc/music/music.xml</include>
 	<include>./_inc/overlays/overlays.xml</include>
+	<include>./_inc/commons/logos.xml</include>
 	<include>./_inc/system/carousel.xml</include>
 
 	<include>./_inc/illustrations/illustrations.xml</include>
