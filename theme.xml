@@ -193,8 +193,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="allTilesMarquees" displayName="${lang.allTilesMarquees}">./_inc/system/style-allTilesMarquees.xml</include>
 		<include name="allTilesMarqueesC2C3" displayName="${lang.allTilesMarqueesC2C3}">./_inc/system/style-allTilesMarqueesC2C3.xml</include>
 		<include name="allTilesMarqueesC1C4" displayName="${lang.allTilesMarqueesC1C4}">./_inc/system/style-allTilesMarqueesC1C4.xml</include>
-		<!--mix videos-->
+		<!--mixs-->
+		<include name="mixMarqueesAlternateBw" displayName="${lang.mixMarqueesAlternateBw}">./_inc/system/style-mixMarqueesAlternateBw.xml</include>
+		<include name="mixMarqueesFanarts" displayName="${lang.mixMarqueesFanarts}">./_inc/system/style-mixMarqueesFanarts.xml</include>
 		<include name="mixMarqueesVideos" displayName="${lang.mixMarqueesVideos}">./_inc/system/style-mixMarqueesVideos.xml</include>
+		<include name="mixPicturesVideoAudio" displayName="${lang.mixPicturesVideoAudio}">./_inc/system/style-mixPicturesVideoAudio.xml</include>
 		<!--fanarts-->
 		<include name="allTilesFanarts" displayName="${lang.allTilesFanarts}">./_inc/system/style-allTilesFanarts.xml</include>
 		<include name="allTilesFanartsC2C3" displayName="${lang.allTilesFanartsC2C3}">./_inc/system/style-allTilesFanartsC2C3.xml</include>
