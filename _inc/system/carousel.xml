@@ -16,13 +16,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<color>00000000</color>
 		<scrollSound>./../scroll.wav</scrollSound>
 		<maxLogoCount>3</maxLogoCount>
-		<origin>0 0</origin>
-		<size>0.9760416666666667 0.9759259259259259</size>
-		<pos>0.0130208333333333 0.012037037037037</pos>
-		<logoSize>0.2 0.1666</logoSize>
+		<origin>0.5 0.5</origin>
+		<size>1 0.9759259259259259</size>
+		<pos>0.5 0.5</pos>
+		<logoSize>0.24 0.15</logoSize>
 		<logoScale>1.5</logoScale>
 		<logoPos>0.386 0.415</logoPos>
-		<minLogoOpacity>1</minLogoOpacity>
+		<minLogoOpacity>0.95</minLogoOpacity>
 	</carousel>
 
 	<text name="logoText">
