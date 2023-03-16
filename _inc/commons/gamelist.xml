@@ -19,8 +19,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<glowSize>${g.glowSize}</glowSize>
 		<glowOffset>${g.glowOffset}</glowOffset>
 
-		<extraTextColor>ff0000</extraTextColor>
-		<extraTextSelectedColor>0000ff</extraTextSelectedColor>
+		<extraTextColor>${g.extra}</extraTextColor>
+		<extraTextSelectedColor>${g.extra}</extraTextSelectedColor>
 
 		<selectedColor>${g.color}</selectedColor>
 		<primaryColor>${g.color}</primaryColor>
