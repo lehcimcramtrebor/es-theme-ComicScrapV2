@@ -78,6 +78,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<vti>910</vti>		<!--video index-->
 		<mti>920</mti>		<!--marquee index-->
 
+		<g.color>060606</g.color>
+		<g.glowColor>0000000d</g.glowColor>
+		<g.glowSize>1</g.glowSize>
+		<g.glowOffset>1</g.glowOffset>
+
 	</variables>
 
 
@@ -269,9 +274,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<include>./_inc/music/music.xml</include>
 	<include>./_inc/overlays/overlays.xml</include>
+	<include>./_inc/system/carousel.xml</include>
 	<include>./_inc/commons/logos.xml</include>
 	<include>./_inc/commons/md_marquees.xml</include>
-	<include>./_inc/system/carousel.xml</include>
+	<include>./_inc/commons/md_description.xml</include>
+	<include>./_inc/commons/gamelist.xml</include>
 
 	<include>./_inc/illustrations/illustrations.xml</include>
 	

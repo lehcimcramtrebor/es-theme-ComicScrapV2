@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="detailed,grid">
+
+	<text name="md_description">
+		<color>${g.color}</color>
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<backgroundColor>00000000</backgroundColor>
+		<fontSize>0.022</fontSize>
+		<size>0.4354166666666667 0.1361111111111111</size>
+		<pos>0.7286458333333333 0.8439814814814815</pos>
+		<origin>0.5 0.5</origin>
+		<zIndex>500</zIndex>
+		<lineSpacing>1.4</lineSpacing>
+		<forceUppercase>true</forceUppercase>
+		<padding>0.01 0 0.01 0.02</padding>
+	</text>
+
+</view>
+
+<customView name="library">
+
+	<image name="md_description" extra="true">
+		<visible>false</visible>
+	</image>
+
+</customView>
+
+</theme>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="basic,detailed">
+
+	<textlist name="gamelist">
+		<zIndex>500</zIndex>
+		<origin>0.5 0.5</origin>
+
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+
+		<extraTextColor>ff0000</extraTextColor>
+		<extraTextSelectedColor>0000ff</extraTextSelectedColor>
+
+		<selectedColor>${g.color}</selectedColor>
+		<primaryColor>${g.color}</primaryColor>
+		<secondaryColor>${g.color}</secondaryColor>
+
+		<selectorColor>${tint}</selectorColor>	  		
+
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.026</fontSize>
+		<alignment>center</alignment>
+		<horizontalMargin>0.005</horizontalMargin>
+		<forceUppercase>false</forceUppercase>
+
+		<scrollSound>./../scrollg.wav</scrollSound>
+
+		<lines>12</lines>
+	</textlist>
+
+</view>
+
+<view name="basic">
+
+	<textlist name="gamelist">
+		<pos>0.5010416666666667 0.5782407407407407</pos>
+		<size>0.890625 0.68</size>
+		<selectorImagePath>./selectorBasic.png</selectorImagePath>
+	</textlist>
+
+</view>
+
+<view name="detailed">
+
+	<textlist name="gamelist">
+		<pos>0.271875 0.5787037037037037</pos>
+		<size>0.4322916666666667 0.68</size>
+		<selectorImagePath>./selector.png</selectorImagePath>
+	</textlist>
+
+</view>
+
+<customView name="library">
+
+</customView>
+
+</theme>
