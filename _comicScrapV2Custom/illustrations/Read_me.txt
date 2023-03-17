@@ -13,3 +13,5 @@ In the theme menu there are two options to place image:
 	-at bottom right of screen.
 
 So if you use characters, make they are looking or running from right to left.
+
+Don't need to use more than 314P vertical resolution !!

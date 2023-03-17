@@ -16,6 +16,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path>./../../_comicScrapV2Custom/illustrations/default.png</path>
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/illustrations/default.png</path>
 
+		<path ifSubset="crazyComix:kowa">./../../_comicScrapV2Custom/illustrations/default2.png</path>
+		<path ifSubset="crazyComix:kowa">./${path.windows}/../../../../_comicScrapV2Custom/illustrations/default2.png</path>
+
 		<path>./../../_comicScrapV2Custom/illustrations/${system.theme}.png</path>
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/illustrations/${system.theme}.png</path>
 
@@ -46,8 +49,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<image name="character" extra="true">
 
-		<origin>1 1</origin>
-		<pos>0.95 0.92</pos>
+		<origin>0.5 1</origin>
+		<pos>0.924 0.92</pos>
 		<maxSize>0.18 0.21</maxSize>
 	</image>
 
@@ -57,8 +60,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<image name="character" extra="true">
 
-		<origin>1 1</origin>
-		<pos>0.95 0.744</pos>
+		<origin>0.5 1</origin>
+		<pos>0.924 0.744</pos>
 		<maxSize>0.18 0.21</maxSize>
 	</image>
 
@@ -68,8 +71,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<image name="character" extra="true">
 
-		<origin>1 1</origin>
-		<pos>0.95 0.92</pos>
+		<origin>0.5 1</origin>
+		<pos>0.924 0.92</pos>
 		<maxSize>0.18 0.21</maxSize>
 	</image>
 

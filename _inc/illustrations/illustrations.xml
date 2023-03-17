@@ -16,6 +16,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path>./../../_comicScrapV2Custom/illustrations/default.png</path>
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/illustrations/default.png</path>
 
+		<path ifSubset="crazyComix:kowa">./../../_comicScrapV2Custom/illustrations/default2.png</path>
+		<path ifSubset="crazyComix:kowa">./${path.windows}/../../../../_comicScrapV2Custom/illustrations/default2.png</path>
+
 		<path>./../../_comicScrapV2Custom/illustrations/${system.theme}.png</path>
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/illustrations/${system.theme}.png</path>
 
@@ -49,7 +52,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <view name="system" ifSubset="character:bottomRight">
 
 	<image name="character" extra="true">
-		<origin>1 1</origin>
+		<origin>0.5 1</origin>
 		<pos>${p.chbr}</pos>
 		<maxSize>${s.chbr}</maxSize>
 		<zIndex>1020</zIndex>
