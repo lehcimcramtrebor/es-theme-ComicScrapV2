@@ -16,8 +16,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path>./../../_comicScrapV2Custom/illustrations/default.png</path>
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/illustrations/default.png</path>
 
-		<path ifSubset="crazyComix:kowa">./../../_comicScrapV2Custom/illustrations/default2.png</path>
-		<path ifSubset="crazyComix:kowa">./${path.windows}/../../../../_comicScrapV2Custom/illustrations/default2.png</path>
+		<path ifSubset="crazyComix:turner">./../../_comicScrapV2Custom/illustrations/defaultTurner.png</path>
+		<path ifSubset="crazyComix:turner">./${path.windows}/../../../../_comicScrapV2Custom/illustrations/defaultTurner.png</path>
+
+		<path ifSubset="crazyComix:kowa">./../../_comicScrapV2Custom/illustrations/defaultKowa.png</path>
+		<path ifSubset="crazyComix:kowa">./${path.windows}/../../../../_comicScrapV2Custom/illustrations/defaultKowa.png</path>
 
 		<path>./../../_comicScrapV2Custom/illustrations/${system.theme}.png</path>
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/illustrations/${system.theme}.png</path>
@@ -41,9 +44,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<zIndex>990</zIndex>
 		<color>${tintLogos}</color>
 		<storyboard>
-			<animation property="opacity" from="0" to="0" duration="350" mode="linear"/>
-			<animation property="opacity" from="0" to="1" duration="150" mode="easeOut" begin="350"/>
-			<animation property="offsetX" from="0.025" to="0" duration="150" mode="easeOut" begin="350"/>
+			<animation property="opacity" from="0" to="0" duration="400" mode="linear"/>
+			<animation property="opacity" from="0" to="1" duration="150" mode="easeOutQuint" begin="400"/>
+			<animation property="offsetX" from="0.0125" to="0" duration="150" mode="easeOut" begin="350"/>
 		</storyboard>
 	</image>
 

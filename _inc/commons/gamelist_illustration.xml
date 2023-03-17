@@ -16,8 +16,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path>./../../_comicScrapV2Custom/illustrations/default.png</path>
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/illustrations/default.png</path>
 
-		<path ifSubset="crazyComix:kowa">./../../_comicScrapV2Custom/illustrations/default2.png</path>
-		<path ifSubset="crazyComix:kowa">./${path.windows}/../../../../_comicScrapV2Custom/illustrations/default2.png</path>
+		<path ifSubset="crazyComix:turner">./../../_comicScrapV2Custom/illustrations/defaultTurner.png</path>
+		<path ifSubset="crazyComix:turner">./${path.windows}/../../../../_comicScrapV2Custom/illustrations/defaultTurner.png</path>
+
+		<path ifSubset="crazyComix:kowa">./../../_comicScrapV2Custom/illustrations/defaultKowa.png</path>
+		<path ifSubset="crazyComix:kowa">./${path.windows}/../../../../_comicScrapV2Custom/illustrations/defaultKowa.png</path>
 
 		<path>./../../_comicScrapV2Custom/illustrations/${system.theme}.png</path>
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/illustrations/${system.theme}.png</path>
@@ -39,7 +42,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<image name="character" extra="true">
 
 		<origin>0.5 1</origin>
-		<pos>0.8791666666666667 0.48</pos>
+		<pos>0.8791666666666667 0.487</pos>
 		<maxSize>0.18 0.21</maxSize>
 	</image>
 
@@ -51,7 +54,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<origin>0.5 1</origin>
 		<pos>0.924 0.92</pos>
-		<maxSize>0.18 0.21</maxSize>
+		<maxSize>0.1 0.21</maxSize>
 	</image>
 
 </view>
@@ -62,7 +65,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<origin>0.5 1</origin>
 		<pos>0.924 0.744</pos>
-		<maxSize>0.18 0.21</maxSize>
+		<maxSize>0.1 0.21</maxSize>
 	</image>
 
 </view>
@@ -73,7 +76,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<origin>0.5 1</origin>
 		<pos>0.924 0.92</pos>
-		<maxSize>0.18 0.21</maxSize>
+		<maxSize>0.1 0.21</maxSize>
 	</image>
 
 </customView>
