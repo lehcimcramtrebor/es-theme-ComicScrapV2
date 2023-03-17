@@ -65,10 +65,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<s.allTiles>0.96 0.96</s.allTiles>
 		<p.allTiles>0.5 0.5</p.allTiles>
 
-		<s.22ch>0.36 0.25</s.22ch>
-		<p.22ch>0.68 0.6435185185185185</p.22ch>
+		<s.22ch>0.19 0.23</s.22ch>
+		<p.22ch>0.7 0.6435185185185185</p.22ch>
 
-		<s.chbr>0.24 0.36</s.chbr>
+		<s.chbr>0.24 0.29</s.chbr>
 		<p.chbr>0.9825 0.955</p.chbr>
 
 		<di>800</di> 		<!--default index-->
