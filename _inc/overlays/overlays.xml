@@ -13,7 +13,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<text name="signature" extra="true">
 		<text>Helmic</text>
 		<fontPath>./../fonts/Lotions.otf</fontPath>
-		<zIndex>1030</zIndex>
+		<zIndex>1015</zIndex>
 		<color>000000</color>
 		<glowColor>0000000d</glowColor>
 		<glowSize>1</glowSize>

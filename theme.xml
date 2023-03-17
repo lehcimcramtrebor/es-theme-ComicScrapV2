@@ -68,7 +68,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<s.22ch>0.36 0.25</s.22ch>
 		<p.22ch>0.68 0.6435185185185185</p.22ch>
 
-		<s.chbr>0.3 0.36</s.chbr>
+		<s.chbr>0.24 0.36</s.chbr>
 		<p.chbr>0.9825 0.955</p.chbr>
 
 		<di>800</di> 		<!--default index-->
@@ -277,6 +277,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./_inc/overlays/overlays.xml</include>
 	<include>./_inc/system/carousel.xml</include>
 	<include>./_inc/commons/logos.xml</include>
+	<include>./_inc/commons/gamelist_illustration.xml</include>
 	<include>./_inc/commons/md_marquees.xml</include>
 	<include>./_inc/commons/md_description.xml</include>
 	<include>./_inc/commons/gamelist.xml</include>
