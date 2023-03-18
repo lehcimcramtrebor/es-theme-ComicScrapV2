@@ -9,6 +9,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <theme>
 <formatVersion>7</formatVersion>
 
-	<include>./../theme.xml</include>
+	<include>./../_comicScrapV2Custom/group_collections/${system.theme}.xml</include>
+	<include>./../_comicScrapV2Custom/group_collections/${system.theme}.xml</include>
+	<include>./../${path.windows}/../../_comicScrapV2Custom/group_collections/${system.theme}.xml</include>
+	<include>./../${path.windows}/../../_comicScrapV2Custom/group_collections${system.theme}xml</include>
+
+	<include>./../${regroupCollection}theme.xml</include>
 
 </theme>
