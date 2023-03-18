@@ -6,7 +6,7 @@ author: Lehcim Cram Trebor
 inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
 -->
 
-<theme>
+<theme defaultView="basic">
 <formatVersion>7</formatVersion>
 
 	<include>./../_comicScrapV2Custom/group_collections/${system.theme}.xml</include>
