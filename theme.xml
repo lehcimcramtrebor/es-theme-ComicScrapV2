@@ -279,6 +279,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./_inc/commons/logos.xml</include>
 	<include>./_inc/commons/gamelist_illustration.xml</include>
 	<include>./_inc/commons/md_marquees.xml</include>
+	<include>./_inc/commons/md_videos.xml</include>
+	<include>./_inc/commons/md_thumbnails.xml</include>
 	<include>./_inc/commons/md_description.xml</include>
 	<include>./_inc/commons/gamelist.xml</include>
 

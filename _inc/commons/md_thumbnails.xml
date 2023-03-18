@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="detailed">
+
+	<image name="md_thumbnail">
+		<default>./../noThumb.png</default>
+		<linearSmooth>true</linearSmooth>
+		<color>${tint}</color>
+		<saturation>1.2</saturation>
+		<zIndex>700</zIndex>
+		<origin>0.5 0.5</origin>
+		<pos>0.8791666666666667 0.3625</pos>
+		<maxSize>0.134375 0.2342592592592593</maxSize>
+		<scale>0.9</scale>
+		<roundCorners>0.018</roundCorners>
+	</image>
+
+</view>
+
+<customView name="library">
+
+	<image name="md_thumbnail" extra="true">
+		<visible>false</visible>
+	</image>
+
+</customView>
+
+</theme>

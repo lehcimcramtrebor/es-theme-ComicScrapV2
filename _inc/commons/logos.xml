@@ -9,6 +9,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <theme>
 <formatVersion>7</formatVersion>
 
+<view name="basic,detailed,grid">
+	<image name="logo">
+		<path>./../noLogo.png</path>
+	</image>
+</view>
+
 <view name="system,basic,detailed,grid">
 
 	<image name="logo">
@@ -29,7 +35,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/logos/${system.theme}-${lang}.png</path>
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/logos/${system.theme}-${lang}.svg</path>
 
-		<color>${tintLogos}</color>
+		<color>${tint}</color>
 		<saturation>1.2</saturation>
 		<zIndex>500</zIndex>
 		<origin>0.5 0.5</origin>
@@ -76,7 +82,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/logosClassic/${system.theme}-${lang}.png</path>
 		<path>./${path.windows}/../../../../_comicScrapV2Custom/logosClassic/${system.theme}-${lang}.svg</path>
 
-		<color>${tintLogos}</color>
+		<color>${tint}</color>
 		<saturation>1.2</saturation>
 		<zIndex>500</zIndex>
 		<origin>0.5 0.5</origin>

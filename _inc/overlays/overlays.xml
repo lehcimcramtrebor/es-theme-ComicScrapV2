@@ -126,6 +126,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<image name="overlayBack" extra="true">
 		<path>./detailedBack.png</path>
 	</image>
+	<image name="overlayBackPatch" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<size>1 1</size>
+		<zIndex>600</zIndex>
+		<path>./detailedBackPatch.png</path>
+	</image>
 </view>
 
 <view name="grid">
@@ -143,6 +149,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	</image>
 	<image name="overlayBack" extra="true">
 		<path>./libraryBack.png</path>
+	</image>
+	<image name="overlayBackPatch" extra="true">
+		<visible>false</visible>
 	</image>
 </customView>
 

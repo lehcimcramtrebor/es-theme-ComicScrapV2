@@ -42,7 +42,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<image name="character" extra="true">
 
 		<origin>0.5 1</origin>
-		<pos>0.8791666666666667 0.487</pos>
+		<pos>0.7675 0.62</pos>
 		<maxSize>0.18 0.21</maxSize>
 	</image>
 
