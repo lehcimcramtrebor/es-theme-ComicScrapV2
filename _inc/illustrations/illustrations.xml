@@ -42,7 +42,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>${p.22ch}</pos>
 		<maxSize>${s.22ch}</maxSize>
 		<zIndex>990</zIndex>
-		<color>${tintLogos}</color>
+		<color>${tint}</color>
 		<storyboard>
 			<animation property="opacity" from="0" to="0" duration="400" mode="linear"/>
 			<animation property="opacity" from="0" to="1" duration="150" mode="easeOutQuint" begin="400"/>

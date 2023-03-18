@@ -32,7 +32,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<path region="jp">./${path.windows}/../../../../_comicScrapV2Custom/illustrations/${system.theme}-jp.png</path>
 
 		<zIndex>500</zIndex>
-		<color>${tintLogos}</color>
+		<color>${tint}</color>
 	</image>
 
 </view>
