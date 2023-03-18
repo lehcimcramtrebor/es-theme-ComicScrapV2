@@ -20,23 +20,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 0.5</origin>
 		<pos>0.65 0.1462962962962963</pos>
 		<maxSize>0.185 0.1</maxSize>
-		<storyboard event="open">
-			<animation property="opacity" from="0" to="1" duration="400" mode="easeIn"/>
-		</storyboard>
-		<storyboard event="activateNext">
-			<animation property="offsetY" from="0.025" to="0" duration="150" mode="easeOutCubic"/>
-			<animation property="opacity" from="0" to="1" duration="150" mode="easeOut"/>
-		</storyboard>
-		<storyboard event="activatePrev">
-			<animation property="offsetY" from="-0.025" to="0" duration="150" mode="easeOutCubic"/>
-			<animation property="opacity" from="0" to="1" duration="150" mode="easeOut"/>
-		</storyboard>
-		<storyboard event="deactivateNext">
-			<animation property="opacity" to="0" duration="150" mode="easeOut"/>
-		</storyboard>
-		<storyboard event="deactivatePrev">
-			<animation property="opacity" to="0" duration="150" mode="easeOut"/>
-		</storyboard>
 	</image>
 
 </view>

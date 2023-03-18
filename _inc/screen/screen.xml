@@ -15,7 +15,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>0.018 0.016</pos>
 		<size>0.185 0.028</size>
 		<itemSpacing>0.003</itemSpacing>
-		<color>202020</color>
+		<color>262626</color>
 		<activityColor>304030</activityColor>
 		<hotkeyColor>403030</hotkeyColor>
 
@@ -41,12 +41,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<at50>./50.svg</at50>
 		<at25>./25.svg</at25>
 		<empty>./empty.svg</empty>
-		<color>202020</color>
+		<color>262626</color>
 		<itemSpacing>0.005</itemSpacing>
 	</batteryIndicator>
 
 	<text name="clock" tinyScreen="false">
-		<color>202020</color>
+		<color>262626</color>
 		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
 		<fontSize>0.022</fontSize>
 		<pos>0.893 0.94</pos>

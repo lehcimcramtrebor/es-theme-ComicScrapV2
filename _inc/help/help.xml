@@ -11,12 +11,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<view name="menu,system,basic,detailed,grid">
 
 		<helpsystem name="help">
-			<textColor>202020</textColor>
+			<textColor>262626</textColor>
 			<fontSize>0.02</fontSize>
 			<origin>0 1</origin>
 			<pos>0.016 0.985</pos>
 			<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
-			<iconColor>202020</iconColor>
+			<iconColor>262626</iconColor>
 		</helpsystem>
 		<helpsystem name="help" ifSubset="helpIcons:arcadeIcons">
 			<iconColor>ffffff</iconColor>
