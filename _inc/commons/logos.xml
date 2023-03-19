@@ -40,7 +40,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<zIndex>500</zIndex>
 		<origin>0.5 0.5</origin>
 		<pos>0.271875 0.1462962962962963</pos>
-		<maxSize>0.34 0.112962962962963</maxSize>
+		<maxSize>0.34 0.1</maxSize>
 	</image>
 
 	<image name="logo" region="us">
