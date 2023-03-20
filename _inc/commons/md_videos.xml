@@ -29,6 +29,26 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 </view>
 
+<view name="grid" ifSubset="gridVideo:yes">
+
+	<video name="md_video">
+		<defaultSnapshot>./../noSnapshot.png</defaultSnapshot>
+		<linearSmooth>false</linearSmooth>
+		<color>${tint}</color>
+		<saturation>1.2</saturation>
+		<zIndex>490</zIndex>
+		<origin>0.5 0.5</origin>
+		<roundCorners>0.018</roundCorners>
+		<delay>0.6</delay>
+		<effect>none</effect>	
+		<showSnapshotNoVideo>true</showSnapshotNoVideo>
+		<showSnapshotDelay>true</showSnapshotDelay>
+		<pos>0.8419270833333333 0.4902777777777778</pos>
+		<maxSize>0.17 0.32</maxSize>
+	</video>
+
+</view>
+
 <customView name="library">
 
 	<video name="md_video">

@@ -10,15 +10,22 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <formatVersion>7</formatVersion>
 
 <view name="grid">
+
 	<imagegrid name="gamegrid">
 		<zIndex>500</zIndex>
 		<pos>0.0557291666666667 0.2453703703703704</pos>
 		<size>0.890625 0.4898148148148148</size>
+		<size ifSubset="gridVideo:yes">0.7 0.4898148148148148</size>
 		<scrollSound>./../scrollg.wav</scrollSound>
 		<margin>0.012 0.024</margin>
 		<padding>0.025 0.02 0.025 0.02</padding>
+
 		<autoLayout>6 2</autoLayout>
 		<autoLayout ifSubset="screenRatio:43">5 2</autoLayout>
+
+		<autoLayout ifSubset="gridVideo:yes">5 2</autoLayout>
+		<autoLayout ifSubset="gridVideo:yes,screenRatio:43">4 2</autoLayout>
+
 		<animateSelection>false</animateSelection>
 		<centerSelection>false</centerSelection>
 		<scrollbarColor>202020bb</scrollbarColor>
@@ -26,9 +33,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<scrollbarSize>0.0025</scrollbarSize>
 		<autoLayoutSelectedZoom>1.1</autoLayoutSelectedZoom>
 		<scrollbarAlignment>left</scrollbarAlignment>
-		<showVideoAtDelay ifSubset="gridVideo:yes">600</showVideoAtDelay>
 		<imageSource>thumbnail</imageSource>
 	</imagegrid>
+
 	<gridtile name="default">
 		<backgroundColor>00000000</backgroundColor>
 		<backgroundEdgeColor>00000000</backgroundEdgeColor>
@@ -40,12 +47,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<reflexion>0 0</reflexion>
 		<saturation>1</saturation>
 	</gridtile>
+
 	<gridtile name="selected">
 		<backgroundCenterColor>ca9b5380</backgroundCenterColor>
 		<backgroundEdgeColor>ca9b5380</backgroundEdgeColor>
 		<imageColor>ffffff</imageColor>
 		<saturation>1.2</saturation>
 	</gridtile>
+
 	<text name="gridtile">
 		<visible>false</visible>
 		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
@@ -57,6 +66,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<verticalAlignment>center</verticalAlignment>
 		<alignment>center</alignment>
 	</text>
+
 	<image name="gridtile.favorite">
 		<path>./../favorite.png</path>
 		<pos>0.99 0.01</pos>
@@ -64,18 +74,22 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>1 0</origin>
 		<horizontalAlignment>right</horizontalAlignment>
 		<color>${tint}</color>
-</image>
+	</image>
+
 	<text name="gridtile:selected">
 		<visible>false</visible>
 	</text>
+
 	<image name="gridtile.image">
 		<linearSmooth>true</linearSmooth>
 		<roundCorners>0.024</roundCorners>
 	</image>  
+
 	<ninepatch name="gridtile.background:selected">
 		<animateColor>20202080</animateColor>
 		<animateColorTime>160</animateColorTime>
 	</ninepatch>
+
 	<text name="md_name">
 		<alignment>center</alignment>
 		<color>${g.color}</color>
@@ -93,51 +107,80 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 </view>
 
-	<customView name="gridMarquees" inherits="grid" displayName="${lang.gridMarquees}">
+<customView name="gridMarquees" inherits="grid" displayName="${lang.gridMarquees}">
+
 	<imagegrid name="gamegrid">
-		<autoLayout>5 3</autoLayout>
-		<autoLayout ifSubset="screenRatio:43">4 3</autoLayout>
+
+		<autoLayout>6 3</autoLayout>
+		<autoLayout ifSubset="screenRatio:43">5 3</autoLayout>
+
+		<autoLayout ifSubset="gridVideo:yes">5 3</autoLayout>
+		<autoLayout ifSubset="gridVideo:yes,screenRatio:43">4 3</autoLayout>
+
 		<imageSource>marquee</imageSource>
 		<margin>0.012 0.024</margin>
 		<padding>0.025 0.02 0.025 0.02</padding>
 	</imagegrid>
 
-	</customView>
+	<video name="md_video">
+		<defaultSnapshot>./../noThumb.png</defaultSnapshot>
+		<snapshotSource>thumbnail</snapshotSource>
+	</video>
 
-	<customView name="gridScreenshots" inherits="grid" displayName="${lang.gridScreenshots}">
+</customView>
+
+<customView name="gridScreenshots" inherits="grid" displayName="${lang.gridScreenshots}">
+
 	<imagegrid name="gamegrid">
+
 		<autoLayout>5 2</autoLayout>
 		<autoLayout ifSubset="screenRatio:43">4 2</autoLayout>
+
+		<autoLayout ifSubset="gridVideo:yes">4 2</autoLayout>
+		<autoLayout ifSubset="gridVideo:yes,screenRatio:43">3 2</autoLayout>
+
 		<imageSource>image</imageSource>
 		<margin>0.01 0.01</margin>
 		<padding>0.015 0.015 0.015 0.015</padding>
 	</imagegrid>
+
 	<gridtile name="default">
 		<imageSizeMode>minSize</imageSizeMode>
 	</gridtile>
+
 	<image name="gridtile.image">
 		<linearSmooth>false</linearSmooth>
 		<roundCorners>0.024</roundCorners>
 	</image>  
+
 	<image name="gridtile.marquee">
 		<linearSmooth>false</linearSmooth>
 		<roundCorners>0.024</roundCorners>
-		<color>${tint}</color>
+		<color>${tint}cc</color>
 		<pos>0.5 0.5</pos>
 		<origin>0.5 0.5</origin>
-		<size>0.8 0.8</size>
+		<size>0.5 0.5</size>
 	</image>  
-    <image name="gridtile.marquee:selected">
+
+	<image name="gridtile.marquee:selected">
 		<color>ffffff</color>
-		<size>1 1</size>
-    </image>
-    <image name="gridtile.marquee:videoplaying">
+		<pos>0.5 0.5</pos>
+		<origin>0.5 0.5</origin>
+		<size>0.80 0.80</size>
+	</image>
+
+	<image name="gridtile.marquee:videoplaying">
 		<color>ffffff</color>
 		<pos>0.01 0.87</pos>
 		<origin>0 0.5</origin>
 		<size>0.6 0.25</size>
-    </image>
+	</image>
 
-	</customView>
-	
+	<video name="md_video">
+		<defaultSnapshot>./../noThumb.png</defaultSnapshot>
+		<snapshotSource>thumbnail</snapshotSource>
+	</video>
+
+</customView>
+
 </theme>

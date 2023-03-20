@@ -51,7 +51,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 						<lang.allTiles>⊂source⊃       unified source</lang.allTiles>
 		   <lang.gamelistIllustrations>⊂gamelists⊃    display illustrations in gamelists</lang.gamelistIllustrations>
 			   <lang.gamelistAlignment>               text lists alignment (except basic view)</lang.gamelistAlignment>
-					   <lang.gridVideo>               show videos inside grids</lang.gridVideo>
+					   <lang.gridVideo>               show previews / videos beside grids</lang.gridVideo>
 
 
 	<spacer.system>individually configurable system view options</spacer.system> <!--use non-breaking spaces (Alt+0160) to not display "," between words-->
@@ -396,7 +396,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<lang.left>left</lang.left>
 	<lang.center>center</lang.center>
-	<lang.center>right</lang.center>
+	<lang.right>right</lang.right>
 
 </variables>
 

@@ -66,6 +66,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>0.924 0.744</pos>
 		<maxSize>0.1 0.21</maxSize>
+	</image>
+
+	<image name="character" extra="true">
+
 			<storyboard event="open">
 				<animation property="opacity" to="1" mode="linear" duration="1"/>
 			</storyboard>
