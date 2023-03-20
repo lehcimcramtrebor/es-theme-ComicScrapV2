@@ -16,6 +16,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 					 <lang.pp.donation>⊂support⊃      make donation</lang.pp.donation>
+					 <lang.screenRatio>⊂screen⊃       format</lang.screenRatio>
 						   <lang.music>⊂music⊃        play</lang.music>
 					  <lang.controller>⊂icons⊃        controller overlay</lang.controller>
 					   <lang.helpIcons>               help buttons</lang.helpIcons>
@@ -58,6 +59,15 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	
 
 <!----------------------------------------------------------------------------------------------------------------------------->
+<!--Ratios--------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.169>wide</lang.169>
+	<lang.43>4:3 / 5:4</lang.43>
+
+	
+
+<!----------------------------------------------------------------------------------------------------------------------------->
 <!--Language------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------------------------------------------------------------------------------------------------->
 
@@ -65,6 +75,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.no>no</lang.no>
 
 	<lang.library>librairie</lang.library>
+	<lang.gridMarquees>grid (marquees)</lang.gridMarquees>
+	<lang.gridScreenshots>grid (screenshots)</lang.gridScreenshots>
 
 
 <!----------------------------------------------------------------------------------------------------------------------------->

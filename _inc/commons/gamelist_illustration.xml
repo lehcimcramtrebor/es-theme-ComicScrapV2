@@ -66,6 +66,27 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>0.924 0.744</pos>
 		<maxSize>0.1 0.21</maxSize>
+			<storyboard event="open">
+				<animation property="opacity" to="1" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="activateNext">
+			<animation property="opacity" from="0" to="0" duration="750" mode="linear"/>
+			<animation property="opacity" from="0" to="1" duration="150" mode="easeOutCubic" begin="750"/>
+			<animation property="offsetX" from="0.025" to="0" duration="150" mode="bump" begin="750"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+			<animation property="opacity" from="0" to="0" duration="750" mode="linear"/>
+			<animation property="opacity" from="0" to="1" duration="150" mode="easeOutCubic" begin="750"/>
+			<animation property="offsetX" from="0.025" to="0" duration="150" mode="bump" begin="750"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" mode="linear" duration="125"/>
+				<animation property="offsetX" to="0.025" mode="linear" duration="125"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" mode="linear" duration="125"/>
+				<animation property="offsetX" to="0.025" mode="linear" duration="125"/>
+			</storyboard>
 	</image>
 
 </view>

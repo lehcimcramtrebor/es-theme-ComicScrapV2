@@ -15,10 +15,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path.windows ifArch="windows">../..</path.windows>
 
-				<allViews>                                                       system,basic,detailed,grid,library</allViews>
-		   <gamelistViews>                                                       basic,detailed,grid,library</gamelistViews>
+				<allViews>                                                       system,basic,detailed,grid,gridMarquees,gridScreenshots,library</allViews>
+		   <gamelistViews>                                                       basic,detailed,grid,gridMarquees,gridScreenshots,library</gamelistViews>
 		   <textlistViews>                                                       detailed,library</textlistViews>
-				<gridView>                                                       grid</gridView>
+				<gridView>                                                       grid,gridMarquees,gridScreenshots</gridView>
 
 		<s.11>0.2380208333333333 0.2157407407407407</s.11>
 		<p.11>0.1736979166666667 0.2078703703703704</p.11>
@@ -89,6 +89,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	</variables>
 
+	<!--ORDER VIEWS -->
+	<view name="basic,detailed,grid"></view>
+	<customView name="gridMarquees"></customView>
+	<customView name="gridScreenshots"></customView>
+	<customView name="library"></customView>
+	<!----------------------->
+
 
 	<include>./_comicScrapV2Custom/langs/default.xml</include>
 	<include>./_comicScrapV2Custom/langs/${lang}.xml</include>
@@ -96,6 +103,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./${path.windows}/../../_comicScrapV2Custom/langs/${lang}.xml</include>
 
 	<include>./_support/support.xml</include>
+
+	<subset name="screenRatio" displayName="${lang.screenRatio}">
+		<include name="169" displayName="${lang.169}"/>
+		<include name="43" displayName="${lang.43}"/>
+	</subset>
 
 	<subset name="music" displayName="${lang.music}">
 		<include name="comixZone" displayName="${lang.comixZone}"/>
