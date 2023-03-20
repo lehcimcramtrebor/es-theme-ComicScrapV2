@@ -15,7 +15,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path.windows ifArch="windows">../..</path.windows>
 
-		<allViews>                                                       system,basic,detailed,grid,library</allViews>
+				<allViews>                                                       system,basic,detailed,grid,library</allViews>
+		   <gamelistViews>                                                       basic,detailed,grid,library</gamelistViews>
+		   <textlistViews>                                                       detailed,library</textlistViews>
+				<gridView>                                                       grid</gridView>
 
 		<s.11>0.2380208333333333 0.2157407407407407</s.11>
 		<p.11>0.1736979166666667 0.2078703703703704</p.11>
@@ -153,6 +156,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="fireComic" displayName="${lang.fireComic}"/>
 	</subset>
 
+	<subset name="spacer 01" displayName=" " appliesTo="${spacer.system}">
+		<include name="  "/>
+	</subset>
+
 	<subset name="character" displayName="${lang.character}" appliesTo="${allViews}">
 		<include name="behindLogo" displayName="${lang.behindLogo}"/>
 		<include name="bottomRight" displayName="${lang.bottomRight}"/>
@@ -267,6 +274,26 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="purpleGreenComic" displayName="${lang.purpleGreenComic}">./_inc/system/overwrites/purpleGreenComic.xml</include>
 	</subset>
 
+	<subset name="spacer 02" displayName=" " appliesTo="${spacer.gamelist}">
+		<include name="  "/>
+	</subset>
+
+	<subset name="gamelistIllustrations" displayName="${lang.gamelistIllustrations}" appliesTo="${gamelistViews}">
+		<include name="yes" displayName="${lang.yes}">./_inc/commons/gamelist_illustration.xml</include>
+		<include name="no" displayName="${lang.no}"/>
+	</subset>
+
+	<subset name="gamelistAlignment" displayName="${lang.gamelistAlignment}" appliesTo="${textlistViews}">
+		<include name="center" displayName="${lang.center}"/>
+		<include name="left" displayName="${lang.left}"/>
+		<include name="right" displayName="${lang.right}"/>
+	</subset>
+
+	<subset name="gridVideo" displayName="${lang.gridVideo}" appliesTo="${gridView}">
+		<include name="no" displayName="${lang.no}"/>
+		<include name="yes" displayName="${lang.yes}"/>
+	</subset>
+
 	<include>./_comicScrapV2Custom/customText/default.xml</include>
 	<include>./${path.windows}/../../_comicScrapV2Custom/customText/default.xml</include>
 
@@ -277,12 +304,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./_inc/overlays/overlays.xml</include>
 	<include>./_inc/system/carousel.xml</include>
 	<include>./_inc/commons/logos.xml</include>
-	<include>./_inc/commons/gamelist_illustration.xml</include>
 	<include>./_inc/commons/md_marquees.xml</include>
 	<include>./_inc/commons/md_videos.xml</include>
 	<include>./_inc/commons/md_thumbnails.xml</include>
 	<include>./_inc/commons/md_description.xml</include>
 	<include>./_inc/commons/gamelist.xml</include>
+	<include>./_inc/commons/gamegrid.xml</include>
 
 	<include>./_inc/illustrations/illustrations.xml</include>
 	

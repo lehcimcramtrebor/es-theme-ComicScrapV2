@@ -57,6 +57,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>0.271875 0.5787037037037037</pos>
 		<size>0.4322916666666667 0.68</size>
 		<selectorImagePath>./selector.png</selectorImagePath>
+		<alignment ifSubset="gamelistAlignment:left">left</alignment>
+		<alignment ifSubset="gamelistAlignment:right">right</alignment>
 	</textlist>
 
 </view>

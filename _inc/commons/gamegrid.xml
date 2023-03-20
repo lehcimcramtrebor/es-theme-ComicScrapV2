@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="grid">
+	<imagegrid name="gamegrid">
+		<zIndex>500</zIndex>
+		<pos>0.0557291666666667 0.2453703703703704</pos>
+		<size>0.890625 0.4898148148148148</size>
+		<scrollSound>./../scrollg.wav</scrollSound>
+		<margin>0.012 0.024</margin>
+		<padding>0.025 0.02 0.025 0.02</padding>
+		<autoLayout>6 2</autoLayout>
+		<animateSelection>false</animateSelection>
+		<centerSelection>false</centerSelection>
+		<scrollbarColor>202020bb</scrollbarColor>
+		<scrollbarCorner>0.6</scrollbarCorner>
+		<scrollbarSize>0.0025</scrollbarSize>
+		<autoLayoutSelectedZoom>1.16</autoLayoutSelectedZoom>
+		<scrollbarAlignment>left</scrollbarAlignment>
+		<showVideoAtDelay ifSubset="gridVideo:yes">600</showVideoAtDelay>
+		<imageSource>thumbnail</imageSource>
+	</imagegrid>
+	<gridtile name="default">
+		<backgroundColor>00000000</backgroundColor>
+		<backgroundEdgeColor>00000000</backgroundEdgeColor>
+		<backgroundCenterColor>00000000</backgroundCenterColor>
+		<backgroundCornerSize>9 9</backgroundCornerSize>
+		<selectionMode>image</selectionMode>
+		<padding>6 6</padding>
+		<imageColor>${tint}</imageColor>
+		<reflexion>0 0</reflexion>
+		<saturation>1</saturation>
+	</gridtile>
+	<gridtile name="selected">
+		<backgroundCenterColor>ca9b5380</backgroundCenterColor>
+		<backgroundEdgeColor>ca9b5380</backgroundEdgeColor>
+		<imageColor>ffffff</imageColor>
+		<saturation>1.2</saturation>
+	</gridtile>
+	<text name="gridtile">
+		<visible>false</visible>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.018</fontSize>
+		<color>202020</color>
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+		<verticalAlignment>center</verticalAlignment>
+		<alignment>center</alignment>
+	</text>
+	<image name="gridtile.favorite">
+		<path>./../favorite.png</path>
+		<pos>0.99 0.01</pos>
+		<maxSize>0.26 0.26</maxSize>
+		<origin>1 0</origin>
+		<horizontalAlignment>right</horizontalAlignment>
+		<color>${tint}</color>
+</image>
+	<text name="gridtile:selected">
+		<visible>false</visible>
+	</text>
+	<image name="gridtile.image">
+		<linearSmooth>true</linearSmooth>
+		<roundCorners>0.024</roundCorners>
+	</image>  
+	<ninepatch name="gridtile.background:selected">
+		<animateColor>20202080</animateColor>
+		<animateColorTime>160</animateColorTime>
+	</ninepatch>
+	<text name="md_name">
+		<alignment>center</alignment>
+		<color>${g.color}</color>
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+		<zIndex>500</zIndex>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<fontSize>0.024</fontSize>
+		<forceUppercase>true</forceUppercase>
+		<pos>0.2721354166666667 0.792</pos>
+		<origin>0.5 0.5</origin>
+		<size>0.413 0.03</size>
+	</text>
+
+</view>
+
+</theme>

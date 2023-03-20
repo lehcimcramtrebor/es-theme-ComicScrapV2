@@ -15,40 +15,46 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <!--Menu entries (BE CAREFUL TO NOT MODIFY SPECIALS CHARACTERS AND LAYOUT (spaces))-------------------------------------------->
 <!----------------------------------------------------------------------------------------------------------------------------->
 
-			 <lang.pp.donation>⊂support⊃      make donation</lang.pp.donation>
-				   <lang.music>⊂music⊃        play</lang.music>
-			  <lang.controller>⊂icons⊃        controller overlay</lang.controller>
-			   <lang.helpIcons>               help buttons</lang.helpIcons>
-			<lang.paperOverlay>⊂fx⊃           paper fx intensity</lang.paperOverlay>
-					<lang.tint>               book tint</lang.tint>
-			  <lang.crazyComix>⊂carousel⊃     crazy comix</lang.crazyComix>
-		   <lang.carouselAnime>               system logos animation</lang.carouselAnime>
-			  <lang.centerTile>               center tile source</lang.centerTile>
-			   <lang.character>⊂theme⊃        customizable illustrations</lang.character>
-	               <lang.boxes>               random boxes animation</lang.boxes>
-	 <lang.forceCustomMarquees>⊂games logos⊃  allow custom logos (when logos are availables)</lang.forceCustomMarquees>
-	<lang.forceDefaultMarquees>               force default theme logos (when logos are enabled)</lang.forceDefaultMarquees>
-	        <lang.forceCustoms>⊂randoms⊃      replace randoms (filled) by availables customs</lang.forceCustoms>
-				   <lang.style>⊂quick styles⊃ pre-configured styles</lang.style>
-		   <lang.overwrite2123>⊂overwrite⊃    overwrite left and right carousel tiles</lang.overwrite2123>
-	  <lang.filterComixRandoms>               style* randoms tiles canvas</lang.filterComixRandoms>
-			  <lang.groupTiles>⊂group⊃        unify tiles</lang.groupTiles>
-					<lang.t.11>    ⊂11⊃       source: upper left tile</lang.t.11>
-					<lang.t.12>    ⊂12⊃       source: upper second tile</lang.t.12>
-					<lang.t.13>    ⊂13⊃       source: upper third tile</lang.t.13>
-					<lang.t.14>    ⊂14⊃       source: upper right tile</lang.t.14>
-					<lang.t.21>    ⊂21⊃       source: middle left tile</lang.t.21>
-					<lang.t.23>    ⊂23⊃       source: middle right tile</lang.t.23>
-					<lang.t.31>    ⊂31⊃       source: bottom left tile</lang.t.31>
-					<lang.t.32>    ⊂32⊃       source: bottom second tile</lang.t.32>
-					<lang.t.33>    ⊂33⊃       source: bottom third tile</lang.t.33>
-					<lang.t.34>    ⊂34⊃       source: bottom right tile</lang.t.34>
-			 <lang.firstCorner>    ⊂c1⊃       source: first corner</lang.firstCorner>
-			<lang.secondCorner>    ⊂c2⊃       source: second corner</lang.secondCorner>
-			 <lang.thirdCorner>    ⊂c3⊃       source: second corner</lang.thirdCorner>
-			  <lang.lastCorner>    ⊂c4⊃       source: last corner</lang.lastCorner>
-			    <lang.allTiles>⊂source⊃       unified source</lang.allTiles>
+					 <lang.pp.donation>⊂support⊃      make donation</lang.pp.donation>
+						   <lang.music>⊂music⊃        play</lang.music>
+					  <lang.controller>⊂icons⊃        controller overlay</lang.controller>
+					   <lang.helpIcons>               help buttons</lang.helpIcons>
+					<lang.paperOverlay>⊂fx⊃           paper fx intensity</lang.paperOverlay>
+							<lang.tint>               book tint</lang.tint>
+					  <lang.crazyComix>⊂carousel⊃     crazy comix</lang.crazyComix>
+				   <lang.carouselAnime>               system logos animation</lang.carouselAnime>
+					  <lang.centerTile>               center tile source</lang.centerTile>
+					   <lang.character>⊂theme⊃        customizable illustrations</lang.character>
+						   <lang.boxes>               random boxes animation</lang.boxes>
+			 <lang.forceCustomMarquees>⊂games logos⊃  allow custom logos (when logos are availables)</lang.forceCustomMarquees>
+			<lang.forceDefaultMarquees>               force default theme logos (when logos are enabled)</lang.forceDefaultMarquees>
+					<lang.forceCustoms>⊂randoms⊃      replace randoms (filled) by availables customs</lang.forceCustoms>
+						   <lang.style>⊂quick styles⊃ pre-configured styles</lang.style>
+				   <lang.overwrite2123>⊂overwrite⊃    overwrite left and right carousel tiles</lang.overwrite2123>
+			  <lang.filterComixRandoms>               style* randoms tiles canvas</lang.filterComixRandoms>
+					  <lang.groupTiles>⊂group⊃        unify tiles</lang.groupTiles>
+							<lang.t.11>    ⊂11⊃       source: upper left tile</lang.t.11>
+							<lang.t.12>    ⊂12⊃       source: upper second tile</lang.t.12>
+							<lang.t.13>    ⊂13⊃       source: upper third tile</lang.t.13>
+							<lang.t.14>    ⊂14⊃       source: upper right tile</lang.t.14>
+							<lang.t.21>    ⊂21⊃       source: middle left tile</lang.t.21>
+							<lang.t.23>    ⊂23⊃       source: middle right tile</lang.t.23>
+							<lang.t.31>    ⊂31⊃       source: bottom left tile</lang.t.31>
+							<lang.t.32>    ⊂32⊃       source: bottom second tile</lang.t.32>
+							<lang.t.33>    ⊂33⊃       source: bottom third tile</lang.t.33>
+							<lang.t.34>    ⊂34⊃       source: bottom right tile</lang.t.34>
+					 <lang.firstCorner>    ⊂c1⊃       source: first corner</lang.firstCorner>
+					<lang.secondCorner>    ⊂c2⊃       source: second corner</lang.secondCorner>
+					 <lang.thirdCorner>    ⊂c3⊃       source: second corner</lang.thirdCorner>
+					  <lang.lastCorner>    ⊂c4⊃       source: last corner</lang.lastCorner>
+						<lang.allTiles>⊂source⊃       unified source</lang.allTiles>
+		   <lang.gamelistIllustrations>⊂gamelists⊃    display illustrations in gamelists</lang.gamelistIllustrations>
+			   <lang.gamelistAlignment>               text lists alignment (except basic view)</lang.gamelistAlignment>
+					   <lang.gridVideo>               show videos inside grids</lang.gridVideo>
 
+
+	<spacer.system>individually configurable system view options</spacer.system> <!--use non-breaking spaces (Alt+0160) to not display "," between words-->
+	<spacer.gamelist>individually configurable gamelists options</spacer.gamelist> <!--use non-breaking spaces (Alt+0160) to not display "," between words-->
 	
 
 <!----------------------------------------------------------------------------------------------------------------------------->
@@ -370,6 +376,15 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<lang.comicBw>b/w: comic</lang.comicBw>
 
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Gamelists Options --------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.left>left</lang.left>
+	<lang.center>center</lang.center>
+	<lang.center>right</lang.center>
 
 </variables>
 
