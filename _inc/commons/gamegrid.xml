@@ -189,7 +189,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<visible>false</visible>
 	</video>
 
-	<image name="md_thumbnail">
+	<image name="md_thumbnail" ifSubset="gridVideo:yes">
 		<visible>true</visible>
 	</image>
 
