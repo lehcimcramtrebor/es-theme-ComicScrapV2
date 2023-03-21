@@ -130,7 +130,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 </view>
 
-<customView name="library">
+<customView name="library" inherits="detailed" displayName="${lang.library}">
 
 	<image name="classic" extra="true">
 		<pos>0.75 0.1462962962962963</pos>

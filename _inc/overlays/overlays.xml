@@ -143,7 +143,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	</image>
 </view>
 
-<customView name="library" inherits="detailed" displayName="${lang.library}">>
+<customView name="library" inherits="detailed" displayName="${lang.library}">
 	<image name="overlay" extra="true">
 		<path>./library.png</path>
 	</image>

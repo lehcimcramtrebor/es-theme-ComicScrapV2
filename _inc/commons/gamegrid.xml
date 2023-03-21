@@ -15,7 +15,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<zIndex>500</zIndex>
 		<pos>0.0557291666666667 0.2453703703703704</pos>
 		<size>0.890625 0.4898148148148148</size>
-		<size ifSubset="gridVideo:yes">0.7 0.4898148148148148</size>
+		<size ifSubset="gridVideo:besideGrid">0.7 0.4898148148148148</size>
 		<scrollSound>./../scrollg.wav</scrollSound>
 		<margin>0.012 0.024</margin>
 		<padding>0.025 0.02 0.025 0.02</padding>
@@ -23,8 +23,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<autoLayout>6 2</autoLayout>
 		<autoLayout ifSubset="screenRatio:43">5 2</autoLayout>
 
-		<autoLayout ifSubset="gridVideo:yes">5 2</autoLayout>
-		<autoLayout ifSubset="gridVideo:yes,screenRatio:43">4 2</autoLayout>
+		<autoLayout ifSubset="gridVideo:besideGrid">5 2</autoLayout>
+		<autoLayout ifSubset="gridVideo:besideGrid,screenRatio:43">4 2</autoLayout>
 
 		<animateSelection>false</animateSelection>
 		<centerSelection>false</centerSelection>
@@ -34,6 +34,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<autoLayoutSelectedZoom>1.1</autoLayoutSelectedZoom>
 		<scrollbarAlignment>left</scrollbarAlignment>
 		<imageSource>thumbnail</imageSource>
+		<showVideoAtDelay ifSubset="gridVideo:inTileVideo">600</showVideoAtDelay>
+		<showVideoAtDelay ifSubset="gridVideo:inTileVideo,showVideo:1000ms">1000</showVideoAtDelay>
+		<showVideoAtDelay ifSubset="gridVideo:inTileVideo,showVideo:2000ms">2000</showVideoAtDelay>
+		<showVideoAtDelay ifSubset="gridVideo:inTileVideo,showVideo:5000ms">5000</showVideoAtDelay>
+		<showVideoAtDelay ifSubset="gridVideo:inTileVideo,showVideo:never">999999000</showVideoAtDelay>
 	</imagegrid>
 
 	<gridtile name="default">
@@ -90,25 +95,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<animateColorTime>160</animateColorTime>
 	</ninepatch>
 
-	<text name="md_name">
-		<alignment>center</alignment>
-		<color>${g.color}</color>
-		<glowColor>${g.glowColor}</glowColor>
-		<glowSize>${g.glowSize}</glowSize>
-		<glowOffset>${g.glowOffset}</glowOffset>
-		<zIndex>500</zIndex>
-		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
-		<fontSize>0.024</fontSize>
-		<forceUppercase>true</forceUppercase>
-		<pos>0.2721354166666667 0.792</pos>
-		<origin>0.5 0.5</origin>
-		<size>0.413 0.03</size>
-	</text>
-
-	<image name="md_thumbnail">
-		<visible>false</visible>
-	</image>
-
 </view>
 
 <customView name="gridMarquees" inherits="grid" displayName="${lang.gridMarquees}">
@@ -118,22 +104,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<autoLayout>6 3</autoLayout>
 		<autoLayout ifSubset="screenRatio:43">5 3</autoLayout>
 
-		<autoLayout ifSubset="gridVideo:yes">5 3</autoLayout>
-		<autoLayout ifSubset="gridVideo:yes,screenRatio:43">4 3</autoLayout>
+		<autoLayout ifSubset="gridVideo:besideGrid">5 3</autoLayout>
+		<autoLayout ifSubset="gridVideo:besideGrid,screenRatio:43">4 3</autoLayout>
 
 		<imageSource>marquee</imageSource>
 		<margin>0.012 0.024</margin>
 		<padding>0.025 0.02 0.025 0.02</padding>
 	</imagegrid>
-
-	<video name="md_video" ifSubset="gridVideo:yes">
-		<defaultSnapshot>./../noThumb.png</defaultSnapshot>
-		<snapshotSource>thumbnail</snapshotSource>
-	</video>
-
-	<image name="md_thumbnail">
-		<visible>false</visible>
-	</image>
 
 </customView>
 
@@ -144,13 +121,17 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<autoLayout>5 2</autoLayout>
 		<autoLayout ifSubset="screenRatio:43">4 2</autoLayout>
 
-		<autoLayout ifSubset="gridVideo:yes">4 2</autoLayout>
-		<autoLayout ifSubset="gridVideo:yes,screenRatio:43">3 2</autoLayout>
+		<autoLayout ifSubset="gridVideo:besideGrid">4 2</autoLayout>
+		<autoLayout ifSubset="gridVideo:besideGrid,screenRatio:43">3 2</autoLayout>
 
 		<imageSource>image</imageSource>
 		<margin>0.01 0.01</margin>
 		<padding>0.015 0.015 0.015 0.015</padding>
-		<showVideoAtDelay ifSubset="gridVideo:yes">600</showVideoAtDelay>
+		<showVideoAtDelay ifSubset="gridVideo:besideGrid">600</showVideoAtDelay>
+		<showVideoAtDelay ifSubset="gridVideo:besideGrid,showVideo:1000ms">1000</showVideoAtDelay>
+		<showVideoAtDelay ifSubset="gridVideo:besideGrid,showVideo:2000ms">2000</showVideoAtDelay>
+		<showVideoAtDelay ifSubset="gridVideo:besideGrid,showVideo:5000ms">5000</showVideoAtDelay>
+		<showVideoAtDelay ifSubset="gridVideo:besideGrid,showVideo:never">999999000</showVideoAtDelay>
 	</imagegrid>
 
 	<gridtile name="default">
@@ -183,14 +164,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>0.01 0.87</pos>
 		<origin>0 0.5</origin>
 		<size>0.6 0.25</size>
-	</image>
-
-	<video name="md_video" ifSubset="gridVideo:yes">
-		<visible>false</visible>
-	</video>
-
-	<image name="md_thumbnail" ifSubset="gridVideo:yes">
-		<visible>true</visible>
 	</image>
 
 </customView>

@@ -51,7 +51,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 						<lang.allTiles>⊂source⊃       unified source</lang.allTiles>
 		   <lang.gamelistIllustrations>⊂gamelists⊃    display illustrations in gamelists</lang.gamelistIllustrations>
 			   <lang.gamelistAlignment>               text lists alignment (except basic view)</lang.gamelistAlignment>
-					   <lang.gridVideo>               show previews / videos beside grids</lang.gridVideo>
+					   <lang.gridVideo>               grid games preview</lang.gridVideo>
+					   <lang.showVideo>               show game video</lang.showVideo>
 
 
 	<spacer.system>individually configurable system view options</spacer.system> <!--use non-breaking spaces (Alt+0160) to not display "," between words-->
@@ -397,6 +398,15 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.left>left</lang.left>
 	<lang.center>center</lang.center>
 	<lang.right>right</lang.right>
+
+	<lang.besideGrid>in zone beside grid</lang.besideGrid>
+	<lang.inTileVideo>in tiles video</lang.inTileVideo>
+
+	<lang.600ms>at 600 ms</lang.600ms>
+	<lang.1000ms>after a second</lang.1000ms>
+	<lang.2000ms>after 2 seconds</lang.2000ms>
+	<lang.5000ms>after 5 seconds</lang.5000ms>
+	<lang.never>never</lang.never>
 
 </variables>
 

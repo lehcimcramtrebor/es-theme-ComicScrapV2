@@ -19,6 +19,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		   <gamelistViews>                                                       basic,detailed,grid,gridMarquees,gridScreenshots,library</gamelistViews>
 		   <textlistViews>                                                       detailed,library</textlistViews>
 				<gridView>                                                       grid,gridMarquees,gridScreenshots</gridView>
+			  <videoViews>                                                       detailed,grid,gridMarquees,gridScreenshots,library</videoViews>
 
 		<s.11>0.2380208333333333 0.2157407407407407</s.11>
 		<p.11>0.1736979166666667 0.2078703703703704</p.11>
@@ -303,7 +304,16 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<subset name="gridVideo" displayName="${lang.gridVideo}" appliesTo="${gridView}">
 		<include name="no" displayName="${lang.no}"/>
-		<include name="yes" displayName="${lang.yes}"/>
+		<include name="besideGrid" displayName="${lang.besideGrid}"/>
+		<include name="inTileVideo" displayName="${lang.inTileVideo}"/>
+	</subset>
+
+	<subset name="showVideo" displayName="${lang.showVideo}" appliesTo="${videoViews}">
+		<include name="600ms" displayName="${lang.600ms}"/>
+		<include name="1000ms" displayName="${lang.1000ms}"/>
+		<include name="2000ms" displayName="${lang.2000ms}"/>
+		<include name="5000ms" displayName="${lang.5000ms}"/>
+		<include name="never" displayName="${lang.never}"/>
 	</subset>
 
 	<include>./_comicScrapV2Custom/customText/default.xml</include>
@@ -320,6 +330,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./_inc/commons/md_videos.xml</include>
 	<include>./_inc/commons/md_thumbnails.xml</include>
 	<include>./_inc/commons/md_description.xml</include>
+	<include>./_inc/commons/md_name.xml</include>
 	<include>./_inc/commons/gamelist.xml</include>
 	<include>./_inc/commons/gamegrid.xml</include>
 

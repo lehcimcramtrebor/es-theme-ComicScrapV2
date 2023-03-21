@@ -9,6 +9,18 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <theme>
 <formatVersion>7</formatVersion>
 
+<view name="detailed,grid">
+
+	<video name="md_video">
+		<delay>0.6</delay>
+		<delay ifSubset="showVideo:1000ms">1</delay>
+		<delay ifSubset="showVideo:2000ms">2</delay>
+		<delay ifSubset="showVideo:5000ms">5</delay>
+		<delay ifSubset="showVideo:never">999999</delay>
+	</video>
+
+</view>
+
 <view name="detailed">
 
 	<video name="md_video">
@@ -21,7 +33,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>0.65 0.4277777777777778</pos>
 		<maxSize>0.2 0.26</maxSize>
 		<roundCorners>0.018</roundCorners>
-		<delay>0.6</delay>
 		<effect>none</effect>	
 		<showSnapshotNoVideo>true</showSnapshotNoVideo>
 		<showSnapshotDelay>true</showSnapshotDelay>
@@ -29,7 +40,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 </view>
 
-<view name="grid" ifSubset="gridVideo:yes">
+<view name="grid" ifSubset="gridVideo:besideGrid">
 
 	<video name="md_video">
 		<defaultSnapshot>./../noSnapshot.png</defaultSnapshot>
@@ -39,7 +50,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<zIndex>490</zIndex>
 		<origin>0.5 0.5</origin>
 		<roundCorners>0.018</roundCorners>
-		<delay>0.6</delay>
 		<effect>none</effect>	
 		<showSnapshotNoVideo>true</showSnapshotNoVideo>
 		<showSnapshotDelay>true</showSnapshotDelay>
@@ -49,7 +59,24 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 </view>
 
-<customView name="library">
+<customView name="gridMarquees" inherits="grid" displayName="${lang.gridMarquees}" ifSubset="gridVideo:besideGrid">
+
+	<video name="md_video">
+		<defaultSnapshot>./../noThumb.png</defaultSnapshot>
+		<snapshotSource>thumbnail</snapshotSource>
+	</video>
+
+</customView>
+
+<customView name="gridScreenshots" inherits="grid" displayName="${lang.gridScreenshots}" ifSubset="gridVideo:besideGrid">
+
+	<video name="md_video">
+		<visible>false</visible>
+	</video>
+
+</customView>
+
+<customView name="library" inherits="detailed" displayName="${lang.library}">
 
 	<video name="md_video">
 		<linearSmooth>true</linearSmooth>

@@ -30,7 +30,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 </view>
 
-<customView name="library">
+<customView name="library" inherits="detailed" displayName="${lang.library}">
 
 	<image name="md_description" extra="true">
 		<visible>false</visible>

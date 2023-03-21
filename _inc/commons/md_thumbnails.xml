@@ -26,7 +26,15 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 </view>
 
-<view name="grid" ifSubset="gridVideo:yes">
+<view name="grid">
+
+	<image name="md_thumbnail">
+		<visible>false</visible>
+	</image>
+
+</view>
+
+<view name="grid" ifSubset="gridVideo:besideGrid">
 
 	<image name="md_thumbnail">
 		<default>./../noThumb.png</default>
@@ -43,7 +51,15 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 </view>
 
-<customView name="library">
+<customView name="gridScreenshots" inherits="grid" displayName="${lang.gridScreenshots}" ifSubset="gridVideo:besideGrid">
+
+	<image name="md_thumbnail">
+		<visible>true</visible>
+	</image>
+
+</customView>
+
+<customView name="library" inherits="detailed" displayName="${lang.library}">
 
 	<image name="md_thumbnail" extra="true">
 		<visible>false</visible>
