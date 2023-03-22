@@ -40,14 +40,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<defaultSnapshot>./../noSnapshot.png</defaultSnapshot>
 		<pos>0.65 0.4277777777777778</pos>
 		<maxSize ifSubset="detailedVideo:respectFull">0.278125 0.3666666666666667</maxSize>
-		<maxSize ifSubset="detailedVideo:respectMed|respectMedPatch|respectMedFanart">0.24 0.29</maxSize>
-		<maxSize ifSubset="detailedVideo:respectSmall|respectSmallPatch|respectSmallFanart">0.20 0.26</maxSize>
+		<maxSize ifSubset="detailedVideo:respectMed|respectMedPatch|respectMedFanart|respectMedScreenshot">0.24 0.29</maxSize>
+		<maxSize ifSubset="detailedVideo:respectSmall|respectSmallPatch|respectSmallFanart|respectSmallScreenshot">0.20 0.26</maxSize>
 		<size ifSubset="detailedVideo:stretchFull">0.278125 0.3666666666666667</size>
 
 		<roundCorners ifSubset="detailedVideo:respectFull|stretchFull">0</roundCorners>
 	</video>
 
-	<image name="patchRespectFull" extra="true" ifSubset="detailedVideo:stretchFull|respectFull|respectMedPatch|respectMedFanart|respectSmallPatch|respectSmallFanart">
+	<image name="patchRespectFull" extra="true" ifSubset="detailedVideo:stretchFull|respectFull|respectMedPatch|respectMedFanart|respectMedScreenshot|respectSmallPatch|respectSmallFanart|respectSmallScreenshot">
 		<path>./../white.png</path>
 		<color>161616</color>
 		<color ifSubset="detailedVideo:stretchFull|respectFull">000000</color>
@@ -55,30 +55,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>0.65 0.4277777777777778</pos>
 		<size>0.278125 0.3666666666666667</size>
 		<zIndex>480</zIndex>
-	</image>
-
-	<image name="md_fanart" ifSubset="detailedVideo:respectMedFanart|respectSmallFanart">
-		<linearSmooth>true</linearSmooth>
-		<color>${tint}</color>
-		<origin>0.5 0.5</origin>
-		<pos>0.65 0.4277777777777778</pos>
-		<minSize>0.278125 0.3666666666666667</minSize>
-		<zIndex>485</zIndex>
-			<storyboard event="open">
-				<animation property="opacity" to="0.5" mode="linear" duration="1"/>
-			</storyboard>
-			<storyboard event="activateNext">
-			<animation property="opacity" from="0" to="0.5" duration="150" mode="easeIn"/>
-			</storyboard>
-			<storyboard event="activatePrev">
-			<animation property="opacity" from="0" to="0.5" duration="150" mode="easeIn"/>
-			</storyboard>
-			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
-			</storyboard>
 	</image>
 
 </view>

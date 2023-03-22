@@ -415,10 +415,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.respectMed>medium size (respected)</lang.respectMed>
 	<lang.respectMedPatch>medium size, black patch (respected)</lang.respectMedPatch>
 	<lang.respectMedFanart>medium size, fanart fade (respected)</lang.respectMedFanart>
+	<lang.respectMedScreenshot>medium size, screenshot fade (respected)</lang.respectMedScreenshot>
 
 	<lang.respectSmall>small size (respected)</lang.respectSmall>
 	<lang.respectSmallPatch>small size, black patch (respected)</lang.respectSmallPatch>
 	<lang.respectSmallFanart>small size, fanart fade (respected)</lang.respectSmallFanart>
+	<lang.respectSmallScreenshot>small size, screenshot fade (respected)</lang.respectSmallScreenshot>
 
 </variables>
 
