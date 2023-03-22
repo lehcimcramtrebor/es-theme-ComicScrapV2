@@ -16,7 +16,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 					 <lang.pp.donation>⊂support⊃      make donation</lang.pp.donation>
-					 <lang.screenRatio>⊂screen⊃       format</lang.screenRatio>
 						   <lang.music>⊂music⊃        play</lang.music>
 					  <lang.controller>⊂icons⊃        controller overlay</lang.controller>
 					   <lang.helpIcons>               help buttons</lang.helpIcons>
@@ -60,14 +59,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<spacer.gamelist>individually configurable gamelists options</spacer.gamelist> <!--use non-breaking spaces (Alt+0160) to not display "," between words-->
 	
 
-<!----------------------------------------------------------------------------------------------------------------------------->
-<!--Ratios--------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------------------------------------------------------------------------------------------------->
-
-	<lang.169>wide</lang.169>
-	<lang.43>4:3 / 5:4</lang.43>
-
-	
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 <!--Language------------------------------------------------------------------------------------------------------------------->

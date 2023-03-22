@@ -21,10 +21,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<padding>0.025 0.02 0.025 0.02</padding>
 
 		<autoLayout>6 2</autoLayout>
-		<autoLayout ifSubset="screenRatio:43">5 2</autoLayout>
+		<autoLayout if="${notWide}">5 2</autoLayout>
+		<autoLayout if="${ultraWide}">8 2</autoLayout>
 
 		<autoLayout ifSubset="gridVideo:besideGrid">5 2</autoLayout>
-		<autoLayout ifSubset="gridVideo:besideGrid,screenRatio:43">4 2</autoLayout>
+		<autoLayout ifSubset="gridVideo:besideGrid" if="${notWide}">4 2</autoLayout>
+		<autoLayout ifSubset="gridVideo:besideGrid" if="${ultraWide}">6 2</autoLayout>
 
 		<animateSelection>false</animateSelection>
 		<centerSelection>false</centerSelection>
@@ -102,10 +104,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<imagegrid name="gamegrid">
 
 		<autoLayout>6 3</autoLayout>
-		<autoLayout ifSubset="screenRatio:43">5 3</autoLayout>
+		<autoLayout if="${notWide}">5 3</autoLayout>
+		<autoLayout if="${ultraWide}">8 3</autoLayout>
 
 		<autoLayout ifSubset="gridVideo:besideGrid">5 3</autoLayout>
-		<autoLayout ifSubset="gridVideo:besideGrid,screenRatio:43">4 3</autoLayout>
+		<autoLayout ifSubset="gridVideo:besideGrid" if="${notWide}">4 3</autoLayout>
+		<autoLayout ifSubset="gridVideo:besideGrid" if="${ultraWide}">6 3</autoLayout>
 
 		<imageSource>marquee</imageSource>
 		<margin>0.012 0.024</margin>
@@ -119,10 +123,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<imagegrid name="gamegrid">
 
 		<autoLayout>5 2</autoLayout>
-		<autoLayout ifSubset="screenRatio:43">4 2</autoLayout>
+		<autoLayout if="${notWide}">4 2</autoLayout>
+		<autoLayout if="${ultraWide}">7 2</autoLayout>
 
 		<autoLayout ifSubset="gridVideo:besideGrid">4 2</autoLayout>
-		<autoLayout ifSubset="gridVideo:besideGrid,screenRatio:43">3 2</autoLayout>
+		<autoLayout ifSubset="gridVideo:besideGrid" if="${notWide}">3 2</autoLayout>
+		<autoLayout ifSubset="gridVideo:besideGrid" if="${ultraWide}">5 2</autoLayout>
 
 		<imageSource>image</imageSource>
 		<margin>0.01 0.01</margin>

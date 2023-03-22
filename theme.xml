@@ -22,6 +22,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 			  <videoViews>                                                       detailed,grid,gridMarquees,gridScreenshots,library</videoViews>
 			<detailedView>                                                       detailed</detailedView>
 
+		<notWide>${screen.height} > ${screen.width}/1.6</notWide>
+		<ultraWide>${screen.width} > ${screen.height}*1.8</ultraWide>
+
 		<s.11>0.2380208333333333 0.2157407407407407</s.11>
 		<p.11>0.1736979166666667 0.2078703703703704</p.11>
 
@@ -91,6 +94,18 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	</variables>
 
+	<!--
+	<view name="screen" if="${ultraWide}">
+	<image name="test" extra="true">
+	<path>./_inc/white.png</path>
+	<zIndex>5000</zIndex>
+	<origin>0.5 0.5</origin>
+	<pos>0.5 0.5</pos>
+	<color>ff0000</color>
+	</image>
+	</view>
+	-->
+
 	<!--ORDER VIEWS -->
 	<view name="basic,detailed,grid"></view>
 	<customView name="gridMarquees"></customView>
@@ -105,11 +120,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./${path.windows}/../../_comicScrapV2Custom/langs/${lang}.xml</include>
 
 	<include>./_support/support.xml</include>
-
-	<subset name="screenRatio" displayName="${lang.screenRatio}">
-		<include name="169" displayName="${lang.169}"/>
-		<include name="43" displayName="${lang.43}"/>
-	</subset>
 
 	<subset name="music" displayName="${lang.music}">
 		<include name="comixZone" displayName="${lang.comixZone}"/>
