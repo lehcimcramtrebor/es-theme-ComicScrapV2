@@ -20,6 +20,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		   <textlistViews>                                                       detailed,library</textlistViews>
 				<gridView>                                                       grid,gridMarquees,gridScreenshots</gridView>
 			  <videoViews>                                                       detailed,grid,gridMarquees,gridScreenshots,library</videoViews>
+			<detailedView>                                                       detailed</detailedView>
 
 		<s.11>0.2380208333333333 0.2157407407407407</s.11>
 		<p.11>0.1736979166666667 0.2078703703703704</p.11>
@@ -300,6 +301,17 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<include name="center" displayName="${lang.center}"/>
 		<include name="left" displayName="${lang.left}"/>
 		<include name="right" displayName="${lang.right}"/>
+	</subset>
+
+	<subset name="detailedVideo" displayName="${lang.detailedVideo}" appliesTo="${detailedView}">
+		<include name="stretchFull" displayName="${lang.stretchFull}"/>
+		<include name="respectFull" displayName="${lang.respectFull}"/>
+		<include name="respectMed" displayName="${lang.respectMed}"/>
+		<include name="respectMedPatch" displayName="${lang.respectMedPatch}"/>
+		<include name="respectMedFanart" displayName="${lang.respectMedFanart}"/>
+		<include name="respectSmall" displayName="${lang.respectSmall}"/>
+		<include name="respectSmallPatch" displayName="${lang.respectSmallPatch}"/>
+		<include name="respectSmallFanart" displayName="${lang.respectSmallFanart}"/>
 	</subset>
 
 	<subset name="gridVideo" displayName="${lang.gridVideo}" appliesTo="${gridView}">

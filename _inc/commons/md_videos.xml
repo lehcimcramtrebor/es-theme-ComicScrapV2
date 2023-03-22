@@ -9,9 +9,22 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <theme>
 <formatVersion>7</formatVersion>
 
-<view name="detailed,grid">
+<view name="detailed">
 
 	<video name="md_video">
+		<linearSmooth>false</linearSmooth>
+		<color>${tintTiles}</color>
+		<saturation>1.2</saturation>
+
+		<zIndex>490</zIndex>
+		<origin>0.5 0.5</origin>
+
+		<roundCorners>0.018</roundCorners>
+
+		<effect>none</effect>	
+		<showSnapshotNoVideo>true</showSnapshotNoVideo>
+		<showSnapshotDelay>true</showSnapshotDelay>
+
 		<delay>0.6</delay>
 		<delay ifSubset="showVideo:1000ms">1</delay>
 		<delay ifSubset="showVideo:2000ms">2</delay>
@@ -25,18 +38,48 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<video name="md_video">
 		<defaultSnapshot>./../noSnapshot.png</defaultSnapshot>
-		<linearSmooth>false</linearSmooth>
-		<color>${tintTiles}</color>
-		<saturation>1.2</saturation>
-		<zIndex>490</zIndex>
+		<pos>0.65 0.4277777777777778</pos>
+		<maxSize ifSubset="detailedVideo:respectFull">0.278125 0.3666666666666667</maxSize>
+		<maxSize ifSubset="detailedVideo:respectMed|respectMedPatch|respectMedFanart">0.24 0.29</maxSize>
+		<maxSize ifSubset="detailedVideo:respectSmall|respectSmallPatch|respectSmallFanart">0.20 0.26</maxSize>
+		<size ifSubset="detailedVideo:stretchFull">0.278125 0.3666666666666667</size>
+
+		<roundCorners ifSubset="detailedVideo:respectFull|stretchFull">0</roundCorners>
+	</video>
+
+	<image name="patchRespectFull" extra="true" ifSubset="detailedVideo:stretchFull|respectFull|respectMedPatch|respectMedFanart|respectSmallPatch|respectSmallFanart">
+		<path>./../white.png</path>
+		<color>161616</color>
+		<color ifSubset="detailedVideo:stretchFull|respectFull">000000</color>
 		<origin>0.5 0.5</origin>
 		<pos>0.65 0.4277777777777778</pos>
-		<maxSize>0.2 0.26</maxSize>
-		<roundCorners>0.018</roundCorners>
-		<effect>none</effect>	
-		<showSnapshotNoVideo>true</showSnapshotNoVideo>
-		<showSnapshotDelay>true</showSnapshotDelay>
-	</video>
+		<size>0.278125 0.3666666666666667</size>
+		<zIndex>480</zIndex>
+	</image>
+
+	<image name="md_fanart" ifSubset="detailedVideo:respectMedFanart|respectSmallFanart">
+		<linearSmooth>true</linearSmooth>
+		<color>${tint}</color>
+		<origin>0.5 0.5</origin>
+		<pos>0.65 0.4277777777777778</pos>
+		<minSize>0.278125 0.3666666666666667</minSize>
+		<zIndex>485</zIndex>
+			<storyboard event="open">
+				<animation property="opacity" to="0.5" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="activateNext">
+			<animation property="opacity" from="0" to="0.5" duration="150" mode="easeIn"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+			<animation property="opacity" from="0" to="0.5" duration="150" mode="easeIn"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+	</image>
 
 </view>
 
@@ -44,17 +87,27 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<video name="md_video">
 		<defaultSnapshot>./../noSnapshot.png</defaultSnapshot>
+		<pos>0.8419270833333333 0.4902777777777778</pos>
+		<maxSize>0.17 0.32</maxSize>
+
 		<linearSmooth>false</linearSmooth>
-		<color>${tint}</color>
+		<color>${tintTiles}</color>
 		<saturation>1.2</saturation>
+
 		<zIndex>490</zIndex>
 		<origin>0.5 0.5</origin>
+
 		<roundCorners>0.018</roundCorners>
+
 		<effect>none</effect>	
 		<showSnapshotNoVideo>true</showSnapshotNoVideo>
 		<showSnapshotDelay>true</showSnapshotDelay>
-		<pos>0.8419270833333333 0.4902777777777778</pos>
-		<maxSize>0.17 0.32</maxSize>
+
+		<delay>0.6</delay>
+		<delay ifSubset="showVideo:1000ms">1</delay>
+		<delay ifSubset="showVideo:2000ms">2</delay>
+		<delay ifSubset="showVideo:5000ms">5</delay>
+		<delay ifSubset="showVideo:never">999999</delay>
 	</video>
 
 </view>
