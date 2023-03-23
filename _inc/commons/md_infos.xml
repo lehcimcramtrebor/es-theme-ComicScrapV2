@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="detailed,grid">
+
+	<datetime name="md_releasedate">
+		<origin>1 0</origin>
+		<zIndex>600</zIndex>
+		<alignment>left</alignment>
+		<fontSize>0.022</fontSize>
+		<x>0.91</x>
+		<y>0.69</y>
+		<w>0.09</w>
+		<color>${g.color}</color>
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+	</datetime>
+
+	<text name="md_players">
+		<origin>0 0</origin>
+		<alignment>left</alignment>
+		<fontSize>0.026</fontSize>
+		<zIndex>600</zIndex>
+		<color>${g.color}</color>
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+		<fontPath>./../fonts/rvgm.ttf</fontPath>
+		<x>0.9225</x>
+		<y>0.563</y>
+		<w>0.018</w>
+	</text>
+			
+	<text name="md_genre">
+		<fontSize>0.02</fontSize>
+		<origin>0 0</origin>
+		<zIndex>600</zIndex>
+		<alignment>left</alignment>
+		<color>${g.color}</color>
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<x>0.52</x>
+		<y>0.66</y>
+		<w>0.19</w>
+	</text>
+<!--
+	<text name="md_lbl_releasedate">
+		<origin>1 0</origin>
+		<zIndex>600</zIndex>
+		<alignment>right</alignment>
+		<fontSize>0.02</fontSize>
+		<x>0.66</x>
+		<y>0.689</y>
+		<w>0.199</w>
+		<color>${g.color}</color>
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+	</text>
+-->				
+		
+	<text name="md_developer">
+		<origin>1 0</origin>
+		<alignment>right</alignment>
+		<fontSize>0.02</fontSize>
+		<zIndex>600</zIndex>
+		<color>${g.color}</color>
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<x>0.715</x>
+		<y>0.689</y>
+		<w>0.1955</w>
+	</text>
+		
+	<text name="md_lbl_playcount">
+		<origin>0 0</origin>
+		<pos>0.765 0.67</pos>
+		<size>0.18 0.033</size>
+		<fontSize>0.02</fontSize>
+		<alignment>right</alignment>
+		<color>${g.color}</color>
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<zIndex>600</zIndex>
+		<w>0.13</w>
+	</text>
+			
+	<text name="md_playcount">
+		<origin>0 0</origin>
+		<fontSize>0.02</fontSize>
+		<alignment>left</alignment>
+		<color>${g.color}</color>
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<zIndex>600</zIndex>
+		<x>0.9</x>
+		<y>0.66</y>
+		<w>0.036</w>
+	</text>
+
+</view>
+
+</theme>

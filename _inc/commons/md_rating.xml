@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="detailed,grid">
+
+	<rating name="md_rating">
+		<linearSmooth>true</linearSmooth>
+		<zIndex>600</zIndex>
+		<color>${tint}</color>
+		<unfilledColor>${tint}</unfilledColor>
+		<pos>0.8275 0.5925</pos>
+		<size>0.01875 0.0333333333333333</size>
+		<origin>0.5 0.5</origin>
+		<unfilledPath>./../empty.png</unfilledPath>
+		<filledPath>./../filled.png</filledPath>
+	</rating>
+
+</view>
+
+<view name="grid">
+
+	<rating name="md_rating">
+		<pos>0.39 0.891</pos>
+	</rating>
+
+</view>
+
+<customView name="library" inherits="detailed" displayName="${lang.library}">
+
+	<rating name="md_rating">
+		<visible>false</visible>
+	</rating>
+
+</customView>
+
+</theme>

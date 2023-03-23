@@ -316,14 +316,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<subset name="detailedVideo" displayName="${lang.detailedVideo}" appliesTo="${detailedView}">
 		<include name="stretchFull" displayName="${lang.stretchFull}"/>
 		<include name="respectFull" displayName="${lang.respectFull}"/>
-		<include name="respectMed" displayName="${lang.respectMed}"/>
-		<include name="respectMedPatch" displayName="${lang.respectMedPatch}"/>
-		<include name="respectMedFanart" displayName="${lang.respectMedFanart}"/>
 		<include name="respectMedScreenshot" displayName="${lang.respectMedScreenshot}"/>
-		<include name="respectSmall" displayName="${lang.respectSmall}"/>
-		<include name="respectSmallPatch" displayName="${lang.respectSmallPatch}"/>
-		<include name="respectSmallFanart" displayName="${lang.respectSmallFanart}"/>
+		<include name="respectMedFanart" displayName="${lang.respectMedFanart}"/>
+		<include name="respectMedPatch" displayName="${lang.respectMedPatch}"/>
+		<include name="respectMed" displayName="${lang.respectMed}"/>
 		<include name="respectSmallScreenshot" displayName="${lang.respectSmallScreenshot}"/>
+		<include name="respectSmallFanart" displayName="${lang.respectSmallFanart}"/>
+		<include name="respectSmallPatch" displayName="${lang.respectSmallPatch}"/>
+		<include name="respectSmall" displayName="${lang.respectSmall}"/>
 	</subset>
 
 	<subset name="gridVideo" displayName="${lang.gridVideo}" appliesTo="${gridView}">
@@ -357,6 +357,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<include>./_inc/commons/md_thumbnails.xml</include>
 	<include>./_inc/commons/md_description.xml</include>
 	<include>./_inc/commons/md_name.xml</include>
+	<include>./_inc/commons/md_rating.xml</include>
+	<include>./_inc/commons/md_icons.xml</include>
+	<include>./_inc/commons/md_infos.xml</include>
 	<include>./_inc/commons/gamelist.xml</include>
 	<include>./_inc/commons/gamegrid.xml</include>
 

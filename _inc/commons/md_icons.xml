@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<!--DETAILED-->
+<view name="detailed,grid">
+
+	<image name="md_flag">
+		<origin>0 1</origin>
+		<pos>0.818 0.57</pos>
+		<maxSize>0.025 0.0444444444444444</maxSize>
+		<linearSmooth>false</linearSmooth>
+		<zIndex>600</zIndex>
+		<color>202020</color>
+	</image>
+
+	<!--MANUAL-->
+	<image name="md_manual,md_nomanual">
+		<origin>0 1</origin>
+		<pos>0.852 0.574</pos>
+		<path>./../../resources/fontoverrides/F02D.png</path>
+		<maxSize>0.025 0.0444444444444444</maxSize>
+		<color>202020</color>
+		<zIndex>601</zIndex>
+	</image>
+	
+	<image name="ghost_manual" extra="true">
+		<origin>0 1</origin>
+		<pos>0.852 0.574</pos>
+		<path>./../../resources/fontoverrides/F02D.png</path>
+		<maxSize>0.025 0.0444444444444444</maxSize>
+		<color>20202080</color>
+		<zIndex>600</zIndex>
+		<storyboard event="open">
+			<animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="activateNext">
+			 <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">
+			<animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+	   </storyboard>
+		<storyboard event="deactivateNext">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+		</storyboard>
+	</image>
+
+	<image name="md_nomanual">
+		<color>00000000</color>
+	</image>
+
+	<!--SAVESTATE-->
+	
+	<image name="md_savestate,md_nosavestate">
+		<origin>0 1</origin>
+		<path>./../../resources/fontoverrides/F0C7.png</path>
+		<pos>0.885 0.574</pos>
+		<maxSize>0.025 0.0444444444444444</maxSize>
+		<color>202020</color>
+		<zIndex>601</zIndex>
+	</image>
+
+	<image name="ghost_savestate" extra="true">
+		<origin>0 1</origin>
+		<path>./../../resources/fontoverrides/F0C7.png</path>
+		<pos>0.885 0.574</pos>
+		<maxSize>0.025 0.0444444444444444</maxSize>
+		<color>20202080</color>
+		<zIndex>600</zIndex>
+		<storyboard event="open">
+			<animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="activateNext">
+			 <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">
+			<animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+	   </storyboard>
+		<storyboard event="deactivateNext">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+		</storyboard>
+	</image>
+
+	<image name="md_nosavestate">
+		<color>00000000</color>
+	</image>
+
+	<!--CHEEVOS-->
+
+	<image name="md_cheevos,md_notcheevos">
+		<origin>0 1</origin>
+		<path>./../../resources/fontoverrides/F091.png</path>
+		<pos>0.916 0.574</pos>
+		<maxSize>0.025 0.0444444444444444</maxSize>
+		<color>202020</color>
+		<zIndex>601</zIndex>
+	</image>
+	
+	<image name="ghost_cheevos" extra="true">
+		<origin>0 1</origin>
+		<path>./../../resources/fontoverrides/F091.png</path>
+		<pos>0.916 0.574</pos>
+		<maxSize>0.025 0.0444444444444444</maxSize>
+		<color>20202080</color>
+		<zIndex>600</zIndex>
+		<storyboard event="open">
+			<animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="activateNext">
+			 <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+		</storyboard>
+		<storyboard event="activatePrev">
+			<animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+	   </storyboard>
+		<storyboard event="deactivateNext">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+		</storyboard>
+		<storyboard event="deactivatePrev">
+			<animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+		</storyboard>
+	</image>
+
+	<image name="md_notcheevos">
+		<color>00000000</color>
+	</image> 
+
+</view>
+
+<!--GRID-->
+<view name="grid">
+
+	<image name="md_flag">
+		<pos>0.064 0.9</pos>
+	</image>
+
+	<!--MANUAL-->
+	<image name="md_manual,md_nomanual">
+		<pos>0.098 0.904</pos>
+	</image>
+	
+	<image name="ghost_manual" extra="true">
+		<pos>0.098 0.904</pos>
+	</image>
+
+	<!--SAVESTATE-->
+	
+	<image name="md_savestate,md_nosavestate">
+		<pos>0.131 0.904</pos>
+	</image>
+
+	<image name="ghost_savestate" extra="true">
+		<pos>0.131 0.904</pos>
+	</image>
+
+	<!--CHEEVOS-->
+
+	<image name="md_cheevos,md_notcheevos">
+		<pos>0.162 0.904</pos>
+	</image>
+	
+	<image name="ghost_cheevos" extra="true">
+		<pos>0.162 0.904</pos>
+	</image>
+
+</view>
+
+<!--LIBRARY-->
+<customView name="library" inherits="detailed" displayName="${lang.library}">
+
+	<image name="md_flag">
+		<visible>false</visible>
+	</image>
+
+	<!--MANUAL-->
+	<image name="md_manual,md_nomanual">
+		<visible>false</visible>
+	</image>
+	
+	<image name="ghost_manual" extra="true">
+		<visible>false</visible>
+	</image>
+
+	<!--SAVESTATE-->
+	
+	<image name="md_savestate,md_nosavestate">
+		<visible>false</visible>
+	</image>
+
+	<image name="ghost_savestate" extra="true">
+		<visible>false</visible>
+	</image>
+
+	<!--CHEEVOS-->
+
+	<image name="md_cheevos,md_notcheevos">
+		<visible>false</visible>
+	</image>
+	
+	<image name="ghost_cheevos" extra="true">
+		<visible>false</visible>
+	</image>
+
+</customView>
+
+</theme>

@@ -14,18 +14,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<image name="md_image" ifSubset="detailedVideo:respectMedScreenshot|respectSmallScreenshot">
 		<linearSmooth>true</linearSmooth>
 		<color>${tint}</color>
+		<colorEnd>${tint}33</colorEnd>
+		<gradientType>vertical</gradientType>
 		<origin>0.5 0.5</origin>
 		<pos>0.65 0.4277777777777778</pos>
 		<minSize>0.278125 0.3666666666666667</minSize>
 		<zIndex>485</zIndex>
 			<storyboard event="open">
-				<animation property="opacity" to="0.5" mode="linear" duration="1"/>
+				<animation property="opacity" to="0.75" mode="linear" duration="1"/>
 			</storyboard>
 			<storyboard event="activateNext">
-			<animation property="opacity" from="0" to="0.5" duration="150" mode="easeIn"/>
+			<animation property="opacity" from="0" to="0.75" duration="150" mode="easeIn"/>
 			</storyboard>
 			<storyboard event="activatePrev">
-			<animation property="opacity" from="0" to="0.5" duration="150" mode="easeIn"/>
+			<animation property="opacity" from="0" to="0.75" duration="150" mode="easeIn"/>
 			</storyboard>
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="0" mode="linear" duration="1"/>
@@ -36,5 +38,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	</image>
 
 </view>
+
+<customView name="library" inherits="detailed" displayName="${lang.library}">
+
+	<image name="md_image">
+		<visible>false</visible>
+	</image>
+
+</customView>
 
 </theme>

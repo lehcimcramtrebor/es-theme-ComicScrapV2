@@ -111,9 +111,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<linearSmooth>true</linearSmooth>
 		<pos>0.7286458333333333 0.5787037037037037</pos>
 		<maxSize>0.4 0.59</maxSize>
+		<size ifSubset="detailedVideo:stretchFull">0.4 0.59</size>
 		<roundCorners>0.012</roundCorners>
 		<zIndex>490</zIndex>
 	</video>
+
+	<image name="patchRespectFull" extra="true">
+		<visible>false</visible>
+	</image>
 
 </customView>
 

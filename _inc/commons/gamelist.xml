@@ -46,7 +46,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<textlist name="gamelist">
 		<pos>0.5010416666666667 0.5782407407407407</pos>
 		<size>0.890625 0.68</size>
-		<selectorImagePath>./selectorBasic.png</selectorImagePath>
+		<selectorImagePath>./../selectorBasic.png</selectorImagePath>
 	</textlist>
 
 </view>
@@ -56,7 +56,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<textlist name="gamelist">
 		<pos>0.271875 0.5787037037037037</pos>
 		<size>0.4322916666666667 0.68</size>
-		<selectorImagePath>./selector.png</selectorImagePath>
+		<selectorImagePath>./../selector.png</selectorImagePath>
 		<alignment ifSubset="gamelistAlignment:left">left</alignment>
 		<alignment ifSubset="gamelistAlignment:right">right</alignment>
 	</textlist>
