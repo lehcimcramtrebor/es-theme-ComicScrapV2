@@ -58,6 +58,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>${p.chbr}</pos>
 		<maxSize>${s.chbr}</maxSize>
+		<maxSize if="${notWide}">${s.chbr43}</maxSize>
 		<zIndex>1020</zIndex>
 		<color>${tint}</color>
 		<storyboard>

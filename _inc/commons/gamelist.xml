@@ -30,6 +30,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
 		<fontSize>0.026</fontSize>
+		<fontSize if="${notWide}">0.022</fontSize>
 		<alignment>center</alignment>
 		<horizontalMargin>0.005</horizontalMargin>
 		<forceUppercase>false</forceUppercase>
@@ -37,6 +38,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<scrollSound>./../scrollg.wav</scrollSound>
 
 		<lines>11</lines>
+		<lines if="${notWide}">15</lines>
 	</textlist>
 
 </view>

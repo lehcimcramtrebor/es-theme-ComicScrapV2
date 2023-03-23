@@ -12,7 +12,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <view name="grid">
 
 	<text name="md_name">
-		<alignment>left</alignment>
+		<alignment>right</alignment>
 		<color>${g.color}</color>
 		<glowColor>${g.glowColor}</glowColor>
 		<glowSize>${g.glowSize}</glowSize>

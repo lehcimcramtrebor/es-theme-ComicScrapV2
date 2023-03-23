@@ -77,6 +77,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<p.22ch>0.701 0.649</p.22ch>
 
 		<s.chbr>0.16 0.29</s.chbr>
+		<s.chbr43>0.22 0.29</s.chbr43>
 		<p.chbr>0.936 0.96</p.chbr>
 
 		<di>800</di> 		<!--default index-->
@@ -87,7 +88,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<mti>920</mti>		<!--marquee index-->
 
 		<g.color>060606</g.color>
-		<g.glowColor>0000000d</g.glowColor>
+		<g.glowColor>00000000</g.glowColor>
 		<g.glowSize>1</g.glowSize>
 		<g.glowOffset>1</g.glowOffset>
 		<g.extra>541b21</g.extra>

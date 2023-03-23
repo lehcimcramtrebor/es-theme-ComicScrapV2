@@ -15,6 +15,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0 0</origin>
 		<alignment>left</alignment>
 		<fontSize>0.026</fontSize>
+		<fontSize if="${notWide}">0.02</fontSize>
 		<zIndex>600</zIndex>
 		<color>${g.color}</color>
 		<glowColor>${g.glowColor}</glowColor>
@@ -40,10 +41,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<x>0.52</x>
 		<y>0.669</y>
 		<w>0.19</w>
+		<visible if="${notWide}">false</visible>
 	</text>
 			
 	<text name="md_genre">
 		<fontSize>0.02</fontSize>
+		<fontSize if="${notWide}">0.017</fontSize>
 		<origin>1 0</origin>
 		<zIndex>600</zIndex>
 		<alignment>right</alignment>
@@ -55,6 +58,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<x>0.71</x>
 		<y>0.66</y>
 		<w>0.15</w>
+		<w if="${notWide}">0.191</w>
 	</text>
 		
 	<text name="game_developer" extra="true">
@@ -62,6 +66,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0 0</origin>
 		<alignment>left</alignment>
 		<fontSize>0.02</fontSize>
+		<fontSize if="${notWide}">0.017</fontSize>
 		<zIndex>600</zIndex>
 		<color>${g.color}</color>
 		<glowColor>${g.glowColor}</glowColor>
@@ -71,12 +76,14 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<x>0.52</x>
 		<y>0.699</y>
 		<w>0.1955</w>
+		<visible if="${notWide}">false</visible>
 	</text>
 		
 	<text name="md_developer">
 		<origin>1 0</origin>
 		<alignment>right</alignment>
 		<fontSize>0.02</fontSize>
+		<fontSize if="${notWide}">0.017</fontSize>
 		<zIndex>600</zIndex>
 		<color>${g.color}</color>
 		<glowColor>${g.glowColor}</glowColor>
@@ -86,6 +93,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<x>0.72</x>
 		<y>0.689</y>
 		<w>0.125</w>
+		<w if="${notWide}">0.199</w>
 	</text>
 		
 	<text name="game_playcount" extra="true">
@@ -94,6 +102,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>0.895 0.69875</pos>
 		<size>0.18 0.033</size>
 		<fontSize>0.02</fontSize>
+		<fontSize if="${notWide}">0.017</fontSize>
 		<alignment>left</alignment>
 		<color>${g.color}</color>
 		<glowColor>${g.glowColor}</glowColor>
@@ -107,6 +116,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<text name="md_playcount">
 		<origin>0 0</origin>
 		<fontSize>0.02</fontSize>
+		<fontSize if="${notWide}">0.017</fontSize>
 		<alignment>right</alignment>
 		<color>${g.color}</color>
 		<glowColor>${g.glowColor}</glowColor>
@@ -124,7 +134,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>1 0</origin>
 		<zIndex>600</zIndex>
 		<alignment>left</alignment>
-		<fontSize>0.022</fontSize>
+		<fontSize>0.02</fontSize>
+		<fontSize if="${notWide}">0.017</fontSize>
 		<x>0.895</x>
 		<y>0.668</y>
 		<w>0.135</w>
@@ -140,7 +151,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>1 0</origin>
 		<zIndex>600</zIndex>
 		<alignment>right</alignment>
-		<fontSize>0.022</fontSize>
+		<fontSize>0.02</fontSize>
+		<fontSize if="${notWide}">0.017</fontSize>
 		<x>0.93725</x>
 		<y>0.66</y>
 		<w>0.175</w>
@@ -161,8 +173,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0 1</origin>
 		<alignment>left</alignment>
 		<fontSize>0.042</fontSize>
+		<fontSize if="${notWide}">0.032</fontSize>
 		<x>0.194</x>
 		<y>0.905</y>
+		<y if="${notWide}">0.912</y>
 		<w>0.05</w>
 	</text>
 			
@@ -172,9 +186,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 			
 	<text name="md_genre">
 		<origin>0 0</origin>
-		<alignment>left</alignment>
+		<alignment>right</alignment>
 		<x>0.065</x>
-		<y>0.79</y>
+		<y>0.791</y>
 		<w>0.405</w>
 		<fontSize>0.018</fontSize>
 		<color>${g.color}ef</color>
@@ -186,22 +200,25 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		
 	<text name="md_developer">
 		<origin>0 0</origin>
-		<alignment>left</alignment>
+		<alignment>right</alignment>
 		<x>0.065</x>
 		<y>0.815</y>
 		<w>0.405</w>
 		<fontSize>0.018</fontSize>
+		<color>${g.color}ef</color>
 	</text>
 		
 	<text name="game_playcount" extra="true">
 		<text>${lang.playcount}</text>
 		<origin>0 0</origin>
-		<pos>0.23 0.874</pos>
+		<pos>0.23 0.878</pos>
 		<size>0.18 0.033</size>
 		<fontSize>0.018</fontSize>
 		<alignment>left</alignment>
 		<w>0.123</w>
 		<color>${g.color}ef</color>
+		<glowColor>00000000</glowColor>
+		<visible if="${notWide}">false</visible>
 	</text>
 			
 	<text name="md_playcount">
@@ -212,6 +229,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<x>0.325</x>
 		<y>0.866</y>
 		<w>0.036</w>
+		<glowColor>00000000</glowColor>
+		<visible if="${notWide}">false</visible>
 	</text>
 
 	<text name="game_releasedate" extra="true">
@@ -222,7 +241,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0 0</origin>
 		<alignment>left</alignment>
 		<x>0.23</x>
-		<y>0.84</y>
+		<y>0.845</y>
+		<y if="${notWide}">0.865</y>
 		<w>0.175</w>
 		<format><!--%d/%m/-->${lang.releasedGrid} %Y</format>
 		<fontSize>0.018</fontSize>
