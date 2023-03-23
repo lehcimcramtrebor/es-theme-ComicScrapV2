@@ -28,7 +28,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <view name="grid">
 
 	<rating name="md_rating">
-		<pos>0.39 0.891</pos>
+		<pos>0.39 0.892</pos>
 	</rating>
 
 </view>

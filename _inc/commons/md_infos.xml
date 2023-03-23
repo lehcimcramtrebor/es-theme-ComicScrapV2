@@ -11,21 +11,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 <view name="detailed,grid">
 
-	<datetime name="md_releasedate">
-		<origin>1 0</origin>
-		<zIndex>600</zIndex>
-		<alignment>left</alignment>
-		<fontSize>0.022</fontSize>
-		<x>0.91</x>
-		<y>0.69</y>
-		<w>0.09</w>
-		<color>${g.color}</color>
-		<glowColor>${g.glowColor}</glowColor>
-		<glowSize>${g.glowSize}</glowSize>
-		<glowOffset>${g.glowOffset}</glowOffset>
-		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
-	</datetime>
-
 	<text name="md_players">
 		<origin>0 0</origin>
 		<alignment>left</alignment>
@@ -41,7 +26,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<w>0.018</w>
 	</text>
 			
-	<text name="md_genre">
+	<text name="game_genre" extra="true">
+		<text>${lang.genre}</text>
 		<fontSize>0.02</fontSize>
 		<origin>0 0</origin>
 		<zIndex>600</zIndex>
@@ -52,25 +38,40 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<glowOffset>${g.glowOffset}</glowOffset>
 		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
 		<x>0.52</x>
-		<y>0.66</y>
+		<y>0.669</y>
 		<w>0.19</w>
 	</text>
-<!--
-	<text name="md_lbl_releasedate">
+			
+	<text name="md_genre">
+		<fontSize>0.02</fontSize>
 		<origin>1 0</origin>
 		<zIndex>600</zIndex>
 		<alignment>right</alignment>
-		<fontSize>0.02</fontSize>
-		<x>0.66</x>
-		<y>0.689</y>
-		<w>0.199</w>
 		<color>${g.color}</color>
 		<glowColor>${g.glowColor}</glowColor>
 		<glowSize>${g.glowSize}</glowSize>
 		<glowOffset>${g.glowOffset}</glowOffset>
 		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<x>0.71</x>
+		<y>0.66</y>
+		<w>0.15</w>
 	</text>
--->				
+		
+	<text name="game_developer" extra="true">
+		<text>${lang.developer}</text>
+		<origin>0 0</origin>
+		<alignment>left</alignment>
+		<fontSize>0.02</fontSize>
+		<zIndex>600</zIndex>
+		<color>${g.color}</color>
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<x>0.52</x>
+		<y>0.699</y>
+		<w>0.1955</w>
+	</text>
 		
 	<text name="md_developer">
 		<origin>1 0</origin>
@@ -82,28 +83,16 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<glowSize>${g.glowSize}</glowSize>
 		<glowOffset>${g.glowOffset}</glowOffset>
 		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
-		<x>0.715</x>
+		<x>0.72</x>
 		<y>0.689</y>
-		<w>0.1955</w>
+		<w>0.125</w>
 	</text>
 		
-	<text name="md_lbl_playcount">
-		<origin>0 0</origin>
-		<pos>0.765 0.67</pos>
+	<text name="game_playcount" extra="true">
+		<text>${lang.playcount}</text>
+		<origin>1 0</origin>
+		<pos>0.895 0.69875</pos>
 		<size>0.18 0.033</size>
-		<fontSize>0.02</fontSize>
-		<alignment>right</alignment>
-		<color>${g.color}</color>
-		<glowColor>${g.glowColor}</glowColor>
-		<glowSize>${g.glowSize}</glowSize>
-		<glowOffset>${g.glowOffset}</glowOffset>
-		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
-		<zIndex>600</zIndex>
-		<w>0.13</w>
-	</text>
-			
-	<text name="md_playcount">
-		<origin>0 0</origin>
 		<fontSize>0.02</fontSize>
 		<alignment>left</alignment>
 		<color>${g.color}</color>
@@ -112,11 +101,174 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<glowOffset>${g.glowOffset}</glowOffset>
 		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
 		<zIndex>600</zIndex>
+		<w>0.123</w>
+	</text>
+			
+	<text name="md_playcount">
+		<origin>0 0</origin>
+		<fontSize>0.02</fontSize>
+		<alignment>right</alignment>
+		<color>${g.color}</color>
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<zIndex>600</zIndex>
 		<x>0.9</x>
-		<y>0.66</y>
+		<y>0.69</y>
 		<w>0.036</w>
 	</text>
 
+	<text name="game_releasedate" extra="true">
+		<text>${lang.released}</text>
+		<origin>1 0</origin>
+		<zIndex>600</zIndex>
+		<alignment>left</alignment>
+		<fontSize>0.022</fontSize>
+		<x>0.895</x>
+		<y>0.668</y>
+		<w>0.135</w>
+		<color>${g.color}</color>
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+
+	</text>
+
+	<datetime name="md_releasedate">
+		<origin>1 0</origin>
+		<zIndex>600</zIndex>
+		<alignment>right</alignment>
+		<fontSize>0.022</fontSize>
+		<x>0.93725</x>
+		<y>0.66</y>
+		<w>0.175</w>
+		<color>${g.color}</color>
+		<glowColor>${g.glowColor}</glowColor>
+		<glowSize>${g.glowSize}</glowSize>
+		<glowOffset>${g.glowOffset}</glowOffset>
+		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
+		<format><!--%d/%m/-->%Y</format>
+
+	</datetime>
+
 </view>
+
+<view name="grid">
+
+	<text name="md_players">
+		<origin>0 1</origin>
+		<alignment>left</alignment>
+		<fontSize>0.042</fontSize>
+		<x>0.194</x>
+		<y>0.905</y>
+		<w>0.05</w>
+	</text>
+			
+	<text name="game_genre" extra="true">
+		<visible>false</visible>
+	</text>
+			
+	<text name="md_genre">
+		<origin>0 0</origin>
+		<alignment>left</alignment>
+		<x>0.065</x>
+		<y>0.79</y>
+		<w>0.405</w>
+		<fontSize>0.018</fontSize>
+		<color>${g.color}ef</color>
+	</text>
+		
+	<text name="game_developer" extra="true">
+		<visible>false</visible>
+	</text>
+		
+	<text name="md_developer">
+		<origin>0 0</origin>
+		<alignment>left</alignment>
+		<x>0.065</x>
+		<y>0.815</y>
+		<w>0.405</w>
+		<fontSize>0.018</fontSize>
+	</text>
+		
+	<text name="game_playcount" extra="true">
+		<text>${lang.playcount}</text>
+		<origin>0 0</origin>
+		<pos>0.23 0.874</pos>
+		<size>0.18 0.033</size>
+		<fontSize>0.018</fontSize>
+		<alignment>left</alignment>
+		<w>0.123</w>
+		<color>${g.color}ef</color>
+	</text>
+			
+	<text name="md_playcount">
+		<origin>0 0</origin>
+		<fontSize>0.02</fontSize>
+		<alignment>left</alignment>
+		<color>${g.color}ef</color>
+		<x>0.325</x>
+		<y>0.866</y>
+		<w>0.036</w>
+	</text>
+
+	<text name="game_releasedate" extra="true">
+		<visible>false</visible>
+	</text>
+
+	<datetime name="md_releasedate">
+		<origin>0 0</origin>
+		<alignment>left</alignment>
+		<x>0.23</x>
+		<y>0.84</y>
+		<w>0.175</w>
+		<format><!--%d/%m/-->${lang.releasedGrid} %Y</format>
+		<fontSize>0.018</fontSize>
+		<color>${g.color}ef</color>
+	</datetime>
+
+</view>
+
+<customView name="library" inherits="detailed" displayName="${lang.library}">
+
+	<text name="md_players">
+		<visible>false</visible>
+	</text>
+			
+	<text name="game_genre" extra="true">
+		<visible>false</visible>
+	</text>
+			
+	<text name="md_genre">
+		<visible>false</visible>
+	</text>
+		
+	<text name="game_developer" extra="true">
+		<visible>false</visible>
+	</text>
+		
+	<text name="md_developer">
+		<visible>false</visible>
+	</text>
+		
+	<text name="game_playcount" extra="true">
+		<visible>false</visible>
+	</text>
+			
+	<text name="md_playcount">
+		<visible>false</visible>
+	</text>
+
+	<text name="game_releasedate" extra="true">
+		<visible>false</visible>
+	</text>
+
+	<datetime name="md_releasedate">
+		<visible>false</visible>
+	</datetime>
+
+</customView>
 
 </theme>

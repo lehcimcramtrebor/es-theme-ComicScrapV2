@@ -12,18 +12,18 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <view name="grid">
 
 	<text name="md_name">
-		<alignment>center</alignment>
+		<alignment>left</alignment>
 		<color>${g.color}</color>
 		<glowColor>${g.glowColor}</glowColor>
 		<glowSize>${g.glowSize}</glowSize>
 		<glowOffset>${g.glowOffset}</glowOffset>
 		<zIndex>500</zIndex>
 		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
-		<fontSize>0.024</fontSize>
+		<fontSize>0.02</fontSize>
 		<forceUppercase>true</forceUppercase>
-		<pos>0.2721354166666667 0.792</pos>
-		<origin>0.5 0.5</origin>
-		<size>0.413 0.03</size>
+		<pos>0.065 0.792</pos>
+		<origin>0 0.5</origin>
+		<size>0.405 0.03</size>
 	</text>
 
 </view>

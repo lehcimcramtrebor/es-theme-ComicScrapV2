@@ -67,6 +67,12 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.yes>yes</lang.yes>
 	<lang.no>no</lang.no>
 
+	<lang.released>released in:</lang.released> <!--Games released year label-->
+	<lang.releasedGrid>released in</lang.releasedGrid> <!--Games grid released year label-->
+	<lang.playcount>number of launches:</lang.playcount> <!--Games playcount label-->
+	<lang.developer>developed by:</lang.developer> <!--Games developer label-->
+	<lang.genre>genre:</lang.genre> <!--Games genre label-->
+
 	<lang.library>librairie</lang.library>
 	<lang.gridMarquees>grid (marquees)</lang.gridMarquees>
 	<lang.gridScreenshots>grid (screenshots)</lang.gridScreenshots>
