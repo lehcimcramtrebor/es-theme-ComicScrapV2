@@ -35,7 +35,11 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<horizontalMargin>0.005</horizontalMargin>
 		<forceUppercase>false</forceUppercase>
 
-		<scrollSound>./../scrollg.wav</scrollSound>
+		<scrollSound>./../../_comicScrapV2Custom/scrollSounds/gamelist.wav</scrollSound>
+		<scrollSound>./../../_comicScrapV2Custom/scrollSounds/${system.theme}.wav</scrollSound>
+
+		<scrollSound>./${path.windows}/../../../../_comicScrapV2Custom/scrollSounds/gamelist.wav</scrollSound>
+		<scrollSound>./${path.windows}/../../../../_comicScrapV2Custom/scrollSounds/${system.theme}.wav</scrollSound>
 
 		<lines>11</lines>
 		<lines if="${notWide}">15</lines>

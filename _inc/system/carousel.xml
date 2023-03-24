@@ -14,7 +14,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<defaultTransition>instant</defaultTransition>
 		<zIndex>2000</zIndex>
 		<color>00000000</color>
-		<scrollSound>./../scroll.wav</scrollSound>
 		<maxLogoCount>3</maxLogoCount>
 		<origin>0.5 0.5</origin>
 		<size>1 0.9759259259259259</size>
@@ -23,6 +22,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<logoScale>1.5</logoScale>
 		<logoPos>0.386 0.415</logoPos>
 		<minLogoOpacity>0.95</minLogoOpacity>
+
+		<scrollSound>./../../_comicScrapV2Custom/scrollSounds/system.wav</scrollSound>
+		<scrollSound>./${path.windows}/../../../../_comicScrapV2Custom/scrollSounds/system.wav</scrollSound>
 	</carousel>
 
 	<text name="logoText">

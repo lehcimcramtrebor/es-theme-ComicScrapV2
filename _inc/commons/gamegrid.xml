@@ -16,7 +16,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<pos>0.0557291666666667 0.2453703703703704</pos>
 		<size>0.890625 0.4898148148148148</size>
 		<size ifSubset="gridVideo:besideGrid">0.7 0.4898148148148148</size>
-		<scrollSound>./../scrollg.wav</scrollSound>
+
+		<scrollSound>./../../_comicScrapV2Custom/scrollSounds/grid.wav</scrollSound>
+		<scrollSound>./../../_comicScrapV2Custom/scrollSounds/${system.theme}.wav</scrollSound>
+
+		<scrollSound>./${path.windows}/../../../../_comicScrapV2Custom/scrollSounds/grid.wav</scrollSound>
+		<scrollSound>./${path.windows}/../../../../_comicScrapV2Custom/scrollSounds/${system.theme}.wav</scrollSound>
+
 		<margin>0.012 0.024</margin>
 		<padding>0.025 0.02 0.025 0.02</padding>
 
