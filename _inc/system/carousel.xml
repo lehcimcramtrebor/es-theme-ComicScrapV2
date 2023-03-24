@@ -55,7 +55,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<scale>0.5</scale>
 		<storyboard event="activate" repeatAt="250">
 			<animation property="origin" from="0.5 0.5" to="0.61 0.5" begin="0" duration="250" mode="easeInOut"/>
-			<animation property="origin" from="0.61 0.5" to="0.382 0.5" begin="250" duration="1500" autoreverse="true" repeat="10" mode="easeInOut"/>
+			<animation property="origin" from="0.61 0.5" to="0.44 0.5" begin="250" duration="1500" autoreverse="true" repeat="10" mode="easeInOut"/>
 			<animation property="rotation" to="360" begin="4300" duration="175" mode="easeInOut"/>
 			<animation property="saturation" from="0.90" to="1.4" duration="300" mode="linear"/>
 		</storyboard>
@@ -88,7 +88,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<storyboard event="activate" repeatAt="1900">
 			<animation property="origin" from="0.5 0.5" to="0.5 0.5" begin="0" duration="900" mode="easeInOut"/>
 			<animation property="origin" from="0.5 0.5" to="0.61 0.5" begin="1150" duration="750" mode="easeInOut"/>
-			<animation property="origin" from="0.61 0.5" to="0.382 0.5" begin="1900" duration="1500" autoreverse="true" repeat="10" mode="easeInOut"/>
+			<animation property="origin" from="0.61 0.5" to="0.44 0.5" begin="1900" duration="1500" autoreverse="true" repeat="10" mode="easeInOut"/>
 			<animation property="rotation" to="360" begin="4300" duration="175" mode="easeInOut"/>
 			<animation property="saturation" from="0.90" to="1.4" duration="300" mode="linear"/>
 			<animation property="offsetY" to="0.0025" begin="0" autoreverse="true" repeat="11" duration="50" mode="EaseInOut"/>
