@@ -30,6 +30,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<rating name="md_rating">
 		<pos>0.39 0.892</pos>
+		<pos if="${ultraWide}">0.413 0.892</pos>
 	</rating>
 
 </view>

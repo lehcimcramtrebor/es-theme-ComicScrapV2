@@ -110,14 +110,26 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<video name="md_video">
 		<linearSmooth>true</linearSmooth>
 		<pos>0.7286458333333333 0.5787037037037037</pos>
-		<maxSize>0.4 0.59</maxSize>
-		<size ifSubset="detailedVideo:stretchFull">0.4 0.59</size>
 		<roundCorners>0.012</roundCorners>
 		<zIndex>490</zIndex>
+
+		<maxSize ifSubset="detailedVideo:respectFull">0.4354166666666667 0.6666666666666667</maxSize>
+		<maxSize ifSubset="detailedVideo:respectMed|respectMedPatch|respectMedFanart|respectMedScreenshot">0.4 0.6</maxSize>
+		<maxSize ifSubset="detailedVideo:respectSmall|respectSmallPatch|respectSmallFanart|respectSmallScreenshot">0.3 0.46</maxSize>
+		<size ifSubset="detailedVideo:stretchFull">0.4354166666666667 0.6666666666666667</size>
+
+		<roundCorners ifSubset="detailedVideo:respectFull|stretchFull">0</roundCorners>
+
 	</video>
 
-	<image name="patchRespectFull" extra="true">
-		<visible>false</visible>
+	<image name="patchRespectFull" extra="true" ifSubset="detailedVideo:stretchFull|respectFull|respectMedPatch|respectMedFanart|respectMedScreenshot|respectSmallPatch|respectSmallFanart|respectSmallScreenshot">
+		<path>./../white.png</path>
+		<color>161616</color>
+		<color ifSubset="detailedVideo:stretchFull|respectFull">000000</color>
+		<origin>0.5 0.5</origin>
+		<pos>0.7286458333333333 0.5787037037037037</pos>
+		<size>0.4354166666666667 0.6666666666666667</size>
+		<zIndex>480</zIndex>
 	</image>
 
 </customView>

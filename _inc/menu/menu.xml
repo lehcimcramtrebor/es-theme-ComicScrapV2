@@ -17,22 +17,22 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<menuText name="menufooter">
 			<fontPath>./../fonts/Cabin_Condensed-Italic.ttf</fontPath>
 			<fontSize>0.014</fontSize>
-			<color>dddddd</color>
+			<color>202020</color>
 		</menuText>
 		<menuText name="menutext">
 			<fontPath>./../fonts/NotoSansMono_SemiCondensed-Bold.ttf</fontPath>
 			<fontSize>0.018</fontSize>
 			<color>121212</color>
 			<separatorColor>${tint}40</separatorColor>
-			<selectorColor>202020bb</selectorColor>
-			<selectorColorEnd>202020cc</selectorColorEnd>
+			<selectorColor>808080bb</selectorColor>
+			<selectorColorEnd>808080cc</selectorColorEnd>
 			<selectedColor>${tint}</selectedColor>
 			<selectorGradientType>vertical</selectorGradientType>
 		</menuText>
 		<menuTextSmall name="menutextsmall">
-			<fontPath>./../fonts/Cabin_Condensed-Italic.ttf</fontPath>
-			<fontSize>0.016</fontSize>
-			<color>dddddd</color>
+			<fontPath>./../fonts/NotoSansMono_SemiCondensed-Bold.ttf</fontPath>
+			<fontSize>0.014</fontSize>
+			<color>202020</color>
 		</menuTextSmall>
 		<menuGroup name="menugroup">
 			<fontPath>./../fonts/NotoSansMono_SemiCondensed-ExtraBold.ttf</fontPath>

@@ -42,7 +42,10 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <customView name="library" inherits="detailed" displayName="${lang.library}">
 
 	<image name="md_fanart">
-		<visible>false</visible>
+		<default>./../libraryFanart.png</default>
+		<origin>0.5 0.5</origin>
+		<pos>0.7286458333333333 0.5787037037037037</pos>
+		<minSize>0.4354166666666667 0.6666666666666667</minSize>
 	</image>
 
 </customView>
