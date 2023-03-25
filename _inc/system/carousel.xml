@@ -30,8 +30,8 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<text name="logoText">
 		<fontPath>./../fonts/Shaka Pow.ttf</fontPath>
 		<fontSize>0.055</fontSize>
-		<fontSize if="${notWide}">0.04</fontSize>
-		<text>${system.fullName}</text>
+		<fontSize if="${notWide}">0.040</fontSize>
+		<text>${system.theme}</text>
 		<color>000000</color>
 		<glowColor>${tint}</glowColor>
 		<glowSize>5</glowSize>
