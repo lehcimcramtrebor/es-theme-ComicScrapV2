@@ -32,7 +32,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<fontSize>0.055</fontSize>
 		<fontSize if="${notWide}">0.040</fontSize>
 		<text>${system.theme}</text>
-		<color>000000</color>
+		<color>101010</color>
 		<glowColor>${tint}</glowColor>
 		<glowSize>5</glowSize>
 		<forceUppercase>true</forceUppercase>
