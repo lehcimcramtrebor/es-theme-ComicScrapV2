@@ -41,7 +41,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>1 1</origin>
 		<pos>${p.22ch}</pos>
 		<maxSize>${s.22ch}</maxSize>
-		<zIndex>990</zIndex>
+		<zIndex>999</zIndex>
 		<color>${tint}</color>
 		<storyboard>
 			<animation property="opacity" from="0" to="0" duration="400" mode="linear"/>
@@ -58,7 +58,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>${p.chbr}</pos>
 		<maxSize>${s.chbr}</maxSize>
-		<maxSize if="${notWide}">${s.chbr43}</maxSize>
 		<zIndex>1020</zIndex>
 		<color>${tint}</color>
 		<storyboard>

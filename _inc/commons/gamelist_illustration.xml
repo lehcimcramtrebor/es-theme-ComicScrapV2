@@ -69,6 +69,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>0.7675 0.62</pos>
 		<maxSize>0.18 0.21</maxSize>
+		<maxSize if="${notWide}">0.15 0.19</maxSize>
 	</image>
 
 </view>
@@ -80,7 +81,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>0.924 0.92</pos>
 		<maxSize>0.1 0.21</maxSize>
-		<maxSize if="${notWide}">0.15 0.21</maxSize>
+		<maxSize if="${notWide}">0.15 0.19</maxSize>
 	</image>
 
 </view>
@@ -92,7 +93,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<origin>0.5 1</origin>
 		<pos>0.924 0.744</pos>
 		<maxSize>0.1 0.21</maxSize>
-		<maxSize if="${notWide}">0.15 0.21</maxSize>
+		<maxSize if="${notWide}">0.15 0.19</maxSize>
 	</image>
 
 	<image name="character" extra="true">
