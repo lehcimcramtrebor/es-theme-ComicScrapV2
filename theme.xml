@@ -224,17 +224,20 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	</subset>
 
 	<subset name="style" displayName="${lang.style}" appliesTo="${allViews}">
-		<include name="manual" displayName="${lang.manual}">./_inc/system/manual-groupTiles.xml</include>
-
-		<!--comix marquees-->
-		<include name="allTilesMarquees" displayName="${lang.allTilesMarquees}">./_inc/system/style-allTilesMarquees.xml</include>
-		<include name="allTilesMarqueesC2C3" displayName="${lang.allTilesMarqueesC2C3}">./_inc/system/style-allTilesMarqueesC2C3.xml</include>
-		<include name="allTilesMarqueesC1C4" displayName="${lang.allTilesMarqueesC1C4}">./_inc/system/style-allTilesMarqueesC1C4.xml</include>
 		<!--mixs-->
+		<include name="mixMarqueesFanartsVideos" displayName="${lang.mixMarqueesFanartsVideos}">./_inc/system/style-mixMarqueesFanartsVideos.xml</include>
+		<include name="mixMarqueesFanartsVideosC1C4" displayName="${lang.mixMarqueesFanartsVideosC1C4}">./_inc/system/style-mixMarqueesFanartsVideosC1C4.xml</include>
+		<include name="mixMarqueesFanartsVideosC2C3" displayName="${lang.mixMarqueesFanartsVideosC2C3}">./_inc/system/style-mixMarqueesFanartsVideosC2C3.xml</include>
 		<include name="mixMarqueesAlternateBw" displayName="${lang.mixMarqueesAlternateBw}">./_inc/system/style-mixMarqueesAlternateBw.xml</include>
 		<include name="mixMarqueesFanarts" displayName="${lang.mixMarqueesFanarts}">./_inc/system/style-mixMarqueesFanarts.xml</include>
 		<include name="mixMarqueesVideos" displayName="${lang.mixMarqueesVideos}">./_inc/system/style-mixMarqueesVideos.xml</include>
 		<include name="mixPicturesVideoAudio" displayName="${lang.mixPicturesVideoAudio}">./_inc/system/style-mixPicturesVideoAudio.xml</include>
+
+		<!--comix marquees-->
+
+		<include name="allTilesMarquees" displayName="${lang.allTilesMarquees}">./_inc/system/style-allTilesMarquees.xml</include>
+		<include name="allTilesMarqueesC2C3" displayName="${lang.allTilesMarqueesC2C3}">./_inc/system/style-allTilesMarqueesC2C3.xml</include>
+		<include name="allTilesMarqueesC1C4" displayName="${lang.allTilesMarqueesC1C4}">./_inc/system/style-allTilesMarqueesC1C4.xml</include>
 		<!--fanarts-->
 		<include name="allTilesFanarts" displayName="${lang.allTilesFanarts}">./_inc/system/style-allTilesFanarts.xml</include>
 		<include name="allTilesFanartsC2C3" displayName="${lang.allTilesFanartsC2C3}">./_inc/system/style-allTilesFanartsC2C3.xml</include>
@@ -248,6 +251,9 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		<!--videos-->
 		<include name="peripheralVideos" displayName="${lang.peripheralVideos}">./_inc/system/style-peripheralVideos.xml</include>
 		<include name="peripheralVideosBackgrounds" displayName="${lang.peripheralVideosBackgrounds}">./_inc/system/style-peripheralVideosBackgrounds.xml</include>
+
+		<!--manual-->
+		<include name="manual" displayName="${lang.manual}">./_inc/system/manual-groupTiles.xml</include>
 	</subset>
 
 	<subset name="overwrite2123" displayName="${lang.overwrite2123}" appliesTo="${allViews}">

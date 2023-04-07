@@ -291,12 +291,16 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 	<lang.mixMarqueesAlternateBw>mix logos / b/w logos</lang.mixMarqueesAlternateBw>
 	<lang.mixMarqueesFanarts>mix marquees / fanarts</lang.mixMarqueesFanarts>
+	<lang.mixMarqueesFanartsVideos>mix marquees / fanarts / videos</lang.mixMarqueesFanartsVideos>
+	<lang.mixMarqueesFanartsVideosC1C4>mix marquees / fanarts / videos • crossed c1-c4</lang.mixMarqueesFanartsVideosC1C4>
+	<lang.mixMarqueesFanartsVideosC2C3>mix marquees / fanarts / videos • crossed c2-c3</lang.mixMarqueesFanartsVideosC2C3>
 	<lang.mixMarqueesVideos>mix logos / videos (x4)</lang.mixMarqueesVideos>
 	<lang.mixPicturesVideoAudio>mix logos /pictures / video-audio (x1)</lang.mixPicturesVideoAudio>
 
 	<lang.peripheralVideos>peripheral videos-screenshots (x10)</lang.peripheralVideos>
 	<lang.peripheralVideosBackgrounds>peripheral videos-backgrounds (x10)</lang.peripheralVideosBackgrounds>
 
+	<lang.manual>manual (open individual menus)</lang.manual>
 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
