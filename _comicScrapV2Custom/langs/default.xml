@@ -15,6 +15,24 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <!--Menu entries (BE CAREFUL TO NOT MODIFY SPECIALS CHARACTERS AND LAYOUT (spaces))-------------------------------------------->
 <!----------------------------------------------------------------------------------------------------------------------------->
 
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!----------DO NOT MODIFY TEXT IN THIS FRAME, JUST ADD UNBREAKABLE SPACE (ALT+0160) IF YOU MODIFY MENU LAYOUT ----------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!-------------><allViews>                  system,basic,detailed,grid,gridMarquees,gridScreenshots,library</allViews><!------->
+<!--------><gamelistViews>                  basic,detailed,grid,gridMarquees,gridScreenshots,library</gamelistViews><!--------->
+<!--------><textlistViews>                  detailed,library</textlistViews><!------------------------------------------------->
+<!-------------><gridView>                  grid,gridMarquees,gridScreenshots</gridView><!------------------------------------->
+<!-----------><videoViews>                  detailed,grid,gridMarquees,gridScreenshots,library</videoViews><!------------------>
+<!---------><detailedView>                  detailed</detailedView><!---------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+
+
 					 <lang.pp.donation>⊂support⊃      make donation</lang.pp.donation>
 						   <lang.music>⊂music⊃        play</lang.music>
 					  <lang.controller>⊂icons⊃        controller overlay</lang.controller>
@@ -45,7 +63,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 							<lang.t.34>    ⊂34⊃       source: bottom right tile</lang.t.34>
 					 <lang.firstCorner>    ⊂c1⊃       source: first corner</lang.firstCorner>
 					<lang.secondCorner>    ⊂c2⊃       source: second corner</lang.secondCorner>
-					 <lang.thirdCorner>    ⊂c3⊃       source: second corner</lang.thirdCorner>
+					 <lang.thirdCorner>    ⊂c3⊃       source: third corner</lang.thirdCorner>
 					  <lang.lastCorner>    ⊂c4⊃       source: last corner</lang.lastCorner>
 						<lang.allTiles>⊂source⊃       unified source</lang.allTiles>
 		   <lang.gamelistIllustrations>⊂gamelists⊃    display illustrations in gamelists</lang.gamelistIllustrations>
@@ -73,7 +91,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.developer>developed by:</lang.developer> <!--Games developer label-->
 	<lang.genre>genre:</lang.genre> <!--Games genre label-->
 
-	<lang.library>librairie</lang.library>
+	<lang.library>library</lang.library>
 	<lang.gridMarquees>grid (marquees)</lang.gridMarquees>
 	<lang.gridScreenshots>grid (screenshots)</lang.gridScreenshots>
 
@@ -114,7 +132,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.comixZone>comix zone album</lang.comixZone>
 	<lang.tmntAlbum>tmnt album</lang.tmntAlbum>
 	<lang.generalMusic>play general</lang.generalMusic>
-	<lang.silence>cut all musics</lang.silence>
+	<lang.silence>nothing, cut all musics</lang.silence>
 
 
 
@@ -126,7 +144,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.paperLight>light</lang.paperLight>
 	<lang.tintStd>less warm</lang.tintStd>
 	<lang.tintWarm>warm</lang.tintWarm>
-	<lang.tintUltraWarm>hot</lang.tintUltraWarm>
+	<lang.tintUltraWarm>very warm</lang.tintUltraWarm>
 	<lang.tintWhite>white</lang.tintWhite>
 
 	<lang.stick>arcade stick</lang.stick>
@@ -181,7 +199,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
-<!--Force default marquues Options--------------------------------------------------------------------------------------------->
+<!--Force default marquees Options--------------------------------------------------------------------------------------------->
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 	<lang.def12>one of two</lang.def12>
@@ -189,6 +207,13 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.defUpper>on upper line</lang.defUpper>
 	<lang.defBottom>on bottom line</lang.defBottom>
 	
+	
+	
+	
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--help Options--------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
 	<lang.defaultIcons>generic</lang.defaultIcons>
 	<lang.xboxIcons>microsoft xbox</lang.xboxIcons>
 	<lang.xboxOneIcons>microsoft xbox one</lang.xboxOneIcons>
@@ -300,7 +325,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.peripheralVideos>peripheral videos-screenshots (x10)</lang.peripheralVideos>
 	<lang.peripheralVideosBackgrounds>peripheral videos-backgrounds (x10)</lang.peripheralVideosBackgrounds>
 
-	<lang.manual>manual (open individual menus)</lang.manual>
+	<lang.manual>manual (open menus)</lang.manual>
 
 
 <!----------------------------------------------------------------------------------------------------------------------------->
@@ -368,7 +393,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<lang.fanartBw-thumbnail>mix: b/w fanarts / color games boxes</lang.fanartBw-thumbnail>
 
 	<lang.comicBw-marqueeBw>b/w: logos (comic)</lang.comicBw-marqueeBw>
-	<lang.comicBw-thumbnailBw>b/w :games boxes (comic)</lang.comicBw-thumbnailBw>
+	<lang.comicBw-thumbnailBw>b/w: games boxes (comic)</lang.comicBw-thumbnailBw>
 
 	<lang.imageBw>b/w: screenshots</lang.imageBw>
 	<lang.imageBw-marqueeBw>b/w: screenshots / logos</lang.imageBw-marqueeBw>

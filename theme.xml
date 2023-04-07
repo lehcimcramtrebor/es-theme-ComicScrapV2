@@ -15,13 +15,6 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 
 		<path.windows ifArch="windows">../..</path.windows>
 
-				<allViews>                  system,basic,detailed,grid,gridMarquees,gridScreenshots,library</allViews>
-		   <gamelistViews>                  basic,detailed,grid,gridMarquees,gridScreenshots,library</gamelistViews>
-		   <textlistViews>                  detailed,library</textlistViews>
-				<gridView>                  grid,gridMarquees,gridScreenshots</gridView>
-			  <videoViews>                  detailed,grid,gridMarquees,gridScreenshots,library</videoViews>
-			<detailedView>                  detailed</detailedView>
-
 		<notWide>${screen.height} > ${screen.width}/1.6</notWide>
 		<ultraWide>${screen.width} > ${screen.height}*1.8</ultraWide>
 

@@ -11,7 +11,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 	<view name="menu">
 		<menuText name="menutitle">
 			<fontPath>./../fonts/NotoSansMono-ExtraBold.ttf</fontPath>
-			<fontSize>0.022</fontSize>
+			<fontSize>0.021</fontSize>
 			<color>202020</color>
 		</menuText>
 		<menuText name="menufooter">
@@ -36,7 +36,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 		</menuTextSmall>
 		<menuGroup name="menugroup">
 			<fontPath>./../fonts/NotoSansMono_SemiCondensed-ExtraBold.ttf</fontPath>
-			<fontSize>0.022</fontSize>
+			<fontSize>0.021</fontSize>
 			<color>202020</color>
 			<backgroundColor>${tint}aa</backgroundColor>
 			<lineSpacing>3</lineSpacing>

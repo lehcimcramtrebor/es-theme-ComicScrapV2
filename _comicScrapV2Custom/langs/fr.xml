@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<variables>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Menu entries (BE CAREFUL TO NOT MODIFY SPECIALS CHARACTERS AND LAYOUT (spaces))-------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!----------DO NOT MODIFY TEXT IN THIS FRAME, JUST ADD UNBREAKABLE SPACE (ALT+0160) IF YOU MODIFY MENU LAYOUT ----------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!---------><allViews>                       system,basic,detailed,grid,gridMarquees,gridScreenshots,library</allViews><!------>
+<!----><gamelistViews>                       basic,detailed,grid,gridMarquees,gridScreenshots,library</gamelistViews><!-------->
+<!----><textlistViews>                       detailed,library</textlistViews><!------------------------------------------------>
+<!---------><gridView>                       grid,gridMarquees,gridScreenshots</gridView><!------------------------------------>
+<!-------><videoViews>                       detailed,grid,gridMarquees,gridScreenshots,library</videoViews><!----------------->
+<!-----><detailedView>                       detailed</detailedView><!--------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+
+
+					 <lang.pp.donation>⊂support⊃        faire une donation</lang.pp.donation>
+						   <lang.music>⊂musique⊃        jouer</lang.music>
+					  <lang.controller>⊂icônes⊃         activité des manettes</lang.controller>
+					   <lang.helpIcons>                 boutons de l'aide</lang.helpIcons>
+					<lang.paperOverlay>⊂effets⊃         intensité de la texture du papier</lang.paperOverlay>
+							<lang.tint>                 teinte du livre</lang.tint>
+					  <lang.crazyComix>⊂carrousel⊃      crazy comix</lang.crazyComix>
+				   <lang.carouselAnime>                 animation des logos</lang.carouselAnime>
+					  <lang.centerTile>                 source de la tuile centrale</lang.centerTile>
+					   <lang.character>⊂thème⊃          illustrations</lang.character>
+						   <lang.boxes>                 animation des boîtes aléatoires</lang.boxes>
+			 <lang.forceCustomMarquees>⊂logos tuiles⊃   autoriser les customs (quand disponibles)</lang.forceCustomMarquees>
+			<lang.forceDefaultMarquees>                 forcer logos par défaut (quand activés)</lang.forceDefaultMarquees>
+					<lang.forceCustoms>⊂images tuiles⊃  remplacer ces images aléatoires (plein cadre) par les customs</lang.forceCustoms>
+						   <lang.style>⊂styles⊃         selectionner</lang.style>
+				   <lang.overwrite2123>⊂écrasement⊃     écraser les tuile à gauche et droite de la tuile centrale</lang.overwrite2123>
+			  <lang.filterComixRandoms>                 (style*) toile des contenus aléatoires</lang.filterComixRandoms>
+					  <lang.groupTiles>⊂regroupement⊃   unifier les tuiles</lang.groupTiles>
+							<lang.t.11>    ⊂11⊃         source: en haut à gauche</lang.t.11>
+							<lang.t.12>    ⊂12⊃         source: seconde en haut</lang.t.12>
+							<lang.t.13>    ⊂13⊃         source: troisième en haut</lang.t.13>
+							<lang.t.14>    ⊂14⊃         source: en haut à droite</lang.t.14>
+							<lang.t.21>    ⊂21⊃         source: au milieu à gauche</lang.t.21>
+							<lang.t.23>    ⊂23⊃         source: au milieu à droite</lang.t.23>
+							<lang.t.31>    ⊂31⊃         source: en bas à gauche</lang.t.31>
+							<lang.t.32>    ⊂32⊃         source: seconde du bas</lang.t.32>
+							<lang.t.33>    ⊂33⊃         source: troisième du bas</lang.t.33>
+							<lang.t.34>    ⊂34⊃         source: en bas à droite</lang.t.34>
+					 <lang.firstCorner>    ⊂c1⊃         source: coin haut gauche</lang.firstCorner>
+					<lang.secondCorner>    ⊂c2⊃         source: coin haut droit</lang.secondCorner>
+					 <lang.thirdCorner>    ⊂c3⊃         source: coin bas gauche</lang.thirdCorner>
+					  <lang.lastCorner>    ⊂c4⊃         source: coin bas droite</lang.lastCorner>
+						<lang.allTiles>⊂source⊃         source de la tuile unifiée</lang.allTiles>
+		   <lang.gamelistIllustrations>⊂liste de jeux⊃  afficher les illustrations</lang.gamelistIllustrations>
+			   <lang.gamelistAlignment>                 alignement du texte (sauf vue basique)</lang.gamelistAlignment>
+				   <lang.detailedVideo>                 prévisualisations des vues détaillée</lang.detailedVideo>
+					   <lang.gridVideo>                 prévisualisations des vues grilles</lang.gridVideo>
+					   <lang.showVideo>                 jouer la vidéo</lang.showVideo>
+
+
+	<spacer.system>options système configurables individuellement</spacer.system> <!--use non-breaking spaces (Alt+0160) to not display "," between words-->
+	<spacer.gamelist>options listes configurables individuellement</spacer.gamelist> <!--use non-breaking spaces (Alt+0160) to not display "," between words-->
+	
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Language------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.yes>oui</lang.yes>
+	<lang.no>non</lang.no>
+
+	<lang.released>année:</lang.released> <!--Games released year label-->
+	<lang.releasedGrid>sorti en</lang.releasedGrid> <!--Games grid released year label-->
+	<lang.playcount>nombre de parties:</lang.playcount> <!--Games playcount label-->
+	<lang.developer>développeur:</lang.developer> <!--Games developer label-->
+	<lang.genre>genre:</lang.genre> <!--Games genre label-->
+
+	<lang.library>librairie</lang.library>
+	<lang.gridMarquees>grille (logos)</lang.gridMarquees>
+	<lang.gridScreenshots>grille (captures)</lang.gridScreenshots>
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Support options------------------------------------------------------------------------------------------------------------>
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.pp.themecreator>au beau gosse qui a fait ce thème</lang.pp.themecreator>
+	<lang.pp.retrobat>à l'équipe retrobat</lang.pp.retrobat>
+	<lang.pp.batocera>à l'équipe batocera</lang.pp.batocera>
+	<lang.pp.emuelec>à l'équipe emuelec</lang.pp.emuelec>
+	<lang.pp.amberelec>à l'équipe amberelec</lang.pp.amberelec>
+	<lang.pp.no>non</lang.pp.no>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Bindings------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.favorites>favoris</lang.favorites>
+	<lang.gamesPlayed>jeux joués</lang.gamesPlayed>
+	<lang.mostPlayed>jeu le plus joué</lang.mostPlayed>
+	<lang.lastPlayedDate>dernière partie le</lang.lastPlayedDate>
+	<lang.retroachievements>succès</lang.retroachievements>
+	<lang.cheevosTrue>supportés</lang.cheevosTrue>
+	<lang.cheevosFalse>non supportés / activés</lang.cheevosFalse>
+	<lang.releasedYear>année de sortie</lang.releasedYear>
+	<lang.systemName>système</lang.systemName>
+	<lang.manufacturer>fabriquant</lang.manufacturer>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Music Otions--------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+	<lang.comixZone>l'album de comix zone</lang.comixZone>
+	<lang.tmntAlbum>l'album des tmnt</lang.tmntAlbum>
+	<lang.generalMusic>la musique du frontend</lang.generalMusic>
+	<lang.silence>rien du tout, couper toute musique sur ce thème</lang.silence>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--FX Otions------------------------------------------------------------------------------------------------------------------>
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.paperStrong>prononcée</lang.paperStrong>
+	<lang.paperLight>légère</lang.paperLight>
+	<lang.tintStd>légèrement chaude</lang.tintStd>
+	<lang.tintWarm>chaude</lang.tintWarm>
+	<lang.tintUltraWarm>plus chaude</lang.tintUltraWarm>
+	<lang.tintWhite>blanche</lang.tintWhite>
+
+	<lang.stick>sticks d'arcade</lang.stick>
+	<lang.player>icônes de joueurs</lang.player>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Crazy Comix Options-------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.turner>sketch turner</lang.turner>
+	<lang.allowCustomTurner>sketch turner par défaut, autoriser les customs</lang.allowCustomTurner>
+	<lang.kowa>teenage mutants ninja turtles</lang.kowa>
+	<lang.allowCustomKowa>tmnt par défaut, autoriser les customs</lang.allowCustomKowa>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Illustrations Options------------------------------------------------------------------------------------------------------>
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.behindLogo>derrière le logo</lang.behindLogo>
+	<lang.bottomRight>en bas à droite</lang.bottomRight>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Random Boxes--------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.boxesX9>9 boîtes</lang.boxesX9>
+	<lang.boxesX3>3 boîtes</lang.boxesX3>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Style randoms canva Options------------------------------------------------------------------------------------------------>
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.cut12>un sur deux</lang.cut12>
+	<lang.cut12i>un sur deux (inversés)</lang.cut12i>
+	<lang.cut24>deux par deux</lang.cut24>
+	<lang.cut24i>deux par deux (inversés)</lang.cut24i>
+	<lang.cut24m>dans chaque coin</lang.cut24m>
+	<lang.cut24c>sauf chaque coin</lang.cut24c>
+	<lang.cut14>tous sauf coins haut gauche et bas droite</lang.cut14>
+	<lang.cut14i>tous sauf coins haut droit et bas gauche</lang.cut14i>
+	<lang.cutUpper>ligne supérieure entière</lang.cutUpper>
+	<lang.cutBottom>ligne inférieure entière</lang.cutBottom>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Force default marquees Options--------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.def12>un sur deux</lang.def12>
+	<lang.def12i>unsur deux (inversés)</lang.def12i>
+	<lang.defUpper>sur la ligne supérieure</lang.defUpper>
+	<lang.defBottom>sur la ligne inférieure</lang.defBottom>
+	
+	
+	
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--help Options--------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.defaultIcons>génériques</lang.defaultIcons>
+	<lang.xboxIcons>microsoft xbox</lang.xboxIcons>
+	<lang.xboxOneIcons>microsoft xbox one</lang.xboxOneIcons>
+	<lang.arcadeIcons>boutons d'arcade</lang.arcadeIcons>
+	<lang.psxIcons>sony playstation</lang.psxIcons>
+	<lang.snesIcons region="us">nintendo super nes</lang.snesIcons>
+	<lang.snesIcons region="eu">super nintendo</lang.snesIcons>
+	<lang.snesIcons region="jp">nintendo super famicom</lang.snesIcons>
+	<lang.snesAltIcons region="us">nintendo super nes alternatif</lang.snesAltIcons>
+	<lang.snesAltIcons region="eu">super nintendo alternatif</lang.snesAltIcons>
+	<lang.snesAltIcons region="jp">nintendo super famicom alternatif</lang.snesAltIcons>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Force Customs Options------------------------------------------------------------------------------------------------------>
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.forceJustFanarts>les fanarts</lang.forceJustFanarts>
+	<lang.forceJustImages>les captures</lang.forceJustImages>
+	<lang.forceJustThumbnailsFull>les covers</lang.forceJustThumbnailsFull>
+	<lang.forceJustDefaults>les fonds</lang.forceJustDefaults>
+	<lang.forceAllExceptImages>toutes sauf les captures</lang.forceAllExceptImages>
+	<lang.forceAllExceptFanarts>toutes sauf les fanarts</lang.forceAllExceptFanarts>
+	<lang.forceAllExceptThumbnailsFull>toutes sauf les covers</lang.forceAllExceptThumbnailsFull>
+	<lang.forceAllExceptDefaults>toutes sauf les fonds</lang.forceAllExceptDefaults>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Center tile & Overwrite left / right tiles Options -------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.themeInclude>image par défaut (personnalisable)</lang.themeInclude>
+	<lang.systemCustom>prédérer les customs (par système)</lang.systemCustom>
+	
+	<lang.fireComic>feu (comic)</lang.fireComic>
+
+	<lang.pinkComic>rose (comic)</lang.pinkComic>
+	<lang.pinkBlueComic>rose/bleu (comic)</lang.pinkBlueComic>
+	<lang.pinkRedComic>rose/rouge (comic)</lang.pinkRedComic>
+	<lang.pinkYellowComic>rose/jaune (comic)</lang.pinkYellowComic>
+	<lang.pinkGreenComic>rose/vert (comic)</lang.pinkGreenComic>
+	<lang.pinkPurpleComic>rose/violet (comic)</lang.pinkPurpleComic>
+
+	<lang.blueComic>bleu (comic)</lang.blueComic>
+	<lang.bluePinkComic>bleu/rose (comic)</lang.bluePinkComic>
+	<lang.blueRedComic>bleu/rouge (comic)</lang.blueRedComic>
+	<lang.blueYellowComic>bleu/jaune (comic)</lang.blueYellowComic>
+	<lang.blueGreenComic>bleu/vert (comic)</lang.blueGreenComic>
+	<lang.bluePurpleComic>bleu/violet (comic)</lang.bluePurpleComic>
+
+	<lang.redComic>rouge (comic)</lang.redComic>
+	<lang.redPinkComic>rouge/rose (comic)</lang.redPinkComic>
+	<lang.redBlueComic>rouge/bleu (comic)</lang.redBlueComic>
+	<lang.redYellowComic>rouge/jaune (comic)</lang.redYellowComic>
+	<lang.redGreenComic>rouge/vert (comic)</lang.redGreenComic>
+	<lang.redPurpleComic>rouge/violet (comic)</lang.redPurpleComic>
+
+	<lang.yellowComic>jaune (comic)</lang.yellowComic>
+	<lang.yellowPinkComic>jaune/rose (comic)</lang.yellowPinkComic>
+	<lang.yellowBlueComic>jaune/bleu (comic)</lang.yellowBlueComic>
+	<lang.yellowRedComic>jaune/rouge (comic)</lang.yellowRedComic>
+	<lang.yellowGreenComic>jaune/vert (comic)</lang.yellowGreenComic>
+	<lang.yellowPurpleComic>jaune/violet (comic)</lang.yellowPurpleComic>
+
+	<lang.greenComic>vert (comic)</lang.greenComic>
+	<lang.greenPinkComic>vert/rose (comic)</lang.greenPinkComic>
+	<lang.greenBlueComic>vert/bleu (comic)</lang.greenBlueComic>
+	<lang.greenRedComic>vert/rouge (comic)</lang.greenRedComic>
+	<lang.greenYellowComic>vert/jaune (comic)</lang.greenYellowComic>
+	<lang.greenPurpleComic>vert/violet (comic)</lang.greenPurpleComic>
+
+	<lang.purpleComic>violet (comic)</lang.purpleComic>
+	<lang.purplePinkComic>violet/rose (comic)</lang.purplePinkComic>
+	<lang.purpleBlueComic>violet/bleu (comic)</lang.purpleBlueComic>
+	<lang.purpleRedComic>violet/rouge (comic)</lang.purpleRedComic>
+	<lang.purpleYellowComic>violet/jaune (comic)</lang.purpleYellowComic>
+	<lang.purpleGreenComic>violet/vert (comic)</lang.purpleGreenComic>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Pre-configured styles Options---------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.allTilesMarquees>logos comix</lang.allTilesMarquees>
+	<lang.allTilesMarqueesC2C3>logos comix • groupe c2-c3</lang.allTilesMarqueesC2C3>
+	<lang.allTilesMarqueesC1C4>logos comix • groupe c1-c4</lang.allTilesMarqueesC1C4>
+
+	<lang.allTilesFanarts>fanarts</lang.allTilesFanarts>
+	<lang.allTilesFanartsC2C3>fanarts • groupe c2-c3</lang.allTilesFanartsC2C3>
+	<lang.allTilesFanartsC1C4>fanarts • groupe c1-c4</lang.allTilesFanartsC1C4>
+
+	<lang.allTilesFanartsMarquees>fanarts et logos</lang.allTilesFanartsMarquees>
+	<lang.allTilesFanartsMarqueesC2C3>fanarts et logos • groupe c2-c3</lang.allTilesFanartsMarqueesC2C3>
+	<lang.allTilesFanartsMarqueesC1C4>fanarts et logos • groupe c1-c4</lang.allTilesFanartsMarqueesC1C4>
+
+	<lang.allTilesScreenshots>captures</lang.allTilesScreenshots>
+
+	<lang.mixMarqueesAlternateBw>mélange de logos couleur et n/b</lang.mixMarqueesAlternateBw>
+	<lang.mixMarqueesFanarts>mélange de logos et fanarts</lang.mixMarqueesFanarts>
+	<lang.mixMarqueesFanartsVideos>mélange de logos, fanarts et vidéos</lang.mixMarqueesFanartsVideos>
+	<lang.mixMarqueesFanartsVideosC1C4>mélange de logos, fanarts et vidéos • groupe c1-c4</lang.mixMarqueesFanartsVideosC1C4>
+	<lang.mixMarqueesFanartsVideosC2C3>mélange de logos, fanarts et vidéos • groupe c2-c3</lang.mixMarqueesFanartsVideosC2C3>
+	<lang.mixMarqueesVideos>mélange de  logos et vidéos (x4)</lang.mixMarqueesVideos>
+	<lang.mixPicturesVideoAudio>mélange de logos, captures et vidéo avec audio (x1)</lang.mixPicturesVideoAudio>
+
+	<lang.peripheralVideos>vidéos, captures par défaut (x10)</lang.peripheralVideos>
+	<lang.peripheralVideosBackgrounds>vidéos, fonds comic par défaut (x10)</lang.peripheralVideosBackgrounds>
+
+	<lang.manual>mode manuel (active menus)</lang.manual>
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Manual tiles Options------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.crossedCorners>coins haut gauche et bas droite</lang.crossedCorners>
+	<lang.crossedCornersInversed>coins haut droite et bas gauche</lang.crossedCornersInversed>
+	<lang.unifyAllTiles>unifier toutes les tuiles</lang.unifyAllTiles>
+
+
+	<lang.comicPink-marquee>logos (rose)</lang.comicPink-marquee>
+	<lang.comicBlue-marquee>logos (bleu)</lang.comicBlue-marquee>
+	<lang.comicRed-marquee>logos (rouge)</lang.comicRed-marquee>
+	<lang.comicYellow-marquee>logos (jaune)</lang.comicYellow-marquee>
+	<lang.comicPurple-marquee>logos (violet)</lang.comicPurple-marquee>
+	<lang.comicGreen-marquee>logos (vert)</lang.comicGreen-marquee>
+	<lang.comicFire-marquee>logos (feu)</lang.comicFire-marquee>
+	<lang.comicAllTiles-marquee>logos (bleu de base)</lang.comicAllTiles-marquee>
+
+	<lang.comicPink-thumbnail>boîtes de jeux (rose)</lang.comicPink-thumbnail>
+	<lang.comicBlue-thumbnail>boîtes de jeux (bleu)</lang.comicBlue-thumbnail>
+	<lang.comicRed-thumbnail>boîtes de jeux (rouge)</lang.comicRed-thumbnail>
+	<lang.comicYellow-thumbnail>boîtes de jeux (jaune)</lang.comicYellow-thumbnail>
+	<lang.comicPurple-thumbnail>boîtes de jeux (violet)</lang.comicPurple-thumbnail>
+	<lang.comicGreen-thumbnail>boîtes de jeux (vert)</lang.comicGreen-thumbnail>
+	<lang.comicFire-thumbnail>boîtes de jeux (feu)</lang.comicFire-thumbnail>
+	<lang.comicAllTiles-thumbnail>boîtes de jeux (bleu de base)</lang.comicAllTiles-thumbnail>
+
+	<lang.comicPink>fond (rose)</lang.comicPink>
+	<lang.comicBlue>fond (bleu)</lang.comicBlue>
+	<lang.comicRed>fond (rouge)</lang.comicRed>
+	<lang.comicYellow>fond (jaune)</lang.comicYellow>
+	<lang.comicPurple>fond (violet)</lang.comicPurple>
+	<lang.comicGreen>fond (vert)</lang.comicGreen>
+	<lang.comicFire>fond (feu)</lang.comicFire>
+	<lang.comicAllTiles>fond (bleu de base)</lang.comicAllTiles>
+
+	<lang.image>captures</lang.image>
+	<lang.image-marquee>captures / logos</lang.image-marquee>
+	<lang.image-thumbnail>captures / boîtes de jeux</lang.image-thumbnail>
+
+	<lang.fanart>fanarts</lang.fanart>
+	<lang.fanart-marquee>fanarts / logos</lang.fanart-marquee>
+	<lang.fanart-thumbnail>fanarts / boîtes de jeux</lang.fanart-thumbnail>
+
+	<lang.thumbnailFull>covers (remplissage)</lang.thumbnailFull>
+
+	<lang.video>vidéos et fond (customs autorisés)</lang.video>
+	<lang.videoScreenshot>vidéos et captures (customs autorisés)</lang.videoScreenshot>
+	<lang.videoRandom>vidéos et fond (seulement aléatoires)</lang.videoRandom>
+	<lang.videoRandomScreenshots>vidéos et captures (seulement aléatoires)</lang.videoRandomScreenshots>
+	<lang.videoAudio>vidéos avec audio et fond (customs autorisés)</lang.videoAudio>
+	<lang.videoAudioScreenshot>vidéos avec audio et captures (customs autorisés)</lang.videoAudioScreenshot>
+	<lang.videoRandomAudio>vidéos avec audio et fond (seulement aléatoires)</lang.videoRandomAudio>
+	<lang.videoRandomAudioScreenshot>vidéos avec audio et captures (seulement aléatoires)</lang.videoRandomAudioScreenshot>
+
+	<lang.comicBw-marquee>mélange: fond monochrome et logos couleur</lang.comicBw-marquee>
+	<lang.comicBw-thumbnail>mélange: fond monochrome et boîtes couleur</lang.comicBw-thumbnail>
+
+	<lang.imageBw-marquee>mélange: captures monochrome et logos couleur</lang.imageBw-marquee>
+	<lang.imageBw-thumbnail>mélange: captures monochrome et boîtes couleur</lang.imageBw-thumbnail>
+
+	<lang.fanartBw-marquee>mélange: fanarts monochrome et logos couleur</lang.fanartBw-marquee>
+	<lang.fanartBw-thumbnail>mélange: fanarts monochrome et boîtes couleur</lang.fanartBw-thumbnail>
+
+	<lang.comicBw-marqueeBw>monochrome: logos (comic)</lang.comicBw-marqueeBw>
+	<lang.comicBw-thumbnailBw>monochrome: boîtes (comic)</lang.comicBw-thumbnailBw>
+
+	<lang.imageBw>monochrome: captures</lang.imageBw>
+	<lang.imageBw-marqueeBw>monochrome: captures et logos</lang.imageBw-marqueeBw>
+	<lang.imageBw-thumbnailBw>monochrome: captures et boîtes</lang.imageBw-thumbnailBw>
+
+	<lang.fanartBw>monochrome: fanarts</lang.fanartBw>
+	<lang.fanartBw-marqueeBw>monochrome: fanarts et logos</lang.fanartBw-marqueeBw>
+	<lang.fanartBw-thumbnailBw>monochrome: fanarts et boîtes</lang.fanartBw-thumbnailBw>
+
+	<lang.thumbnailFullBw>monochrome: covers (remplissage)</lang.thumbnailFullBw>
+
+	<lang.videoBw>monochrome: vidéos et fond (customs autorisés)</lang.videoBw>
+	<lang.videoBwScreenshots>monochrome: vidéos et captures (custom autorisés)</lang.videoBwScreenshots>
+	<lang.videoRandomBw>monochrome: vidéos et fond (seulement aléatoires)</lang.videoRandomBw>
+	<lang.videoRandomBwScreenshots>monochrome: vidéos et captures (seulement aléatoires)</lang.videoRandomBwScreenshots>
+	<lang.videoAudioBw>monochrome: vidéos avec audio et fond (custom autorisés)</lang.videoAudioBw>
+	<lang.videoAudioBwScreenshots>monochrome: vidéos avec audio et captures (custom autorisés)</lang.videoAudioBwScreenshots>
+	<lang.videoRandomAudioBw>monochrome: vidéos avec audio et fond (seulement aléatoires)</lang.videoRandomAudioBw>
+	<lang.videoRandomAudioBwScreenshots>monochrome: vidéos avec audio et captures (seulement aléatoires)</lang.videoRandomAudioBwScreenshots>
+
+	<lang.comicBw>monochrome: fond comic</lang.comicBw>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<!--Gamelists Options --------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+	<lang.left>à gauche</lang.left>
+	<lang.center>au centre</lang.center>
+	<lang.right>à droite</lang.right>
+
+	<lang.besideGrid>dans une zone juxtaposée</lang.besideGrid>
+	<lang.inTileVideo>dans la grille</lang.inTileVideo>
+
+	<lang.600ms>à 600 millisecondes</lang.600ms>
+	<lang.1000ms>au bout d'une seconde</lang.1000ms>
+	<lang.2000ms>au bout de 2 secondes</lang.2000ms>
+	<lang.5000ms>au bout de 5 secondes</lang.5000ms>
+	<lang.never>jamais</lang.never>
+
+	<lang.stretchFull>plein cadre (etirée)</lang.stretchFull>
+	<lang.respectFull>plein cadre (respectée)</lang.respectFull>
+
+	<lang.respectMed>taille moyenne (respectée)</lang.respectMed>
+	<lang.respectMedPatch>taille moyenne, fond noir (respectée)</lang.respectMedPatch>
+	<lang.respectMedFanart>taille moyenne, fanart au fond (respectée)</lang.respectMedFanart>
+	<lang.respectMedScreenshot>taille moyenne, capture au fond (respectée)</lang.respectMedScreenshot>
+
+	<lang.respectSmall>petite taille (respectée)</lang.respectSmall>
+	<lang.respectSmallPatch>petite taille, fond noir (respectée)</lang.respectSmallPatch>
+	<lang.respectSmallFanart>petite taille, fanart au fond (respectée)</lang.respectSmallFanart>
+	<lang.respectSmallScreenshot>petite taille, capture au fond (respectée)</lang.respectSmallScreenshot>
+
+</variables>
+
+</theme>
