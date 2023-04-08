@@ -10,7 +10,7 @@ inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy
 <formatVersion>7</formatVersion>
 	<view name="splash">
 		<splash name="splash">
-			<backgroundColor>121212</backgroundColor>
+			<backgroundColor>060606</backgroundColor>
 		</splash>
 		<image name="background">
 			<linearSmooth>true</linearSmooth>
