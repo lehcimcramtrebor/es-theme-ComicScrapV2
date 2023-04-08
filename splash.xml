@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: es-theme-ComicScrap for Retrobat - Batocera
+version: 2.0
+author: Lehcim Cram Trebor
+inspired by ComicBook theme by TMNTturtleguy at https://github.com/TMNTturtleguy/es-theme-ComicBook
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+	<view name="splash">
+		<splash name="splash">
+			<backgroundColor>121212</backgroundColor>
+		</splash>
+		<image name="background">
+			<linearSmooth>true</linearSmooth>
+			<path>./_comicScrapV2Custom/splash.png</path>
+			<path ifArch="windows">./../../../../_comicScrapV2Custom/splash.png</path>
+			<path ifNotArch="windows">./../../_comicScrapV2Custom/splash.png</path>
+			<maxSize>0.75 0.75</maxSize>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+		</image>		
+		<text name="splashText" extra="true">
+			<forceUppercase>true</forceUppercase>    
+			<size>1 1</size>
+			<color>cccccc</color>
+			<fontPath>./_inc/fonts/Shaka Pow.ttf</fontPath>
+			<fontSize>0.016</fontSize>
+			<glowColor>00000000</glowColor>
+			<glowSize>1</glowSize>
+			<glowOffset>1</glowOffset>
+			<alignment>center</alignment>
+			<verticalAlignment>bottom</verticalAlignment>
+			<origin>0.5 1</origin>
+			<pos>0.5 0.9855</pos>
+			<text>comic scrap v2 inspired by tmnt turtleguy's original theme</text>
+		</text>
+		<text name="label">
+			<forceUppercase>true</forceUppercase>    
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.9425</pos>
+			<size>1 1</size>
+			<alignment>center</alignment>
+			<color>cccccc</color>
+			<fontPath>./_inc/fonts/Shaka Pow.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<glowColor>00000000</glowColor>
+			<glowSize>1</glowSize>
+			<glowOffset>1</glowOffset>
+		</text>
+	</view>
+</theme>
